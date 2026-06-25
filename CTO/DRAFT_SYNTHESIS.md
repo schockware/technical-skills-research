@@ -223,6 +223,39 @@ That is the rare argument that makes the skeptic's strongest point do the work: 
 
 ---
 
+## §5 — What we are *not* claiming, and what would prove us wrong
+
+A claim is only worth as much as the conditions under which its author would abandon it. This section states, in our own voice and before any reviewer raises them, the five things this argument deliberately does **not** claim, and the four observations that would falsify it. We do this not as a defensive gesture but because the argument is *stronger* having done it: a thesis that has already surrendered its weakest points and named its own disconfirmers cannot be dismantled by pointing at them.
+
+### 5a. Five concessions, made up front
+
+**1. The three-mode taxonomy is a lens, not a measured structure.** "Builder / Multiplier / Strategist" is a useful way to describe the arc of a CTO's tenure — but only the *first* seam (Builder→Multiplier, the IC→management boundary) is corroborated by a fact outside our framework (§1). The Multiplier→Strategist boundary is a plausible description, not a measured discontinuity. We do not claim three modes were *discovered*; we claim one boundary is real and a three-part lens is useful. Anyone is free to redraw the lens at a different resolution; the argument rests on the *discontinuity*, not the count.
+
+**2. Other C-suite roles rotate too — the CTO is the most severe case, not a different kind of thing.** The CFO shifts from managing the books to facing the capital markets; the CMO from running campaigns to owning brand. The object of their skill changes with scale, just as the CTO's does. We are **not** claiming the CTO uniquely rotates while others merely scale. The CTO's distinction is narrower and defensible: it rotates across the *one* boundary the industry formalized into separate, separately-evaluated career tracks (the IC/management split), which exists in no other function — so the same rotation is *sharpened* for the CTO, not *unique* to it. (This concession retires an earlier version of this work that claimed the CTO's was a "mismatch of *kind*, uniquely." It is the most severe case of a *shared* pattern.)
+
+**3. The arrangement is under-resourced, not "irrational."** We do not claim the composite is irrational, dominated, or a mistake a rational company would avoid. Demanding one person hold the span may be a perfectly *efficient* bet under uncertainty — most startups die before the third mode ever matters, and "one affordable generalist, replace at the boundary if needed" can be the rational play for the company. The harm we identify is to the *person*, and it is real whether or not the *system* is rational. We deliberately do not use the word "irrational" of the role's design. *(Whether the irrationality instead lives in the cultural **expectation** placed on the CTO — a different locus — is an open question this paper does not resolve; see the research agenda.)*
+
+**4. The headline numbers are not primary-sourced, and we do not lean on them.** Two figures circulate in the surrounding research and we explicitly decline to build on either: the "~4–6:1 compression ratio" (built on content-site salary medians, and comparing a pre-scale job to a post-scale org chart) and the "no documented CTO crossed all three modes" result (five anecdotal cases, an absence in a small biased sample). Both are *consistent with* the thesis; neither is *evidence for* it. The argument stands on the institutional fact (§1), the large-sample behavioral reversion rate (§2), the peer-reviewed mechanism (§2, in founders), and the attribution reframe (§3) — and on nothing that requires those two numbers to be right.
+
+**5. CTO failure may be less *visible*, not more *severe*.** It is a live possibility that founding-CTO failure is no worse than failure in other rotating executive roles, and only *looks* worse because it is slower and harder to attribute (the "documentation-artifact" possibility). We concede this is untested, and we deliberately rest the argument on *behavioral* outcomes — what people did (reverted to IC; left at the boundary) — rather than on the difficulty-of-measurement itself, precisely so the thesis does not depend on the severity gap being real where only a visibility gap can be shown.
+
+### 5b. Four falsifiers — what would make us wrong
+
+We stake the thesis on the following. Each is a study that could be run; we predict its outcome, and we would abandon the corresponding claim if it came back the other way.
+
+| # | If this were found… | …then this claim falls |
+|---|---|---|
+| **F1 (central)** | A systematic cohort study of founding CTOs shows a *substantial fraction* successfully span the IC→management boundary (or all three modes) as a continuous tenure | The rarity claim falls; the thesis reduces to "this transition is hard." **This study has not been done** (`GAP-CTO-TRANSITION`). We bet the fraction is low; we admit it is unmeasured. |
+| **F2** | Startups that split CTO / VP-Eng from seed (funding held constant) show *no better* technical-leadership survival than composite-CTO startups | The "uncushioned composite is the problem" claim weakens — it may be under-resourcing in general, not the missing split specifically. |
+| **F3** | Founding CFOs and CMOs show *comparable* rotation-driven failure rates to founding CTOs | §1's "most severe case" narrows toward "one of several rotating roles" — the IC/management split would not be doing the sharpening we claim. |
+| **F4** | CTO failure, measured *behaviorally* (tenure, replacement-at-boundary), is indistinguishable from other C-roles once legibility/visibility is controlled | The thesis documents a *visibility* gap, not a *severity* gap (concession 5 wins). |
+
+**Our wager, stated plainly:** the *behavioral* comparators — the n≈30,000 reversion rate, executive tenure data, and the bare existence of the IC/management track split — will hold up where *sentiment* and *anecdote* will not. That is because the IC/management split is a hard institutional fact (not a survey), and the reversion rate is a large-sample measure of behavior (not self-report). We bet the structure shows up in what people *do*. If a well-run study measuring behavior finds no difference, the thesis is wrong, and we would say so.
+
+> **Plain form (for derivation):** *Here's what we're NOT saying: not that there are exactly three modes (one real boundary, the rest is a useful map); not that only the CTO rotates (the CFO and CMO do too — the CTO just has it worst); not that the role is "irrational" (it might be a smart bet for the company — the cost just lands on the person); not that the scary numbers are proven (they aren't, and we don't lean on them); not that CTO failure is definitely worse rather than just more hidden. And here's what would prove us wrong: a real study showing lots of CTOs actually make all three transitions, or that splitting the role early doesn't help, or that CFOs and CMOs fail just as often, or that the whole thing is a visibility illusion. Nobody has run those studies. We're betting on how they'd come out — and saying so.*
+
+---
+
 ## Planned structure (increment roadmap)
 
 | § | Section | Source | Status |
@@ -232,8 +265,10 @@ That is the rare argument that makes the skeptic's strongest point do the work: 
 | §2 | The rotation is identity-gated & uncushioned | R3 Pillar 2 + `AX-REVERSION` + Premise 1 | ✅ this increment |
 | §3 | The misattribution is the harm (the legibility contribution) | R3 Pillar 3 + `15_` | ✅ this increment |
 | §4 | The accidental concession (objection → support) | R3 §strongest-objection | ✅ this increment |
-| §5 | Concessions & falsifiers, in the draft's own voice | R3 concessions + falsifiers + `R4` | ⬜ |
-| App. | Audience-map derivation key | this file | ⬜ skeleton below |
+| §5 | Concessions & falsifiers, in the draft's own voice | R3 concessions + falsifiers + `R4` | ✅ this increment |
+| App. | Audience-map derivation key | this file | ✅ filled per-section |
+
+**✅ Rigorous spine complete (§0–§5).** Next: the five audience derivations fan out from the Audience Map below — each is a *projection* of this spine (softening downward), not a new draft. See `TODO` for sequencing.
 
 ---
 
@@ -243,11 +278,11 @@ That is the rare argument that makes the skeptic's strongest point do the work: 
 
 | Section → / Audience ↓ | §1 Institutional fact | §2 Rotation/reversion | §3 Misattribution | §4 Accidental concession | §5 Falsifiers |
 |---|---|---|---|---|---|
-| **CTOs / eng leaders** | "you were told to pick a track; the founding seat made you skip the choice" | "half of new EMs revert *even when trained* — it's not your skills, it's an identity switch you got no cushion for" | "'he couldn't scale' is the structure talking, not a verdict on you" | "the role was too big for one person — everyone admits it the moment they can afford to split it" | _(usually dropped)_ |
-| **Founders / CEOs** | the split exists for a reason; your CTO is spanning it unsupported | provide the cushions (honest label, fallback, timeline, a capable receiving team) *before* the boundary | replace the sentence before you replace the person; serial replacement never converges | "we couldn't afford to split it" = you already know it should be split; plan for it | _(light)_ |
-| **Investors / board** | the VP-Eng split you defer is the cushion you removed | ~50% reversion at the boundary you fund across; mode-aware diligence | stop penalizing the failure you select for; the replacement loop is a cost you're paying | the diligence question isn't "do they have a CTO" but "what mode does the company need" | the signal you require installs the gap |
-| **Academic / researcher** | the verifiable seam (the one claim needing no framework) | the behavioral anchor (n≈30k) + the unrun *CTO-specific* cohort study (`GAP-CTO-TRANSITION`) | the falsifiable form: do mode-aware orgs intervene better than mode-blind? | the revealed-preference argument (split-when-affordable) is number-independent | **the payload** (F1–F4) |
-| **Job boards / recruiters** | the JD writes the composite; the CRO/VP-Sales split is the template you don't apply to eng | "hands-on AND strategic" demands both sides of a boundary half the field can't cross once | the JD that demands the composite is the first link in the misattribution loop | the "full-stack CTO forever" JD is the budget compromise dressed as a requirement | — |
+| **CTOs / eng leaders** | "you were told to pick a track; the founding seat made you skip the choice" | "half of new EMs revert *even when trained* — it's not your skills, it's an identity switch you got no cushion for" | "'he couldn't scale' is the structure talking, not a verdict on you" | "the role was too big for one person — everyone admits it the moment they can afford to split it" | drop; keep only the honest "we're betting, not proving" tone |
+| **Founders / CEOs** | the split exists for a reason; your CTO is spanning it unsupported | provide the cushions (honest label, fallback, timeline, a capable receiving team) *before* the boundary | replace the sentence before you replace the person; serial replacement never converges | "we couldn't afford to split it" = you already know it should be split; plan for it | light: "we're not claiming your CTO is doomed — concessions 1, 3, 5 keep it honest" |
+| **Investors / board** | the VP-Eng split you defer is the cushion you removed | ~50% reversion at the boundary you fund across; mode-aware diligence | stop penalizing the failure you select for; the replacement loop is a cost you're paying | the diligence question isn't "do they have a CTO" but "what mode does the company need" | F2 (early-split survival) is *your* portfolio experiment to run |
+| **Academic / researcher** | the verifiable seam (the one claim needing no framework) | the behavioral anchor (n≈30k) + the unrun *CTO-specific* cohort study (`GAP-CTO-TRANSITION`) | the falsifiable form: do mode-aware orgs intervene better than mode-blind? | the revealed-preference argument (split-when-affordable) is number-independent | **the payload** — F1–F4 are the study designs (`R4` agenda) |
+| **Job boards / recruiters** | the JD writes the composite; the CRO/VP-Sales split is the template you don't apply to eng | "hands-on AND strategic" demands both sides of a boundary half the field can't cross once | the JD that demands the composite is the first link in the misattribution loop | the "full-stack CTO forever" JD is the budget compromise dressed as a requirement | concession 2: you're not being told to stop writing CTO roles — to stop writing the *composite* one |
 
 ---
 
