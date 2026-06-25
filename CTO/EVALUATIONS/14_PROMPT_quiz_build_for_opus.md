@@ -16,7 +16,7 @@ You are working within an ongoing research project developing the CTO Operating 
 - `00_RESEARCH_CONTEXT.md` — master context
 - `05_FULLTEXT_working_document.md` — full paper text
 - `10_RESEARCH_domain_centric_CTO.md` — domain axis (hidden variable)
-- `12_RESEARCH_software_developer_career.md` — structural career mismatch context
+- `01_RESEARCH_software_developer_career.md` — structural career mismatch context
 - `13_RESEARCH_software_industry_structural.md` — industry-level structural context
 
 **Your task:** Build a CTO self-assessment quiz that surfaces mode mismatch — the gap between what mode the company requires and what mode the CTO is operating in.

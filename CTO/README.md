@@ -82,7 +82,7 @@ The filename numbers reflect *creation* order and two overlapping numbering sche
 Parallel research (June 2026) established that the irrational-composite pattern is **not unique to the CTO** — it runs the entire software career ladder and reflects an industry-wide failure to specialize. The CTO area remains **THE flagship paper / case study** (most developed, most vivid, most publishable); these are *supporting* material that broadens it. Scope tiers, widest → sharpest:
 
 - **Industry level:** `../Software Industry/13_RESEARCH_software_industry_structural.md` — software constructs roles exceeding human capacity at every level; specialization is the unapplied solution.
-- **Career-ladder level:** `../Software Developer/12_RESEARCH_software_developer_career.md` — every promotion is a skill *rotation* (Junior→Mid→Senior→Staff→EM→VP); the mismatch starts at the first promotion.
+- **Career-ladder level:** `../Software Developer/01_RESEARCH_software_developer_career.md` — every promotion is a skill *rotation* (Junior→Mid→Senior→Staff→EM→VP); the mismatch starts at the first promotion.
 - **CTO level (here):** the pattern concentrated into one role at the worst moment. The acute, terminal expression.
 
 Shared evidence already in this corpus that these lean on: the ~50% IC→EM reversion (`AX-REVERSION`), curse of expertise (`AX-CURSE`), Larson archetypes, the transformation model (`AX-MW2018`). Infra decision (2026-06-24): **CTO keeps its full appendix/conventions; the two new areas stay lightweight research notes for now** — cross-area references use explicit `../Area/` relative paths, not the shared anchor namespace.

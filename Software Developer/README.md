@@ -12,9 +12,14 @@
 
 | File | Contents |
 |---|---|
-| [`12_RESEARCH_software_developer_career.md`](12_RESEARCH_software_developer_career.md) | The career-ladder mismatch, transition by transition; knowledge half-life / obsolescence; imposter-syndrome data; the Peter Principle as worst-case in software. |
-
-*(Lightweight area — one research note for now. Will gain its own appendix/conventions if developed into a standalone piece.)*
+| [`01_RESEARCH_software_developer_career.md`](01_RESEARCH_software_developer_career.md) | The career-ladder mismatch, transition by transition; knowledge half-life / obsolescence; imposter-syndrome data; the Peter Principle as worst-case in software. |
+| [`07_RESEARCH_success_exceptions.md`](07_RESEARCH_success_exceptions.md) | Success exceptions with the three-layer rigor model fully applied. Finding: the distinguishing factors are organizational and contextual, not individual — structural support, not individual heroics. The anti-recipe: the ~50% reversion rate is a structural throughput limit, not an individual effort failure. Coordinates with `../CTO/16_RESEARCH_success_cases.md`. |
+| [`08_RESEARCH_axes_integration.md`](08_RESEARCH_axes_integration.md) | Integration of the five structural axes (Craft-Deepening↔Rotation, Honest↔Deceptive Labeling, Direct↔Multiplied Output, Stable↔Unstable Craft, Licensed↔Unlicensed Identity) against the dev-ladder findings. Maps each axis to the fracture points. Steel-manning challenges for each. Updated post-adversarial-review: Axis 4 narrowed ("credited layer unstable / durable layer uncredited"), CHAOS demoted to ISBSG, comparator asymmetry corrected. |
+| [`09_SYNTHESIS_dev_ladder_thesis.md`](09_SYNTHESIS_dev_ladder_thesis.md) | The defensible form of the dev-ladder thesis — built on `../Software Industry/07_STEELMAN_strongest_form.md`. Three load-bearing pillars (behavioral reversion data, rotation-without-cushion, misattribution as the harm). Pre-emptive concessions. The "do not build on" table. Draft-ready one-paragraph thesis. **Build the draft on this file, not on the rhetorical high points of `01_`–`07_`.** |
+| [`03_RESEARCH_ic_em_transition.md`](03_RESEARCH_ic_em_transition.md) | The IC→EM fracture point: the ~50% reversion rate, its sourcing and corroboration, why engineers fail the transition (identity, feedback, skill mismatch, support gap), and what the non-reverting ~50% actually show. The structural diagnosis: a human capacity constraint, not a training problem. |
+| [`04_RESEARCH_senior_to_staff.md`](04_RESEARCH_senior_to_staff.md) | The quiet fracture: Senior→Staff as four different jobs hiding behind one title (Larson). The plateau population — engineers who fail this transition don't revert, they disappear into permanent Senior stasis. The competence trap and why depth actively resists the breadth the transition demands. |
+| [`05_RESEARCH_cross_industry.md`](05_RESEARCH_cross_industry.md) | Cross-industry comparison across nine professions (medicine, law, academia, military, consulting, finance, HR, traditional engineering). Finding: most professions never built the rotation problem software built. Three-category taxonomy: craft-deepening (medicine/law), honest-rotation (military), deceptive-rotation (academia, historical software). The startup CTO context has no cross-industry equivalent. |
+| [`06_RESEARCH_knowledge_obsolescence.md`](06_RESEARCH_knowledge_obsolescence.md) | The compound that makes everything worse: technical knowledge half-life in software (2.5–5 years), the interaction with career-ladder rotation, why imposter syndrome is accurate self-assessment rather than distortion, and why software is the only profession where accumulated experience is a depreciating asset. ⚠️ Several figures unverified — flagged throughout. |
 
 ---
 
@@ -25,7 +30,7 @@
 
 ## Status & verification
 
-Active research, **published while under verification.** This note introduces citations not yet in the CTO citation log — notably the **52.7% imposter-phenomenon** figure (Clance scale, 2024), software **knowledge half-life** estimates, and the **Peter Principle agent-based model** (2025). These are **unverified pending a dedicated pass**; treat as illustrative until logged. When any feed the flagship CTO paper, they get verified and recorded in [`../CTO/07_APPENDIX_citation_review.md`](../CTO/07_APPENDIX_citation_review.md).
+Active research build, **published while under verification.** Citations introduced by `01_` — notably the **52.7% imposter-phenomenon** figure (Clance scale, 2024), software **knowledge half-life** estimates, and the **Peter Principle agent-based model** (2025) — are unverified pending a dedicated pass; treat as illustrative until logged. `03_` draws primarily on verified CTO-corpus anchors (`AX-REVERSION`, `AX-MW2018`, `AX-VL2023`, `AX-CURSE`) plus the CEB/Gartner corroboration; the Intuit 82% figure is flagged ⬜ pending verification. When any dev-ladder finding feeds the flagship CTO paper, it gets verified and recorded in [`../CTO/07_APPENDIX_citation_review.md`](../CTO/07_APPENDIX_citation_review.md).
 
 ---
 

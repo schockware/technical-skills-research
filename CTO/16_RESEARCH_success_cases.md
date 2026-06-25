@@ -82,10 +82,10 @@ For each factor, one explicit sentence: **"Who would be in the invisible failure
 The success-exception pattern appears at all three scope tiers; collect in each, coordinate here:
 
 - **CTO level (this file):** founder-CTOs who navigated Builder→Multiplier→Strategist (or knowingly handed off). Candidate names to research: Dadgar (HashiCorp), Blecharczyk (Airbnb), Ferdowsi (Dropbox) — *all already flagged in `12_RESEARCH` Solution 5 as anecdotal; that flag stands and tightens here.*
-- **Career-ladder level (`../Software Developer/`):** ICs who made the Senior→Staff or IC→EM transition durably (the ~50% who *didn't* revert — what's actually known about them, vs. survivor stories).
+- **Career-ladder level (`../Software Developer/07_RESEARCH_success_exceptions.md`):** ✅ Complete (June 25, 2026). Five IC→EM factors and two Senior→Staff factors analyzed under the three-layer model. Finding: distinguishing factors are organizational/contextual, not individual. Anti-recipe confirmed: structural throughput limit, not individual effort failure. Strongest anchors: `AX-MW2018` (imprinting), `AX-VL2023` (psych safety + value fit).
 - **Industry level (`../Software Industry/`):** the rare orgs/sub-fields that *did* specialize early or otherwise dodged the structural trap — and whether that transfers or was context.
 
-Each area gets a lightweight `*_success_exceptions.md` note pointing back here for the rigor model, so the doctrine isn't duplicated.
+Each area gets a `*_success_exceptions.md` note applying the rigor model; the doctrine lives here.
 
 ---
 

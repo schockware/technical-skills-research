@@ -13,8 +13,26 @@
 | File | Contents |
 |---|---|
 | [`13_RESEARCH_software_industry_structural.md`](13_RESEARCH_software_industry_structural.md) | Five exhibits: the specialization comparison; imposter syndrome as industry diagnostic; the knowledge-obsolescence treadmill; the Peter Principle at maximum intensity; the dual career track as partial acknowledgment. |
+| [`00_AXES_SUMMARY.md`](00_AXES_SUMMARY.md) | The five axes, compound matrix, Red Baron / fungibility, CTO connections. Start here. |
+| [`01`–`04` (MMM series)](01_MMM_brooks_original_argument.md) | The Brooks-rooted argument: non-fungibility (`01`), the operationalized fungibility assumption (`02`), the 10x/Aristotle evidence (`02b`), the transformation-expectation axis (`03`), the unstable-craft compounder (`04`, **over-stated — see `R1`**). |
+| [`05_MMM_ray_of_hope.md`](05_MMM_ray_of_hope.md) | Where the industry corrects itself (dual-track IC, rubrics, Principal PM, DevRel) and the startup gap the corrections don't reach. |
+| [`06_MMM_synthesis.md`](06_MMM_synthesis.md) | The CTO composite as terminal expression of the pattern; axes→CTO mapping; what a structurally honest industry requires. |
+| [`08_CITATIONS_gap_closure.md`](08_CITATIONS_gap_closure.md) | **Verification pass** closing the `⬜` flags the review track raised — DORA, SPACE, the CHAOS critique, ISBSG team-size, physician-burnout & imposter base rates, all verified to primary. Two findings came back *strengthening the narrowing* the review track called for. |
 
-*(Lightweight area — one research note for now. Will gain its own appendix/conventions if developed into a standalone piece.)*
+**Review track (`R`) — the adversarial / steelman meta-pass (added 2026-06-25)**
+
+| File | Contents |
+|---|---|
+| [`R1_ADVERSARY_strongest_counterevidence.md`](R1_ADVERSARY_strongest_counterevidence.md) | **Red-team.** The strongest case *against* the series, claim by claim, with HOLDS / NARROW / OPEN verdicts. Engages the omitted opposing literature (DORA, SPACE) and the CHAOS-dataset critique. |
+| [`R2_FALSIFICATION_and_bias_audit.md`](R2_FALSIFICATION_and_bias_audit.md) | **Bias audit + falsification protocol.** Seven failure modes (confirmation bias, keystone overstatement, brittle citation, unfalsifiability, asymmetry trick, correlation→causation, rhetorical tells), the measurement-artifact null hypothesis, and a stated disconfirmer for every core claim. |
+| [`R3_STEELMAN_strongest_form.md`](R3_STEELMAN_strongest_form.md) | **The defensible distillation.** The thesis in the form that survives `R1`/`R2` — three load-bearing pillars, five pre-made concessions, the do-not-build-on table, the accidental-concession argument, and a drop-in one-paragraph conclusion. **Build externally-facing conclusions on this file, not on the rhetorical phrasing of `01`–`04`.** |
+| [`R4_OPEN_RESEARCH_agenda.md`](R4_OPEN_RESEARCH_agenda.md) | **What's still genuinely unknown.** The *hard* research — falsification natural-experiments, the consulting puzzle, the artifact-null behavioral data — that `08`'s citation pass could **not** close. Separates closed-citation gaps from open-research gaps; priority-ordered for the next pass. |
+
+*(Lightweight area — will gain its own appendix/conventions if developed into a standalone piece.)*
+
+> **Stabilization note (2026-06-25):** the `R1`–`R3` review track is the adversarial pass. Net finding — the thesis survives its strongest adversary, but **must narrow in three places** (file 04's "no stable craft," the CHAOS lean, the asymmetry trick) and **name three open flanks** (imposter causation, reversion-as-refusal, the documentation-artifact null). Highest-leverage single edit: restate file 04 from *"no stable craft"* → *"the credited skill layer is unstable; the durable layer is uncredited."* See `R2` triage list. For any conclusion-grade statement, prefer the steelman in `R3`.
+>
+> **Verification follow-through (`08`):** the counter-citations the review track raised are now verified to primary in `08_CITATIONS_gap_closure.md`. Two of the three OPEN flanks came back *confirming the thread must narrow, not the adversary*: imposter syndrome at 52.7% is **not** a software outlier (healthcare 62%, law 50–83%), and physician burnout shows the same craft→admin rotation dynamic — so the cross-industry comparison must concede the comparators' pathologies (`R2` Bias 5) and retire the "imposter = structural diagnostic" causal claim (`R1`/`R3`). What remains genuinely open is only the falsification tests (natural experiments not yet run). **Still to do:** apply the narrowings to the substantive `MMM` files — `08` verified the sources but deliberately did **not** rewrite `01`–`06`.
 
 ---
 

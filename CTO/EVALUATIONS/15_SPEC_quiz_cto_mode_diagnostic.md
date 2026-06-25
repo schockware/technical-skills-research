@@ -3,7 +3,7 @@
 > **⚠️ SUPERSEDED (June 25, 2026): this diagnostic was NOT built.** Following the research to its conclusion, the decision was made not to release a CTO self-diagnostic — it would be administered to an epistemologically isolated individual, with input signals corrupted by the HiPPO effect, and a label that crystallizes rather than loosens identity investment; it is also weaponizable across a power gradient. See **[`16_RESEARCH_why_we_didnt_build_it.md`](16_RESEARCH_why_we_didnt_build_it.md)** for the full rationale. This spec is retained as the artifact-of-record — the careful work that the research then argued against shipping. The build status below is historical.
 
 **Built from:** `14_PROMPT_quiz_build_for_opus.md`
-**Grounded in:** `00_RESEARCH_CONTEXT.md`, `../13_RESEARCH_domain_centric_CTO.md`, `../05_FULLTEXT_working_document.md`, `../../Software Developer/12_RESEARCH_software_developer_career.md`
+**Grounded in:** `00_RESEARCH_CONTEXT.md`, `../13_RESEARCH_domain_centric_CTO.md`, `../05_FULLTEXT_working_document.md`, `../../Software Developer/01_RESEARCH_software_developer_career.md`
 **Author:** Opus 4.8, June 24, 2026
 **Reviewed and patched by:** Sonnet 4.6, June 24, 2026
 **Status:** ~~Spec for build — patches applied, React build approved~~ → **Superseded; not built** (see banner above).

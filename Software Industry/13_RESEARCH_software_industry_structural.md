@@ -3,7 +3,7 @@
 
 **Research date:** June 24, 2026  
 **Status:** Parallel research thread — industry-level view of the developer career finding  
-**Relationship to corpus:** `../Software Developer/12_RESEARCH_software_developer_career.md` documents the structural mismatch at the individual career level. This document examines the same pattern at the industry level — how the software industry systematically constructs roles that exceed human cognitive and developmental capacity, then misattributes the resulting failures to individuals.
+**Relationship to corpus:** `../Software Developer/01_RESEARCH_software_developer_career.md` documents the structural mismatch at the individual career level. This document examines the same pattern at the industry level — how the software industry systematically constructs roles that exceed human cognitive and developmental capacity, then misattributes the resulting failures to individuals.
 
 **The thesis:**
 > "What we have here is a human capacity issue, disguised as a 'smart people should be able to learn everything' problem."
@@ -169,6 +169,6 @@ The software career ladder is one long series of transitions that smart people a
 
 ---
 
-*Companion document: `../Software Developer/12_RESEARCH_software_developer_career.md` (individual career level)*  
+*Companion document: `../Software Developer/01_RESEARCH_software_developer_career.md` (individual career level)*  
 *Flagship case study (the acute expression of this pattern): `../CTO/` — esp. `../CTO/12_RESEARCH_rational_solutions.md` (solution taxonomy, incl. specialization/role-bifurcation), `../CTO/11_RESEARCH_IC_to_EM_transition.md`, `../CTO/13_RESEARCH_domain_centric_CTO.md`.*  
 *Framework developed in collaboration with Claude Sonnet 4.6 (Anthropic). Research conducted June 2026.*
