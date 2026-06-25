@@ -1,7 +1,7 @@
 # The Rotating Ladder
 ## Software is the only career structure that asks its people to become a different kind of worker at every rung — and gives them no runway to do it
 
-**Draft status:** Synthesis in progress, built in committed increments (this is the rigorous-spine version; audience-specific derivations follow from the appendix map). **Built on `09_SYNTHESIS_dev_ladder_thesis.md` and `../Software Industry/07_STEELMAN_strongest_form.md` — not on the rhetorical high points of `01_`–`07_`.**
+**Draft status:** Synthesis in progress, built in committed increments (this is the rigorous-spine version; audience-specific derivations follow from the appendix map). **Built on `09_SYNTHESIS_dev_ladder_thesis.md` and `../Software Industry/07_STEELMAN_strongest_form.md`, then reconciled to this area's own adversarial track `R3_STEELMAN_strongest_form.md` — not on the rhetorical high points of `01_`–`07_`.**
 
 **Increment log:** see `git log` for `DRAFT_SYNTHESIS.md` — each section is a separate commit, so the progression is itself part of the record and open to critique.
 
@@ -11,15 +11,18 @@
 
 ## §0 — The thesis, stated at defensible strength
 
-> **The software career ladder is the only major professional advancement structure that requires an identity-level rotation — a change in the *kind* of worker, not merely the depth of the craft — at every significant rung, from Junior→Mid through Mid→Senior, Senior→Staff, and IC→Engineering-Manager; labels each rotation as a natural deepening rather than the career change it is; and, at the point where most practitioners first hit the rotation, provides none of the three cushions — honest labeling, a respected craft-track fallback, a scaffolded transition — that make the same rotation survivable in every other profession that rotates. The predictable, population-scale failures this produces are then attributed to individual inadequacy. "Smart people should be able to learn everything" is the specific belief that performs that attribution. It does not explain the failures; it explains away the structure.**
+> **The software career ladder makes its one institutionally-real skill discontinuity — the individual-contributor-to-manager rotation that the industry alone split into two separate, separately-evaluated career tracks — a *default* advancement step, and surrounds it with a recurring pattern of further rotations (Senior→Staff most clearly, via Larson) that the title structure labels as natural "deepening" rather than the change in the *kind* of worker they are. At the point where most practitioners first hit the load-bearing rotation, software at startup and mid-market scale provides none of the three cushions — honest labeling, a respected craft-track fallback, a scaffolded transition — that make the same rotation survivable in every other profession that rotates. The predictable, population-scale difficulty this produces is then read as individual inadequacy. "Smart people should be able to learn everything" is the specific belief that performs that attribution. It does not explain the difficulty; it explains away the structure.**
 
 That sentence is the whole paper. Everything below either supports one of its clauses or concedes one of its limits.
 
+> **A note on what `R1`/`R2` re-cut.** This thesis paragraph is the form *left standing after this area's adversarial track* (`R1`–`R4`), not the louder original. Two corrections are load-bearing and run through every section: (1) "rotation at *every* rung" is demoted to **one corroborated seam (IC→management) plus a recurring pattern above it** — the lower rungs are craft-deepening shading into rotation, not measured discontinuities (`R1` Claim A); (2) the ~50% reversion number proves the *boundary is hard*, **not** that software is distinctively broken — distinctiveness rests on the cushion comparison (§3), not the number (`R1` Claim B). See [`R3_STEELMAN_strongest_form.md`](R3_STEELMAN_strongest_form.md) for the defensible form this spine is now reconciled to.
+
 **What this thesis deliberately does *not* say** (and why the draft is stronger for it):
 
+- Not "rotation at *every* rung" (as discovered structure) → **one externally-corroborated IC→management discontinuity, plus a recurring, less-measured pattern above it** (Senior→Staff via Larson). The "code → team → org → market" arc is a useful descriptive lens over one hard seam, not a set of measured cliffs. *(`R1` Claim A: NARROWS — hard.)*
 - Not "the skills are *incompatible*" → **distinct skill sets with no on-the-job runway**. The engineer/manager pendulum shows positive transfer; the skills can coexist in one person over a career. What the structure withholds is the *runway* to acquire the next one. (Corrected corpus-wide; see [`../CTO/18_RESEARCH_modes_not_incompatible.md`](../CTO/18_RESEARCH_modes_not_incompatible.md).)
-- Not "software has *no* stable craft" → the **credited, fashionable layer is unstable; the durable foundation is uncredited**. The claim is about what the evaluation machinery measures, not about whether stable knowledge exists. (Axis 4, narrowed under adversarial review.)
-- Not "software is *uniquely* broken" → software's **behavioral** outcomes match no comparator's cushions at startup/mid-market scale. The claim rests on what people *did* (reverted, plateaued), not on software being noisier or better-documented.
+- Not "software has *no* stable craft" / "prior expertise is a *liability*" → the **credited, fashionable layer is unstable and decays; the durable foundation is uncredited and compounds**. The claim is about what the evaluation machinery measures, not about whether stable knowledge exists or whether all experience depreciates. (Axis 4, narrowed under adversarial review; `R1` Claim H.)
+- Not "software is *uniquely* broken" / "the behavioral data *closes* the artifact null" → software's **behavioral** outcomes match no comparator's cushions at startup/mid-market scale. The reversion number neutralizes the *sentiment* null (this is behavior, not a blog post); it does **not** establish distinctiveness — that rests on the cushion comparison (§3) and stays open pending comparator behavioral rates (F1). *(`R1` Claim B: "closes the null" FALLS.)*
 - Not "rotation is the harm" → **uncushioned** rotation is the harm. Rotation done with a cushion (military, consulting) is survivable and sometimes healthy.
 
 ---
@@ -30,12 +33,13 @@ This draft does **not** argue "the software career ladder is irrational." Stripp
 
 > **A precise, non-pejorative vocabulary for a real, structurally-grounded pattern — rotation-without-cushion at every rung — so that population-scale outcomes the field currently narrates as personal failure ("management wasn't for them," "not ready for the next level," "imposter syndrome") can instead be named structurally ("the ladder demanded an identity rotation and resourced no transition for it"), which is the prerequisite to resourcing it.**
 
-It rests on three things, and only three:
-1. **One large-sample behavioral number** — the ~50% IC→EM reversion rate, corroborated at n≈30,000, *behavioral* not sentiment. *(§2)*
-2. **One structural diagnosis** — rotation stripped of the three cushions other rotating professions provide, with the industry's own late, partial correction (Staff/Principal IC tracks) as the revealed-preference proof it knew the cushions were needed. *(§3)*
-3. **One honest reframe** — shifting attribution from person to structure, which holds even if every contested statistic is struck. *(§4)*
+It rests on four things, and only four (per [`R3_STEELMAN`](R3_STEELMAN_strongest_form.md)'s restatement):
+1. **One institutional fact** — the IC/management career-track split, verifiable without the framework. *(§1)*
+2. **One large-sample behavioral number** — the ~50% IC→EM reversion rate, corroborated at n≈30,000, *behavioral* not sentiment — read as the **measured difficulty of the boundary**, not as proof of software-distinctiveness. *(§2)*
+3. **One structural diagnosis** — rotation stripped of the three cushions other rotating professions provide, with the industry's own late, partial correction (Staff/Principal IC tracks) as the revealed-preference proof it knew the cushions were needed. **This — not the reversion number — is where the distinctiveness claim lives.** *(§3)*
+4. **One honest reframe** — shifting attribution from person to structure, which holds even if every contested statistic is struck. *(§4)*
 
-A draft built on exactly those three, conceding everything in the must-not-claim table, is the version worth publishing.
+A draft built on exactly those four, conceding everything in the must-not-claim table, is the version worth publishing.
 
 ---
 
@@ -45,11 +49,16 @@ A draft built on exactly those three, conceding everything in the must-not-claim
 
 | Do not write | Write instead |
 |---|---|
+| "Rotation at *every* rung" (as discovered structure) | "One institutionally-real IC→mgmt discontinuity + a recurring pattern above it (Senior→Staff via Larson)" *(`R1` Claim A)* |
+| "The behavioral data *closes* the measurement-artifact null" | "Behavioral data neutralizes the *sentiment* null; the distinctiveness null stays open pending comparator rates (F1)" *(`R1` Claim B)* |
+| "The plateau is the *purest case* / *larger than reversion*" | "A structural hypothesis; the *measured* harm is the visible reversion case" *(`R1` Claim D)* |
+| "Prior expertise is a *liability*" (obsolescence headline) | "The *credited, fashionable* layer decays fast; the durable foundation compounds" *(`R1` Claim H)* |
 | "The skills are incompatible" | "Distinct skill sets with no on-the-job runway to acquire the next" |
 | "Software has no stable craft" | "The *credited* layer is unstable; the durable layer is uncredited" |
-| "Imposter syndrome is *caused by* the structure" | "A candidate explanation the individual-pathology framing never tests" |
+| "Imposter syndrome is *accurate self-assessment* of the structure" | "A candidate explanation the individual-pathology framing never tests" *(healthcare 62% > software 52.7%; `R1` Claim H)* |
 | "The reversion is rational refusal" (as proof) | "One reading; here's what would disconfirm it" |
-| "Software is uniquely broken" | "Software's *behavioral* outcomes match no comparator's cushions at this scale" |
+| "Software is uniquely broken" | "Software's *behavioral* outcomes match no comparator's cushions at this scale — and that comparison, not the reversion number, is the distinctiveness claim" |
+| "MW2018/VL2023 ground the *engineer* transition" | "They ground the *mechanism* in founders; the engineer-specific severity is our extension" *(`R1` Claim C)* |
 | "The industry avoids accountability" | "Structure that lets failures be read as individual" |
 | "52.7% imposter rate" (as load-bearing) | "The n≈30,000 reversion rate is the behavioral anchor; imposter data corroborates" |
 | CHAOS Report failure rates | "ISBSG team-size data (CHAOS demoted to illustrative)" |
@@ -57,24 +66,27 @@ A draft built on exactly those three, conceding everything in the must-not-claim
 
 ---
 
-## §1 — The one observation this rests on: every rung is a rotation, not a deepening
+## §1 — The one seam this rests on: the IC→management rotation, witnessed outside the framework
 
-Everything in this paper reduces to a single observation that a reviewer can check without first accepting our framework:
+The paper rests on a single discontinuity a reviewer can verify *without first accepting our framework* — and the discipline `R1` Claim A imposes is that we name exactly **which** one, because only one of the ladder's rungs has an external witness:
 
-> **In most mature professions, seniority *deepens* the craft — the senior practitioner does more of the core work, better. In software, seniority *rotates away* from the craft: at each significant rung the object of the skill moves — from the code, to the team, to the organization, to the market — so that being excellent at one rung stops predicting excellence at the next.**
+> **The software industry built two formal, separately-laddered, separately-evaluated career tracks — individual contributor and management — and told engineers to choose between them. The individual-contributor-to-manager rotation is therefore not a reading we imposed: the industry's own org charts attest that it is a change in the *kind* of work, not a deeper version of the same one. No other major profession formalized that split.**
 
-This is not a finding we manufactured. It is visible in the published career ladder of essentially every technology company, and it is corroborated independently at two different rungs by named practitioner field research:
+That is the floor. A skeptic who rejects everything else still has to account for it. Around that one hard seam runs a broader, *less-measured* pattern — that senior software work is steadily less hands-on-the-code than senior medicine is hands-on-the-patient — which we carry as a **useful descriptive lens, not a set of measured cliffs.** The honest statement of the broader arc:
 
-- **At the IC→Engineering-Manager rung**, the rotation is loud and externally named: *"The transition to an EM is a role change, not a promotion. Being a great IC does not automatically translate into being a great EM"* (Pat Kua). The title changes; the track changes; the work rotates from *my output* to *other people's output*.
-- **At the Senior→Staff rung**, the same rotation appears *quietly, inside the IC track*, where nothing in the title signals it. Larson's *Staff Engineer* (2021) field research finds that "Staff Engineer" is not one job but **four distinct jobs hiding behind one title** (Tech Lead, Architect, Solver, Right Hand) — *"most career ladders paper over several distinct roles hidden behind a single moniker."* The Staff job, across all four archetypes, is *primarily about what other people do* — the same output→others'-output rotation as IC→EM, but with no track change to mark it. *(`AX-LARSON`, ✅ Confidence 5.)*
+- **The IC→Engineering-Manager rung** is the corroborated seam: externally named (*"The transition to an EM is a role change, not a promotion"* — Pat Kua), witnessed by a hard behavioral fact (§2) *and* by the industry's own formal track split. This is the one rung that exists independently of this corpus.
+- **The Senior→Staff rung** is a *second, weaker* instance: Larson's *Staff Engineer* (2021) field research finds "Staff Engineer" is not one job but **four distinct jobs behind one title** (Tech Lead, Architect, Solver, Right Hand) — *"most career ladders paper over several distinct roles hidden behind a single moniker."* This corroborates that the rotation *recurs inside* the IC track, but it rests on a single practitioner book, not a behavioral measure — so it is supporting, not load-bearing. *(`AX-LARSON`, ✅ Confidence 5 — the book is verified; the structural universality is not.)*
+- **The lower rungs** (Junior→Mid, Mid→Senior) the corpus's own cells concede are *near craft-deepening* / *moving toward rotation* — adjacent skills, not discontinuities. We do **not** claim a measured cliff at each.
 
-Two narrowings, stated so they cannot be quietly widened later:
+Three narrowings, stated so they cannot be quietly widened later:
 
-1. **Rotation in focus, not incompatibility.** The claim is that the *object* of the skill rotates (product → people → market), not that the skills cannot coexist in one person. An EM who still writes code is doing their old job inside their new role; the jobs compete for time and identity, but they are not mutually exclusive over a career (the pendulum shows positive transfer). "Distinct skill sets with no runway," never "incompatible skill sets." *(Corrected per [`../CTO/18_RESEARCH_modes_not_incompatible.md`](../CTO/18_RESEARCH_modes_not_incompatible.md).)*
+1. **One seam corroborated; the arc is a lens (`R1` Claim A: NARROWS — hard).** Only IC→management has an external, non-narrative witness. "Rotation at *every* rung" is demoted from finding to framework: one real discontinuity, one weaker secondary (Senior→Staff via Larson), the rest a defensible description of an arc. We concede the rival account that fits the same career data — *continuous scope-broadening* (steadily more influence-work as you advance), not discrete kind-rotations — and we do **not** claim to have run the test that would distinguish the two at the lower seams (see F5). The argument needs only the *one* seam to be a discontinuity, and that one is not in dispute.
 
-2. **One boundary corroborated, the rest a lens.** The IC→management boundary is the one externally corroborated by a hard behavioral fact (§2) *and* by the industry's own track split. Larson's four archetypes corroborate that the rotation recurs *inside* the IC track. The full "Junior→Mid→Senior→Staff→EM→VP" sequence is a useful description of the arc, not a claim that each seam is an independently measured discontinuity. The argument rests on *the rotation being real and recurring*, not on the count of rungs.
+2. **Rotation in focus, not incompatibility.** The claim is that the *object* of the skill rotates (code → team → org → market), not that the skills cannot coexist in one person. An EM who still writes code is doing their old job inside their new role; the skills positively transfer over a career (the engineer/manager pendulum). "Distinct skill sets with no runway," never "incompatible skill sets." *(Corrected per [`../CTO/18_RESEARCH_modes_not_incompatible.md`](../CTO/18_RESEARCH_modes_not_incompatible.md).)*
 
-> **Plain form (for derivation):** *In medicine, law, and most trades, getting more senior means getting better at the thing you already do. In software, it means doing a different thing — first the code, then the team, then the org, then the market. The title keeps saying "engineer" while the job rotates out from under it. We know this isn't just us reading it that way: half of new engineering managers go back, and the "Staff Engineer" title turns out to be four different jobs wearing one badge.*
+3. **Supporting corroboration, flagged.** The Peter Principle agent-based model (2025) finds the effect is *strongest in high-skill-mismatch regimes* (tech) and *weakest where skills transfer gradually* (universities, research labs) — tailored corroboration for "rotation, not deepening." It is ⬜ unverified (README) and therefore corroborating-only, never load-bearing.
+
+> **Plain form (for derivation):** *Software did something almost no other field did: it split "do the work" and "manage the people who do the work" into two separate career tracks and made engineers choose. That split is the industry admitting, in its own org charts, that the two are different jobs — and the IC→manager jump is where the ladder forces you across that line. The broader story — that each rung is less about the code and more about people and strategy — is a fair way to describe the arc, but only that one jump is a hard, externally-proven line. We know it's real because half of new engineering managers go back.*
 
 ---
 
@@ -88,11 +100,11 @@ The load-bearing fact at this tier is the **IC→Engineering-Manager reversion r
 
 - The vivid practitioner statement (Marcel Weekes, VP Product Engineering at Figma: *"at least half the time those newly-minted engineering managers will leave their post… If this was the failure rate of a service, we would do a postmortem on it"*) is **corroborated by large-sample management research**: CEB/Gartner finds ~50% of new managers/executives fail within 18 months (n≈30,000), ~60% of new managers within 24 months; McKinsey reports ~40% for newly promoted executives, stable over 15 years. *(`AX-REVERSION`, ✅ verified, Confidence 4. Use Weekes for vividness; anchor the number to CEB/Gartner.)*
 
-> **The discipline this number demands:** it is the measured difficulty of the *boundary* (IC→management), not a software-specific failure rate and not proof of CTO-specific severity. We use it as the floor: *the transition fails at population scale even where it is well-supported.*
+> **The discipline this number demands (re-cut by `R1` Claim B):** the CEB/Gartner n≈30,000 is a **cross-industry** rate — the corpus's own `03_RESEARCH` calls it "the cross-industry baseline for new manager failure." So it measures the difficulty of the *boundary* (IC→management is hard for *everyone*), **not** a software-specific failure rate and **not** software's distinctiveness. We use it as exactly one thing: *the floor — the IC→management transition fails at population scale.*
 
-A competing explanation — "engineers just need better management training" — predicts the rate should fall sharply with support. **It does not: the ~50% holds at companies with dedicated management-development programs.** That is what makes it look structural rather than a training deficit. (Stated as what the number is *consistent with*; the controlled study isn't ours.)
+A competing explanation — "engineers just need better management training" — predicts the rate should fall sharply with support. The practitioner literature reports the ~50% holding even at companies with management-development programs — but note the seam (`R1` Claim B point 3): the n≈30,000 *credibility* comes from the general-management sample, while the "even with support" *qualifier* belongs to a smaller, software-specific, **unmeasured** population. We state "even with support" as a practitioner observation consistent with the structural reading, not as something inside the n≈30,000 data.
 
-**This is the number that closes the measurement-artifact null hypothesis** — the deepest competing explanation for the whole corpus: *software isn't more broken, just more online, more introspective, more surveyed.* A reversion rate of this magnitude in a dataset of this size is organizational behavior, not blog-post sentiment. Lead with it; let the imposter-syndrome figures corroborate, never carry. *(`08_RESEARCH` "open flank"; the sentiment data is consistent with the thesis, only the behavioral data tests it.)*
+**What this number does and does not do for the measurement-artifact null** (the deepest competing explanation: *software isn't more broken, just more online, more introspective, more surveyed*). It **neutralizes the weak form** — a population-scale *behavior* (people returned to IC) is not blog-post sentiment, so "it's all just software vocalizing its feelings" fails. It does **not close the null**, because a reversion rate that is *the same across industries* is exactly what the null predicts: universal difficulty, software merely more vocal. Closing the null would require comparator-profession *behavioral* reversion rates *lower* than software's — which have never been measured (`05_RESEARCH` concedes non-software reversion rates are unquantified; F1). **The distinctiveness claim therefore does not live here — it lives in the cushion comparison (§3).** Lead with this number for *boundary-difficulty*; let §3 carry distinctiveness; let the imposter figures corroborate, never carry. *(Corrects the earlier "closes the null" overreach per `R1` Claim B / `R2` Bias 2; `08_RESEARCH` "open flank.")*
 
 ### 2b. Why it resists training: identity, not skill (the peer-reviewed mechanism)
 
@@ -167,7 +179,9 @@ When the ladder's rotation produces its predictable failure, the language that f
 
 Each is individually plausible — which is exactly why the pattern is hard to see. Any one case can be a genuine individual shortfall. But the *consistency* of the framing across cases, companies, and decades is the tell: a difficulty the structure would produce **for almost anyone placed in it** is recorded, every time, as a fact about the person. The structure is never in the sentence. This is not a claim that the engineer never under-performs. It is a claim about **default attribution**: when the structural and the individual explanation are both available, the field reaches reflexively for the individual one — and because it does, it never asks the structural question, and never builds the structural fix.
 
-The Senior→Staff plateau is the purest case: the failure produces no reversion event, no postmortem, no statistic — just a Senior engineer who has been Senior for ten years, absorbed into "never got promoted." The illegibility *is* the misattribution. The cost is paid quietly, over years, by people the system never told what game they were playing.
+**The clearest *measured* case is the visible reversion** — "management just wasn't for them" said over a person who is, by the n≈30,000 data, one of roughly half who make that move. The difficulty there is documented; the personal framing is the misattribution; and we do not have to argue from any absence to see it.
+
+The Senior→Staff plateau is a *hypothesized additional instance*, and we mark it as such rather than leaning on it (`R1` Claim D): the failure leaves no reversion event, no postmortem, no statistic — which makes it rhetorically vivid and evidentially empty in the same stroke. Its size and composition are **unmeasured**, and it is over-determined by a benign cause — genuine preference for IC work — that the rise of respected Staff/Principal IC tracks should *increase*, not decrease. So we cannot call it "the purest case" or "larger than the reversion population" on the strength of its own invisibility. What survives is narrower and still real: Staff-promotion criteria are demonstrably illegible (vague, retroactive; and if Larson is right that "Staff" is four jobs, some engineers are evaluated against a target nobody named), so *some* quiet, misattributed non-promotions plausibly occur. The mechanism (illegibility breeds misattribution) holds; the population estimate does not.
 
 ### 4b. Why the misattribution is self-perpetuating
 
@@ -234,7 +248,7 @@ A claim is only worth as much as the conditions under which its author would aba
 
 ### 6a. Concessions, made up front
 
-**1. Software has a stable foundation layer.** Algorithms, data structures, type systems, networking, concurrency, relational theory (Codd 1970) — decades-stable; DORA/*Accelerate* shows transferable practice. The claim is **not** "nothing is stable." It is "**the evaluation and promotion machinery credits the volatile, fashionable layer, not the durable foundation.**" This is the single most important narrowing (Axis 4) — it makes the performance-review argument *sharper*: the system measures the wrong layer.
+**1. Software has a stable foundation layer; prior expertise is not a blanket "liability."** Algorithms, data structures, type systems, networking, concurrency, relational theory (Codd 1970) — decades-stable; DORA/*Accelerate* shows transferable practice. The claim is **not** "nothing is stable" and **not** "accumulated expertise is a liability" (an earlier obsolescence framing `R1` Claim H corrects). It is "**the evaluation and promotion machinery credits the volatile, fashionable layer — which decays fast — while the durable foundation, which compounds, goes uncredited.**" This is the single most important narrowing (Axis 4) — it makes the performance-review argument *sharper*: the system measures the wrong layer. *(The knowledge-half-life figures behind the decay claim are ⬜ unverified; the argument holds on the credited/durable split even if every number shifts.)*
 
 **2. Rotation itself is not the harm.** The military rotates; consulting rotates harder. Done with honest labeling, a respected fallback, and scaffolding, rotation is survivable and sometimes healthy. The harm is **uncushioned** rotation. (Eliminates the "every career requires change, stop complaining" rebuttal.)
 
@@ -244,9 +258,13 @@ A claim is only worth as much as the conditions under which its author would aba
 
 **5. The large-company correction is genuine.** Dual-track IC paths work where they exist. The thesis scope is the **startup and mid-market gap** — where most practitioners spend most of their careers, and where the correction hasn't arrived.
 
-**6. The imposter-syndrome figure is corroborating, not load-bearing.** The 52.7% figure (Clance scale, 2024) is flagged ⬜ unverified; even verified, elevated imposter rates appear across all high-achievement/high-evaluation populations regardless of rotation structure. It is *consistent with* the thesis; it does not prove it. The ~50% reversion rate proves it.
+**6. The imposter-syndrome figure is corroborating, not load-bearing — and it is not "accurate self-assessment."** The 52.7% figure (Clance scale, 2024) is flagged ⬜ unverified; even verified, elevated imposter rates appear across all high-achievement/high-evaluation populations (healthcare runs *higher* — ~62%) regardless of rotation structure, so "imposter syndrome is the engineer accurately perceiving structural mismatch" is correlation read as causation (`R1` Claim H). It is *consistent with* the thesis; it does not prove it. The ~50% reversion rate carries the behavioral weight. *(`01_`/`06_` still state the strong causal version and must be propagated back per `R2` Bias 6.)*
 
-**7. "Rotation at every rung" is a recurring pattern, not a per-rung measured discontinuity.** Only the IC→management boundary is corroborated by a hard behavioral fact and the industry's own track split. Junior→Mid is near craft-deepening; the rest of the sequence is a defensible description of an arc, not five independently measured cliffs. The argument rests on *the rotation being real and recurring*, not on the count.
+**7. "Rotation at every rung" is a recurring pattern, not a per-rung measured discontinuity — and this is now stated as thesis, not buried as a concession.** Only the IC→management boundary is corroborated by a hard behavioral fact and the industry's own track split (§1). Junior→Mid is near craft-deepening; the rest of the sequence is a defensible description of an arc, not five independently measured cliffs. Promoted from footnote to the §0/§1 thesis per `R1` Claim A — listed here only to keep the concession set complete.
+
+**8. The behavioral data does *not* close the measurement-artifact null.** The ~50% reversion neutralizes the *sentiment* form of the null (it is behavior, not blog-posting) but, being a cross-industry rate, is consistent with the null's core claim (universal difficulty, software merely more vocal). Closing it requires comparator behavioral rates *lower* than software's — unmeasured (F1). We concede the closure is a *bet*, not a result, and locate software-distinctiveness in the cushion comparison (§3) instead. *(Defuses the area's signature overreach before a skeptic quotes it — `R1` Claim B / `R2` Bias 2.)*
+
+**9. The Senior→Staff plateau population is a structural hypothesis, not a measured fact.** Its size and composition are unknown, and it is over-determined by genuine preference (which respected IC tracks should increase). We carry it as a hypothesized instance of the misattribution harm, never as its load-bearing or "purest" case — that role belongs to the visible reversion (§4a; `R1` Claim D).
 
 ### 6b. Falsifiers — what would make us wrong
 
@@ -254,14 +272,15 @@ We stake the thesis on the following. Each is a study that could be run; we pred
 
 | # | If this were found… | …then this claim falls |
 |---|---|---|
-| **F1 (central)** | Matched high-achievement **non-rotation** professions, measured on *behavioral* outcomes (reversion, tenure, observed exits) rather than surveys, show **equal** failure rates to software | Software is better-*documented*, not less-*cushioned* — the measurement-artifact null wins; the structural claim reduces to "this transition is hard." |
+| **F1 (central)** | Matched high-achievement **non-rotation** professions, measured on *behavioral* outcomes (reversion, tenure, observed exits) rather than surveys, show **equal** failure rates to software | Software is better-*documented*, not less-*cushioned* — the distinctiveness null wins; the structural claim reduces to "this transition is hard." *This is the falsifier the retracted "closes the null" claim pretended was resolved (§2a). It is open.* |
 | **F2** | A **well-resourced IC track at startup scale** still produced ~50% reversion among engineers who chose it | The absence of a craft-track fallback is not the cause; the no-cushion mechanism is not doing the work. |
 | **F3** | Organizations that provided the **three cushions** at the first rotation (honest label, fallback, scaffold), funding held constant, showed *no better* transition survival | "Uncushioned rotation is the harm" weakens — it may be under-resourcing in general, not the missing cushions specifically. |
-| **F4** | The Senior→Staff **plateau population**, once measurable, turned out to be dominated by *genuine preference* rather than failed-and-unnamed transition | The "quiet fracture" is mostly legitimate choice, not structural illegibility — §4's purest case weakens. |
+| **F5 (construct)** | **Blinded raters cannot reliably segment careers into "deepening" vs "rotation" rungs** above the IC→management seam | "Rotation at every rung" is an imposed lens, not a discovered structure (§1; `R1` Claim A). **Run this first — it is cheap, and if the construct fails here the expensive cohort studies (F1/F2) measure an artifact.** |
+| **F4** | The Senior→Staff **plateau population**, once measurable, turned out to be dominated by *genuine preference* rather than failed-and-unnamed transition | The "quiet fracture" is mostly legitimate choice, not structural illegibility — the §4a plateau hypothesis falls entirely (the harm then rests on the visible reversion alone). |
 
 **Our wager, stated plainly:** the *behavioral* comparators — the n≈30,000 reversion rate, the ISBSG delivery records, Larson's archetype field research — will hold up where *sentiment* and *anecdote* will not, because they measure what people *did*, not what they *felt*. We bet the structure shows up in behavior. If a well-run behavioral study finds no difference, the thesis is wrong, and we would say so.
 
-> **Plain form (for derivation):** *Here's what we're NOT saying: not that the skills are incompatible (they're not — people swing between them over a career); not that software has no stable craft (it does — it's just not what gets you promoted); not that imposter syndrome is proven to come from the structure; not that software is uniquely broken rather than just unusually well-documented; not that every rung is a measured cliff (one is; the rest is a fair map). And here's what would prove us wrong: a real behavioral study showing non-rotating professions fail just as often, or a funded IC track that still produces 50% reversion, or cushions that don't help, or a Staff plateau that's mostly people who chose it. Nobody has run those. We're betting on how they'd come out — and saying so.*
+> **Plain form (for derivation):** *Here's what we're NOT saying: not that the skills are incompatible (they're not — people swing between them over a career); not that software has no stable craft (it does — it's just not what gets you promoted); not that imposter syndrome is proven to come from the structure (healthcare runs higher); not that the reversion number proves software is uniquely broken (it's a cross-industry rate — it proves the jump is hard, not that software is special; the cushion comparison is what makes software special); not that every rung is a measured cliff (one is; the rest is a fair map). And here's what would prove us wrong: a real behavioral study showing non-rotating professions fail just as often, or a funded IC track that still produces 50% reversion, or cushions that don't help, or — cheapest to run, so run it first — blinded raters who can't even tell a "deepening" rung from a "rotation" one. Nobody has run those. We're betting on how they'd come out — and saying so.*
 
 ---
 
@@ -269,14 +288,16 @@ We stake the thesis on the following. Each is a study that could be run; we pred
 
 | § | Section | Source | Status |
 |---|---|---|---|
-| §0–0.1 | Thesis + contribution + discipline | `09_SYNTHESIS` thesis / contribution | ✅ done |
-| §1 | Every rung is a rotation (the observation) | `09_` Pillar 1 + `03_`/`04_` + Larson | ✅ done |
-| §2 | Measurably hard; identity-gated; structurally supported | `09_` Pillar 1/2 + `AX-REVERSION` + `03_`/`07_` | ✅ done |
+| §0–0.1 | Thesis + contribution + discipline | `09_SYNTHESIS` + `R3` re-cut | ✅ done · reconciled to `R3` |
+| §1 | One corroborated seam (IC→mgmt) + recurring pattern | `09_` Pillar 1 + `03_`/`04_` + Larson + `R1` Claim A | ✅ done · narrowed |
+| §2 | Measurably hard; identity-gated; structurally supported | `09_` Pillar 1/2 + `AX-REVERSION` + `03_`/`07_` + `R1` Claim B | ✅ done · "closes null" retracted |
 | §3 | Rotation elsewhere too; software withholds every cushion | `09_` Pillar 2 + `05_` + `08_` axes | ✅ done |
-| §4 | The misattribution is the harm (legibility contribution) | `09_` Pillar 3 + `04_` plateau | ✅ done |
+| §4 | The misattribution is the harm (legibility contribution) | `09_` Pillar 3 + `04_` plateau + `R1` Claim D | ✅ done · plateau re-cut to hypothesis |
 | §5 | The accidental concession (objection → support) | `09_` accidental-concession | ✅ done |
-| §6 | Concessions & falsifiers, in the draft's own voice | `09_` concessions + Do-Not-Build + falsifiers | ✅ done |
+| §6 | Concessions & falsifiers, in the draft's own voice | `09_` concessions + `R3` concessions 8/9 + F1–F5 | ✅ done |
 | App. | Audience-map derivation key | this file | ⬜ stub — to fill |
+
+> **Reconciled to the adversarial track (2026-06-25).** This spine was drafted before `R1`–`R4` existed and originally cited them prospectively. After the review ran, four reconciliations from [`R3_STEELMAN`](R3_STEELMAN_strongest_form.md) §"reconciliation notes" were applied: (1) §2a "closes the measurement-artifact null" **retracted** (`R1` Claim B); (2) §1 "rotation at every rung" **narrowed** to one corroborated seam + recurring pattern (`R1` Claim A); (3) §4a plateau **demoted** from "purest case" to hypothesis (`R1` Claim D); (4) obsolescence "liability" and imposter "accurate self-assessment" **corrected** (`R1` Claim H). Concessions 8–9 and falsifier F5 added. Still owed at the *research-file* layer (not this draft): propagate the "incompatible" retirement and figure-demotions back to `01_`/`06_`/`08_` (`R2` Biases 6–7).
 
 **✅ Rigorous spine complete (§0–§6).** Next: audience derivations fan out from the Audience Map below — each a *projection* of this spine (softening downward), not a new draft.
 
@@ -296,5 +317,5 @@ We stake the thesis on the following. Each is a study that could be run; we pred
 
 ---
 
-*Spine source: `09_SYNTHESIS_dev_ladder_thesis.md` (defensible form), `08_RESEARCH_axes_integration.md` (five axes), `../Software Industry/07_STEELMAN_strongest_form.md` (industry-tier steelman). Evidence anchors: `AX-REVERSION`, `AX-MW2018`, `AX-VL2023`, `AX-LARSON`, `AX-COMPETENCE`, `AX-CURSE` (verification log: `../CTO/07_APPENDIX_citation_review.md`). Sibling spine: `../CTO/DRAFT_SYNTHESIS.md` (sharpest tier). This file is the rigorous ancestor; derived audience drafts are downstream.*
+*Spine source: `09_SYNTHESIS_dev_ladder_thesis.md` (defensible form) + `R3_STEELMAN_strongest_form.md` (the area's adversarial re-cut; prefer `R3` wording for any externally-facing conclusion). Adversarial basis: `R1_ADVERSARY_strongest_counterevidence.md`, `R2_FALSIFICATION_and_bias_audit.md`. Forward agenda: `R4_OPEN_RESEARCH_agenda.md`. Mechanism: `08_RESEARCH_axes_integration.md` (five axes); `../Software Industry/07_STEELMAN_strongest_form.md` (industry-tier steelman). Evidence anchors: `AX-REVERSION`, `AX-MW2018`, `AX-VL2023`, `AX-LARSON`, `AX-COMPETENCE`, `AX-CURSE` (verification log: `../CTO/07_APPENDIX_citation_review.md`). Sibling spine: `../CTO/DRAFT_SYNTHESIS.md` (sharpest tier). This file is the rigorous ancestor; derived audience drafts are downstream.*
 *Framework developed in collaboration with Claude (Anthropic). Research conducted June 25, 2026.*
