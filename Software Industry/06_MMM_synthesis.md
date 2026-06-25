@@ -20,7 +20,7 @@ The pattern:
 
 2. **The "smart people should learn everything" assumption is the mechanism the industry uses to avoid structural accountability for that design.** When the transformation fails, the failure is attributed to the individual. The structure goes unnamed.
 
-3. **The CTO composite problem is what happens when this pattern runs to its limit.** Three incompatible identity transformations, compressed into 18–24 months, in the context of maximum organizational fragility, with no support structures, under a title that signals continuity while demanding three career changes.
+3. **The CTO composite problem is what happens when this pattern runs to its limit.** Three distinct identity transformations, compressed into 18–24 months with no runway between them, in the context of maximum organizational fragility, with no support structures, under a title that signals continuity while demanding three career changes. *("Incompatible" retired corpus-wide → "distinct, no runway"; the transformations coexist across a career, but not on this clock — see [`../CTO/18_RESEARCH_modes_not_incompatible.md`](../CTO/18_RESEARCH_modes_not_incompatible.md).)*
 
 Everything in both research threads — five files in the software industry series, seventeen files in the CTO corpus — is evidence for these three propositions.
 
@@ -152,7 +152,7 @@ This sentence is not hyperbole. Every clause is a structural observation:
 
 **"Under existential pressure"** — the company's survival depends on the CTO navigating this successfully. The engineer who plateaus at Senior still has a job. The founding CTO who fails the Builder→Multiplier transition is displaced at the moment the company they built becomes valuable.
 
-**"With a title inherited from a completely different kind of role"** — the title "CTO" was invented for the technical executive of a mature organization, with differentiated teams below them, with a VP Engineering handling people and process, with a staff of Principal Engineers handling technical direction. The founding CTO inherits this title with none of these supports and three incompatible demands.
+**"With a title inherited from a completely different kind of role"** — the title "CTO" was invented for the technical executive of a mature organization, with differentiated teams below them, with a VP Engineering handling people and process, with a staff of Principal Engineers handling technical direction. The founding CTO inherits this title with none of these supports and three distinct demands made at once, with no runway between them.
 
 No other profession puts this combination on one person. The closest analog — management consulting — at least makes the advancement path explicit, provides institutional support at each level, and runs the transitions over a career, not a funding cycle. The military built separate institutional pipelines. Medicine never asked the surgeon to stop operating.
 

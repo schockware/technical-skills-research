@@ -18,7 +18,7 @@ Medicine subdivided into 40+ recognized specialties, each with sub-specialties, 
 
 The pattern is universal and the mechanism is consistent: **when a knowledge domain exceeds human cognitive capacity, the profession subdivides rather than demanding that individuals exceed their limits.**
 
-The software industry has not done this. Instead it has constructed a career ladder that demands, at every transition point, that individuals acquire incompatible skill sets on compressed timelines — and then attributed the resulting failures to individual inadequacy.
+The software industry has not done this. Instead it has constructed a career ladder that demands, at every transition point, that individuals acquire distinct skill sets on compressed timelines with no on-the-job runway between them — and then attributed the resulting failures to individual inadequacy. *(Phrasing corrected corpus-wide: "incompatible" → "distinct, no runway"; the skills coexist over a career — the structure withholds the runway. See [`../CTO/18_RESEARCH_modes_not_incompatible.md`](../CTO/18_RESEARCH_modes_not_incompatible.md).)*
 
 The CTO composite problem is the most visible expression of this industry-wide pattern. But it is not the cause. It is the symptom.
 
@@ -111,7 +111,7 @@ Companies like Google, Meta, Amazon, and most large tech employers have implemen
 
 This is partial progress. But it does not solve the underlying problem for three reasons:
 
-1. **The IC track still requires incompatible skill sets at each transition.** A Principal Engineer and a Staff Engineer are doing structurally different jobs — the Larson archetype finding applies here. The mismatch exists within the IC track, not just at the IC/management split.
+1. **The IC track still requires distinct skill sets at each transition.** A Principal Engineer and a Staff Engineer are doing structurally different jobs — the Larson archetype finding applies here. The mismatch exists within the IC track, not just at the IC/management split.
 
 2. **The dual track does not exist at the founding startup level.** The entire dual-track infrastructure was built at scale, for companies large enough to afford the specialization. A seed-stage startup cannot afford a dedicated Principal Engineer who never manages people. The founding CTO is forced into the all-hats role that the dual track was designed to escape.
 
@@ -163,7 +163,7 @@ This is not a problem that training solves. It is not a problem that coaching so
 
 It is a problem that specialization solves — the same solution every other mature profession has applied when its knowledge base exceeded what one human can hold.
 
-The CTO composite problem is the most acute expression of this pattern because it concentrates all three incompatible skill sets (technical craft, people infrastructure, strategic vision) into one role at the moment when the company is most fragile and the person is most alone. But the pattern runs all the way down the stack.
+The CTO composite problem is the most acute expression of this pattern because it concentrates all three distinct skill sets (technical craft, people infrastructure, strategic vision) into one role *simultaneously* — with no runway between them — at the moment when the company is most fragile and the person is most alone. But the pattern runs all the way down the stack.
 
 The software career ladder is one long series of transitions that smart people are expected to make because they are smart — and that keep failing because human capacity is finite, regardless of how smart the person is.
 

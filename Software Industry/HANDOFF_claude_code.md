@@ -13,7 +13,7 @@ You are continuing an active research project that has been running in two paral
 
 1. **CTO Operating Modes** — a framework paper on why startup CTOs fail at predictable points. This thread is largely complete. Files live in the outputs root directory (`00_` through `17_`).
 
-2. **Software Industry Human Capacity** — a new thread examining the structural reasons the software industry systematically expects its people to transform incompatibly at every career rung. **This is the thread you are picking up.** Files live in `software_industry/`.
+2. **Software Industry Human Capacity** — a new thread examining the structural reasons the software industry systematically expects its people to rotate into distinct kinds of work at every career rung, with no runway between them. **This is the thread you are picking up.** Files live in `software_industry/`. *("Transform incompatibly" was the thread's original framing; corrected corpus-wide to "rotate into distinct work, no runway" — see [`../CTO/18_RESEARCH_modes_not_incompatible.md`](../CTO/18_RESEARCH_modes_not_incompatible.md).)*
 
 You are not starting from scratch. Five research files and a summary document have been completed. Your job is to continue building the thread, synthesize across what exists, and eventually connect it back to the CTO paper.
 

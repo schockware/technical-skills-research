@@ -182,7 +182,7 @@ The CTO composite problem — Builder, Multiplier, Strategist — now has one mo
 
 The Builder mode is built on technical craft. But in software, the technical craft has no stable foundation. The CTO-Builder is not just being asked to give up a craft identity for a leadership identity. They are being asked to give up a craft identity that was itself always provisional — built on frameworks that will be deprecated, architectures that will be reconsidered, methodologies that will be replaced.
 
-The irrational composite is not just asking one person to hold three incompatible skill sets. It is asking one person to hold three incompatible skill sets *in a field that cannot agree on what the first skill set even is*.
+The irrational composite is not just asking one person to hold three distinct skill sets at once, with no runway between them. It is asking one person to hold three distinct skill sets *in a field that cannot agree on what the first skill set even is*. *("Incompatible" retired corpus-wide → "distinct, demanded simultaneously, no runway"; the skills coexist over a career — see [`../CTO/18_RESEARCH_modes_not_incompatible.md`](../CTO/18_RESEARCH_modes_not_incompatible.md).)*
 
 ---
 

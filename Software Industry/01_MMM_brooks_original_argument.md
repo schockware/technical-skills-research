@@ -10,7 +10,7 @@
 
 ## Why This Thread Exists
 
-The CTO operating modes research established that the software industry systematically expects one person to hold incompatible skill sets across their career — and attributes the resulting failures to individuals rather than structure.
+The CTO operating modes research established that the software industry systematically expects one person to acquire distinct skill sets across their career — on a compressed timeline with no on-the-job runway between them — and attributes the resulting failures to individuals rather than structure. *(Phrasing corrected corpus-wide: "incompatible skill sets" → "distinct skill sets with no runway." The skills demonstrably coexist in one person over a career — the engineer/manager pendulum shows positive transfer; what the structure withholds is the runway. See [`../CTO/18_RESEARCH_modes_not_incompatible.md`](../CTO/18_RESEARCH_modes_not_incompatible.md) and `DRAFT_SYNTHESIS.md` §1.)*
 
 That expectation doesn't originate at the CTO level. It runs through the entire software career stack. And its intellectual foundation was laid — and simultaneously refuted — by Frederick P. Brooks Jr. in 1975.
 
@@ -132,7 +132,7 @@ The rest of the argument — the essential complexity, the surgical team, the no
 
 - That some work cannot be parallelized regardless of how many people you add
 - That conceptual integrity requires minds, not headcount
-- That different roles in software development are genuinely incompatible with each other
+- That different roles in software development are genuinely distinct work — not deeper versions of one craft, and not acquirable on an organizational schedule without runway
 - That the complexity of a system is not reducible by management technique
 
 These conclusions are not compatible with the headcount-based productivity models, the interchangeable-unit hiring practices, or the "smart people should be able to do anything" career ladders the industry built over the same 50 years.
@@ -155,7 +155,7 @@ Brooks' essential complexity argument says otherwise. The cognitive burden of un
 
 The CTO who is expected to be a Builder, Multiplier, and Strategist simultaneously is being asked to hold three fundamentally different cognitive orientations at once. Brooks would recognize the request immediately: it is the man-month fallacy applied to human development rather than project scheduling.
 
-You cannot get one executive who holds three incompatible skill sets by hiring a smart person and giving them a title. Just as you cannot get ten months of work in one month by hiring ten people, you cannot get three career tracks of development in one career by hiring one smart person and expecting them to rotate.
+You cannot get one executive who holds three distinct skill sets *at once* by hiring a smart person and giving them a title. Just as you cannot get ten months of work in one month by hiring ten people, you cannot get three career tracks of development in one career by hiring one smart person and expecting them to rotate — not because the skills cannot coexist in a person eventually, but because they cannot be acquired *simultaneously*, on the company's clock, with no runway between them.
 
 The fallacy is the same. The industry made it in 1975 with project scheduling. It has been making it ever since with career development.
 
@@ -167,7 +167,7 @@ The fallacy is the same. The industry made it in 1975 with project scheduling. I
 
 2. **The essential complexity argument is the foundation.** The difficulty of software is not accidental — it cannot be engineered away. The cognitive burden of holding that complexity is fixed.
 
-3. **The surgical team model is the solution that was ignored.** Different roles in software are genuinely incompatible. The industry built practices that assume the opposite.
+3. **The surgical team model is the solution that was ignored.** Different roles in software are genuinely distinct work, not interchangeable units. The industry built practices that assume the opposite.
 
 4. **The industry absorbed the law and discarded the argument.** Brooks' Law survived as a scheduling heuristic. The non-fungibility argument it rests on did not survive into management practice, hiring models, or career ladder design.
 

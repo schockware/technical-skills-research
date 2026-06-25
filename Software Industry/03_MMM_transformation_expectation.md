@@ -178,7 +178,7 @@ At each rung:
 
 The CTO experiences all of this simultaneously, at the maximum compression, at the moment of maximum organizational fragility, with the highest stakes and the least support.
 
-But the QA engineer who plateaus at Senior, unable to make the rotation to QA Manager, is experiencing the same structural problem. The product manager who can't make the jump from Senior PM to Director is experiencing the same structural problem. The Staff engineer who never gets there because the Tech Lead and Architect archetypes are incompatible within them is experiencing the same structural problem.
+But the QA engineer who plateaus at Senior, unable to make the rotation to QA Manager, is experiencing the same structural problem. The product manager who can't make the jump from Senior PM to Director is experiencing the same structural problem. The Staff engineer who never gets there because the role demands the Tech Lead and Architect archetypes *at once*, with no runway to develop the second, is experiencing the same structural problem.
 
 The CTO's story is legible because it ends dramatically — displacement, tenure statistics, investor postmortems. The QA engineer's story is invisible because it ends quietly — a plateau, a job change, a career that didn't go where it could have, attributed to "not being leadership material."
 
