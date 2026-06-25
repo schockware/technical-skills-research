@@ -166,7 +166,7 @@ The quiz is built on two empirical findings that must survive into the artifact:
 
 **Finding 1 (Mathias & Williams, 2018):** The success predictor for founder role transitions is not skill level — it is identity orientation. Founders who perceive their role as "give up the hats" grow their ventures. Founders who perceive it as "wear all the hats" don't. The quiz must surface this orientation, not skill self-assessment.
 
-**Finding 2 (CTO tenure data, Spencer Stuart 2023):** Average CTO tenure is 2.5 years — almost exactly one mode. The industry is cycling through CTOs at mode-boundary intervals without naming what it is doing. The quiz exists to make that cycle visible before it becomes a crisis.
+**Finding 2 (CTO tenure data, Spencer Stuart 2023):** ~~Average CTO tenure is 2.5 years — almost exactly one mode.~~ ⚠️ **RETRACTED (2026-06-25): the 2.5yr figure is unsupported/fabricated** — no source confirms it; real CTO/CIO tenure ≈ 4.3yr (Korn Ferry). See `07_APPENDIX` `AX-CTO-TENURE`. (This file is part of the superseded quiz — `EVALUATIONS/16_` — so this is flagged, not rewritten.) The industry *does* cycle CTOs at a high rate, but the boundary-timing claim rests on Greiner/Carta, not tenure.
 
 The quiz is not a personality test. It is a structural diagnostic. The output should feel like looking at an X-ray, not reading a horoscope.
 

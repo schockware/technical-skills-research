@@ -360,7 +360,7 @@ If transition-zone flag fired:
 > **Your operating mode matches what your company needs right now.** That's the goal — and it's worth protecting. Watch item: {the single nearest-boundary signal, e.g. "your company's manager-of-managers structure is one hire away from needing you to operate a level up. The behavior to watch: how often you still personally make the top technical call."}
 
 **Lagging gap (highest risk):**
-> **Your company has moved into {ModeB} territory, but you're still operating as a {ModeA}.** This is the highest-risk configuration in the framework — it's where the average 2.5-year CTO tenure tends to end. This is not a verdict on your ability. The same mismatch breaks roughly half of engineers at the IC→manager step, under easier conditions than yours.
+> **Your company has moved into {ModeB} territory, but you're still operating as a {ModeA}.** This is the highest-risk configuration in the framework. ~~it's where the average 2.5-year CTO tenure tends to end.~~ *(⚠️ the 2.5yr tenure figure is retracted — unsupported; see `07_APPENDIX` `AX-CTO-TENURE`. Whole quiz superseded by `16_`.)* This is not a verdict on your ability. The same mismatch breaks roughly half of engineers at the IC→manager step, under easier conditions than yours.
 >
 > The specific signals: {2–3 named behaviors, e.g. "you can name your team's top 3 blockers because you're personally working one; you'd fix a struggling engineer's problem yourself; and a tech-free future would feel like a loss."}
 >

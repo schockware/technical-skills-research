@@ -37,7 +37,7 @@
 8. Kruze Consulting (2024) — compensation gap
 9. Mars (2026) — Transitive Expert Error
 10. Myhrvold, N. — "many people who were great CTOs didn't have that title"
-11. Index Ventures — 78% successful companies had founding CTOs at seed
+11. Index Ventures — 78% successful companies had a founding CTO *or technical CEO* (210-company dataset; NOT "founding CTOs at seed" — corrected, `07_APPENDIX` #12 / `AX-INDEX78`)
 12. Ewing, R. — IC vs management track divergence
 13. HR Oasis (2026) — technical skill atrophy within 2-3 years of management
 14. Larson, W. (2021) — Staff Engineer archetypes, emergence timing

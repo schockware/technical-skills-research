@@ -267,7 +267,7 @@ The taxonomy provides a diligence framework: a CTO operating in a mode that does
 ## 9. Limitations and Future Research
 
 ### 9.1 Survivorship Bias
-Failure literature disproportionately represents unsuccessful transitions. Index Ventures data suggests 78% of successful companies had founding CTOs at seed stage,¹¹ but longitudinal data on how many remained through Series B is not available.
+Failure literature disproportionately represents unsuccessful transitions. Index Ventures data suggests 78% of successful companies had a founding CTO **or technical CEO**,¹¹ (a 210-company dataset — *not* "founding CTO at seed"; the disjunction means this is not evidence specifically about founding CTOs — corrected per `07_APPENDIX` #12 / `AX-INDEX78`) but longitudinal data on how many remained through Series B is not available.
 
 ### 9.2 Empirical Validation
 The taxonomy is grounded in component-level evidence but has not been tested as an integrated framework. Direct empirical testing would require longitudinal tracking of CTO operating mode against company outcomes, with mode assessed independently of outcome.

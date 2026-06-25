@@ -61,8 +61,12 @@ The diagnostic question — *"do you actually expect one person to transition al
 
 ---
 
-### T3 — Propagation sweep (pre-publication)
+### T3 — Propagation sweep (pre-publication) ✅ DONE (2026-06-25, commit below)
 **Type:** corpus hygiene · **Priority:** low now, **required before public fork**
+**Resolution:** Swept every recurring figure across the corpus for (a) cross-file agreement and (b) match to the appendix-verified value. **Two logged-but-unpropagated corrections found and closed:** (1) the **78% Index figure** still in its old "founding CTOs at seed" form in `01_ARTIFACT` + `05_FULLTEXT` (the appendix had flagged these exact files for fix; `00` got done, these didn't) → corrected to "founding CTO *or* technical CEO, 210-company dataset." (2) the **fabricated 2.5yr tenure** still asserted in `EVALUATIONS/14_PROMPT` + `15_SPEC` (the superseded quiz) → strike-flagged with retraction pointer (not rewritten, since the quiz is superseded). **Confirmed consistent, no drift:** 50% / n≈30k, 8–15yr, 18–24mo, 4–6:1, $1.1M, 35yr — each appears across many files and all agree + match the appendix. **Lesson:** a correction logged in the appendix is not a correction applied — propagation must be verified, not assumed. Recommend re-running this sweep once more right before any public fork.
+
+---
+*(original task, now closed:)*
 
 Surfaced by the "four letters → three letters" catch (commit `6452990`): factual micro-errors (counts, dates, figures) propagate silently through incremental docs because they're grammatically/semantically plausible. Do a dedicated sweep: grep every number / count / date that appears in multiple files and confirm (a) they agree with each other, and (b) they match their cited source. Known prior catches of this class: 2.5yr tenure (fabricated), CMO "40 months" (wrong), Index 78% (rephrased), "four letters." Assume more remain. **Pair with T1** (same kind of cross-file pass).
 
