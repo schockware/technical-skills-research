@@ -10,9 +10,9 @@
 
 ## What this research is
 
-An original theoretical framework arguing that the CTO title in startup contexts contains three structurally distinct operating modes that require incompatible skill sets, with failure clustering at mode boundaries rather than within modes. The framework is grounded in convergent evidence from organizational growth theory, leadership research, startup survival data, engineering career ladder literature, and a 35-year etymological inheritance error.
+An original theoretical framework arguing that the CTO title in startup contexts contains three structurally distinct operating modes that require **distinct skill sets** — which the founding seat gives **no on-the-job runway to learn** — with failure clustering at mode boundaries rather than within modes. The framework is grounded in convergent evidence from organizational growth theory, leadership research, startup survival data, engineering career ladder literature, and a 35-year etymological inheritance error. *(Note: "incompatible skill sets" — the original phrasing — is **retired**; the skills are distinct and demonstrably can coexist [`18_RESEARCH`], the defect is the missing runway. The role is **under-resourced**, not irrational; see README retirement callout.)*
 
-**The central claim:** The CTO title was coined in the late 1980s by large enterprises to describe what we term the Strategist mode. When startups adopted the title during the dot-com era, they applied it unchanged to the Builder mode — structurally the opposite end of the spectrum — and expected one person to traverse the entire distance without naming the transitions, providing support for them, or acknowledging that the skills required are sequentially incompatible.
+**The central claim:** The CTO title was coined in the late 1980s by large enterprises to describe what we term the Strategist mode. When startups adopted the title during the dot-com era, they applied it unchanged to the Builder mode — structurally the opposite end of the spectrum — and expected one person to traverse the entire distance without naming the transitions, providing support for them, or acknowledging that the skills required are sequentially *distinct* (and given no runway to learn). ⟦retired: "sequentially incompatible" — see `18_RESEARCH`⟧
 
 **The intended publication:** The framework will be published online by the human researcher. The goal is to get the information into the field — every CTO who recognizes their own failure pattern, every CEO who can have a different conversation with their technical co-founder, every investor who adds a mode-matching question to diligence.
 
@@ -47,9 +47,9 @@ An original theoretical framework arguing that the CTO title in startup contexts
 
 ## The irrational composite thesis (latest addition)
 
-The CTO role at seed stage demands a composite of three skill sets — technical craft, people infrastructure, and executive strategy — that the industry's own career architecture has formally recognized as incompatible by splitting them into separate tracks (IC vs management) and separate roles at scale (Larson's Staff Engineer archetypes).
+The CTO role at seed stage demands a composite of three skill sets — technical craft, people infrastructure, and executive strategy — that the industry's own career architecture has recognized as **different enough to require choosing**, by splitting them into separate tracks (IC vs management) and separate roles at scale (Larson's Staff Engineer archetypes). ⟦the split proves *divergence*, not *incompatibility* — see `18_RESEARCH`⟧
 
-**The IC/management track bifurcation:** Within 2-3 years of moving to management, technical skills atrophy. Engineers who remain IC don't develop people management skills. The industry created two parallel tracks precisely because the skills are incompatible.
+**The IC/management track bifurcation:** After moving to management, technical skills atrophy (timeline varies; the "2-3yr" figure was unverified and dropped — `07_APPENDIX` #14). Engineers who remain IC don't, by default, develop people-management skills. The industry created two parallel tracks because the skills are **different work requiring focus** — *not* because they cannot coexist (they demonstrably can; the engineer/manager pendulum shows people holding both — `18_RESEARCH`).
 
 **The Larson convergence:** Will Larson's Staff Engineer archetypes independently validate the taxonomy. At Series B+:
 - Architect → Builder at organizational scale (emerges ~100 engineers)
@@ -97,7 +97,7 @@ After classifying ~35 research threads from the session against the taxonomy:
 4. Motivational profile differences across modes — why Builders resist becoming Multipliers
 
 **Prior art check result:** Nobody has done this research. The observation that the CTO role changes at each stage is widely noted. What is not documented anywhere:
-- The precise mechanism (skills are sequentially incompatible, not just different)
+- The precise mechanism (skills are sequentially *distinct* with no learning runway — ⟦not "incompatible"; retired, `18_RESEARCH`⟧)
 - The structural cause (title coined for Mode 3, applied to Mode 1)
 - The distribution proof (Series B+ orgs independently solve the irrationality via role differentiation)
 - The research gap as evidence (management literature's blind spot for early-stage leadership confirms Builder mode's structural invisibility)

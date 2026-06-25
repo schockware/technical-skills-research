@@ -181,7 +181,7 @@ The corpus's problem is not dishonesty. It is **motivated framing by people who 
 
 | # | Bias | Severity | Cheapest honest fix |
 |---|---|---|---|
-| 1 | Confirmation-oriented collection (no disconfirming search) | High | Commission a "why the modes might *not* be incompatible" file (`R4`) |
+| 1 | Confirmation-oriented collection (no disconfirming search) | High | ✅ **ADDRESSED (2026-06-25):** the disconfirming file is written — `18_RESEARCH_modes_not_incompatible.md`. It found the modes are *distinct but can coexist* (engineer/manager pendulum, positive transfer), retired "incompatible" corpus-wide, and *strengthened* the "under-resourced" framing. |
 | 2 | Asymmetric scrutiny (promote allies, reframe threats) | High | Apply the 5-case sample's own skepticism to the finding drawn from it |
 | 3 | Win-either-way / unfalsifiable tests | High | Add the F1–F8 falsifiers at claim sites |
 | 4 | Vocabulary inflation ("survivor-proof," "falsifiable") | Med-High | Downgrade the words to what the evidence licenses |

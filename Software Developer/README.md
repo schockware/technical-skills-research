@@ -32,6 +32,8 @@
 
 Active research build, **published while under verification.** Citations introduced by `01_` — notably the **52.7% imposter-phenomenon** figure (Clance scale, 2024), software **knowledge half-life** estimates, and the **Peter Principle agent-based model** (2025) — are unverified pending a dedicated pass; treat as illustrative until logged. `03_` draws primarily on verified CTO-corpus anchors (`AX-REVERSION`, `AX-MW2018`, `AX-VL2023`, `AX-CURSE`) plus the CEB/Gartner corroboration; the Intuit 82% figure is flagged ⬜ pending verification. When any dev-ladder finding feeds the flagship CTO paper, it gets verified and recorded in [`../CTO/07_APPENDIX_citation_review.md`](../CTO/07_APPENDIX_citation_review.md).
 
+> **⚠️ "Incompatible" reconciliation pending (2026-06-25):** the CTO flagship retired the word **"incompatible"** corpus-wide ([`../CTO/18_RESEARCH_modes_not_incompatible.md`](../CTO/18_RESEARCH_modes_not_incompatible.md) — the skills are *distinct but can coexist*; the engineer/manager pendulum shows positive transfer). This area still uses "incompatible" in `01_` (lines 6, 90), `06_` (164), `08_` (203), and `README` line 5 — narrow them to **"distinct skill sets with no on-the-job runway"** when next revised. **`08_RESEARCH_axes_integration` line 217 already poses it correctly as the open question** ("are the skills genuinely incompatible, or just different in degree?") — that's the anchor; `18_RESEARCH` now answers it (*different, not incompatible*).
+
 ---
 
 *Part of the [Technical Skills Analysis](../README.md) study. Research conducted June 2026.*

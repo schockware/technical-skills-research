@@ -161,7 +161,7 @@ Change the investor question from "do you have a CTO?" to "what mode is your CTO
 **This solution does not exist.** No VC firm, accelerator, or investor framework currently asks mode-specific questions about technical leadership. The standard diligence question is binary: is there a named technical leader on the cap table?
 
 ### Why this matters
-The investor demand signal is the mechanism that institutionalized the irrational composite. Investors required a "CTO" on the team slide, startups adopted the title to satisfy that requirement, and the title carried incompatible expectations forward. If investors changed what they ask for, the entire downstream incentive structure shifts:
+The investor demand signal is the mechanism that institutionalized the composite. Investors required a "CTO" on the team slide, startups adopted the title to satisfy that requirement, and the title carried **mismatched expectations** forward (it implies a Strategist; it was handed to a Builder). ⟦"irrational composite" → "the composite"; "incompatible expectations" here = *title/role* mismatch, retained in that sense — see README callout⟧ If investors changed what they ask for, the entire downstream incentive structure shifts:
 
 - Founders would need to understand the modes to answer the question
 - The CTO title would need to be qualified by mode

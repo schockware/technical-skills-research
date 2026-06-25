@@ -143,7 +143,7 @@ But this is the paired org design solution (Solution 3 from the rational solutio
 
 The domain training finding strengthens the irrational composite thesis in a specific way:
 
-The thesis currently argues that the three CTO skill sets (technical craft, people infrastructure, strategic vision) are sequentially incompatible — each mode's success behaviors actively interfere with the next mode's requirements.
+The thesis ~~currently argues that the three CTO skill sets (technical craft, people infrastructure, strategic vision) are sequentially incompatible — each mode's success behaviors actively interfere with the next mode's requirements.~~ ⟦**RETIRED phrasing** — see `18_RESEARCH`: the skill sets are *distinct*, not incompatible, and the "actively interfere" claim is not supported (the engineer/manager pendulum shows *positive* transfer between the sets). The defensible claim: the sets are distinct and the founding seat gives *no runway* to acquire the next.⟧ The defensible argument is that the three CTO skill sets are **distinct and clearly defined**, and the founding stage provides **no on-the-job runway** to acquire each before being judged against it.
 
 The domain training research adds a second layer: **within the technical craft dimension itself**, domain depth and domain breadth are in tension. An expert cannot simply acquire adjacent domain competence through awareness and effort — the prior expertise creates interference that debiasing cannot correct.
 

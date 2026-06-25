@@ -301,7 +301,7 @@ These tracks diverge meaningfully around the senior engineer level (typically 4�
 
 Within 2–3 years of moving to management, technical skills atrophy because people management demands displace deliberate technical practice.¹³ The CTO role at seed stage requires both simultaneously, at full intensity.
 
-### 10.2 The Three Skills Are Sequentially Incompatible
+### 10.2 The Three Skills Are Sequentially Distinct ⟦retired: "Incompatible" — see `18_RESEARCH`; this superseded paper kept for record⟧
 
 **Builder → Multiplier:** The Builder's success depends on technical depth, decisive unilateral action, and direct ownership. The Multiplier requires releasing ownership, tolerating slower decisions made by others, and investing time in human development that produces no immediate technical output. Every habit that makes a great Builder actively interferes with becoming a Multiplier.
 
@@ -332,7 +332,7 @@ The research classification exercise confirms this: of 35 research threads exami
 
 ### 10.5 The Central Claim, Restated
 
-The CTO role at seed stage demands a composite of three skill sets — technical craft, people infrastructure, and executive strategy — that the industry's own career architecture has formally recognized as incompatible by splitting them into separate tracks and separate roles at scale.
+The CTO role at seed stage demands a composite of three skill sets — technical craft, people infrastructure, and executive strategy — that the industry's own career architecture has recognized as **different enough to require choosing**, by splitting them into separate tracks and separate roles at scale. ⟦was "recognized as incompatible"; the split proves divergence, not incompatibility — `18_RESEARCH`. Superseded paper, kept for record.⟧
 
 The industry solution to this incompatibility at Series B+ is role distribution. The industry's non-solution at seed stage is to collapse the distribution into one person, give them a title coined for the third skill set, provide no framework for the transitions between skill sets, and attribute the resulting failures to individual inadequacy.
 

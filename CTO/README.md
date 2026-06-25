@@ -59,7 +59,8 @@ The filename numbers reflect *creation* order and two overlapping numbering sche
 | 9 | `14_RESEARCH_domain_training_effectiveness.md` | research | Can domain expertise be trained? No — curse of expertise (`AX-CURSE`). Read after `13`. |
 | 10 | `15_RESEARCH_evaluation_isolation.md` | research | **The evaluation axis** — why the CTO can't self-diagnose their mode (no anchor above/below; HiPPO decay). Home of the **"legibility, not a cure"** closer + the `EVALUATIONS/` rationale. |
 | 11 | `16_RESEARCH_success_cases.md` | research | **Cross-area success thread (highest bias risk).** The rare exceptions — structured to show rarity, *not* extract a playbook. `RISK-SURVIVORSHIP` + 3-layer rigor model. Coordinates with `../Software Developer/14_`, `../Software Industry/14_`. |
-| 12 | `04_RESEARCH_classification_table.md` | research | ~35 research threads mapped to the taxonomy. Where the asymmetry RISK lives. |
+| 12 | `18_RESEARCH_modes_not_incompatible.md` | research | **The disconfirming-search file** (`R2` Bias 1). Argues *against* the corpus: the modes are *distinct but can coexist* (engineer/manager pendulum; positive skill transfer). Retires "incompatible" → "distinct + no runway." *Strengthens* the "under-resourced" framing. |
+| 13 | `04_RESEARCH_classification_table.md` | research | ~35 research threads mapped to the taxonomy. Where the asymmetry RISK lives. |
 
 **Supporting artifacts (reference, not narrative):**
 
@@ -85,7 +86,7 @@ The filename numbers reflect *creation* order and two overlapping numbering sche
 ## The argument in one pass
 
 1. **Observation** (`08_DRAFT` §1): a CTO's skill focus moves product → people → market. Not a ladder; a *transformation* (offload old + acquire new, in tension). Fails three ways: failure-to-acquire, burnout, slippage.
-2. **Divergence is real** (`08_DRAFT` §2): industry split these skills into two tracks (IC/management) and, at scale, into separate roles. It already declared them incompatible.
+2. **Divergence is real** (`08_DRAFT` §2): industry split these skills into two tracks (IC/management) and, at scale, into separate roles — i.e. it treats them as *different work that requires choosing*. (Not "incompatible" — the split proves *divergence*, not impossibility-of-coexistence; see `18_RESEARCH`.)
 3. **Irrational condition** (`08_DRAFT` §3): we demand the composite anyway, pre-scale, unsupported. §3.1 etymology (why unnamed) → §3.2 **scope-vs-kind keystone** (why only the CTO is catastrophic) → §3.3 investor signaling (who installed it).
 4. **Predicted failure** (`08_DRAFT` §4): failure clusters at the transformations, not within modes. Confirmed by Greiner, Carta/Crunchbase, Kruze.
 5. **Why it persists** (`10_RESEARCH`): ~4–6:1 cash compression makes it optimal for everyone but the CTO. Revealed-preference chain.
