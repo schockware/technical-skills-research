@@ -55,6 +55,8 @@ The diagnostic question — *"do you actually expect one person to transition al
 
 **Caution (carry the corpus discipline):** this must NOT become a backdoor to re-assert "the role is irrational" after R3 retired it. The claim has to be about the *expectation/attribution*, cleanly separated from the role-design claim §4 conceded. If it can't be cleanly separated, it doesn't survive — flag that honestly.
 
+**Fed by T4 (cultural expectations of intelligent people).** T4 supplies the *where's-the-line* framework — the doctor thought-experiment ("surgery + colonoscopies + taxes + drive an 18-wheeler + launch rockets — where does it cross into absurd?") that shows the reasonable/absurd line is *culturally drawn, not capacity-drawn.* If T4 holds, T2's answer sharpens: the irrationality isn't in the CTO demand per se, but in the **cultural permission** that lets us pile incompatible demands on engineers while the same list for a doctor is self-evidently absurd. T4 maps the line; T2 locates the CTO on it. See T4.
+
 **Possible home:** a new research file (`18_RESEARCH_expectation_irrationality.md`) once researched; may then feed a `DRAFT_SYNTHESIS` §3.5 or sharpen §3. Do NOT fold into the draft until researched + adversarially checked.
 
 ---
@@ -63,6 +65,35 @@ The diagnostic question — *"do you actually expect one person to transition al
 **Type:** corpus hygiene · **Priority:** low now, **required before public fork**
 
 Surfaced by the "four letters → three letters" catch (commit `6452990`): factual micro-errors (counts, dates, figures) propagate silently through incremental docs because they're grammatically/semantically plausible. Do a dedicated sweep: grep every number / count / date that appears in multiple files and confirm (a) they agree with each other, and (b) they match their cited source. Known prior catches of this class: 2.5yr tenure (fabricated), CMO "40 months" (wrong), Index 78% (rephrased), "four letters." Assume more remain. **Pair with T1** (same kind of cross-file pass).
+
+---
+
+### T4 — Cultural expectations surrounding intelligent people (separate study; feeds T2)
+**Type:** thesis-level research, *separate study* · **Priority:** high (it may resolve where the "irrational" claim legitimately lives)
+
+**The question, stated as the author framed it:**
+> *Can we expect a doctor to learn how to perform surgery, perform colonoscopies, do taxes, file insurance claims, drive an 18-wheeler, and launch rockets? Where does it cross the line of irrationality?*
+
+**Why this is the crux, not just an illustration.** Everyone *instantly* knows the doctor list is absurd — no argument required. That immediacy is the data: it shows the line between "reasonable to demand of a smart person" and "absurd" is **real, sharp, and culturally drawn — not capacity-drawn.** Each item on the doctor list is individually learnable; the absurdity isn't difficulty or even quantity. It's that the culture *refuses permission* to pile incompatible demands on a doctor — while it *grants* that permission for engineers/CTOs ("smart people should be able to learn anything"). **The irrationality T2 is hunting may not be in the CTO role at all — it may be in the cultural permission structure that lets us make of *some* intelligent people demands we'd laugh out of the room for others.**
+
+**This is the locus R1 never tested — and may recover the retired word.** R3 retired "irrational" because the *role design* is a rational budget equilibrium (`§4`). But "the culture irrationally extends 'learn anything' permission to engineers and not to doctors, with no principled basis for where the line falls" is a claim about **belief**, not org design — and R1's role-design rebuttal does not touch it. *(Author's own note: the original "irrational" claim was made "because we hadn't filled out all the spaces yet" — i.e., before the role-design locus was tested and found rational. T4 proposes the irrationality was real but **mislocated**: it lives in the expectation/permission, not the role.)*
+
+**The core research question — locate the line.** Why does the culture grant the "smart → learn anything" permission for technical roles but withhold it for medicine, law, aviation, etc.? Candidate factors to test:
+- **Visible licensure / external credential** — medicine and aviation have hard licenses that *define* scope; engineering's identity is organizationally constructed (`00_AXES_SUMMARY` Axis 5, *unlicensed identity*). Does the *absence* of a license remove the cultural brake on scope-piling?
+- **The IT-as-monolith folk model** — laypeople (and investors, CEOs, recruiters) may perceive "technical" as one undifferentiated competence ("he's technical, he can figure it out"), where they perceive medicine as obviously partitioned. The fungibility assumption (`02_MMM_fungibility_assumption`) at the cultural level.
+- **The generalist-genius / "gifted kid" myth** — a broader cultural script that intelligence is *general-purpose* and infinitely transferable. (Gifted-kid burnout, polymath idealization, "10x engineer" lore.)
+- **Domain *visibility of failure*** — a doctor's overreach kills someone visibly; a CTO's overreach decays a team slowly (`15_` M5). Does invisible failure *permit* the demand because the cost isn't legible?
+
+**The diagnostic that ties it to T2:** the doctor list works because it's *over* the line. The T2 question ("do you expect a CTO to transition all 3 modes?") works because it's *near* the line — close enough that people *do* say yes, but on reflection wouldn't defend it. T4 maps the line; T2 locates the CTO on it. Together they answer: **is the irrationality in the demand, or in the cultural license to make it?**
+
+**Scope:** explicitly a **separate study** (like Software Industry/Developer), because "cultural expectations of intelligent people" is its own literature (intelligence-as-general-purpose belief, credentialism, fungibility folk-models, gifted-kid/polymath scripts). Spin up as its own area when researched. **Carry the corpus discipline:** absence≠evidence, the doctor example is a *thought experiment that locates the question*, not proof of the answer; the actual claim needs the literature.
+
+**Connection map:**
+- **→ T2:** primary. T4 supplies the *where's-the-line* framework; T2 applies it to the CTO and tests the reflection-gap.
+- **↔ Software Industry thread:** this *is* the "human capacity issue disguised as 'smart people should learn everything'" through-line (`R3_STEELMAN` / `HANDOFF`), attacked from the belief side. Strong cross-reference; may belong adjacent to that area.
+- **↔ `00_AXES_SUMMARY` Axis 5 (unlicensed identity) + fungibility root cause** — both are structural; T4 asks whether they have a *cultural* parent (the permission structure).
+
+**Possible home:** a new sibling area `Cultural Expectations/` (or similar) once researched; until then, this entry + a pointer from T2.
 
 ---
 
