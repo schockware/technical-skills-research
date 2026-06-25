@@ -60,7 +60,9 @@ The filename numbers reflect *creation* order and two overlapping numbering sche
 | File | Purpose |
 |---|---|
 | `07_APPENDIX_citation_review.md` | Citation verification log + draft-anchored callouts. The publish-gate. |
-| `CONVENTIONS.md` | Greppable-anchor scheme (`AX-`/`RISK-`/`GAP-`/`XREF-`) + registry. |
+| `17_PREMISES_load_bearing_assumptions.md` | The two explicit premises the thesis stands on (P1 component-equivalence licenses borrowed evidence; P2 etymology-is-contingent). Written in response to the independent review. |
+| `R1_ADVERSARY_…` / `R2_FALSIFICATION_…` / `R3_STEELMAN_…` / `R4_OPEN_RESEARCH_…` | **Independent adversarial review track.** R1 attacks, R2 audits bias + falsifiers, **R3 is the defensible form to build the public draft on**, R4 the open agenda. |
+| `CONVENTIONS.md` | Greppable-anchor scheme (`AX-`/`RISK-`/`GAP-`/`XREF-`) + registry + premises pointer. |
 | `README.md` | This file. |
 
 ---

@@ -147,13 +147,12 @@ These three callouts are linked from `08_DRAFT_skills_divergence_thesis.md` by m
 
 ## Framing-risk register (RISK- anchors)
 
-### `AX-NO-TRIPLE-MODE` — no documented case of a CTO navigating all 3 modes (promoted finding)
-- **Claim site:** `16_RESEARCH_success_cases.md` headline. **Candidate for `08_DRAFT` §4 (prediction) and §8 (limitations).**
-- **The finding:** a search for a founding CTO who traversed Builder→Multiplier→Strategist as a *continuous tenure* found **none**; every "success case" resolves to 1–2 modes + departure (replaced or graceful exit). Strongest-possible result because it's survivor-proof: we looked at the survivors and the missing cell stayed empty.
-- **Why it's load-bearing-worthy:** it converts the success literature from a *threat* to the thesis into *support* for it, and confirms the evaluation-isolation finding (external naming required in every case).
-- **⚠️ but the 5 underlying cases are all anecdotal** — Medium series (Hediard), community post (anon), podcast (Visage), investor guide (Index), content-marketing blog (Watson). **The *finding* is strong; the *cases* are the weakest source class.** Before this goes load-bearing in the draft: confirm each case says what's claimed (esp. that each ended in departure/replacement, not sustained tenure), and frame the finding as "absence of evidence in available case literature," not "proof no CTO ever did it."
-- **Verified?** ⬜ Cases not independently verified. **Load-bearing?** High (if it enters the draft). **Confidence — 3** in the finding as stated (the absence is real in *available* literature; the universal claim would need a real sample).
-- Note: the Index 78% here uses the corrected `AX-INDEX78` form.
+### `AX-NO-TRIPLE-MODE` — no documented triple-mode case ⬇️ DE-ESCALATED (was "promoted finding")
+- **Claim site:** `16_RESEARCH_success_cases.md` headline. **Supporting color for `08_DRAFT` §8 (limitations) — NOT a §4 prediction pillar.**
+- **The finding (defensible form):** a search of *available* case literature for a founding CTO who traversed Builder→Multiplier→Strategist as a continuous tenure did not find one; the cases examined resolve to 1–2 modes + departure. This is **absence of documented evidence in a small biased sample**, not proof.
+- **De-escalation (2026-06-25, per independent `R2`):** the earlier "survivor-proof / strongest-possible / cannot be manufactured" framing was **overclaim** and is retracted. Absence of documented success is *also* what you'd see if successful CTOs don't write about it. The finding is **consistent-with the thesis, not probative.** The behavioral anchor that carries real weight is `AX-REVERSION` (n≈30,000, both outcomes in the denominator) — lead with that, cite this as color.
+- **⚠️ 5 underlying cases all anecdotal** — Medium (Hediard), community post (anon), podcast (Visage), investor guide (Index), content-marketing blog (Watson). Weakest source class. Frame only as "absence in available literature."
+- **Verified?** ⬜ Cases not independently verified. **Load-bearing? No — demoted to supporting.** **Confidence — 2** as a *finding* (it's an absence in a biased sample); the structural claim it gestures at is carried elsewhere. Index 78% uses corrected `AX-INDEX78`.
 
 ### `RISK-SURVIVORSHIP` — success-case research is presence-as-evidence by construction
 - **Claim site:** `16_RESEARCH_success_cases.md` (CTO) + `../Software Developer/14_…` + `../Software Industry/14_…` (cross-area success thread). Anchor tag in `16_` as `AX-SURVIVORSHIP`.

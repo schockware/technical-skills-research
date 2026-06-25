@@ -91,13 +91,15 @@ Each area gets a `*_success_exceptions.md` note applying the rigor model; the do
 
 ---
 
-# ★ THE HEADLINE FINDING: the category collapsed when we looked
+# THE HEADLINE FINDING: no triple-mode success case found in available literature
 
-*The CTO success cases were collected (June 25, 2026) and the result is the strongest possible outcome — the kind survivorship bias **cannot** manufacture:*
+> **⚠️ De-escalated (2026-06-25, per independent `R2` bias audit).** An earlier version called this "the strongest possible outcome — the kind survivorship bias cannot manufacture" and "survivor-proof." That was overclaim: the finding rests on **5 anecdotal blog/podcast/community cases** and an *absence* in available literature. Absence of documented success is *also* what you'd see if successful CTOs simply don't write about it (they're busy being CTOs). The finding is **suggestive and consistent-with the thesis — not probative.** It is stated below in that register. The behavioral anchor that *does* carry weight is `AX-REVERSION` (n≈30,000, failures and successes both in the denominator), not this.
 
-> **We went looking for a founding CTO who navigated all three modes (Builder → Multiplier → Strategist) as a continuous tenure. We could not find one.** Every documented "success case" is actually **one or two modes followed by departure** — replaced, or choosing to leave at a mode boundary, just with more grace and intentionality than the crisis-displacement pattern. The evidence for a founding CTO successfully traversing all three as a continuous tenure is **thin to nonexistent** in the available case literature.
+*The CTO success cases were collected (June 25, 2026). The result, stated at its defensible strength:*
 
-This is the result that *can't* be a survivor artifact: we looked directly at the survivors and the missing cell **stayed empty**. The success-case literature does not show CTOs beating the structure. It shows them **exiting it more gracefully.** That supports the taxonomy rather than challenging it.
+> **A search of the available case literature for a founding CTO who navigated all three modes (Builder → Multiplier → Strategist) as a continuous tenure did not find one.** Every documented "success case" examined resolved to **one or two modes followed by departure** — replaced, or choosing to leave at a mode boundary, with more grace than the crisis-displacement pattern. This is **absence of documented evidence in a small, biased sample**, not proof that no such CTO exists.
+
+What it is consistent with: the success-case literature, *as available*, does not show CTOs beating the structure — it shows them exiting it more gracefully. That is **compatible with** the taxonomy; it does not independently confirm it. (To actually test it, you'd need the denominator — CTOs who *attempted* all three modes — which famous-founder cases never supply. See `GAP-CTO-TRANSITION`.)
 
 **Three patterns across the cases (all survivor accounts, retrospectively smoothed — caveat stands):**
 1. **Successful transitions were named by someone *outside* the CTO** — a COO, community peers, an investor. The CTO never self-diagnosed. *(Direct confirmation of the evaluation-isolation finding, `15_RESEARCH` — external naming was required because internal self-perception was insufficient.)*
@@ -106,7 +108,7 @@ This is the result that *can't* be a survivor artifact: we looked directly at th
 
 **The honest contribution of this section:** not "here is how success looks," but *"even in the best available cases, the structural problem is visible — it just ends more gracefully."*
 
-<!-- APPENDIX-REF: AX-NO-TRIPLE-MODE — no documented case of a founding CTO navigating all 3 modes as continuous tenure; success cases resolve to graceful exit. Promoted to corpus finding; candidate for 08_DRAFT §4/§8. 5 underlying cases are anecdotal — verify before load-bearing. See 07_APPENDIX. -->
+<!-- APPENDIX-REF: AX-NO-TRIPLE-MODE — DE-ESCALATED 2026-06-25 (R2). Absence of documented triple-mode success in a small biased sample; consistent-with the thesis, NOT survivor-proof and NOT probative. Lead with AX-REVERSION (behavioral, n≈30,000), not this. Cite as supporting color only. See 07_APPENDIX + R2_FALSIFICATION. -->
 
 ---
 

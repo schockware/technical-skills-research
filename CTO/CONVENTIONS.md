@@ -4,6 +4,8 @@
 
 **Created:** 2026-06-24
 
+> **Load-bearing premises (2026-06-25):** Two assertions the thesis explicitly stands on are stated in `17_PREMISES_load_bearing_assumptions.md`. **P1 (component-equivalence)** licenses all borrowed non-CTO evidence — cite it wherever IC→EM / founder-transition / cross-domain evidence is used for a CTO claim. **P2 (etymology-is-contingent)** marks the etymology/investor/misnomer layer as non-load-bearing. These came out of the independent `R1`/`R2` adversarial review.
+
 ---
 
 ## The tag families
