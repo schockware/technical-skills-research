@@ -186,6 +186,43 @@ The honest size of the contribution: it converts a difficulty the field currentl
 
 ---
 
+## §4 — The strongest objection concedes the thesis
+
+A careful reader will, by now, have the strongest available rebuttal loaded — and it is a good one. We state it in its strongest form, because the move this section makes is to show that *making* it concedes the argument.
+
+> **The objection:** "You're describing an economic necessity, not a design flaw. A seed-stage startup *can't* staff three specialists — it can barely afford one generalist. Demanding one person cover the whole technical span isn't irrational; it's the only thing the budget allows. The composite is rational under constraint."
+
+This is the best objection because it is *true* — and it is true in exactly the way that establishes the thesis.
+
+### Why the objection is a concession
+
+Track what the objection assumes in order to be coherent. It says: *we would staff specialists if we could afford to.* But that sentence only makes sense if specialists are *what the work requires* — if the span genuinely exceeds what one person can do well. You do not say "we can't afford to split this job" about a job that one person handles comfortably; you say it about a job that *should* be split and isn't, for reasons of money rather than design. **The objection's own logic presupposes the capacity ceiling the thesis asserts.** It does not dispute that the span exceeds one person; it concedes that it does, and pleads budget.
+
+So the disagreement evaporates on inspection. The thesis does **not** claim the composite is *irrational* — the equilibrium may be perfectly efficient for the company (most startups die before the third mode matters; one cheap generalist plus replace-at-the-boundary can be the rational bet). The thesis claims something the objection grants: **the composite exceeds one person's reach, and is sustained not because it fits one person but because splitting it is unaffordable until later.** "Under-resourced," not "irrational." The objection and the thesis are saying the same thing in different registers — one calls it necessity, the other calls it under-resourcing, and they agree on the fact underneath.
+
+### The industry proves it believes the ceiling is real
+
+This is not a debater's trick that lives only in the logic. The industry *acts out* its belief that the composite exceeds one person, in two ways already established in this paper:
+
+1. **It distributes the composite the moment it can afford to.** Past the early stage, the work that one founding CTO held is split across a CTO, a VP of Engineering, engineering managers, and staff/principal engineers (`10_RESEARCH`). Nobody keeps the composite once they have the budget to break it up. Revealed preference: the distributed structure is what the industry builds when money is not the constraint — which means the composite was a budget compromise, not a considered design.
+
+2. **It split the title where the same rotation appeared in a function it could afford to split earlier.** Sales got the CRO/VP-Sales separation (§1) — the industry named the craft→strategy rotation as two roles the moment it was worth doing. Engineering's founding seat is simply the place where that split has not yet been affordable, not a place where it is unnecessary.
+
+The capacity problem, in other words, did not vanish at seed stage. Only the *funding to acknowledge it* did — and a single title was put in its place.
+
+### What this move does and does not claim
+
+The discipline here is exact, because the move is strong only if it does not overreach:
+
+- It is **logically airtight independent of any contested number.** It does *not* depend on the ~$1.1M distributed-cost figure being right, or on any compression ratio. It needs only one uncontested fact: **companies split the role when they can afford to.** That behavior is not in dispute; the cost figure can be wrong and the argument still holds.
+- It does **not** claim the composite is irrational, dominated, or a mistake the company would avoid if rational. The arrangement may be the efficient bet under uncertainty. The claim is narrower and harder to escape: *the composite exceeds one person's capacity, and is sustained by inability-to-fund-the-fix — which is precisely why the cost lands on the person rather than the structure.*
+
+That is the rare argument that makes the skeptic's strongest point do the work: the moment someone explains *why* the composite is necessary, they have agreed it is a composite that should not, on the merits, be one person's job.
+
+> **Plain form (for derivation):** *The best argument against all this is "startups can't afford to hire three people for it." But that's the whole point — you only say you "can't afford to split a job" about a job that should be split. The objection admits the work is too much for one person; it just says the money isn't there to fix that. And we know the industry agrees, because the moment companies can afford to, they break the role into four — and they already did exactly that split in sales, with the CRO. The job didn't get smaller at seed stage. The budget to admit it just wasn't there.*
+
+---
+
 ## Planned structure (increment roadmap)
 
 | § | Section | Source | Status |
@@ -194,7 +231,7 @@ The honest size of the contribution: it converts a difficulty the field currentl
 | §1 | The institutional fact: the IC/management split | R3 Pillar 1 + CRO exhibit (`09_`) | ✅ done |
 | §2 | The rotation is identity-gated & uncushioned | R3 Pillar 2 + `AX-REVERSION` + Premise 1 | ✅ this increment |
 | §3 | The misattribution is the harm (the legibility contribution) | R3 Pillar 3 + `15_` | ✅ this increment |
-| §4 | The accidental concession (objection → support) | R3 §strongest-objection | ⬜ |
+| §4 | The accidental concession (objection → support) | R3 §strongest-objection | ✅ this increment |
 | §5 | Concessions & falsifiers, in the draft's own voice | R3 concessions + falsifiers + `R4` | ⬜ |
 | App. | Audience-map derivation key | this file | ⬜ skeleton below |
 
@@ -206,11 +243,11 @@ The honest size of the contribution: it converts a difficulty the field currentl
 
 | Section → / Audience ↓ | §1 Institutional fact | §2 Rotation/reversion | §3 Misattribution | §4 Accidental concession | §5 Falsifiers |
 |---|---|---|---|---|---|
-| **CTOs / eng leaders** | "you were told to pick a track; the founding seat made you skip the choice" | "half of new EMs revert *even when trained* — it's not your skills, it's an identity switch you got no cushion for" | "'he couldn't scale' is the structure talking, not a verdict on you" | _(tbd)_ | _(usually dropped)_ |
-| **Founders / CEOs** | the split exists for a reason; your CTO is spanning it unsupported | provide the cushions (honest label, fallback, timeline, a capable receiving team) *before* the boundary | replace the sentence before you replace the person; serial replacement never converges | _(tbd)_ | _(light)_ |
-| **Investors / board** | the VP-Eng split you defer is the cushion you removed | ~50% reversion at the boundary you fund across; mode-aware diligence | stop penalizing the failure you select for; the replacement loop is a cost you're paying | the signal you require installs the gap | _(tbd)_ |
-| **Academic / researcher** | the verifiable seam (the one claim needing no framework) | the behavioral anchor (n≈30k) + the unrun *CTO-specific* cohort study (`GAP-CTO-TRANSITION`) | the falsifiable form: do mode-aware orgs intervene better than mode-blind? | — | **the payload** (F1–F4) |
-| **Job boards / recruiters** | the JD writes the composite; the CRO/VP-Sales split is the template you don't apply to eng | "hands-on AND strategic" demands both sides of a boundary half the field can't cross once | the JD that demands the composite is the first link in the misattribution loop | — | — |
+| **CTOs / eng leaders** | "you were told to pick a track; the founding seat made you skip the choice" | "half of new EMs revert *even when trained* — it's not your skills, it's an identity switch you got no cushion for" | "'he couldn't scale' is the structure talking, not a verdict on you" | "the role was too big for one person — everyone admits it the moment they can afford to split it" | _(usually dropped)_ |
+| **Founders / CEOs** | the split exists for a reason; your CTO is spanning it unsupported | provide the cushions (honest label, fallback, timeline, a capable receiving team) *before* the boundary | replace the sentence before you replace the person; serial replacement never converges | "we couldn't afford to split it" = you already know it should be split; plan for it | _(light)_ |
+| **Investors / board** | the VP-Eng split you defer is the cushion you removed | ~50% reversion at the boundary you fund across; mode-aware diligence | stop penalizing the failure you select for; the replacement loop is a cost you're paying | the diligence question isn't "do they have a CTO" but "what mode does the company need" | the signal you require installs the gap |
+| **Academic / researcher** | the verifiable seam (the one claim needing no framework) | the behavioral anchor (n≈30k) + the unrun *CTO-specific* cohort study (`GAP-CTO-TRANSITION`) | the falsifiable form: do mode-aware orgs intervene better than mode-blind? | the revealed-preference argument (split-when-affordable) is number-independent | **the payload** (F1–F4) |
+| **Job boards / recruiters** | the JD writes the composite; the CRO/VP-Sales split is the template you don't apply to eng | "hands-on AND strategic" demands both sides of a boundary half the field can't cross once | the JD that demands the composite is the first link in the misattribution loop | the "full-stack CTO forever" JD is the budget compromise dressed as a requirement | — |
 
 ---
 
