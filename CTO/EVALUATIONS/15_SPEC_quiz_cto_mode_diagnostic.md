@@ -1,9 +1,12 @@
 # CTO Mode Mismatch Diagnostic — Quiz Specification
 
-**Built from:** `PROMPT_quiz_build_for_opus.md`
-**Grounded in:** `00_RESEARCH_CONTEXT.md`, `13_RESEARCH_domain_centric_CTO.md`, `05_FULLTEXT_working_document.md`, `12_RESEARCH_software_developer_career.md`
+> **⚠️ SUPERSEDED (June 25, 2026): this diagnostic was NOT built.** Following the research to its conclusion, the decision was made not to release a CTO self-diagnostic — it would be administered to an epistemologically isolated individual, with input signals corrupted by the HiPPO effect, and a label that crystallizes rather than loosens identity investment; it is also weaponizable across a power gradient. See **[`16_RESEARCH_why_we_didnt_build_it.md`](16_RESEARCH_why_we_didnt_build_it.md)** for the full rationale. This spec is retained as the artifact-of-record — the careful work that the research then argued against shipping. The build status below is historical.
+
+**Built from:** `14_PROMPT_quiz_build_for_opus.md`
+**Grounded in:** `00_RESEARCH_CONTEXT.md`, `../13_RESEARCH_domain_centric_CTO.md`, `../05_FULLTEXT_working_document.md`, `../../Software Developer/12_RESEARCH_software_developer_career.md`
 **Author:** Opus 4.8, June 24, 2026
-**Status:** Spec for review — React build pending sign-off
+**Reviewed and patched by:** Sonnet 4.6, June 24, 2026
+**Status:** ~~Spec for build — patches applied, React build approved~~ → **Superseded; not built** (see banner above).
 
 ---
 
@@ -38,6 +41,8 @@ Scoring uses three running tallies — **B** (Builder), **M** (Multiplier), **S*
 - CTO mode is *later* than company mode → **Leading gap**
 
 Mode ordering for "earlier/later": Builder(1) < Multiplier(2) < Strategist(3).
+
+**Tie-breaking:** on equal top tallies, default to the *earlier* mode (conservative — surfaces lagging gaps rather than hiding them). A Builder CTO who ties with Multiplier gets the lagging-gap flag, not a pass. The cost of a false negative is higher than a false positive.
 
 ---
 
@@ -105,13 +110,19 @@ Objective signals only. The taker reports facts, not self-diagnosis. Scores feed
 - My leads make most calls; I set direction and unblock → M+2
 - My org makes calls within a strategy I own; I'm rarely in the room → S+2
 
+*(Note for results engine: centralized decision-making at seed was appropriate — it was the correct mode. The lagging-gap narrative should acknowledge this explicitly: the problem is not that the CTO was central then, it is that the pattern persists now.)*
+
 **Section 1 scoring:** sum into `companyB/M/S`. Resolve top mode. Apply the 20%-proximity transition-zone rule.
 
 ---
 
 ## Section 2 — How You Actually Spend Time (10 questions)
 
-**Frame shown to taker:** *"Now, your actual last few weeks. Not a typical week, not your best week — the real recent one. Resist the urge to answer how you wish it looked."*
+**Frame shown to taker:**
+
+> *"Now, your actual last few weeks. Not a typical week, not your best week — the real recent one. Resist the urge to answer how you wish it looked."*
+>
+> *"A note on how these questions are written: we don't ask you to rate your skills. Self-ratings of technical and leadership ability are unreliable predictors — what matters is what you actually did with your time and what you found meaningful. Answer for your real recent week, not your best week or your intended week."*
 
 Behavioral. Anchored to *last week / last month*. Scores feed `ctoB/M/S`.
 
@@ -151,7 +162,7 @@ Behavioral. Anchored to *last week / last month*. Scores feed `ctoB/M/S`.
 - I made sure their manager was handling it → M+1, S+1
 - I honestly didn't hear about it directly → S+1
 
-*(Q5 is calibrated per Constraint 7: "I stepped in and fixed it" reads as decisive help but scores Builder. The Multiplier answer requires letting someone less capable finish — the harder thing to admit.)*
+*(Calibrated per Constraint 7: "I stepped in and fixed it" reads as decisive help but scores Builder. The Multiplier answer requires letting someone less capable finish — the harder thing to admit.)*
 
 **Q6. When was your last board or serious investor meeting, and what was your role?**
 - Haven't had one / wasn't in it → B+1
@@ -165,7 +176,7 @@ Behavioral. Anchored to *last week / last month*. Scores feed `ctoB/M/S`.
 - Roughly — I'd check with my managers to be sure → M+1, S+1
 - No — that's deliberately not my altitude anymore → S+2
 
-*(Note the inversion: deep blocker-knowledge is a Builder signal here, not a virtue. A Strategist who can rattle off three team blockers is arguably operating too low.)*
+*(Note the inversion: deep blocker-knowledge is a Builder signal here, not a virtue. A Strategist who can rattle off three team blockers may be operating too low.)*
 
 **Q8. How much of your week is recurring 1:1s and team rituals you personally run?**
 - Very little — my calendar is reactive/build-focused → B+2
@@ -180,13 +191,15 @@ Behavioral. Anchored to *last week / last month*. Scores feed `ctoB/M/S`.
 - No — critical-path delivery doesn't route through me → M+1, S+1
 
 **Q10. Does your actual last week resemble your idea of an optimal week?**
+
 *(The Mathias & Williams calendar assessment, applied directly.)*
-- Yes — I spent my time on what I think matters most → (see resolution note)
+
+- Yes — I spent my time on what I think matters most → +1 to current top CTO tally
 - Mostly, but too much firefighting → +1 to current top CTO tally
 - No — I was pulled into work I think is below where I should be → S+1 (signals upward pull)
-- No — I was pulled *up* into work I'd rather not do, away from building → B+1 (signals downward pull / Builder identity)
+- No — I was pulled *up* into work I'd rather not do, away from building → **SOFT FLAG: wear-all-the-hats** (B+1, but also triggers flag — see note)
 
-*Q10 resolution: this question is a **consistency check**, not a primary scorer. After Sections 2–3 resolve a provisional CTO mode, Q10 sharpens the results narrative: a CTO whose "optimal" pulls them back toward building, while the company needs Multiplier, is the textbook lagging-gap profile and the results copy should say so explicitly.*
+*⚑ PATCH — Q10 soft flag:* The last option ("pulled up, away from building") is not just B+1. It is a **wear-all-the-hats soft flag** that must surface explicitly in the lagging-gap narrative regardless of overall mode score. A CTO whose optimal week pulls them back toward building, while the company needs Multiplier, is the textbook lagging-gap profile. The results engine should treat this answer the same as S3-Q6 "all three" — a named flag, not just a point. Add to lagging-gap copy: *"You told us your optimal week would pull you back toward building. That pull isn't a discipline problem — it's the identity signal the research says most reliably predicts a stalled transition."*
 
 ---
 
@@ -237,7 +250,7 @@ This section is the Mathias & Williams mechanism. It surfaces *give up the hats*
 - A craftsperson → B+2
 - A coach → M+2
 - A navigator → S+2
-- A bit of all three, honestly → B+1, M+1 (see note)
+- A bit of all three, honestly → B+1, M+1 + **SOFT FLAG: wear-all-the-hats**
 
 *Note on the "all three" option: it scores nothing toward Strategist deliberately. The "wear all the hats" instinct — refusing to give up any identity — is itself the Builder/anti-transition signal. The results engine treats a top-tally tie that includes this answer as a soft wear-all-the-hats flag.*
 
@@ -253,9 +266,9 @@ This section is the Mathias & Williams mechanism. It surfaces *give up the hats*
 - Right — that's the trajectory I want → M+1, S+1
 - Like the goal — building the *company* is the work now → S+2
 
-*(Q8 is the cleanest single give-up-the-hats item. "Like a loss" is the wear-all-the-hats identity; "like the goal" is give-up-the-hats. Per the research, this orientation is the strongest predictor of transition success — weight it accordingly in the narrative.)*
+*(Q8 is the cleanest single give-up-the-hats item. "Like a loss" is the wear-all-the-hats identity; "like the goal" is give-up-the-hats. Per the research, this orientation is the strongest single predictor of transition success.)*
 
-**Sections 2+3 scoring:** sum all into `ctoB/M/S`. Resolve top CTO mode. Note any wear-all-the-hats soft flags (Q6 "all three", Q10 downward pull) for the narrative.
+**Sections 2+3 scoring:** sum all into `ctoB/M/S`. Resolve top CTO mode. Note any wear-all-the-hats soft flags (S2-Q10 last option, S3-Q6 "all three") for the narrative.
 
 ---
 
@@ -263,7 +276,7 @@ This section is the Mathias & Williams mechanism. It surfaces *give up the hats*
 
 **Frame shown to taker:** *"Last short section. This is about your relationship to your field — separate from everything above."*
 
-Produces two independent 0–100 scores. **This is a parallel risk dimension, not a tiebreaker for mode** (Constraint 5 / cross-check item: do not collapse into mode).
+Produces two independent 0–100 scores. **This is a parallel risk dimension, not a tiebreaker for mode** — do not collapse into mode resolution.
 
 `domainSelf` (CTO's own domain-centricity), `domainMarket` (market's domain dependency).
 
@@ -296,13 +309,13 @@ Produces two independent 0–100 scores. **This is a parallel risk dimension, no
 - No — it's general tech / SaaS / consumer / marketplace → 0
 
 **Q6. Is the company's scope expanding into adjacent markets, or staying domain-focused? → `domainMarket` (inverse modifier)**
-- Expanding into new domains/markets → −15 (lowers market dependency *for the CTO's current fit*; raises expansion risk — see flag logic)
+- Expanding into new domains/markets → −15 (lowers market dependency for current fit; raises expansion risk — see flag logic)
 - Some adjacent exploration → −5
 - Staying focused on our core domain → +10
 
 *Note: Q6 is a modifier with a special role — "expanding" simultaneously lowers `domainMarket` and raises the **market-expansion risk flag**, because expansion is precisely what pushes a domain-expert CTO from the safe bottom-right cell into the high-risk bottom-left cell.*
 
-**Section 4 scoring & flag logic** (from the 2×2 in `13_RESEARCH_domain_centric_CTO.md`):
+**Section 4 scoring & flag logic** (from the 2×2 in `10_RESEARCH_domain_centric_CTO.md`):
 
 ```
 domainSelf   = clamp(sum Q1–Q3, 0, 100)   →  HIGH if ≥ 45 (domain-centric)
@@ -325,7 +338,7 @@ else:
 
 ## Output Format
 
-Four outputs, rendered in order. Every output **must** quote back specific answers the taker gave (cross-check item: no generic language). Below, `{…}` are fill-ins the engine pulls from the highest-contributing answers.
+Four outputs, rendered in order. Every output **must** quote back specific answers the taker gave — no generic language. Below, `{…}` are fill-ins the engine pulls from the highest-contributing answers.
 
 ### Output 1 — Company Mode
 
@@ -348,22 +361,31 @@ If transition-zone flag fired:
 
 **Lagging gap (highest risk):**
 > **Your company has moved into {ModeB} territory, but you're still operating as a {ModeA}.** This is the highest-risk configuration in the framework — it's where the average 2.5-year CTO tenure tends to end. This is not a verdict on your ability. The same mismatch breaks roughly half of engineers at the IC→manager step, under easier conditions than yours.
+>
 > The specific signals: {2–3 named behaviors, e.g. "you can name your team's top 3 blockers because you're personally working one; you'd fix a struggling engineer's problem yourself; and a tech-free future would feel like a loss."}
-> What to watch for, not fix overnight: the pull back toward building isn't a discipline problem — it's an identity one. {If wear-all-the-hats flag: "You told us a bit of all three roles feels most like you. Holding all the hats is the orientation that, in the research, most reliably predicts a stalled transition."}
+>
+> *If wear-all-the-hats flag (S2-Q10 or S3-Q6):* "You told us {specific answer}. That pull isn't a discipline problem — it's the identity signal the research says most reliably predicts a stalled transition. The research on founder role transitions is unambiguous: the barrier isn't skill, it's whether you can find meaning in someone else's growth rather than your own output."
+>
+> *For lagging Builder→Multiplier specifically:* "Being central to every decision was exactly right at seed. The problem isn't that you were central then — it's that the pattern persists now, when your company needs something different from you."
 
 **Leading gap:**
-> **You're operating ahead of your company's current stage** — running a {CTOMode} playbook at a {CompanyMode} company. This can be a genuine advantage if {condition: "you're deliberately building the org and systems the next stage will need before it arrives."} The risk to name: {e.g. "operating too high too early can leave today's hands-on, build-fast needs under-served — and at this stage, shipping to find product-market fit is still the whole game."}
+
+> **You're operating ahead of your company's current stage** — running a {CTOMode} playbook at a {CompanyMode} company.
+>
+> *⚑ PATCH — leading gap copy:* The risk here is concrete: at {CompanyMode} stage, the primary job is still {specific stage job}. A Strategist-mode CTO at a seed company isn't building the thing, isn't close enough to the team to unblock fast, and may be thinking about where the company should be in two years while nobody is shipping. The advantage — if it is one — is building the org and systems the next stage will need before it arrives. That's only an advantage if someone else has the current stage covered.
+>
+> "This can work if you have a strong technical co-founder or VP Engineering handling {CompanyMode}-stage execution. If you don't, the gap between your altitude and the day-to-day isn't strategic — it's a vacuum."
 
 ### Output 4 — Domain Risk Flag (only if triggered)
 
 **Domain-centric risk:**
-> **Domain risk: your expertise may be working against you here.** You read as deeply identified with your domain, but your market doesn't strictly require that depth — and {if expanding: "your scope is widening"}. This is the configuration where deep expertise quietly misfires across domain boundaries (confident, fast, and structurally wrong outside your lane) and where teams get built to agree with one worldview. The defense is structural, not willpower: a credible dissenter outside your domain, and a pre-mortem before any cross-domain bet.
+> **Domain risk: your expertise may be working against you here.** You read as deeply identified with your domain, but your market doesn't strictly require that depth — {if expanding: "and your scope is widening."}. This is the configuration where deep expertise quietly misfires across domain boundaries: confident, fast, and structurally wrong outside your lane. Teams built around one domain worldview also tend to validate each other's assumptions rather than challenge them. The defense is structural, not willpower: a credible dissenter outside your domain, and a pre-mortem before any cross-domain bet.
 
 **Market-expansion risk:**
-> **Domain risk: your fit is real today but scope-dependent.** Your deep domain expertise is a genuine asset in a domain-dependent market — it becomes a Strategist-stage superpower (regulatory credibility, the relationships generalists can't fake). The flag: you're expanding beyond the core domain. The moment scope leaves your domain, that same expertise stops being calibrated. Pair yourself with breadth before the expansion, not after.
+> **Domain risk: your fit is real today but scope-dependent.** Your deep domain expertise is a genuine asset in a domain-dependent market — it becomes a Strategist-stage superpower (regulatory credibility, the relationships generalists can't replicate). The flag: you're expanding beyond the core domain. The moment scope leaves your domain, that same expertise stops being calibrated. Pair yourself with breadth before the expansion, not after.
 
 **Time-limited fit note:**
-> **Domain note: strong fit, with a horizon.** Your domain depth matches a domain-dependent market — the best-case cell for an expert CTO. It holds as long as the company stays in-domain. Keep one eye on scope.
+> **Domain note: strong fit, with a horizon.** Your domain depth matches a domain-dependent market — the best-case cell. It holds as long as the company stays in-domain. Keep one eye on scope.
 
 **Credibility-gap note:**
 > **Domain note: watch the credibility layer.** You're a generalist in a market where domain credibility opens doors. That's workable — generalist adaptability is the right primary trait — but make sure a domain-deep VP of Engineering or chief architect is carrying the credibility your buyers and partners expect.
@@ -378,7 +400,7 @@ If transition-zone flag fired:
 |---|---|
 | Multiplier questions too easy | S2-Q5, S3-Q2, S3-Q4, S3-Q7 deliberately make the Multiplier option the *less* flattering / less instinctive choice; "excited to learn" / "fix it myself" are decoys that score Builder. |
 | Domain axis removed or collapsed | Section 4 is fully independent; produces its own 0–100 scores and its own Output 4, never feeds mode resolution. |
-| Gap language softened to platitudes | Lagging-gap copy keeps weight ("highest-risk configuration," "where the average tenure ends") while de-personalizing blame. Constraint 4 + tone. |
+| Gap language softened to platitudes | Lagging-gap copy keeps weight ("highest-risk configuration," "where the average tenure ends") while de-personalizing blame. |
 | Modes named in questions | No question text uses Builder/Multiplier/Strategist. Labels appear only in Outputs 1–3. |
 | Asks skills not behavior/identity | S1 = objective facts, S2 = last-week behavior, S3 = identity/energy. No "how good are you at X" anywhere. |
 | Produces a grade | Output is company-mode + cto-mode + gap, never good/bad. |
@@ -388,12 +410,17 @@ If transition-zone flag fired:
 | Transition zone lost | Explicit 20%-proximity rule on company tallies → dedicated ⚠️ block in Output 1. |
 | Generic result language | Every output template quotes the taker's highest-contributing answers verbatim. |
 | Domain framed as secondary | Output 4 is a peer output, labeled "Domain risk," with its own four-way flag logic. |
+| Self-assessment reliability not addressed | Section 2 framing paragraph explains *why* the quiz asks about behavior rather than skill ratings. |
+| Q10 soft flag missing | Patched: last option now triggers explicit wear-all-the-hats flag, surfaces in lagging-gap narrative. |
+| Leading-gap copy too generic | Patched: concrete failure mode named (Strategist at seed = vacuum, not strategy); condition for it being an advantage made explicit. |
+| Lagging-gap doesn't acknowledge seed-stage centralization was correct | Patched: S1-Q8 note and lagging-gap copy both acknowledge it. |
 
 ---
 
 ## Open decisions for the build
 
-1. **Question count** lands at 8 + 10 + 8 + 6 = **32** (matches the prompt's per-section counts exactly).
-2. **Tie-breaking** on equal top tallies: default to the *earlier* mode (more conservative — surfaces lagging gaps rather than hiding them). Confirm.
-3. **Persistence/sharing** — does the React app need to export/print results, or is on-screen enough? (Assumed on-screen + print-friendly for v1.)
-4. **The 20% transition threshold** is a tunable — easy to adjust after we see real answer distributions.
+1. **Question count:** 8 + 10 + 8 + 6 = **32** total.
+2. **Tie-breaking:** default to earlier mode (conservative — surfaces lagging gaps). Confirmed in scoring model.
+3. **Persistence/sharing:** on-screen + print-friendly for v1. Export/sharing in v2 if needed.
+4. **The 20% transition threshold** is tunable after we see real answer distributions.
+5. **Wear-all-the-hats flag accumulation:** if both S2-Q10 and S3-Q6 fire, the flag should appear once in results with stronger language, not twice.
