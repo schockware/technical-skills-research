@@ -57,12 +57,50 @@ A draft built on exactly those four, conceding everything in the must-not-claim 
 
 ---
 
+## §1 — The one fact this rests on: software split the career into two tracks
+
+Everything in this paper that an outside reviewer can check, without first accepting our framework, reduces to a single institutional fact:
+
+> **The software industry built two formal, separately-laddered, separately-evaluated career tracks — individual contributor and management — and told engineers to choose between them. No other major profession formalized that split the way software did.**
+
+This is not a finding we produced. It predates this research, it is visible in the published career ladder of essentially every technology company, and it was not surfaced by a search that went looking to confirm a thesis. A skeptic who rejects everything else in this paper still has to account for it. It is the floor.
+
+Two things follow from it, and only these two are load-bearing.
+
+**First: the split is the industry's own admission that the two are different work.** You do not build separate ladders, separate titles, separate promotion rubrics, and separate performance criteria for *the same job done at different levels*. You build them when the work itself diverges — when being excellent at the first thing stops predicting excellence at the second. Medicine did not split "senior doctor who treats patients" from "senior doctor who manages doctors" into two formal tracks, because in medicine the senior version is *more of the same craft*. Software did split it, which is the industry telling us, in the structure of its own org charts, that individual technical excellence and the management of technical people are different enough to require choosing.
+
+**Second: the founding CTO is asked to span exactly that boundary — and to span it pre-scale and alone.** The split exists so that most engineers never have to be both at once: you pick the IC ladder or the management ladder, and the organization staffs the other side. The founding CTO is the one role positioned where the organization has not yet staffed either side. They are the IC *and* the manager *and* (the title implies) the executive, before the company is large enough to have separated any of them. The institutional split that protects everyone else from holding both at once is precisely the protection the founding CTO does not have.
+
+### The cleanest external exhibit: the CRO title-split
+
+If the claim is "the industry recognizes this rotation and acts on it everywhere except engineering's founding seat," the single clearest piece of evidence is a *different* function that got the split engineering never did.
+
+In sales, the same craft→organization→strategy rotation appears: the person who personally closes deals (craft) is not doing the same job as the person who builds and runs a revenue organization (strategy). The industry resolved this by **splitting the title**: the VP of Sales carries the building/operating load, and the **Chief Revenue Officer** is the strategic, market-and-board-facing role. The split happened because the composite was visibly too much for one person to hold well — and naming it as two roles was the fix.
+
+Engineering's equivalent split — a clean, industry-standard separation of the hands-on technical leader from the strategic technical executive, available *from the founding stage* — never happened. The CTO title is asked to be both, and the VP-Eng split, where it exists at all, typically arrives only once the company can afford it (post-Series A), by which point the founding-stage span has already been demanded and, often, already failed.
+
+This is one comparator role and one uncontested structural fact. It needs no anecdote, no survey, and no proprietary data. It is the strongest single exhibit in the paper precisely because a skeptic can verify it in an afternoon: *the industry split the CRO from the VP of Sales, and never gave engineering the same founding-stage split.* <!-- APPENDIX-REF: AX-CRO-SPLIT — CRO (strategic/board-facing) vs VP Sales (operational) distinction; the split arrives at org-maturity, not founding stage. Verified 2026-06-25 across multiple recruiting/sales sources (convergent, content-class but consistent). The structural fact (the split exists; eng never got the founding-stage version) is what's load-bearing, not any single source. See 07_APPENDIX. -->
+
+*(Source note: the CRO/VP-Sales distinction is corroborated across multiple independent industry sources — strategic/multi-quarter vs. operational/short-horizon, with the split typically appearing as the company matures rather than at founding. The load-bearing element is the bare structural fact — the split exists in sales and has no founding-stage engineering equivalent — which is verifiable and uncontested, not the precise wording of any one source.)*
+
+### The discipline this section holds to
+
+Two narrowings, stated so they cannot be quietly widened later:
+
+1. **One discontinuity, not three.** This section establishes that *one* skill boundary — individual-contributor-to-manager — is institutionally real and externally verifiable. It does **not** establish "three modes that diverge in kind." The three-mode lens (Builder → Multiplier → Strategist) is a useful description of the arc, but only this first seam is corroborated by a fact outside the framework. The Multiplier→Strategist seam is carried as plausible framework, not as a second proven discontinuity.
+
+2. **Most severe, not different in kind.** The next section concedes that other C-suite roles rotate too. The CTO's distinction is not that it rotates while others don't — it is that it rotates across the *one boundary the industry formalized into separate tracks*, which sharpens the rotation in a way the CFO's and CMO's do not face. "Most severe case of a shared pattern," never "a different kind of thing." *(Premise 2 also applies: this structural fact holds regardless of the title's etymology — see `17_PREMISES`.)*
+
+> **Plain form (for derivation):** *Software made engineers choose between "do the work" and "manage the people who do the work" — two separate career tracks. The founding CTO is the one job forced to be both at once, before the company is big enough to split them. We know the industry sees this rotation because it split the CRO off from the VP of Sales — and never gave engineering the same split at the founding stage.*
+
+---
+
 ## Planned structure (increment roadmap)
 
 | § | Section | Source | Status |
 |---|---|---|---|
-| §0–0.1 | Thesis + contribution + discipline | R3 thesis / contribution | ✅ this increment |
-| §1 | The institutional fact: the IC/management split | R3 Pillar 1 + CRO exhibit (`09_`) | ⬜ next |
+| §0–0.1 | Thesis + contribution + discipline | R3 thesis / contribution | ✅ done |
+| §1 | The institutional fact: the IC/management split | R3 Pillar 1 + CRO exhibit (`09_`) | ✅ this increment |
 | §2 | The rotation is identity-gated & uncushioned | R3 Pillar 2 + `AX-REVERSION` + Premise 1 | ⬜ |
 | §3 | The misattribution is the harm (the legibility contribution) | R3 Pillar 3 + `15_` | ⬜ |
 | §4 | The accidental concession (objection → support) | R3 §strongest-objection | ⬜ |
@@ -77,11 +115,11 @@ A draft built on exactly those four, conceding everything in the must-not-claim 
 
 | Section → / Audience ↓ | §1 Institutional fact | §2 Rotation/reversion | §3 Misattribution | §4 Accidental concession | §5 Falsifiers |
 |---|---|---|---|---|---|
-| **CTOs / eng leaders** | _(tbd)_ | the reframe: "the ~50% isn't you" | "you're under-resourced, not inadequate" | _(tbd)_ | _(usually dropped)_ |
-| **Founders / CEOs** | _(tbd)_ | resource the transition before the boundary | name the mode, don't blame the person | _(tbd)_ | _(light)_ |
-| **Investors / board** | _(tbd)_ | mode-aware diligence | stop penalizing the failure you select for | the signal you require installs the gap | _(tbd)_ |
-| **Academic / researcher** | the verifiable seam | the unrun cohort study | — | — | **the payload** (F1–F4, `GAP-CTO-TRANSITION`) |
-| **Job boards / recruiters** | the JD writes the composite | "hands-on AND strategic" attracts mediocre-at-both | — | — | — |
+| **CTOs / eng leaders** | "you were told to pick a track; the founding seat made you skip the choice" | the reframe: "the ~50% isn't you" | "you're under-resourced, not inadequate" | _(tbd)_ | _(usually dropped)_ |
+| **Founders / CEOs** | the split exists for a reason; your CTO is spanning it unsupported | resource the transition before the boundary | name the mode, don't blame the person | _(tbd)_ | _(light)_ |
+| **Investors / board** | the VP-Eng split you defer is the cushion you removed | mode-aware diligence | stop penalizing the failure you select for | the signal you require installs the gap | _(tbd)_ |
+| **Academic / researcher** | the verifiable seam (the one claim needing no framework) | the unrun cohort study | — | — | **the payload** (F1–F4, `GAP-CTO-TRANSITION`) |
+| **Job boards / recruiters** | the JD writes the composite; the CRO/VP-Sales split is the template you don't apply to eng | "hands-on AND strategic" attracts mediocre-at-both | — | — | — |
 
 ---
 

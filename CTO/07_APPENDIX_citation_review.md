@@ -89,6 +89,12 @@ These three callouts are linked from `08_DRAFT_skills_divergence_thesis.md` by m
 - **Load-bearing?** **High.** **Confidence — 4.** **How to present:** keep Weekes as the vivid framing, but anchor the *number* to CEB/Gartner ("management research finds roughly half of new managers/executives fail within 18–24 months"). This moves it from one VP's estimate to estimate-plus-large-sample-corroboration — a real strengthening.
 - Sources: [First Round Review](https://review.firstround.com/new-engineering-manager-advice/); CEB/Gartner new-manager failure data (2013, n≈30,000); McKinsey leadership transitions (2014).
 
+### `AX-CRO-SPLIT` — CRO vs VP Sales title-split (the keystone external exhibit for §1) ✅ VERIFIED (structural fact)
+- **Claim site:** `DRAFT_SYNTHESIS.md` §1 (R3 Pillar 1's "strongest single exhibit"); originates in `09_RESEARCH` M2.
+- **The claim:** sales formalized a strategic/operational split — **CRO** (strategic, multi-quarter, board/market-facing) vs **VP of Sales** (operational, short-horizon, runs the sales org) — and the split typically arrives at org-maturity, not founding. Engineering never got the equivalent founding-stage split.
+- **Verified? ✅ (2026-06-25)** — corroborated across multiple independent recruiting/sales sources (Cowen Partners, Vendux, GTMnow, etc.); convergent on the exact strategic-vs-operational distinction AND the maturity-timing. Content-class sources, but **convergent and the underlying fact is uncontested** — the load-bearing element is the bare structural fact (the split exists; eng has no founding-stage version), not any single source's wording.
+- **Load-bearing? High** (it's §1's keystone, chosen precisely because it needs no proprietary data). **Confidence — 4.** Earlier `09_` sourcing traced to a single blog (Charliesolorzano); this verification replaces that with convergent corroboration.
+
 ### `AX-CURSE` — the curse of expertise (cross-domain failure mechanism) ✅ VERIFIED
 - **Source location:** `13_RESEARCH` §Failure Cascade #2; `14_RESEARCH` Findings 1 & 4. **This is the human-domain replacement for TEE** (`#10`) as the load-bearing cross-domain failure mechanism.
 - **Claim it supports:** deep expertise in one domain *actively interferes* with competence in an adjacent one — confident, miscalibrated pattern-matching that awareness can't fix.

@@ -77,6 +77,7 @@ The source of truth for *status* is each destination file (e.g. `07_APPENDIX`). 
 | `AX-INDEX78` | `10_RESEARCH`, `00` | ⚠️ "founding CTO OR technical CEO" (corrected from "at seed") | ✅ Corrected in source |
 | `AX-ATROPHY` | `08_DRAFT` §2a, `11`, `12` | Skill atrophy after mgmt move (qualitative; dropped false "2–3yr" precision) | ✅ Corrected in source |
 | `AX-CURSE` | `13_RESEARCH`, `14_RESEARCH` | Curse of expertise (Camerer 1989 + Hinds 1999 + Gupta 2017) — human replacement for TEE | ✅ Verified (peer-reviewed) |
+| `AX-CRO-SPLIT` | `DRAFT_SYNTHESIS` §1, `09_RESEARCH` | CRO (strategic) vs VP Sales (operational) split; eng has no founding-stage equivalent — §1 keystone | ✅ Verified (convergent industry) |
 | `AX-OXYGEN-EVAL` | `15_RESEARCH` | Oxygen = "measure from below"; CTO breaks both above/below anchors | ✅ (#5 verified) |
 | `AX-CTO-ISOLATION` | `15_RESEARCH` | 3 blockers to external CTO evaluation (IP, role-incomparability, hierarchy) | ⬜ HBR-loneliness is CEO analog |
 | `AX-HIPPO-DECAY` | `15_RESEARCH` | Feedback signal degrades with tenure (authority bias + org filtering) | ⬜ Sunstein/Hastie, Kohavi |
