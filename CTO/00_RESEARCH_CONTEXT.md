@@ -71,7 +71,7 @@ The original enterprise CTO was a Strategist from day one — managing research 
 
 During the dot-com era, startups adopted the title without the role definition migrating with it. A startup CTO in 1998 was typically a solo technical co-founder writing code — a Builder — with no team to manage.
 
-**The misnomer stated:** The title has always described the Strategist mode. Applied from day one to someone in the Builder mode. The same four letters have described opposite functions for 35 years. Nathan Myhrvold (Microsoft CTO) observed this ambiguity directly: many people doing the CTO job well didn't have the title, and many people with the title weren't doing it well.
+**The misnomer stated:** The title has always described the Strategist mode. Applied from day one to someone in the Builder mode. The same three letters have described opposite functions for 35 years. Nathan Myhrvold (Microsoft CTO) observed this ambiguity directly: many people doing the CTO job well didn't have the title, and many people with the title weren't doing it well.
 
 ---
 

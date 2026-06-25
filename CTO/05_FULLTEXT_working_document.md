@@ -32,7 +32,7 @@ The central claim is simple: the CTO title has always described the Strategist m
 
 ### 1.1 The Misnomer Stated
 
-The title "CTO" is a misnomer in startup contexts in three senses. **First**, it emphasizes the wrong skill: "Technology" centers technical depth as the primary qualifier, but as we document, technical depth is a threshold requirement at every mode, not the differentiating skill at any of them. **Second**, it implies singularity: one title, one job, one continuous role. The data shows three structurally distinct jobs, with failure clustering at the transitions between them rather than within any mode. **Third**, and most consequentially, the title was borrowed from an enterprise context where it described the Strategist mode, and applied without modification to startup contexts where it describes the Builder mode. The same four letters have meant opposite things for 35 years, and nobody has formally named that gap.
+The title "CTO" is a misnomer in startup contexts in three senses. **First**, it emphasizes the wrong skill: "Technology" centers technical depth as the primary qualifier, but as we document, technical depth is a threshold requirement at every mode, not the differentiating skill at any of them. **Second**, it implies singularity: one title, one job, one continuous role. The data shows three structurally distinct jobs, with failure clustering at the transitions between them rather than within any mode. **Third**, and most consequentially, the title was borrowed from an enterprise context where it described the Strategist mode, and applied without modification to startup contexts where it describes the Builder mode. The same three letters have meant opposite things for 35 years, and nobody has formally named that gap.
 
 Nathan Myhrvold, Microsoft's CTO and one of the few people whose role closely resembled the original enterprise definition of the title, captured the ambiguity plainly when asked to name great CTOs: "many of the people who actually were great CTOs didn't have that title, and at least some of the people who have that title arguably aren't great at it."
 
@@ -342,7 +342,7 @@ This is not a critique of any individual CTO. It is a description of a structura
 
 ## 11. Conclusion
 
-The CTO title has been a structural misnomer since its adoption by startups in the 1990s. Coined to describe an enterprise executive operating in what we term the Strategist mode — outward-facing, board-communicating, vision-setting — it was applied unchanged to startup technical co-founders operating in the Builder mode — hands-on, code-writing, product-making. The same four letters have described opposite functions for 35 years.
+The CTO title has been a structural misnomer since its adoption by startups in the 1990s. Coined to describe an enterprise executive operating in what we term the Strategist mode — outward-facing, board-communicating, vision-setting — it was applied unchanged to startup technical co-founders operating in the Builder mode — hands-on, code-writing, product-making. The same three letters have described opposite functions for 35 years.
 
 The confusion this produces is not accidental. It is what the title, by structural omission, was guaranteed to produce. A CTO who has never been told their job has three distinct modes cannot be expected to navigate the transitions between them. The failure that results looks like personal inadequacy. It is organizational design failure.
 
