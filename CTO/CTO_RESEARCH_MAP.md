@@ -21,7 +21,8 @@ The CTO role is an **irrational composite**: it demands one person be excellent 
 |---|---|
 | `00_RESEARCH_CONTEXT.md` | Master handoff. The locked taxonomy (Builder/Multiplier/Strategist), the central claim, key sources, open questions. **Start here for the framework itself.** |
 | `05_FULLTEXT_working_document.md` | The original 11-section paper (failure-first framing). The etymology (CTO title coined ~late-80s for the Strategist mode at enterprise scale, mis-applied to startup Builders), Greiner alignment, the irrational-composite + Larson convergence. |
-| `08_DRAFT_skills_divergence_thesis.md` | **The current lead thesis** (skills-first reframe). §1 the transformation model; §2 divergence is real (IC/management split); §3 the irrational condition + etymology + scope-vs-kind keystone + investor signaling; §4 failure clusters at transformations. |
+| `08_DRAFT_skills_divergence_thesis.md` | **Superseded as build target** (incremental-phase lead draft; see its banner + `DRAFT_SYNTHESIS`). Still the source-of-record for: §1 transformation model; §2 divergence (IC/management split). Its §3 "irrational condition" naming and §3.1 etymology were *retired/demoted* downstream — do not carry those forward. |
+| `DRAFT_SYNTHESIS.md` | **The current public draft** — defensible form built on `R3_STEELMAN`. §0–§5: thesis · institutional fact · rotation/uncushioned · misattribution/legibility · accidental concession · concessions+falsifiers. Build externally-facing work here. |
 | `04_RESEARCH_classification_table.md` | ~35 research threads mapped to the taxonomy. Where the "0 Strategist findings" asymmetry lives (and the warning not to use absence as evidence). |
 | `01/02/03/06_*` (artifacts) | Summaries + full text of the working doc, the skills compendium (skills × mode × transfer-type), and the practitioner transition brief. Reference, not narrative. |
 

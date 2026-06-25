@@ -6,8 +6,12 @@ Tracked open items that span sessions. Each carries enough context to resume col
 
 ## Open
 
-### T1 — `08_DRAFT_skills_divergence_thesis.md` obsolescence pass
+### T1 — `08_DRAFT_skills_divergence_thesis.md` obsolescence pass ✅ DONE (2026-06-25, commit below)
 **Type:** corpus hygiene · **Priority:** medium (do before any public fork; not blocking synthesis increments)
+**Resolution:** Demote-in-place (option a). Added a SUPERSEDED-AS-BUILD-TARGET banner to `08_DRAFT` (with the "discoveries kept changing our assumptions" framing + the "irrational" retirement called out in its own title); fixed the ~5 stale "lead/current/spine" framings (`README` ×2, `CTO_RESEARCH_MAP`, `DRAFT_GAP_MAP` ×2 — the latter marked largely-fulfilled since `DRAFT_SYNTHESIS` is now the clean version it was planning toward). Left the ~15 content-source/anchor/provenance references intact (they still accurately cite `08_DRAFT` as the *source* of material, not the build target). Verified: zero stale lead framings remain. **Original task text retained below for the record.**
+
+---
+*(original task, now closed:)*
 
 `08_DRAFT` was the *lead thesis* through the incremental research phase. It has since been **superseded as the build target** by `R3_STEELMAN` + `DRAFT_SYNTHESIS` (the public draft is built on R3, explicitly *not* on `08_DRAFT`'s rhetorical high points). But `08_DRAFT` still:
 - carries de-escalated/retired claims in their *original strong form* (e.g. the rhetoric R3's must-not-claim table forbids);

@@ -2,7 +2,7 @@
 
 **The framework:** the CTO title contains three structurally distinct operating modes (Builder / Multiplier / Strategist) that demand skill sets diverging in *kind*, not degree. Asking one person to transform across all three — sequentially, pre-scale, unsupported — is an irrational composite, and the failure that results is structural, not personal.
 
-**Status:** Active research. Skills-first reframe (`08_DRAFT`) is the current lead thesis; the original failure-first paper (`05_FULLTEXT`) is the prior framing. Citations under review (`07_APPENDIX`); publishable version not yet forked.
+**Status:** Active research. The public draft is **`DRAFT_SYNTHESIS.md`**, built on the independent adversarial review's defensible form (`R3_STEELMAN`). The skills-first reframe (`08_DRAFT`) and the original failure-first paper (`05_FULLTEXT`) are **prior framings, superseded as build targets** but kept as source-of-record. Citations under review (`07_APPENDIX`).
 
 **Last consolidated:** 2026-06-24
 
@@ -34,7 +34,8 @@ The filename numbers reflect *creation* order and two overlapping numbering sche
 | # | File | Type | Role in the argument |
 |---|---|---|---|
 | 1 | `00_RESEARCH_CONTEXT.md` | context | Master handoff — taxonomy, central claim, sources, open questions. Start here. |
-| 2 | `08_DRAFT_skills_divergence_thesis.md` | **draft (lead)** | The skills-first thesis. Observation → irrational condition → predicted failure. Current spine. |
+| 2 | `DRAFT_SYNTHESIS.md` | **public draft (current)** | The defensible synthesis, built on `R3_STEELMAN`. §0–§5 spine complete. **Build here.** |
+| — | `08_DRAFT_skills_divergence_thesis.md` | superseded / source-of-record | The skills-first thesis of the incremental phase. Superseded as build target (see its banner); kept for provenance + anchors. |
 | 3 | `05_FULLTEXT_working_document.md` | fulltext | The original failure-first paper (11 sections). Prior framing; source of much material. |
 | 4 | `09_RESEARCH_cross_role_pattern.md` | research | CTO vs other C-roles. The **scope-vs-kind keystone** + investor-signaling cause live here. |
 | 5 | `10_RESEARCH_who_does_cto_work.md` | research | Economic engine — ~$1.1M distributed cost, ~4–6:1 cash compression. Why it stays broken. |

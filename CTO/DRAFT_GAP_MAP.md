@@ -1,6 +1,8 @@
 # Draft Gap Map — what's in `08_DRAFT` vs staged in research
 
-**Purpose:** Track which findings are integrated into the lead draft (`08_DRAFT_skills_divergence_thesis.md`) and which are still staged in research files, and propose the section order for the eventual clean/publishable version. **Planning only — no prose written here.**
+> **✅ LARGELY FULFILLED (2026-06-25).** This was the planning bridge from `08_DRAFT` (the incremental-phase draft) to "the eventual clean/publishable version." **That clean version now exists: [`DRAFT_SYNTHESIS.md`](DRAFT_SYNTHESIS.md)**, built not from this gap-map's `08_DRAFT`-integration plan but from the independent adversarial review (`R3_STEELMAN`). So this file is **historical**: it records what the incremental phase had integrated vs. staged, and its proposed section order is **superseded** by `DRAFT_SYNTHESIS`'s §0–§5 spine. The "staged findings" rows below remain a useful inventory of which research fed which synthesis section. Read as provenance, not as a live plan.
+
+**Original purpose (historical):** Track which findings are integrated into the lead draft (`08_DRAFT_skills_divergence_thesis.md` — now superseded) and which are still staged in research files, and propose the section order for the eventual clean/publishable version. **Planning only — no prose here.**
 
 **Created:** 2026-06-24
 

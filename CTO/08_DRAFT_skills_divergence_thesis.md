@@ -1,9 +1,17 @@
 # Draft Thesis: The Skill-Set Divergence Argument
 
-**Working title:** *One Title, Three Skill Sets: Why the CTO Role Is an Irrational Composite*
-**Status:** New draft — alternate entry point into the CTO Operating Modes framework
+> ## ⚠️ SUPERSEDED AS THE BUILD TARGET (2026-06-25) — read this first
+>
+> **This file is no longer the document to build the public paper from.** The externally-facing draft is now [`DRAFT_SYNTHESIS.md`](DRAFT_SYNTHESIS.md), built on the independent adversarial review's defensible distillation ([`R3_STEELMAN_strongest_form.md`](R3_STEELMAN_strongest_form.md)). Where this file's phrasing conflicts with `R3`/`DRAFT_SYNTHESIS`, **prefer those.**
+>
+> **Why it was superseded — the discoveries kept changing our assumptions.** This draft was written during the *incremental* research phase, when each session's conclusion became the next session's premise. That is how the work actually progressed — and it is exactly why this file accreted claims that later research, and then an independent adversarial pass (`R1`/`R2`), narrowed or retired. The most visible casualty is in this file's own working title: **"*Why the CTO Role Is an Irrational Composite*."** The word **"irrational" has been retired** — `R1` showed the role's *design* may be a rational equilibrium under budget constraint (the composite is what the company can afford; the harm lands on the person, not the logic). The defensible claim is **"structurally under-resourced,"** not "irrational." Other claims this file still states in their original strong form — "a mismatch of *kind*, uniquely the CTO," three modes as a *discovered structure* rather than a *useful lens*, the etymology/investor material as load-bearing — were likewise narrowed downstream. See `R3`'s must-not-claim table and `DRAFT_SYNTHESIS` §5 for the full list of retirements.
+>
+> **What this file still is (why it's kept, not deleted):** the *source of record* for material that survived into the synthesis — the transformation model (§1, now `AX-MW2018`/`AX-VL2023`-grounded), the IC/management divergence (§2), the competence-trap mechanism (`AX-COMPETENCE`), and several anchors still point here. It is the honest artifact of how the thesis was discovered, including the parts that didn't survive contact. **Superseded as the build target ≠ wrong** — it is the earlier, less-narrowed framing, preserved for provenance.
+
+**Working title:** ~~*One Title, Three Skill Sets: Why the CTO Role Is an Irrational Composite*~~ → *(retired — see banner; the defensible framing is "the under-resourced CTO," `DRAFT_SYNTHESIS`)*
+**Status:** **Superseded as build target** (2026-06-25). Historical/source-of-record. Prior lead draft of the incremental phase.
 **Created:** 2026-06-24
-**Relationship to existing corpus:** This is a *reframing*, not a replacement. The original working document (`05_FULLTEXT_working_document.md`) argues from failure/success modes inward to the skills mismatch, and opens with etymology. This document **inverts the order of argument**: it starts from the skill-set divergence as the primary, observable phenomenon (Section 1), treats the irrational composite as the named condition (Section 3, with etymology folded in at §3.1 as the reason the structure went unnamed), and treats failure as the predicted symptom (Section 4).
+**Relationship to existing corpus:** This is a *reframing*, not a replacement. The original working document (`05_FULLTEXT_working_document.md`) argues from failure/success modes inward to the skills mismatch, and opens with etymology. This document **inverts the order of argument**: it starts from the skill-set divergence as the primary, observable phenomenon (Section 1), treats the irrational composite as the named condition (Section 3, with etymology folded in at §3.1 as the reason the structure went unnamed), and treats failure as the predicted symptom (Section 4). *(Note: the synthesis later kept the §1 inversion and §2 divergence, but retired §3's "irrational composite" naming and demoted §3.1's etymology to a contingent layer — see banner.)*
 
 ---
 
