@@ -1,10 +1,24 @@
 # CTO Operating Modes — Corpus Index
 
-**The framework:** the CTO title contains three structurally distinct operating modes (Builder / Multiplier / Strategist) that demand skill sets diverging in *kind*, not degree. Asking one person to transform across all three — sequentially, pre-scale, unsupported — is an irrational composite, and the failure that results is structural, not personal.
+**The framework:** the founding CTO is asked, before the company has scaled and largely alone, to cross the one skill discontinuity the software industry itself made institutional — the individual-contributor-to-manager rotation it split into two separate career tracks — without the fallbacks, honest labels, or transition support that make the same rotation survivable elsewhere. A three-mode lens (Builder / Multiplier / Strategist) usefully describes the arc. The role is best called **structurally under-resourced at the worst possible moment** — and because its failures are slow and hard to attribute, they are read as individual inadequacy rather than as what the structure would predict for almost anyone. *(The defensible form is `DRAFT_SYNTHESIS.md`; the spine is `R3_STEELMAN`.)*
+
+> ## ⚠️ Why we retired the word "irrational" — read this before anything else
+>
+> **Earlier versions of this work called the CTO role an "irrational composite." That word has been retired, deliberately, and the distinction is the most important interpretive fact about the whole study.**
+>
+> An independent adversarial review (`R1`/`R2`) showed the claim could not survive: the *role's design may be perfectly rational.* Demanding one affordable generalist and replacing them at the boundary if needed can be the **efficient bet** for a startup — most die before the third mode ever matters. The composite isn't a mistake a rational company would avoid; it's what the budget allows. So "irrational" **overclaimed** — it smuggled a value judgment the evidence doesn't support, and a skeptic could dismantle it in one move. (See `R2` Bias 5, `R3` concession 3.)
+>
+> **What replaced it: "structurally under-resourced."** The harm is real — but it lands on the *person*, not on the *logic*. The role asks someone to cross a hard, identity-gated boundary stripped of the cushions every other rotating profession provides. That claim survives the adversary; "irrational" did not.
+>
+> **The honest reason it was there in the first place:** the study was built incrementally, and "irrational" was written *before the role-design question had been tested and found rational.* The discoveries kept changing the assumptions. Retiring the word is the methodology working, not a walk-back.
+>
+> **Where "irrational" may legitimately return (open research, not yet claimed):** not in the *role design*, but possibly in the *cultural belief-action gap* around it — the field accepts the Mythical Man-Month (people aren't fungible) and then staffs, scales, and writes job descriptions as if it didn't. *Knowing-and-acting-against* is irrational by the field's own lights — the way "smoking is known to cause cancer and people still smoke" is. That relocated claim (collective akrasia) is what `R1` *cannot* rebut, because it points at a contradiction the field already admits rather than a value judgment on a design. **It is a candidate for a future sibling synthesis (`TODO` T2/T4), not a claim this draft makes.**
+>
+> **The one-line rule:** the *role* is under-resourced, not irrational. Whether the *culture's expectation* of it is irrational is an open question this study does not yet resolve. Do not let "irrational" creep back into the role-design claim (`R3` must-not-claim table).
 
 **Status:** Active research. The public draft is **`DRAFT_SYNTHESIS.md`**, built on the independent adversarial review's defensible form (`R3_STEELMAN`). The skills-first reframe (`08_DRAFT`) and the original failure-first paper (`05_FULLTEXT`) are **prior framings, superseded as build targets** but kept as source-of-record. Citations under review (`07_APPENDIX`).
 
-**Last consolidated:** 2026-06-24
+**Last consolidated:** 2026-06-25
 
 ---
 
@@ -82,7 +96,7 @@ The filename numbers reflect *creation* order and two overlapping numbering sche
 
 ## Broader context — the CTO is the flagship case, not the whole problem
 
-Parallel research (June 2026) established that the irrational-composite pattern is **not unique to the CTO** — it runs the entire software career ladder and reflects an industry-wide failure to specialize. The CTO area remains **THE flagship paper / case study** (most developed, most vivid, most publishable); these are *supporting* material that broadens it. Scope tiers, widest → sharpest:
+Parallel research (June 2026) established that the under-resourced-rotation pattern (the corpus's earlier "irrational composite" framing — see retirement note above) is **not unique to the CTO** — it runs the entire software career ladder and reflects an industry-wide failure to specialize. The CTO area remains **THE flagship paper / case study** (most developed, most vivid, most publishable); these are *supporting* material that broadens it. Scope tiers, widest → sharpest:
 
 - **Industry level:** `../Software Industry/13_RESEARCH_software_industry_structural.md` — software constructs roles exceeding human capacity at every level; specialization is the unapplied solution.
 - **Career-ladder level:** `../Software Developer/01_RESEARCH_software_developer_career.md` — every promotion is a skill *rotation* (Junior→Mid→Senior→Staff→EM→VP); the mismatch starts at the first promotion.
