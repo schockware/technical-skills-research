@@ -1,6 +1,8 @@
 # R1: The Adversary
 ## The Strongest Case Against the CTO Operating Modes Thesis — And Where It Survives
 
+> **⚠️ RETIRED (2026-06-25): this file is being deleted, not kept.** This was an *inside-view* adversarial pass written by Opus, who co-built the corpus — a structurally compromised adversary (see the blind-spot disclosure below; I flagged my own pulled punches with `[SOFT?]`). The decision was made to redo the entire adversarial track (`R1`–`R4`) from an **independent chat** with no authorship stake, to get a genuinely stronger adversarial analysis rather than the author grading his own exam. The two real findings this pass surfaced — (1) "three modes" must narrow to a *discontinuity* claim, and (2) the selection-vs-structure gap, closed by the Red Baron mechanism — should be **re-derived independently** by the fresh pass, not inherited from here, so they aren't anchored to a compromised source. This file is removed so it cannot be mistaken for the canonical R1. *(Preserved in git history at the commit that added this banner, if ever needed.)*
+
 **Date:** 2026-06-25
 **Series:** CTO — Review track (`R1`–`R4`), a meta-pass over the corpus (`00`–`16` + `08_DRAFT`)
 **File:** R1 of the review track. Counterpart to the Software Industry thread's `R1_ADVERSARY`.
