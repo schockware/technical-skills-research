@@ -29,6 +29,8 @@
 | **Solution taxonomy** — 6 attempts, only 3 root-cause, all need the framework | `12_RESEARCH` | `AX-CTO-TENURE`, `AX-BIFURCATION-COST` | The "so what / what now" — and the strategic close (framework is a prerequisite for the missing solution category). | **New §7 — What's been tried (and why it falls short)** |
 | **Training stress-test** — ~50% IC→EM reversion, 8–15yr vs 18–24mo | `11_RESEARCH` | `AX-REVERSION`, `AX-VPENG-TIMELINE`, `GAP-CTO-TRANSITION` | Empirically tests the largest solution (training). The 50% number is the corpus's hardest falsification attempt. | **Subsection of §7** (training is Solution 1) OR its own **§7.1** |
 | **Central empirical gap** — founding-CTO transition success rate unstudied | `11_RESEARCH` | `GAP-CTO-TRANSITION` | The honest limitations + research agenda. The falsifiable test. | **§8 — Limitations & research agenda** |
+| **Evaluation isolation** — CTO can't be measured (no anchor above/below); HiPPO feedback decay | `15_RESEARCH` | `AX-CTO-ISOLATION`, `AX-HIPPO-DECAY`, `AX-OXYGEN-EVAL` | New axis: *why the CTO can't self-diagnose their mode.* The prior question the taxonomy assumes away; motivates the `EVALUATIONS/` tool. | **New §3.4 or its own short section** (sits under "the irrational condition") |
+| **Legibility, not a cure** (the honest close) | `15_RESEARCH` | `AX-NOVELTY-BASELINE` | The framework's bounded contribution: makes mismatch *sayable* ("Multiplier stage, Builder CTO"), doesn't claim to solve it. The antidote to the "it's hopeless" read. | **★ INTENDED DRAFT CLOSER — final section of `08_DRAFT`.** Verify Berray 2002 + McKinsey baseline first. |
 
 ---
 
@@ -44,6 +46,7 @@ A natural arc: *observe → establish → name → explain cause → predict →
 6. **§6 What's been tried — solution taxonomy + training stress-test** ← **integrate `12` + `11`** (NEW)
 7. **§7 Implications** (move current §5 here; it's downstream actions) (✅ exists, renumber)
 8. **§8 Limitations & research agenda** ← **`GAP-CTO-TRANSITION` headline** (NEW)
+9. **§9 Closer — legibility, not a cure** ← **integrate `15_RESEARCH`** (NEW, ★). The framework makes the mismatch sayable; it does not claim to solve the structural problem. Honest, humble, and the right note to end on. Evaluation-isolation material (`15_`) can seed a §3.4 earlier in the arc.
 
 *Note: current §5 (implications) should move to after the new economic/solutions sections — actions make more sense once persistence and failed fixes are established.*
 

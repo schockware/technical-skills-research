@@ -42,7 +42,8 @@ The filename numbers reflect *creation* order and two overlapping numbering sche
 | 7 | `11_RESEARCH_IC_to_EM_transition.md` | research | Empirical stress-test of training — the ~50% IC→EM reversion rate. (Read after `12`.) |
 | 8 | `13_RESEARCH_domain_centric_CTO.md` | research | **Second axis** — domain identity investment predicts *which* CTOs fail (2×2: domain-depth × market-domain-dependency). |
 | 9 | `14_RESEARCH_domain_training_effectiveness.md` | research | Can domain expertise be trained? No — curse of expertise (`AX-CURSE`). Read after `13`. |
-| 10 | `04_RESEARCH_classification_table.md` | research | ~35 research threads mapped to the taxonomy. Where the asymmetry RISK lives. |
+| 10 | `15_RESEARCH_evaluation_isolation.md` | research | **The evaluation axis** — why the CTO can't self-diagnose their mode (no anchor above/below; HiPPO decay). Home of the **"legibility, not a cure"** closer + the `EVALUATIONS/` rationale. |
+| 11 | `04_RESEARCH_classification_table.md` | research | ~35 research threads mapped to the taxonomy. Where the asymmetry RISK lives. |
 
 **Supporting artifacts (reference, not narrative):**
 

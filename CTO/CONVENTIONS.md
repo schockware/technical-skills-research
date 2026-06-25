@@ -75,6 +75,11 @@ The source of truth for *status* is each destination file (e.g. `07_APPENDIX`). 
 | `AX-INDEX78` | `10_RESEARCH`, `00` | ⚠️ "founding CTO OR technical CEO" (corrected from "at seed") | ✅ Corrected in source |
 | `AX-ATROPHY` | `08_DRAFT` §2a, `11`, `12` | Skill atrophy after mgmt move (qualitative; dropped false "2–3yr" precision) | ✅ Corrected in source |
 | `AX-CURSE` | `13_RESEARCH`, `14_RESEARCH` | Curse of expertise (Camerer 1989 + Hinds 1999 + Gupta 2017) — human replacement for TEE | ✅ Verified (peer-reviewed) |
+| `AX-OXYGEN-EVAL` | `15_RESEARCH` | Oxygen = "measure from below"; CTO breaks both above/below anchors | ✅ (#5 verified) |
+| `AX-CTO-ISOLATION` | `15_RESEARCH` | 3 blockers to external CTO evaluation (IP, role-incomparability, hierarchy) | ⬜ HBR-loneliness is CEO analog |
+| `AX-HIPPO-DECAY` | `15_RESEARCH` | Feedback signal degrades with tenure (authority bias + org filtering) | ⬜ Sunstein/Hastie, Kohavi |
+| `AX-STAGE-DURATION` | `15_RESEARCH` | 616-day seed→A median; training retroactive-by-design | ⬜ content site, verify |
+| `AX-NOVELTY-BASELINE` | `15_RESEARCH` | Berray 2002 + McKinsey classify by context, not stage-fit | ⬜ verify — novelty rests on it |
 
 ### `GAP-` (research gaps) → stated honestly, not verified
 | ID | Where | Gap |
