@@ -138,6 +138,54 @@ The synthesis: the boundary is real (§1), measurably hard (2a), hard because it
 
 ---
 
+## §3 — The harm is not the difficulty; it is who gets blamed for it
+
+The previous two sections describe a hard, under-resourced transition. By itself, that is not yet a problem worth a paper — *many* roles are hard. The contribution is what happens **after** the predictable difficulty arrives: it is read as the individual's failure, the structure is never examined, and so the structure is never resourced — which guarantees the next person in the seat hits the same wall. This section is the load-bearing one, and notably it is the one that needs the *least* evidence: it does not require the CTO to be uniquely broken, or the reversion rate to be CTO-specific, or any contested number. It requires only that **the attribution is misdirected** — and that is observable directly.
+
+### 3a. The misattribution pattern
+
+When a founding CTO hits the boundary, the language that follows is remarkably consistent, and remarkably personal:
+
+- *"He's not scaling."*
+- *"She's not strategic enough."*
+- *"The company outgrew him."*
+- *"Management just wasn't for them."*
+
+Each of these is individually plausible — which is exactly why the pattern is hard to see. Any one case can be a genuine individual shortfall. But the *consistency* of the framing across cases, companies, and decades is the tell: a difficulty that the structure would produce **for almost anyone placed in it** is being recorded, every time, as a fact about the person. The structure is never in the sentence. *(This is the corpus's M5 axis — the failure is slow, internal, and hard to attribute, which is precisely what lets the personal reading go unchallenged; `15_RESEARCH`.)*
+
+This is not a claim that the CTO never under-performs. It is a claim about **default attribution**: when the structural and the individual explanation are both available, the field reaches reflexively for the individual one — and because it does, it never asks the structural question, and never builds the structural fix.
+
+### 3b. Why the misattribution is self-perpetuating
+
+The misattribution is not merely a description error; it is **load-bearing for the structure's persistence.** The causal loop is short:
+
+1. The structure produces predictable difficulty at the boundary (§1–§2).
+2. The difficulty is attributed to the individual ("not scaling").
+3. The remedy applied is therefore individual — replace the person, coach the person, hire "a stronger CTO."
+4. The replacement enters the *same* unstructured boundary, with the *same* missing cushions.
+5. Return to step 1.
+
+The de-facto industry solution — cycle CTOs at the boundary until one happens to fit, then cycle again — *is* this loop. It is expensive (lost institutional knowledge, and the practitioner literature's estimate of a 12–24 month strategic gap per displacement — practitioner-sourced, not primary-verified) and it never converges, because each iteration treats the recurring structural failure as a fresh individual one. The replacement pattern is not evidence the structure works; it is evidence the misattribution is preventing the structure from ever being seen.
+
+### 3c. The contribution: legibility as the prerequisite to resourcing
+
+This is where the paper's actual deliverable sits, and it must be stated as a *forward* claim, not a retreat. The contribution is **not** "the CTO role is irrational" (the de-escalated claims live in §5). The contribution is:
+
+> **A precise, non-pejorative vocabulary that re-attributes the difficulty from the person to the structure — so that a difficulty currently narrated as personal failure ("he's not scaling") can instead be named structurally ("we are at a stage that requires a different mode, and we resourced no transition for it"), which is the prerequisite to resourcing it.**
+
+The load-bearing sentence, stated plainly and defended rather than hedged: **you cannot resource a transition you cannot name.** As long as the difficulty is "he's not scaling," the only available move is to replace him. The moment it is "we're at a Multiplier stage and provided no transition support," a *different* set of moves becomes available — a VP-Eng hire timed to the boundary, an explicit mode hand-off, a named fallback — none of which are reachable while the problem is described as a person.
+
+This is a deliberately bounded claim, and the boundary is the source of its strength:
+
+- It does **not** claim the vocabulary *solves* the structural problem. The under-resourcing, the funding constraints, the unstaffed founding seat — naming them does not dissolve them. (§4 addresses why the structure persists even when understood.)
+- It does **not** retreat to "we only offer words" when pressed. Naming is claimed as *necessary-but-not-sufficient* — a falsifiable position: if mode-aware organizations intervened no more effectively than mode-blind ones, the legibility claim would fail. *(This is the discipline `R2` Bias 7 demands: legibility stated as a forward prerequisite, not a motte retreated to after stronger claims are challenged.)*
+
+The honest size of the contribution: it converts a difficulty the field currently spends on *serial replacement* into one the field could spend on *transition design* — by changing the sentence said about it. That is smaller than "we diagnosed an irrational composite," and more durable, because it survives every open question in §5.
+
+> **Plain form (for derivation):** *When a founding CTO hits the wall, everyone says some version of "he couldn't scale." Said once, that's a person. Said every single time, across every company, for decades — that's a structure nobody is looking at, because the words keep pointing at the person. The fix isn't a better CTO; it's a better sentence: "we hit a stage that needed a different kind of leadership and we set up no way to get there." You can't resource a transition you won't name. Naming it doesn't fix the structure — but it's the only thing that makes fixing it possible.*
+
+---
+
 ## Planned structure (increment roadmap)
 
 | § | Section | Source | Status |
@@ -145,7 +193,7 @@ The synthesis: the boundary is real (§1), measurably hard (2a), hard because it
 | §0–0.1 | Thesis + contribution + discipline | R3 thesis / contribution | ✅ done |
 | §1 | The institutional fact: the IC/management split | R3 Pillar 1 + CRO exhibit (`09_`) | ✅ done |
 | §2 | The rotation is identity-gated & uncushioned | R3 Pillar 2 + `AX-REVERSION` + Premise 1 | ✅ this increment |
-| §3 | The misattribution is the harm (the legibility contribution) | R3 Pillar 3 + `15_` | ⬜ |
+| §3 | The misattribution is the harm (the legibility contribution) | R3 Pillar 3 + `15_` | ✅ this increment |
 | §4 | The accidental concession (objection → support) | R3 §strongest-objection | ⬜ |
 | §5 | Concessions & falsifiers, in the draft's own voice | R3 concessions + falsifiers + `R4` | ⬜ |
 | App. | Audience-map derivation key | this file | ⬜ skeleton below |
@@ -158,11 +206,11 @@ The synthesis: the boundary is real (§1), measurably hard (2a), hard because it
 
 | Section → / Audience ↓ | §1 Institutional fact | §2 Rotation/reversion | §3 Misattribution | §4 Accidental concession | §5 Falsifiers |
 |---|---|---|---|---|---|
-| **CTOs / eng leaders** | "you were told to pick a track; the founding seat made you skip the choice" | "half of new EMs revert *even when trained* — it's not your skills, it's an identity switch you got no cushion for" | "you're under-resourced, not inadequate" | _(tbd)_ | _(usually dropped)_ |
-| **Founders / CEOs** | the split exists for a reason; your CTO is spanning it unsupported | provide the cushions (honest label, fallback, timeline, a capable receiving team) *before* the boundary | name the mode, don't blame the person | _(tbd)_ | _(light)_ |
-| **Investors / board** | the VP-Eng split you defer is the cushion you removed | ~50% reversion at the boundary you fund across; mode-aware diligence | stop penalizing the failure you select for | the signal you require installs the gap | _(tbd)_ |
-| **Academic / researcher** | the verifiable seam (the one claim needing no framework) | the behavioral anchor (n≈30k) + the unrun *CTO-specific* cohort study (`GAP-CTO-TRANSITION`) | — | — | **the payload** (F1–F4) |
-| **Job boards / recruiters** | the JD writes the composite; the CRO/VP-Sales split is the template you don't apply to eng | "hands-on AND strategic" demands both sides of a boundary half the field can't cross once | — | — | — |
+| **CTOs / eng leaders** | "you were told to pick a track; the founding seat made you skip the choice" | "half of new EMs revert *even when trained* — it's not your skills, it's an identity switch you got no cushion for" | "'he couldn't scale' is the structure talking, not a verdict on you" | _(tbd)_ | _(usually dropped)_ |
+| **Founders / CEOs** | the split exists for a reason; your CTO is spanning it unsupported | provide the cushions (honest label, fallback, timeline, a capable receiving team) *before* the boundary | replace the sentence before you replace the person; serial replacement never converges | _(tbd)_ | _(light)_ |
+| **Investors / board** | the VP-Eng split you defer is the cushion you removed | ~50% reversion at the boundary you fund across; mode-aware diligence | stop penalizing the failure you select for; the replacement loop is a cost you're paying | the signal you require installs the gap | _(tbd)_ |
+| **Academic / researcher** | the verifiable seam (the one claim needing no framework) | the behavioral anchor (n≈30k) + the unrun *CTO-specific* cohort study (`GAP-CTO-TRANSITION`) | the falsifiable form: do mode-aware orgs intervene better than mode-blind? | — | **the payload** (F1–F4) |
+| **Job boards / recruiters** | the JD writes the composite; the CRO/VP-Sales split is the template you don't apply to eng | "hands-on AND strategic" demands both sides of a boundary half the field can't cross once | the JD that demands the composite is the first link in the misattribution loop | — | — |
 
 ---
 
