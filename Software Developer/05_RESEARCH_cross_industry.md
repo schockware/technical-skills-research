@@ -6,7 +6,9 @@
 **Relationship to corpus:** `01_RESEARCH_software_developer_career.md` asserts that software is structurally different because seniority abandons the craft. This document tests that claim against nine other industries. The result is not that the claim is wrong — it is that the claim is *more specifically true* than the broad version, and more damning for it.
 
 **The refined thesis:**
-> *Most professions never required their senior practitioners to abandon their craft to advance. Software did — for three decades — and then partially corrected it at the large-company end, while the startup and mid-market end, where the irrational composite is most acute, remains largely unchanged. The comparison doesn't soften the indictment. It sharpens it: the other fields didn't need to build a dual-track correction because they never built the rotation problem.*
+> *Most professions never required their senior practitioners to abandon their craft to advance. Software did — for three decades — and then partially corrected it at the large-company end, while the startup and mid-market end, where the under-cushioned composite is most acute, remains largely unchanged. The comparison doesn't soften the indictment. It sharpens it: the other fields didn't need to build a dual-track correction because they never built the rotation problem.*
+
+> **Note (propagated 2026-06-25):** "irrational composite," used here and at three points below (the composite "most acute" / "broken apart"), is narrowed corpus-wide to **"under-cushioned composite"** per `R3` — the lean structure may be an efficient bet for the company; the harm is to the *person*, and "irrational" is not claimed of the role's design. Read every "irrational composite" in this file as "under-cushioned composite."
 
 ---
 

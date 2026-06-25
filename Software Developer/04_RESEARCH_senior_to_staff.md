@@ -3,6 +3,7 @@
 
 **Research date:** June 25, 2026
 **Status:** Active research — dev-ladder tier
+**Terminology note (propagated 2026-06-25):** "irrational composite" (used below at the four-archetype layer) is narrowed corpus-wide to **"under-cushioned composite"** per `R3` — the harm is to the person, not a claim that the company's lean structure is irrational. Separately, `R1` Claim D narrowed how the *draft* may use this file's **plateau population**: it is a structural *hypothesis* (size/composition unmeasured, over-determined by genuine preference), not a measured fact, and must not be called "larger than reversion" or "the purest case." The findings below stand as research; the draft (`DRAFT_SYNTHESIS.md` §4a) carries the narrowed use.
 **Relationship to corpus:** `01_RESEARCH_software_developer_career.md` flags this as a "severe" mismatch. `03_RESEARCH_ic_em_transition.md` covers the louder, more-measured fracture (IC→EM, ~50% reversion). This document covers the quieter one — the transition that looks like a deepening of the craft and is actually a rotation away from it, disguised inside a title that still says "engineer."
 
 **The through-line thesis:**

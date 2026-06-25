@@ -34,7 +34,7 @@ The axis names the structural variable that predicts whether a career ladder pro
 | IC → EM | Full identity rotation, loud | ~50% reversion; `03_RESEARCH` |
 | EM → Director → VP Eng | Identity rotation, compounding | "Not a promotion — a career change"; `01_RESEARCH` |
 
-**Steel-manning challenge for Axis 1:** The rotation claim requires that the skills at each level are genuinely *incompatible* rather than just *different in degree*. The steelman says: senior engineers do develop influence skills; Staff engineers still write code occasionally; EMs still think technically. If the skills are complementary rather than competing, "rotation" overstates the discontinuity. The response (from `08_DRAFT_skills_divergence_thesis.md`): the divergence is in *focus*, not just scope — the object of the skill moves from the product, to people, to the market. An EM who writes code is doing their old job inside their new role; the jobs actively compete for time and identity. The divergence is real even if the boundary is not a cliff.
+**Steel-manning challenge for Axis 1:** The rotation claim requires that the skills at each level are genuinely *distinct in kind* rather than just *different in degree* — note this is **no longer** an "incompatible skills" claim (retired corpus-wide; the engineer/manager pendulum shows positive transfer, `../CTO/18_RESEARCH_modes_not_incompatible.md`). The steelman says: senior engineers do develop influence skills; Staff engineers still write code occasionally; EMs still think technically. If the skills are complementary rather than competing, "rotation" overstates the discontinuity. The response (from `08_DRAFT_skills_divergence_thesis.md`): the divergence is in *focus*, not just scope — the object of the skill moves from the product, to people, to the market. An EM who writes code is doing their old job inside their new role; the jobs compete for *time and identity within one role*, not as inherently opposed skills. The divergence is real even if the boundary is not a cliff — and `R1` Claim A confirms this holds for the *one corroborated seam* (IC→management), while demoting "rotation at every rung" to a descriptive lens over that seam.
 
 ---
 
@@ -95,7 +95,7 @@ The selection mechanism compounds Axis 3 in a specific way. The engineers select
 **What the dev-ladder research found without this axis:**
 - Software knowledge has a 2.5–5 year half-life (`06_RESEARCH`, flagged ⬜ unverified)
 - The depreciation interacts with career-ladder rotation to produce a compound burden (`06_RESEARCH`)
-- Imposter syndrome in software is accurate self-assessment, not distortion (`06_RESEARCH`)
+- Imposter syndrome in software is *consistent with* structural mismatch — a candidate explanation, not established as accurate self-assessment (`06_RESEARCH`; narrowed per `R1` Claim H — healthcare ~62% > software 52.7%, so it is not software-specific)
 
 **What Axis 4 adds:**
 The half-life is a symptom, not the root. The root is that software has no stable theoretical foundation. The methodological instability (only 4 of 10 major Agile methods have empirical support), the consensus problem (Jacobson: "fads more typical of the fashion industry"), the licensure problem (ACM opposed licensing in 1999 because the field cannot define what a competent practitioner should know) — these are structural properties of the craft, not contingent features of the current technological moment.
@@ -200,13 +200,13 @@ The research files (`01_`–`07_`) documented the fracture points, the failure m
 
 The axes answer *why specifically software*, which is what makes the argument publishable rather than just observational. Without the axes:
 
-> "Software promotions require incompatible skill sets and fail at high rates."
+> "Software promotions require distinct skill sets with no runway and fail at high rates."
 
-True, but not surprising. With the axes:
+True, but not surprising. With the axes (stated at the strength that survives `R1`/`R2`):
 
-> "Software built a career ladder requiring identity rotation at every rung, labeled the rotation as natural deepening, on top of a craft with no stable theoretical foundation and no institutional identity anchor — and then used the fungibility assumption to make all of this invisible to management. The ~50% reversion rate and the population-scale imposter syndrome are not failures of individual engineers. They are the predicted outputs of a system built on every structural risk factor simultaneously, with no stabilizers."
+> "Software built a career ladder whose one institutionally-real rotation — IC→management — is a default advancement step, surrounded by a recurring pattern of further rotations it labels as natural deepening, on top of a craft whose *credited* layer is unstable and whose identity has no institutional anchor — and then used the fungibility assumption to make all of this invisible to management. The ~50% IC→EM reversion rate is the behavioral measure of how hard that one boundary is (a cross-industry rate — boundary-difficulty, not software-distinctiveness; distinctiveness comes from the missing cushions). The population-scale imposter figures corroborate but do not carry. These are not failures of individual engineers; they are what the structure predicts."
 
-That is a different argument. It is also the one Brooks' 1975 argument, ISBSG team-size data, Mathias & Williams (2018), Van Lancker (2023), Nichols/CMU (2019), and Project Aristotle all support. *(CHAOS Report figures have been demoted to illustrative throughout — see Jørgensen & Moløkken-Østvold 2006 critique; ISBSG is the load-bearing source for team-size claims.)*
+That is a different argument. It is also the one Brooks' 1975 argument, ISBSG team-size data, Mathias & Williams (2018), Van Lancker (2023), Nichols/CMU (2019), and Project Aristotle all support. *(CHAOS Report figures have been demoted to illustrative throughout — see Jørgensen & Moløkken-Østvold 2006 critique; ISBSG is the load-bearing source for team-size claims.)* <!-- R1 Claims A & B propagated: "rotation at every rung" → one seam + recurring pattern; "no stable theoretical foundation" → credited layer unstable / durable compounds; reversion = boundary-difficulty not distinctiveness; imposter corroborating not load-bearing. -->
 
 ---
 
@@ -214,7 +214,7 @@ That is a different argument. It is also the one Brooks' 1975 argument, ISBSG te
 
 The Opus steelmanning process should target:
 
-1. **The rotation claim (Axis 1):** Are the skills genuinely incompatible, or just different in degree? Does "rotation" overstate the discontinuity?
+1. **The rotation claim (Axis 1):** *Posed originally as:* are the skills genuinely incompatible, or just different in degree? Does "rotation" overstate the discontinuity? **→ Now answered:** *different, not incompatible* (`../CTO/18_RESEARCH_modes_not_incompatible.md`); and `R1` Claim A further narrows the discontinuity to **one corroborated seam (IC→management) plus a recurring pattern**, not a measured cliff at every rung. "Rotation" overstates *only if* read as per-rung incompatibility — which the corpus no longer claims.
 2. **The deception claim (Axis 2):** Is the labeling actually deceptive, or is the magnitude of the transition just hard to communicate? Does the partial correction (Staff IC tracks) undermine the historical claim?
 3. **The unstable craft claim (Axis 4):** Is software uniquely unstable, or is this a matter of degree shared with other fast-moving fields? Does the Agile empirical gap prove instability or just youth?
 4. **The unlicensed identity claim (Axis 5):** Do other unlicensed professions show the same vulnerability? Is licensure the relevant variable or is it craft stability that matters?

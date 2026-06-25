@@ -1,12 +1,14 @@
 # Knowledge Obsolescence: The Compound That Makes Everything Worse
-## Research Finding: Software Is the Only Profession That Makes Prior Expertise a Liability
+## Research Finding: Software Is the Profession Where the *Credited* Skill Layer Depreciates Fastest
+
+> **⚠️ Adversarial-track correction (propagated 2026-06-25).** The original title and headline below claimed "prior expertise is a *liability*" / "accumulated experience is a *depreciating asset*" without qualification. `R1` Claim H narrows this: the **credited, fashionable layer** (frameworks, tooling, methodology fashion) decays fast — but the **durable foundation** (algorithms, systems thinking, architectural reasoning, the Brooks-stable craft) *compounds* like any other profession's. "Prior expertise is a liability" overstates and cuts against the corpus's own anti-fungibility win. The defensible claim — kept throughout the analysis below — is: *the layer the evaluation and promotion machinery credits is the volatile one, so accumulated standing is built on the asset that decays while the durable asset goes uncredited.* All half-life figures here remain ⬜ unverified (flagged inline); the credited/durable split holds even if every number shifts. See [`R3_STEELMAN_strongest_form.md`](R3_STEELMAN_strongest_form.md).
 
 **Research date:** June 25, 2026
 **Status:** Active research — dev-ladder tier
 **Relationship to corpus:** `01_RESEARCH_software_developer_career.md` introduced the half-life figures and the structural imposter syndrome argument. `05_RESEARCH_cross_industry.md` established that other professions allow accumulated expertise to compound. This document develops the full mechanism — what knowledge decay does, how fast it does it, why software is structurally unique, and how obsolescence *interacts* with the ladder's rotation demands to produce a compound burden no other profession has built.
 
 **The finding this document earns:**
-> *In every other skilled profession, accumulated experience is an asset. In software, accumulated experience is a depreciating asset — and the depreciation schedule is fast enough that at every career transition, the engineer is being asked to become a new kind of worker while the expertise that earned them the right to transition is already declining beneath them. This is not a bug in how individual engineers develop. It is a structural property of the field.*
+> *In every other skilled profession, accumulated experience is an asset. In software, the **credited** layer of accumulated experience — the fashionable frameworks and tooling the evaluation machinery actually measures — is a depreciating asset, even as the durable foundation compounds. The depreciation schedule on the credited layer is fast enough that at every career transition, the engineer is being asked to become a new kind of worker while the **credited** expertise that earned them the right to transition is already declining beneath them. This is not a bug in how individual engineers develop. It is a structural property of what the field chooses to credit.* <!-- R1 Claim H: narrowed from the original unqualified "accumulated experience is a depreciating asset," which contradicted the anti-fungibility win. The durable foundation (algorithms, systems, architecture) compounds; only the credited/fashionable layer decays. -->
 
 ---
 
@@ -161,7 +163,7 @@ The Peter Principle (Peter, 1969) observes that people in hierarchies are promot
 
 > The Peter Principle effect is strongest in **high-mismatch regimes** — sharp skill shifts across levels, typical of many tech firms — and weakest when **skills transfer gradually**, as in universities and research labs where technical depth remains valuable at senior ranks.
 
-Software is named as the worst-case regime. This follows directly from the obsolescence compound: not only does each transition require a rotation to incompatible skills (the mismatch problem), but the prior skills are simultaneously depreciating (the obsolescence problem). The Peter Principle fires harder in software than anywhere else because *both* factors are maximized simultaneously. The new skill is hardest to acquire, and the old skill is most at risk of becoming irrelevant.
+Software is named as the worst-case regime. This follows directly from the obsolescence compound: not only does each transition require a rotation to distinct skills with no on-the-job runway to acquire them (the mismatch problem), but the prior *credited* skills are simultaneously depreciating (the obsolescence problem). The Peter Principle fires harder in software than anywhere else because *both* factors are maximized simultaneously. The new skill is hardest to acquire, and the old skill is most at risk of becoming irrelevant.
 
 The Benson et al. empirical study (200+ firms, sales-to-management transitions) confirms the Peter Principle in a comparable context: high-performing salespeople promoted to management produced significant productivity losses. The software IC-to-management equivalent is the ~50% reversion rate — the same phenomenon in a field where the skill mismatch is deeper and the knowledge depreciation is faster.
 

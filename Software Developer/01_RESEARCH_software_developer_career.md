@@ -2,8 +2,10 @@
 ## Research Finding: The CTO Composite Problem Starts at the First Promotion
 
 **Research date:** June 24, 2026  
-**Status:** Parallel research thread — extends the irrational composite thesis beyond the CTO role  
-**Relationship to corpus:** The CTO operating modes framework identifies failure at mode boundaries. This document establishes that the same structural pattern — incompatible skill sets at every career transition point — runs through the entire software developer career ladder. The CTO is not an anomaly. The CTO is the terminal expression of a problem that begins at Junior.
+**Status:** Parallel research thread — extends the under-cushioned-composite thesis beyond the CTO role <!-- R3: "irrational" retired → "under-cushioned"; the lean ladder may be an efficient bet for the company, the harm is to the person -->  
+**Relationship to corpus:** The CTO operating modes framework identifies failure at mode boundaries. This document establishes that the same structural pattern — **distinct skill sets with no on-the-job runway to acquire the next** at each career transition point — runs through the entire software developer career ladder. The CTO is not an anomaly. The CTO is the terminal expression of a problem that begins at Junior.
+
+> **⚠️ Adversarial-track corrections (propagated 2026-06-25).** This file predates the area's `R1`–`R4` review and still carries three framings the review narrowed; they are corrected inline below and flagged here so the file is not read at its original strength: **(1)** "incompatible skill sets" → "distinct skill sets with no on-the-job runway" (retired corpus-wide; the engineer/manager pendulum shows positive transfer — `../CTO/18_RESEARCH_modes_not_incompatible.md`, `R1` Claim A). **(2)** "imposter syndrome is accurate self-assessment of structural mismatch" → a *candidate* explanation the individual-pathology framing never tests; it is not established, and high-evaluation fields without software's rotation (healthcare ~62%) run higher (`R1` Claim H). **(3)** the half-life figures and the "prior expertise is a liability" headline are ⬜ unverified and apply to the *credited, fashionable* layer, not the durable foundation, which compounds (`R1` Claim H). The structural argument survives all three narrowings; see [`R3_STEELMAN_strongest_form.md`](R3_STEELMAN_strongest_form.md).
 
 **The thesis:**
 > "What we have here is a human capacity issue, disguised as a 'smart people should be able to learn everything' problem."
@@ -87,9 +89,9 @@ This is a direct structural generator of imposter syndrome: the engineer is simu
 
 This is not a general human baseline. Research on imposter syndrome across professions finds rates of 9–82% (wide range reflecting methodology variation), but the software/STEM cluster consistently sits at the higher end. The question is not whether imposter syndrome is common — it is why software specifically produces it at majority rates.
 
-The structural answer: software is the profession that most consistently places people in roles that require skills incompatible with what earned them the role, on a timeline compressed enough that the mismatch is always visible, while the underlying technical knowledge base decays fast enough that prior expertise provides diminishing protection.
+The structural answer: software is the profession that most consistently places people in roles that require skills *distinct from* — and offering no on-the-job runway to acquire from — what earned them the role, on a timeline compressed enough that the mismatch is always visible, while the *credited* technical knowledge base decays fast enough that prior fashionable expertise provides diminishing protection.
 
-Imposter syndrome in software is **accurate self-assessment of structural mismatch**, not psychological distortion.
+Imposter syndrome in software is **consistent with** structural mismatch — a candidate explanation the individual-pathology framing never tests — *not* established as accurate self-assessment of it. <!-- R1 Claim H: correlation→causation; high-evaluation fields without software's rotation (healthcare ~62%) run higher than software's 52.7%. Corroborating, not load-bearing; the ~50% reversion carries the behavioral weight. -->
 
 ---
 
@@ -109,7 +111,7 @@ The data from Benson et al. (200+ firms) confirms the Peter Principle in sales-t
 
 The software developer career ladder has built, at every transition point, the same problem the CTO taxonomy identifies at the mode boundaries:
 
-**The skills required to succeed at Level N are not just different from the skills required to succeed at Level N+1. They are in active tension with them.**
+**The skills required to succeed at Level N are distinct from those required at Level N+1, and the ladder provides no on-the-job runway to acquire the next set before being evaluated against it.** <!-- R1 Claim A: "in active tension" retired — the skills positively transfer over a career (engineer/manager pendulum, CTO/18_). The defensible claim is distinct-without-runway, not tension/incompatibility. The competition is for *time and identity within a single role*, not an inherent opposition between the skills. -->
 
 - Technical depth (what makes a great Senior engineer) actively interferes with the cross-team influence and people development (what makes a great Staff engineer or EM)
 - The identity investment in technical craft (what makes a great Builder) actively resists the identity transition required to become a Multiplier
@@ -123,7 +125,7 @@ The CTO composite problem is the software career ladder's structural problem, co
 
 ## Why This Matters for the Paper
 
-The irrational composite thesis currently focuses on the CTO role. This research establishes that the irrationality is not unique to the CTO — it is endemic to the software career structure.
+The under-cushioned-composite thesis currently focuses on the CTO role. This research establishes that the pattern is not unique to the CTO — it is endemic to the software career structure. <!-- R3: "irrational/irrationality" retired → "under-cushioned"; the harm is to the person, not a claim that the company's lean structure is irrational. -->
 
 This strengthens the argument in two directions:
 
