@@ -43,6 +43,22 @@ A draft built on exactly those three, conceding everything in the must-not-claim
 
 ---
 
+## §0.2 — The engine underneath: the fungibility assumption (why this tier owns the root cause)
+
+The three siblings share the rotation/cushion/misattribution machinery. This — the widest — tier is the one that names the **root cause that generates it**, and it should be stated explicitly rather than left implicit, because it is what distinguishes the industry-structural altitude from the career and CTO altitudes below it.
+
+> **The fungibility assumption: the belief that software developers are interchangeable, configurable units of cognitive output — that adding units adds output, swapping units maintains it after ramp-up, and reconfiguring units produces new capabilities. It is the belief that makes a rotating ladder look reasonable: if people are configurable units, then "reconfiguring" an engineer into a manager, or a manager into a strategist, is just an allocation, not a career change — so no honest label, fallback, or scaffold seems necessary. The assumption is what lets the industry build rotation-without-cushion and not notice it did.**
+
+Two disciplines on this engine, so it does not over-reach:
+
+1. **Anti-*fungibility*, not anti-*differentiation*.** "Non-fungible" means units cannot be added, swapped, or reconfigured freely — it does **not** mean performance is unmeasurable or that developers don't differ. They differ enormously, *contextually*. This is the line `R1`/`R3` insist on; crossing it is where DORA/SPACE break the claim. *(Concession 4 restates this; here it is the guardrail on the engine.)*
+
+2. **Established, not asserted.** Non-fungibility rests on convergent, independent evidence, not one impeachable source: Brooks' 3–6 month ramp-up (contextual knowledge is non-portable); the **n(n-1)/2 communication-overhead** arithmetic (structural, not a study); the **ISBSG team-size curve** (1,000+ projects: 3–7 optimal, ≥9 degrades — *not* the contested CHAOS dataset); Project Aristotle (dynamics > composition); and **Nichols/CMU within-individual variance** (the *same* developer is high- and low-performing across tasks, so performance is not a portable trait). *(R3 Pillar 1.)*
+
+The reason this is the *engine* and not just another claim: per [`00_AXES_SUMMARY.md`](00_AXES_SUMMARY.md), fungibility **generates all five axes.** Identity rotation is invisible when people are units (units have no identity to rotate). Deceptive labeling is irrelevant when units have no identity to deceive. The Red Baron selection feels reasonable when units are configurable. The unstable-craft problem is masked when units are expected to continuously reconfigure anyway. §1's "software didn't specialize" is *what the fungibility assumption produced*: a profession that treats its people as reconfigurable does not feel the capacity ceiling that forces specialization — so it never specializes the ladder, and reads the resulting failures as units that failed to reconfigure.
+
+---
+
 ## The Must-Not-Claim Discipline
 
 *Carried directly from `R3` and the `R2` triage list. Every section below obeys it. It is also the **conversion key** for the derived audience versions — the left column is what every derived version must also avoid; the right column is the sayable form.*
@@ -68,17 +84,39 @@ Everything in this paper reduces to a single comparison a reviewer can check wit
 
 > **When a profession's knowledge base grew past what one human can hold, every mature field subdivided the *work* — medicine into 40+ recognized specialties, law into practice areas with divergent knowledge bases, engineering into separate licensed disciplines, accountancy into audit/tax/advisory. Software hit the same ceiling and did not subdivide the *career*. It built one ladder on which advancement means *rotating* the kind of work — from the code, to the team, to the org, to the market — so that being excellent at one rung stops predicting excellence at the next.**
 
-This is not a finding we manufactured. The specialty counts are public; the rotating ladder is visible in the published career structure of essentially every technology company. Two narrowings, stated so they cannot be quietly widened later:
+This is not a finding we produced. It predates this research; it is visible in any profession's public structure; and it was not surfaced by a search that went looking to confirm a thesis. A skeptic who rejects everything else in this paper still has to account for it. **It is the floor.**
 
-1. **"Specialized vs. rotated," not "specialized vs. nothing."** Software *is* subdividing — DevOps, ML engineering, platform, security, data — but at the **IC craft level**, not at the leadership transitions. The career *ladder* still routes everyone through the same rotation; the specialization that other professions used to relieve the capacity ceiling has not reached the rungs where the rotation actually bites. The claim is about *where* software specialized, not whether it specializes at all.
+### The cleanest external exhibit: the specialty counts
+
+If the claim is "every profession that hit the capacity ceiling specialized, and software is the exception," the single clearest piece of evidence is the **public structure of the comparator professions** — checkable in an afternoon, no survey, no proprietary data, no framework required:
+
+| Profession | Response to the capacity ceiling | Verifiable artifact |
+|---|---|---|
+| Medicine | Subdivided into **40+ board-recognized specialties** (ABMS), each with sub-specialties and separate boards | The specialty list; no one calls a cardiologist a fraud for not doing neurosurgery |
+| Law | Split into practice areas (corporate, IP, litigation, tax, regulatory) with **divergent knowledge bases** | An M&A attorney and a criminal-defense attorney share a degree and little else |
+| Engineering | Separated into **licensed disciplines** (civil, mechanical, electrical, software) — separate degrees, separate PE licensure | Distinct accreditation and licensing tracks |
+| Accountancy | Subdivided into **audit / tax / advisory**, with separate certification | Separate qualification pathways |
+| **Software** | **Did not subdivide the career.** The advancement *ladder* routes everyone through the same rotation | One ladder; the title keeps saying "engineer" while the work rotates |
+
+This is what makes the exhibit load-bearing rather than illustrative: the comparators are not distant analogies reached for to make a point — they are the *mature professions software is routinely compared to*, and each one resolved the identical constraint (a knowledge base exceeding one human's capacity) by **subdividing the work** rather than demanding individuals exceed their limits. Software met the same constraint and answered it with a single rotating ladder. The mechanism is consistent and the exception is software's alone. A skeptic cannot dismiss it as "those fields are just different," because the constraint — finite human cognitive capacity against a deepening domain — is precisely the one they share.
+
+### The discipline this section holds to
+
+Two narrowings, stated so they cannot be quietly widened later:
+
+1. **"Specialized vs. rotated," not "specialized vs. nothing."** Software *is* subdividing — DevOps, ML engineering, platform, security, data — but at the **IC craft level**, not at the leadership transitions. The career *ladder* still routes everyone through the same rotation; the specialization that other professions used to relieve the capacity ceiling has not reached the rungs where the rotation actually bites. The claim is about *where* software specialized, not whether it specializes at all. *(This narrowing is load-bearing again in §5–§6: the industry differentiates the leadership rungs late and partially, never fully — so "specializes when affordable" must be stated precisely.)*
 
 2. **Rotation in focus, not incompatibility.** The claim is that the *object* of the skill rotates (product → people → org → market), not that the skills cannot coexist in one person. An engineering manager who still codes is doing their old job inside their new role; the jobs compete for time and identity but are not mutually exclusive over a career (the pendulum shows positive transfer). "Distinct skill sets with no runway," never "incompatible." *(Corrected per [`../CTO/18_RESEARCH_modes_not_incompatible.md`](../CTO/18_RESEARCH_modes_not_incompatible.md); this tier's older files still say "incompatible" — read it as the retired phrasing.)*
 
-The rotation is corroborated independently at two rungs by named practitioner field research, so this is not only our reading:
+### The rung-level corroboration (support, not floor)
+
+The specialty-count exhibit establishes that software *uniquely declined to specialize*. That the un-specialized ladder then operates as a **rotation** — that advancement changes the *kind* of work, not its depth — is corroborated independently at two rungs by named practitioner field research, so this is not only our reading:
 - **At the IC→Engineering-Manager rung**, the rotation is loud and externally named: *"The transition to an EM is a role change, not a promotion"* (Pat Kua). The track changes; the work rotates from *my output* to *other people's output*.
 - **At the Senior→Staff rung**, the same rotation appears *quietly, inside the IC track*. Larson's *Staff Engineer* (2021) finds "Staff Engineer" is not one job but **four distinct jobs behind one title** (Tech Lead, Architect, Solver, Right Hand) — *"most career ladders paper over several distinct roles hidden behind a single moniker."* *(`AX-LARSON`, ✅ Conf 5.)*
 
-> **Plain form (for derivation):** *When medicine got too big for one person, it split into specialties — nobody calls a cardiologist a fraud for not doing neurosurgery. Law did it, engineering did it, accounting did it. Software hit the same wall and didn't split the career. It built one ladder where getting promoted means doing a different job — first the code, then the team, then the org, then the market — while the title keeps saying "engineer." And we know it's a real rotation, not us reading it that way: half of new engineering managers go back, and "Staff Engineer" turns out to be four jobs wearing one badge.*
+These two are *support*, not the floor: the floor is the specialty-count comparison (an external structural fact); the rung research shows the un-specialized ladder behaves as the rotation the thesis says it is.
+
+> **Plain form (for derivation):** *When medicine got too big for one person, it split into 40-plus specialties — nobody calls a cardiologist a fraud for not doing neurosurgery. Law did it, engineering did it, accounting did it. Every mature field that hit "too much for one human" answered the same way: divide the work. Software hit the same wall and didn't split the career. It built one ladder where getting promoted means doing a different job — first the code, then the team, then the org, then the market — while the title keeps saying "engineer." You can check the specialty lists in an afternoon; software is the one that isn't there. And the ladder really is a rotation, not us reading it that way: half of new engineering managers go back, and "Staff Engineer" turns out to be four jobs wearing one badge.*
 
 ---
 
@@ -220,14 +258,16 @@ And the "it's just growth" version collapses against §1's narrowing: growth is 
 
 ### The industry proves it believes the ceiling is real
 
-This isn't only logic. The industry acts out its belief that the rotation exceeds one unsupported person, in the two ways §3c established: **it built the IC-track fallback the moment it could afford to**, and **it distributes the composite the moment it can afford to.** Nobody keeps the uncushioned composite once they have the budget to break it up. Revealed preference: the specialized, cushioned, differentiated structure is what the industry builds when money is not the constraint — which means the uncushioned version was a budget compromise, not a considered design.
+This isn't only logic. The industry acts out its belief that the rotation exceeds one unsupported person, in the two ways §3c established: **it built the IC-track fallback the moment it could afford to**, and **it distributes the composite the moment it can afford to.** Nobody keeps the uncushioned composite once they have the budget to break it up. Revealed preference: the cushioned, *more*-differentiated structure is what the industry builds when money is not the constraint — which means the uncushioned version was a budget compromise, not a considered design.
+
+**State this precisely, or it collides with §6 concession 7.** The revealed preference that is *clean* is **"distributes and cushions the composite when affordable"** — companies demonstrably split the founding composite into CTO → VP-Eng → EM → Staff/Principal, and add IC-track rubrics, the moment headcount allows. What the evidence does **not** support is the *stronger* claim that the industry **fully specializes the leadership rungs when affordable**: even large, wealthy companies left the leadership rotations un-specialized for decades, and the dual-track correction is recent and partial (§6c7). So the move is: *the industry cushions and distributes the composite when it can afford to* — not *the industry specializes the ladder the way medicine did the moment money allows.* The first is revealed preference; the second is contradicted by how late and partial the correction actually was. Holding the weaker, true version is what keeps §5 and §6 consistent.
 
 ### What this move does and does not claim
 
-- It is **logically airtight independent of any contested number.** It does not depend on half-life figures, the imposter rate, or any compression ratio. It needs only one uncontested behavior: **organizations specialize and cushion the ladder when they can afford to.**
+- It is **logically airtight independent of any contested number.** It does not depend on half-life figures, the imposter rate, or any compression ratio. It needs only one uncontested behavior: **organizations cushion and distribute the composite when they can afford to.** (Not the broader "fully specialize the ladder" — see the precision note above.)
 - It does **not** claim the lean ladder is irrational, dominated, or a mistake a rational company would avoid. The claim is narrower and harder to escape: *the rotation exceeds unsupported individual capacity, and is sustained by inability-to-fund-the-cushion — which is precisely why the cost lands on the person rather than the structure.*
 
-> **Plain form (for derivation):** *The best argument against all this is "startups can't afford specialists." But you only say you "can't afford to specialize" something that actually needs specializing — which concedes the whole point. Medicine has specialists because one person can't hold all of medicine; software hits the same wall and admits it can't fund the fix. The ceiling didn't move at seed stage. The budget to admit it did. And we know the industry agrees, because the moment companies can afford to, they split the role and build the IC track.*
+> **Plain form (for derivation):** *The best argument against all this is "startups can't afford specialists." But you only say you "can't afford to specialize" something that actually needs specializing — which concedes the whole point. Medicine has specialists because one person can't hold all of medicine; software hits the same wall and admits it can't fund the fix. The ceiling didn't move at seed stage. The budget to admit it did. And we know the industry agrees, because the moment companies can afford to, they break the composite apart and build the IC track — even if (being honest) they did it late and only partway.*
 
 ---
 
@@ -249,7 +289,7 @@ A claim is only worth as much as the conditions under which its author would aba
 
 **6. The imposter-syndrome figure is corroborating, not load-bearing.** The 52.7% figure (Clance scale, 2024) is *consistent with* the thesis but does not prove it — elevated imposter rates appear across all high-achievement populations regardless of rotation structure, and are in fact *higher* in some comparators. The ~50% reversion rate proves it; imposter data corroborates. *(`R2` Bias 6; `08`.)*
 
-**7. Software *is* specializing — just not where it counts.** The IC-level subdivisions (DevOps, ML, platform, security) are real specialization. The claim is specifically that the **leadership rotations** — the rungs where the capacity ceiling actually produces population-scale failure — are the ones software left un-specialized and un-cushioned on the default path. Not "software refuses to specialize," but "software specialized everywhere except the rungs that needed it most."
+**7. Software *is* specializing — just not where it counts, and the leadership correction is late and partial.** The IC-level subdivisions (DevOps, ML, platform, security) are real specialization. The claim is specifically that the **leadership rotations** — the rungs where the capacity ceiling actually produces population-scale failure — are the ones software left un-specialized and un-cushioned on the default path. Not "software refuses to specialize," but "software specialized everywhere except the rungs that needed it most." **This is the boundary on §5's revealed-preference move:** §5 may claim only that the industry *cushions and distributes the composite* when affordable (true), **not** that it *fully specializes the leadership rungs* when affordable (false — even wealthy companies under-specialized those rungs for decades; the dual-track is recent and partial). The two sections are consistent only when §5 is held to the weaker, accurate claim. *(See the precision note in §5.)*
 
 ### 6b. Falsifiers — what would make us wrong
 
@@ -274,8 +314,9 @@ We stake the thesis on the following. Each is a study that could be run; we pred
 | § | Section | Source | Status |
 |---|---|---|---|
 | §0–0.1 | Thesis + contribution + discipline | `R3` defensible form / `13` specialization frame | ✅ done |
-| §1 | Every profession specialized; software rotated (the observation) | `13` Exhibit 1 + `R3` Pillar 2 + Larson | ✅ done |
-| §2 | Measurably hard; identity-gated; structurally supported | `R3` Pillar 1/3 + `AX-REVERSION` + MW/VL | ✅ done |
+| §0.2 | The fungibility engine (root cause that generates the axes) | `00_AXES` (root cause) + `02`/`02b` + `R3` Pillar 1 | ✅ done |
+| §1 | Every profession specialized; software rotated (the observation) | `13` Exhibit 1 (specialty-count exhibit = floor) + `R3` Pillar 2 + Larson/Kua (support) | ✅ done |
+| §2 | Measurably hard; identity-gated; structurally supported | `R3` Pillar 3 + `AX-REVERSION` + MW/VL | ✅ done |
 | §3 | Rotation elsewhere too; software withholds every cushion | `R3` Pillar 2 + `05_` + `08_` + `R2` Bias 5 | ✅ done |
 | §4 | The misattribution is the harm (legibility contribution) | `R3` Pillar 3 + `13` misattribution + `06` Part I | ✅ done |
 | §5 | The accidental concession (objection → support) | `R3` accidental-concession + `13` Exhibit 1 steelman | ✅ done |
