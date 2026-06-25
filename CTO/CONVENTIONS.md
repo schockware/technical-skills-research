@@ -93,6 +93,7 @@ The source of truth for *status* is each destination file (e.g. `07_APPENDIX`). 
 | `RISK-INVESTOR-CAUSAL` | `08_DRAFT` §3.3 / `07_APPENDIX` `AX-INVESTOR` | Causal narrative, not measured study — publish as "consistent with," not "caused" |
 | `RISK-COMPRESSION-RATIO` | `10_RESEARCH` headline / `07_APPENDIX` `AX-COMPRESSION` | ✅ framing resolved (now "~4–6:1 on cash" + methodology note); remaining work is equity-package data, not framing |
 | `RISK-TEE-DOMAIN` | `09_RESEARCH` / `07_APPENDIX` #10 | TEE (Mars 2026) is an AI-systems paper — do NOT use as the human failure mechanism; use competence trap + Dunning-Kruger + role-identity attachment |
+| `RISK-SURVIVORSHIP` | `16_RESEARCH` + `../*/14_…` success thread | Success cases = presence-as-evidence (mirror of RISK-ASYMMETRY). Mitigate with 3-layer per-claim tagging, never a success checklist |
 
 *(OPEN- IDs to be registered here as they're introduced. `XR-ASYMMETRY-DRAFT` tracked inline at its two sites.)*
 

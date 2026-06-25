@@ -147,6 +147,13 @@ These three callouts are linked from `08_DRAFT_skills_divergence_thesis.md` by m
 
 ## Framing-risk register (RISK- anchors)
 
+### `RISK-SURVIVORSHIP` — success-case research is presence-as-evidence by construction
+- **Claim site:** `16_RESEARCH_success_cases.md` (CTO) + `../Software Developer/14_…` + `../Software Industry/14_…` (cross-area success thread). Anchor tag in `16_` as `AX-SURVIVORSHIP`.
+- **The risk:** any "successful CTOs did X" claim is **one half of a 2×2 with the missing cell** — the people who did X and *failed* are not in the sample (failure isn't famous). Reader temptation: "do what so-and-so did and succeed" — the same false-certainty trap as the self-diagnostic we declined to build (`EVALUATIONS/16_`). This is the *mirror* of `RISK-ASYMMETRY` (absence-as-evidence): here it's **presence**-as-evidence.
+- **Mitigation (built in, not just disclaimed):** every success factor carries a **3-layer tag** — (1) mechanism-type `[MECHANISM]`/`[SURVIVOR]`/`[CONTEXT-LUCK]`, (2) confidence × transferability scores, (3) a *missing-cell note* naming who did the same thing and failed. Plus a document-level disclaimer. A disclaimer alone is insufficient — individual claims still read as causal without per-claim tagging.
+- **Hard rule:** this thread must never emit a "success checklist." If it starts to, survivorship bias is winning — stop, re-apply Layer 3.
+- **Status:** ⬜ Open (active, scaffolding-only — no cases entered yet). Registered in `CONVENTIONS.md`.
+
 ### `RISK-COMPRESSION-RATIO` — the 6:1 number is cash-vs-total-comp ✅ RESOLVED (framing)
 - **Claim site:** `10_RESEARCH` headline + Part 2 + Part 4 + reference table (paired with `AX-COMPRESSION`).
 - **The risk:** the ratio divides the CTO's **cash-only** comp (~$177K) into the distributed roles' **total-cash** comp (~$1.1M), implicitly valuing the CTO's equity at zero. A reviewer who adds the CTO's equity back recomputes a lower ratio (~4:1). The number is also built on content-site medians (see `AX-COMPRESSION`).
