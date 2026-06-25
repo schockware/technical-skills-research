@@ -1,0 +1,42 @@
+Sharp question. And you're right about the Builder gap — in the skills-first framing, the absence of Builder research isn't arguing-from-silence anymore. It's a predicted gap: if the skill sets genuinely diverge, you'd expect research populations to cluster where managers exist. The absence is what the theory anticipates. That's different from using it as confirmation.
+On the broader question — other roles with the same irrational composite problem — let me think before searching, because the answer shapes the scope of the thesis significantly.
+My hypothesis before we search:
+The CTO is probably the most extreme case, but there are structural analogs:
+
+Founding CPO — early stage is pure product intuition and customer discovery (a Builder analog), then it becomes roadmap management and cross-functional alignment (Multiplier), then it becomes market positioning and board-level strategy (Strategist). Same rotation problem, slightly less extreme because the product management career ladder is a bit more explicit about these transitions.
+Founding CEO — the most discussed version of this problem. "Founder mode" vs "manager mode" is exactly this debate. But the CEO has more external support infrastructure — CEO coaching, YC playbooks, the entire founder development industry. The CTO has almost none of that.
+Head of Sales / CRO at early stage — Builder (closing deals yourself), Multiplier (building a team that closes), Strategist (market positioning, partnerships, board narrative). Less discussed as a structural failure because sales attrition is normalized and the title changes more fluidly.
+Founding CMO — similar arc but the transitions are less violent because marketing skills overlap more across stages.
+
+The CTO is probably the sharpest case for two reasons: the technical/people skill divergence is the widest of any function (the IC/management bifurcation is unique to engineering), and the title was inherited from a context where only the third mode existed.Searched the webSearched the webGood — and you're right that the flip actually strengthens the Builder gap position. In the skills-first framing it's a predicted gap, not an absence being used as evidence. The theory anticipates it.
+On the other roles question — let me search properly rather than theorize.Searched the webSearched the webThat's enough. The pattern is clear across all three searches. Let me give you the honest analysis.
+
+The answer is yes — other roles have versions of this problem. But none have it as sharply as the CTO, and the research confirms why.
+The founding CEO — closest analog, but well-buffered
+The CEO transition is the most documented version of this problem. Founder and CEO are sometimes thought of as two different skill sets — what founders are very good at is being visionary, innovative, passionate, frugal. What CEOs are much better at are scale-relevant skills. Managing 100 employees is very different from managing three. Saasceo
+The structure is similar — Builder (visionary doer), Multiplier (organizational leader), Strategist (institutional CEO). But the CEO has a significant support infrastructure that the CTO completely lacks: the entire founder coaching industry, YC playbooks, First Round's CEO content, executive coaching, and most importantly, the CEO role is the primary named subject of startup leadership literature. When the CEO struggles, there are 10,000 frameworks waiting. When the CTO struggles, there's almost nothing.
+The founding Head of Sales / CRO — structurally identical rotation, practically invisible
+This is the most interesting finding. There's a big difference between being a builder, an optimizer, and a maintainer/grower. You need a CRO if you're past a certain stage — but the CRO is a strategist, and the VP of Sales is a builder. Charliesolorzano
+The sales leadership rotation maps almost exactly:
+
+Early stage: the Closer — personally selling, finding the pattern
+Mid stage: the Builder — installing process, hiring reps, creating the playbook
+Late stage: the Strategist — cross-functional alignment, board narrative, revenue architecture
+
+The most common mistake startups make is hiring a CRO from a late-stage environment before the business is ready. Without confirming the leader's ability to operate in ambiguity, build from scratch, and work within tight constraints, the role often fails regardless of pedigree. Talentfoot
+Same failure mode, same root cause. But notice: the industry has partially solved this by splitting the titles. VP of Sales is the Builder/Multiplier. CRO is the Strategist. The split happened because the composite was too obviously irrational to leave unnamed. The CTO title never got that split.
+The founding CPO — similar rotation, less violent
+Although founders assume multiple roles in the early venture stage, they are likely to go through substantial role transitions — maintaining and focusing on some existing roles, but also potentially taking on new ones and giving up others, as the venture develops. ScienceDirect
+The CPO rotation exists but is less extreme for two reasons. First, the product management career ladder is more explicit about the transition from IC contributor to people manager — PM is not split into IC and management tracks the way engineering is. Second, the CPO's Builder skills (product intuition, customer discovery) are more transferable to the Multiplier role than a CTO's technical craft is. You can coach PMs using the same customer instincts that made you a great PM. You cannot coach engineers by writing better code yourself.
+
+The differentiator — why CTO is sharpest
+Three structural factors make the CTO case uniquely extreme:
+
+The IC/management bifurcation is unique to engineering. No other function has formally declared its two skill tracks incompatible enough to create separate career ladders. Sales doesn't have an IC track. Marketing doesn't. Product management is ambiguous. Only engineering has said, explicitly and structurally, "these skills diverge and you must choose." Then we ask the CTO to hold both.
+The title was inherited pointing the wrong direction. The CEO title at least implies leadership from day one. The CTO title implies technology — centering exactly the skill that stops being the differentiator. The sales equivalent would be if the CRO title had been borrowed from an enterprise "Chief Closing Officer" and applied to people who needed to build organizations.
+The transition failure is invisible by design. When a sales leader stays in Closer mode too long, revenue stalls — that's measurable and visible. When a CTO stays in Builder mode too long, team quality declines slowly, debt accumulates, top engineers leave quietly. The failure signal is diffuse and delayed, which is why it gets attributed to the individual rather than the structure.
+
+
+What this means for the thesis
+The comparative analysis strengthens rather than weakens the CTO claim. These other roles have the same structure but the industry has either (a) provided support infrastructure (CEO), (b) split the title to acknowledge the incompatibility (VP Sales → CRO), or (c) benefited from more transferable skill sets across transitions (CPO). The CTO is the case where none of those mitigations exist, the title points the wrong direction, and the skill divergence is the sharpest in any function.
+The CTO isn't just an example of this problem. It's the worst case — which is why it's worth a dedicated framework.

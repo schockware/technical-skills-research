@@ -1,0 +1,23 @@
+# --- Licensed / third-party research sources — NEVER commit ---
+# Primary guard: the source folder by name.
+DO NOT CHECK THIS IN/
+
+# Defense-in-depth: even if that folder is renamed or a file is copied
+# elsewhere in the tree, these patterns keep the protected content out of git.
+*.pdf                      # purchased / licensed journal PDFs (Elsevier et al.)
+1-s2.0-*-main.pdf          # Elsevier ScienceDirect article naming
+receipt*.png               # purchase receipts (payment info)
+receipt*.jpg
+*receipt*.pdf
+
+# --- Local scratch / OS noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+*.tmp
+*.bak
+.vscode/
+.idea/
+scratchpad/
