@@ -97,13 +97,54 @@ Two narrowings, stated so they cannot be quietly widened later:
 
 ---
 
+## §2 — Crossing that boundary is an identity transition, and the CTO crosses it without cushions
+
+§1 established that one skill boundary is institutionally real. §2 establishes three things about *crossing* it: it is hard in a measurable way, it is hard for a specific reason (identity, not skill), and the founding CTO crosses it stripped of the supports that make the same crossing survivable elsewhere.
+
+**This is the section that leans hardest on evidence about populations other than CTOs.** That is deliberate and licensed — but the license has terms, stated here once and honored at every claim: the founding CTO is, by construction, *doing the IC engineer's work and making the IC-to-manager move* (Premise 1, component-equivalence). So evidence about that move is evidence about the component transition the CTO must make. What that evidence does **not** do is measure the CTO-specific *compression* (all of it at once, pre-scale, alone) — that severity is this corpus's extension, argued, not the source papers' finding. Every claim below is tagged accordingly.
+
+### 2a. The boundary is measurably hard — the behavioral anchor
+
+The load-bearing number is the **IC-to-engineering-manager reversion rate: roughly half of newly promoted engineering managers return to individual-contributor work.** It is the paper's strongest empirical fact for one reason — it is *behavioral*, not sentiment: it measures what people *did* (returned to IC), across a population that includes both those who succeeded and those who didn't, in a large sample.
+
+- The vivid practitioner statement of it (a Figma engineering leader's "at least half the time") is **corroborated by large-sample management research**: CEB/Gartner finds ~50% of new managers/executives fail within 18 months (n≈30,000), and McKinsey reports a ~40% failure rate for newly promoted executives. *(`AX-REVERSION`, verified.)*
+
+> **The boundary in this stat is the *exact* boundary §1 identified as institutionally real** — IC→management. The number is *not* about CTOs specifically; it is about the transition the CTO-Builder must make. We use it as **the measured difficulty of the boundary**, not as proof of a CTO-specific failure rate. *(Discipline per `R3` Pillar 2; the CTO-specific rate is unmeasured — see §5 / `GAP-CTO-TRANSITION`.)*
+
+A competing explanation — "engineers just need better management training" — predicts the reversion rate should fall sharply with support. It does not: the ~50% holds *at companies with dedicated management-development programs*. That is what makes it look structural rather than a training deficit. (Stated as what the number is *consistent with*, not as proof; the controlled study isn't ours.)
+
+### 2b. Why it's hard: identity, not skill (the peer-reviewed mechanism)
+
+The reason the boundary resists training is that crossing it is an **identity transition, not a skill upgrade.** This is the one place the paper has *peer-reviewed* grounding — and the one place the boundary on that grounding must be stated most carefully.
+
+Mathias and Williams (2018, *Journal of Business Venturing*) and Van Lancker et al. (2023, same journal) — the corpus's two full-text-verified anchors — establish, **in founders**, that:
+- Role transitions are a matter of which roles one will *give up, retain, and adopt* — and the hard part is **giving up a self-defining role**, because it is an identity loss, not a task hand-off (Mathias & Williams).
+- Successful offload runs through *physical* disengagement without *psychological* disengagement (you stop doing the work without ceasing to value it), and through **role-identity imprinting** — seeing your stamp on the person you handed the work to (Mathias & Williams).
+- The offload *sticks* only under specific conditions: **psychological safety and value-fit** in the receiving team (Van Lancker et al.).
+
+> **The boundary on this evidence (stated, per Premise 1 + `R3`):** these papers study **founders/entrepreneurs in general — the *buffered*, CEO-analog case** with support infrastructure the CTO lacks. They establish the *mechanism* — that role transition is identity-gated and offload-conditional. They do **not** study CTOs, and they do **not** establish the CTO-specific severity. The claim this paper makes is: *the mechanism is peer-reviewed in founders; the founding CTO faces the same mechanism with fewer of the conditions that let it succeed.* That last clause is our extension, and it is argued in 2c — not borrowed from the papers.
+
+### 2c. The CTO crosses it uncushioned — the comparative move
+
+Every other profession that rotates provides at least one cushion that makes the rotation survivable. The founding CTO, pre-scale, gets none:
+
+- **Honest labeling:** the military names the Warrant Officer track; consulting's up-or-out is explicit. The CTO title signals *continuity* ("still the technical person") while the role demands a career change — the rotation is unlabeled. *(Borrowed, correctly, from the sibling Industry thread — `CROSS_REFERENCES` link; the labeling axis is theirs.)*
+- **A respected fallback:** the surgeon stays licensed and operating; the professor keeps researching. The founding CTO has **no external license** to fall back on — the "technical leader" identity was constructed entirely by doing the work, so when the work stops, the identity has nothing to hold (the Industry thread's *unlicensed-identity* axis). This is *also* the mechanism behind 2a's reversion: reverting to IC is reaching for the only identity anchor that exists.
+- **A scaffolded timeline:** residencies, pupillage, officer academies are multi-year supported transitions. The founding CTO gets "new title, new expectations" on the company's funding clock — and the offload conditions Van Lancker identifies (psychological safety, value-fit, a capable receiving team) are exactly what a pre-scale startup has *least* of.
+
+The synthesis: the boundary is real (§1), measurably hard (2a), hard because it is identity-gated (2b), and the founding CTO crosses it stripped of every condition that makes it survivable elsewhere (2c). That is the defensible meaning of "under-resourced at the worst possible moment" — not a metaphor, a list of specific missing supports.
+
+> **Plain form (for derivation):** *About half of new engineering managers go back to being engineers — even at companies that train them well. It's not a skills gap; it's that becoming a manager means giving up being the person who does the work, and that's an identity loss, not a promotion (this is peer-reviewed — in founders; the CTO is our extension of it). Every other field that asks people to make this kind of switch gives them a cushion — an honest name for it, a way back, a real timeline. The founding CTO, alone and pre-scale, gets none of them.*
+
+---
+
 ## Planned structure (increment roadmap)
 
 | § | Section | Source | Status |
 |---|---|---|---|
 | §0–0.1 | Thesis + contribution + discipline | R3 thesis / contribution | ✅ done |
-| §1 | The institutional fact: the IC/management split | R3 Pillar 1 + CRO exhibit (`09_`) | ✅ this increment |
-| §2 | The rotation is identity-gated & uncushioned | R3 Pillar 2 + `AX-REVERSION` + Premise 1 | ⬜ |
+| §1 | The institutional fact: the IC/management split | R3 Pillar 1 + CRO exhibit (`09_`) | ✅ done |
+| §2 | The rotation is identity-gated & uncushioned | R3 Pillar 2 + `AX-REVERSION` + Premise 1 | ✅ this increment |
 | §3 | The misattribution is the harm (the legibility contribution) | R3 Pillar 3 + `15_` | ⬜ |
 | §4 | The accidental concession (objection → support) | R3 §strongest-objection | ⬜ |
 | §5 | Concessions & falsifiers, in the draft's own voice | R3 concessions + falsifiers + `R4` | ⬜ |
@@ -117,11 +158,11 @@ Two narrowings, stated so they cannot be quietly widened later:
 
 | Section → / Audience ↓ | §1 Institutional fact | §2 Rotation/reversion | §3 Misattribution | §4 Accidental concession | §5 Falsifiers |
 |---|---|---|---|---|---|
-| **CTOs / eng leaders** | "you were told to pick a track; the founding seat made you skip the choice" | the reframe: "the ~50% isn't you" | "you're under-resourced, not inadequate" | _(tbd)_ | _(usually dropped)_ |
-| **Founders / CEOs** | the split exists for a reason; your CTO is spanning it unsupported | resource the transition before the boundary | name the mode, don't blame the person | _(tbd)_ | _(light)_ |
-| **Investors / board** | the VP-Eng split you defer is the cushion you removed | mode-aware diligence | stop penalizing the failure you select for | the signal you require installs the gap | _(tbd)_ |
-| **Academic / researcher** | the verifiable seam (the one claim needing no framework) | the unrun cohort study | — | — | **the payload** (F1–F4, `GAP-CTO-TRANSITION`) |
-| **Job boards / recruiters** | the JD writes the composite; the CRO/VP-Sales split is the template you don't apply to eng | "hands-on AND strategic" attracts mediocre-at-both | — | — | — |
+| **CTOs / eng leaders** | "you were told to pick a track; the founding seat made you skip the choice" | "half of new EMs revert *even when trained* — it's not your skills, it's an identity switch you got no cushion for" | "you're under-resourced, not inadequate" | _(tbd)_ | _(usually dropped)_ |
+| **Founders / CEOs** | the split exists for a reason; your CTO is spanning it unsupported | provide the cushions (honest label, fallback, timeline, a capable receiving team) *before* the boundary | name the mode, don't blame the person | _(tbd)_ | _(light)_ |
+| **Investors / board** | the VP-Eng split you defer is the cushion you removed | ~50% reversion at the boundary you fund across; mode-aware diligence | stop penalizing the failure you select for | the signal you require installs the gap | _(tbd)_ |
+| **Academic / researcher** | the verifiable seam (the one claim needing no framework) | the behavioral anchor (n≈30k) + the unrun *CTO-specific* cohort study (`GAP-CTO-TRANSITION`) | — | — | **the payload** (F1–F4) |
+| **Job boards / recruiters** | the JD writes the composite; the CRO/VP-Sales split is the template you don't apply to eng | "hands-on AND strategic" demands both sides of a boundary half the field can't cross once | — | — | — |
 
 ---
 
