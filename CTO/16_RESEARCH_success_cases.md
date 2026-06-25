@@ -89,14 +89,58 @@ Each area gets a lightweight `*_success_exceptions.md` note pointing back here f
 
 ---
 
+---
+
+# ★ THE HEADLINE FINDING: the category collapsed when we looked
+
+*The CTO success cases were collected (June 25, 2026) and the result is the strongest possible outcome — the kind survivorship bias **cannot** manufacture:*
+
+> **We went looking for a founding CTO who navigated all three modes (Builder → Multiplier → Strategist) as a continuous tenure. We could not find one.** Every documented "success case" is actually **one or two modes followed by departure** — replaced, or choosing to leave at a mode boundary, just with more grace and intentionality than the crisis-displacement pattern. The evidence for a founding CTO successfully traversing all three as a continuous tenure is **thin to nonexistent** in the available case literature.
+
+This is the result that *can't* be a survivor artifact: we looked directly at the survivors and the missing cell **stayed empty**. The success-case literature does not show CTOs beating the structure. It shows them **exiting it more gracefully.** That supports the taxonomy rather than challenging it.
+
+**Three patterns across the cases (all survivor accounts, retrospectively smoothed — caveat stands):**
+1. **Successful transitions were named by someone *outside* the CTO** — a COO, community peers, an investor. The CTO never self-diagnosed. *(Direct confirmation of the evaluation-isolation finding, `15_RESEARCH` — external naming was required because internal self-perception was insufficient.)*
+2. **Success was selective scope-narrowing, not full mode-replacement** — retaining the highest-identity, highest-leverage "nuggets" of Builder work while giving up *most* hats. Maps to Mathias & Williams role-identity discovery — but appears to enable **one** transition, not three.
+3. **The terminal outcome is usually departure**, not sustained multi-mode success.
+
+**The honest contribution of this section:** not "here is how success looks," but *"even in the best available cases, the structural problem is visible — it just ends more gracefully."*
+
+<!-- APPENDIX-REF: AX-NO-TRIPLE-MODE — no documented case of a founding CTO navigating all 3 modes as continuous tenure; success cases resolve to graceful exit. Promoted to corpus finding; candidate for 08_DRAFT §4/§8. 5 underlying cases are anecdotal — verify before load-bearing. See 07_APPENDIX. -->
+
+---
+
+# The cases (CTO tier) — rigor model applied
+
+*Five cases, June 25 2026. Each carries Sonnet's per-case bias flags; the summary table maps them to this file's confidence/transferability/missing-cell model. **All are anecdotal / first-person / blog or community sourced — the weakest source class. `RISK-SURVIVORSHIP` applies in full.***
+
+- **Case A — Benoit Hediard, Agorapulse** (4-part Medium series, bootstrapped $0→$23M ARR, 13yr). Three phases map onto Builder/Multiplier/Strategist; he grew "nostalgic for traction/growth," and **left** at Scale. `[SURVIVOR]` + `[CONTEXT]`. *Missing cell: the founders who felt the same nostalgia and were pushed out before they could frame it as a choice.* The departure is the M&W mechanism working as predicted (couldn't find new meaning → gave up the company rather than the identity), **not** a counter-example.
+- **Case B — Anonymous, alphalist community** (written *mid-struggle*, bootstrapped→Series B). **The most honest account in the corpus** because it isn't retrospective: "torn between zero-to-one... and the organizational workload that doesn't fulfill me and that I frankly suck at." This is the Builder→Multiplier crisis in real time, *unresolved at Series B*. **Not a success case — a struggle account.** `[MECHANISM]` (the crisis is the predicted one). Peer advice (Visage): "don't be attached to titles" = the give-up-the-hats reframe, unnamed.
+- **Case C — Renaud Visage, Eventbrite** (podcast, IPO 2018). Retained hands-on "nuggets" while scaling. `[CONTEXT/LUCK]` — **selective-Builder-retention is plausibly viable at Eventbrite's scale/funding in ways it is not at seed/A.** Do not generalize. *Missing cell: every seed CTO who tried to keep their "nuggets" and became the bottleneck.*
+- **Case D — Index Ventures "Scaling Through Chaos"** (portfolio-level). States the founding-CTO→outside-leader shift is the *likely* outcome at expansion (confirms the de-facto replacement pattern, `12_RESEARCH`). The **78% figure is the corrected one** (founding CTO *or technical CEO*, survivor-selected — see `07_APPENDIX` #12 / `AX-INDEX78`), explicitly **not** causal. `[SURVIVOR]` — investor-selected set.
+- **Case E — Matt Watson, VinSolutions** (blog, $147M exit 2011). COO named him "the bottleneck" → identity reframe to "what only I can do" → hired a VP Eng. `[MECHANISM]` (external naming + role-identity discovery) but `[CONTEXT]` (required a COO willing to say it). ⚑ now a CEO writing for a dev-hiring company — content-marketing-clean; the messiness is underrepresented.
+
+### Source-quality / bias rating (Sonnet's table, retained)
+
+| Case | Survivorship | Attribution | Retrospective | Reproducibility | Usability |
+|---|---|---|---|---|---|
+| A: Hediard/Agorapulse | HIGH | LOW | HIGH | Medium | Heavy disclaimer |
+| B: Anonymous alphalist | MEDIUM | N/A | LOW | High | Light disclaimer — most honest account |
+| C: Visage/Eventbrite | VERY HIGH | VERY LOW | HIGH | Low | Heavy disclaimer — outlier scale |
+| D: Index Ventures data | VERY HIGH | LOW | MEDIUM | Low | Heavy disclaimer — investor selection bias |
+| E: Watson/VinSolutions | HIGH | LOW | HIGH | Low | Heavy disclaimer — content-marketing context |
+
+---
+
 ## Status / open
 
-- **No cases entered yet** — scaffolding first, deliberately. Cases get added only with all three rigor layers filled.
-- Every named case currently in the corpus (`12_RESEARCH` Solution 5) is **anecdotal, founder-narrative sourced** — the weakest source class. Re-examine each through the missing-cell lens before promoting any of them.
-- This thread must never produce a "success checklist." If it starts to, that is the survivorship bias winning — stop and re-apply Layer 3.
+- **CTO tier: 5 cases collected (June 25 2026), all anecdotal** — usable only with the disclaimers above. The *finding* (no triple-mode case; success = graceful exit) is strong; the *individual cases* are weak sources. Verify the 5 before any of this goes load-bearing in `08_DRAFT`.
+- **Developer + Industry tiers:** still stubs (`../Software Developer/14_`, `../Software Industry/14_`).
+- The 78%/Index figure here uses the **corrected** form (`AX-INDEX78`) — do not let the old "founding CTO at seed" phrasing creep back in.
+- This thread must never produce a "success checklist." It didn't — it produced a *failure-to-find-success*, which is the honest result. Keep it that way.
 
 <!-- RISK: RISK-SURVIVORSHIP — success-case research carries survivorship/presence-as-evidence bias by construction; mitigated by the 3-layer rigor model, not by disclaimer alone. Mirror of RISK-ASYMMETRY. See 07_APPENDIX. -->
 
 ---
 
-*Cross-area thread. Coordinates: `../Software Developer/`, `../Software Industry/`. Rigor mirror of `RISK-ASYMMETRY` (`07_APPENDIX`). Anti-recipe rationale shares DNA with `EVALUATIONS/16_` (why we didn't build the diagnostic).*
+*Cross-area thread. Coordinates: `../Software Developer/`, `../Software Industry/`. Rigor mirror of `RISK-ASYMMETRY` (`07_APPENDIX`). Anti-recipe rationale shares DNA with `EVALUATIONS/16_RESEARCH_why_we_didnt_build_it.md`. CTO cases collected by Sonnet 4.6, June 2026.*

@@ -147,6 +147,14 @@ These three callouts are linked from `08_DRAFT_skills_divergence_thesis.md` by m
 
 ## Framing-risk register (RISK- anchors)
 
+### `AX-NO-TRIPLE-MODE` — no documented case of a CTO navigating all 3 modes (promoted finding)
+- **Claim site:** `16_RESEARCH_success_cases.md` headline. **Candidate for `08_DRAFT` §4 (prediction) and §8 (limitations).**
+- **The finding:** a search for a founding CTO who traversed Builder→Multiplier→Strategist as a *continuous tenure* found **none**; every "success case" resolves to 1–2 modes + departure (replaced or graceful exit). Strongest-possible result because it's survivor-proof: we looked at the survivors and the missing cell stayed empty.
+- **Why it's load-bearing-worthy:** it converts the success literature from a *threat* to the thesis into *support* for it, and confirms the evaluation-isolation finding (external naming required in every case).
+- **⚠️ but the 5 underlying cases are all anecdotal** — Medium series (Hediard), community post (anon), podcast (Visage), investor guide (Index), content-marketing blog (Watson). **The *finding* is strong; the *cases* are the weakest source class.** Before this goes load-bearing in the draft: confirm each case says what's claimed (esp. that each ended in departure/replacement, not sustained tenure), and frame the finding as "absence of evidence in available case literature," not "proof no CTO ever did it."
+- **Verified?** ⬜ Cases not independently verified. **Load-bearing?** High (if it enters the draft). **Confidence — 3** in the finding as stated (the absence is real in *available* literature; the universal claim would need a real sample).
+- Note: the Index 78% here uses the corrected `AX-INDEX78` form.
+
 ### `RISK-SURVIVORSHIP` — success-case research is presence-as-evidence by construction
 - **Claim site:** `16_RESEARCH_success_cases.md` (CTO) + `../Software Developer/14_…` + `../Software Industry/14_…` (cross-area success thread). Anchor tag in `16_` as `AX-SURVIVORSHIP`.
 - **The risk:** any "successful CTOs did X" claim is **one half of a 2×2 with the missing cell** — the people who did X and *failed* are not in the sample (failure isn't famous). Reader temptation: "do what so-and-so did and succeed" — the same false-certainty trap as the self-diagnostic we declined to build (`EVALUATIONS/16_`). This is the *mirror* of `RISK-ASYMMETRY` (absence-as-evidence): here it's **presence**-as-evidence.

@@ -31,6 +31,7 @@
 | **Central empirical gap** — founding-CTO transition success rate unstudied | `11_RESEARCH` | `GAP-CTO-TRANSITION` | The honest limitations + research agenda. The falsifiable test. | **§8 — Limitations & research agenda** |
 | **Evaluation isolation** — CTO can't be measured (no anchor above/below); HiPPO feedback decay | `15_RESEARCH` | `AX-CTO-ISOLATION`, `AX-HIPPO-DECAY`, `AX-OXYGEN-EVAL` | New axis: *why the CTO can't self-diagnose their mode.* The prior question the taxonomy assumes away; motivates the `EVALUATIONS/` tool. | **New §3.4 or its own short section** (sits under "the irrational condition") |
 | **Legibility, not a cure** (the honest close) | `15_RESEARCH` | `AX-NOVELTY-BASELINE` | The framework's bounded contribution: makes mismatch *sayable* ("Multiplier stage, Builder CTO"), doesn't claim to solve it. The antidote to the "it's hopeless" read. | **★ INTENDED DRAFT CLOSER — final section of `08_DRAFT`.** Verify Berray 2002 + McKinsey baseline first. |
+| **No triple-mode success case** | `16_RESEARCH` | `AX-NO-TRIPLE-MODE`, `RISK-SURVIVORSHIP` | Success-case search found *no* CTO who navigated all 3 modes as continuous tenure — success = graceful exit. Survivor-proof result; pre-empts the "but some CTOs make it" objection and confirms evaluation-isolation. | **§4 (prediction — even survivors don't beat it) + §8 (limitations).** Verify the 5 anecdotal cases before load-bearing. |
 
 ---
 

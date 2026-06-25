@@ -95,6 +95,11 @@ The source of truth for *status* is each destination file (e.g. `07_APPENDIX`). 
 | `RISK-TEE-DOMAIN` | `09_RESEARCH` / `07_APPENDIX` #10 | TEE (Mars 2026) is an AI-systems paper — do NOT use as the human failure mechanism; use competence trap + Dunning-Kruger + role-identity attachment |
 | `RISK-SURVIVORSHIP` | `16_RESEARCH` + `../*/14_…` success thread | Success cases = presence-as-evidence (mirror of RISK-ASYMMETRY). Mitigate with 3-layer per-claim tagging, never a success checklist |
 
+### `AX-` finding (promoted result, not a citation) → status in `07_APPENDIX`
+| ID | Where | Finding | Status |
+|---|---|---|---|
+| `AX-NO-TRIPLE-MODE` | `16_RESEARCH` headline | No documented CTO navigated all 3 modes as continuous tenure; success = graceful exit | ⬜ 5 cases anecdotal; finding strong, verify cases |
+
 *(OPEN- IDs to be registered here as they're introduced. `XR-ASYMMETRY-DRAFT` tracked inline at its two sites.)*
 
 ---
