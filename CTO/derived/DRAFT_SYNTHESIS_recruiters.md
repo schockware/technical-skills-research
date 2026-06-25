@@ -12,17 +12,17 @@
 
 You write a line into a CTO job description without thinking twice: *"hands-on AND strategic — can architect the system today and lead the org tomorrow."* It reads like raising the bar. It's actually the first link in a chain that ends with a good technical leader being told, eighteen months later, that they "couldn't scale."
 
-This brief is about that one line, and what to write instead. It is not a guide to finding someone who can do all three. That person is the unicorn, and chasing the unicorn is the problem, not the fix.
+This brief is about that one line, and what to write instead. It is not a guide to finding someone who can do all three *at once, from the founding stage, with no time to grow into the next one.* That req is the unicorn hunt, and running it is the problem, not the fix. (People do grow across these modes — just not on the schedule and with the zero runway a founding-stage composite req demands.)
 
 ---
 
-## The line you're writing demands both sides of a boundary most people cross once
+## The line you're writing demands both sides of a boundary most people get years of runway to cross
 
 The software industry built two separate career ladders — individual contributor and management — and told engineers to *pick one*. No other major profession formalized that split the way software did. The whole point of the split is that most engineers never have to be both at once: you choose the IC track or the management track, and the org staffs the other side.
 
 "Hands-on AND strategic" un-does that split in a single sentence. It asks one person to be excellent on *both* sides of the one boundary the field itself decided was two different jobs — and to be it from the founding stage, before there's anyone else to staff either side.
 
-And it's a boundary that's genuinely hard to cross. About **half of newly promoted engineering managers go back to being individual contributors** — and that holds *even at companies with real management-development programs* (the ~50% figure is corroborated in large-sample management research, n≈30,000). It's not a training gap. Crossing that boundary means giving up being the person who does the work — an identity change, not a promotion. A req that demands "hands-on AND strategic, permanently" is asking for someone who has crossed a one-way boundary and stayed on both sides of it.
+And it's a boundary that's genuinely hard to cross *on the job, fast, with no room to practice.* About **half of newly promoted engineering managers go back to being individual contributors** — and that holds *even at companies with real management-development programs* (the ~50% figure is corroborated in large-sample management research, n≈30,000). It's not that the two skill sets can't live in one person — they demonstrably can, and the people who hold both are prized — it's that crossing means giving up being the person who does the work (an identity change, not a promotion), and the founding seat gives no runway to make that switch: no small team to practice on first, no way back, no time. A req that demands "hands-on AND strategic, from day one" isn't asking for an impossible *person*; it's asking someone to learn the second mode with none of the runway people normally get to learn it.
 
 > **The honest boundary on that number:** the ~50% is about the IC→manager transition in general, not about CTOs specifically — there is no measured CTO-specific rate. We're using it as *the measured difficulty of the boundary the composite JD straddles*, not as a failure prediction for any candidate.
 
@@ -71,7 +71,7 @@ You can't write a req for a transition you won't name. Naming the mode in the sp
 
 ---
 
-> **One thing this brief is *not* saying** (kept honest against the spine): it is **not** telling you to stop writing CTO roles. CTO is a real, needed role. The message is narrower: stop writing the *composite* one — the single req that demands all three modes at once, forever. And there is deliberately **no recipe here for finding someone who *can* do all three.** That's the unicorn hunt, and the whole point is to stop running it.
+> **One thing this brief is *not* saying** (kept honest against the spine): it is **not** telling you to stop writing CTO roles. CTO is a real, needed role. The message is narrower: stop writing the *composite* one — the single req that demands all three modes at once, from day one, with no runway to grow into them. And there is deliberately **no recipe here for finding someone who arrives pre-built for all three.** That's the unicorn hunt — and the whole point is to stop running it and write for the mode instead.
 
 ---
 
