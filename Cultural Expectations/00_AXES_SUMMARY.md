@@ -1,0 +1,303 @@
+# The Axes: A Summary
+## Structural Variables Discovered Across the Cultural Expectations Research Thread
+
+**Date:** June 25, 2026
+**Purpose:** Quick reference for synthesis work. Each axis is named, defined, and connected to the finding that surfaced it. Workshopped collaboratively before any research pass — these are hypotheses to test, not conclusions.
+**Companion:** `CTO/TODO.md` T2 and T4 (the originating questions); `Software Industry/00_AXES_SUMMARY.md` (sibling axis set).
+
+---
+
+## The core question this area is investigating
+
+> *Why does the culture grant the "smart → learn anything" permission for technical roles but withhold it for medicine, law, aviation, and other fields? Where is the line, and what draws it?*
+
+The doctor thought experiment (T4) locates the question: everyone instantly knows the doctor list is absurd — surgery + colonoscopies + taxes + filing insurance + driving an 18-wheeler + launching rockets. That immediacy is the data. The line is real, sharp, and culturally drawn — not capacity-drawn. Each item is individually learnable. The absurdity isn't difficulty or quantity. It's that the culture *refuses permission* to pile incompatible demands on a doctor while granting that permission for engineers and CTOs.
+
+These axes are the candidate mechanisms for *why* the line falls where it does.
+
+---
+
+## Axis 0: Fictional Media Portrayal
+**Source:** Lone genius archetype; hacker archetype; technical founder mythology (Jobs, Zuckerberg); science fiction composite hero
+**Position:** Axis 0 by design — this is the only axis that operates on children before any institution, credential system, or workplace exists in their life. The other axes explain brake failures in systems. This axis explains the prior belief those systems are staffed by.
+
+**Definition:**
+- **Culturally accurate portrayal:** Media depicts specialization, transition difficulty, scope limits, team dependency. The audience develops a model where expertise is bounded, composite demands are unusual, and failure is structurally explicable.
+- **Genius-composite portrayal:** Media depicts unlimited competence radiating from a single individual. Specialization is weakness or limitation. Composite mastery is the heroic form. Transition costs are invisible. The audience internalizes the composite as the aspirational norm — before they ever enter a workplace.
+
+**The archetypes and what they install:**
+- **The lone genius** (Tony Stark, MacGyver, Q) — one brilliant technical mind, no team, no runway, no transition support, no scope limit. Genius is sufficient for everything. The implication absorbed: a sufficiently intelligent person can do it all.
+- **The hacker** — one person, one keyboard, cracks any system in minutes. Domain boundaries don't exist. "Good with computers" covers network security, satellite control, genetic sequencing, and launching rockets. The cognitive architecture differences between these domains are invisible by design.
+- **The mad scientist / inventor** — builds rockets, creates life, rewrites physics, runs the organization. The composite is the *point* of the archetype. Specialization would ruin the character.
+- **The technical founder** — the Sorkin/Fincher Zuckerberg, the Jobs mythology, the Musk narrative. One visionary who *is* the product, the strategy, the culture, the engineering simultaneously. The Builder/Multiplier/Strategist composite is presented as the *heroic form*, not as an unreasonable demand.
+
+**Why Axis 0 is upstream of every other axis:**
+Every other axis operates on a person who is already in a decision-making role — writing a JD, evaluating a CTO, setting board expectations. Axis 0 operates decades earlier. By the time the liability framework (Axis 9), the credential system (Axis 8), the feedback loop (Axis 6), and the halo effect (Axis 7) all come into play, the prior belief is already installed. The other axes fail to install the brake. Axis 0 installs the *opposite* of the brake before the other axes even exist in the person's life.
+
+**What fictional media does to the other axes:**
+- **Axis 1 (tangibility):** Fiction makes cognitive complexity *look* tangible and fast. The hacker types furiously and the firewall falls. The genius scribbles and the equation is solved. The invisible is rendered visible and effortless — and the audience internalizes the speed and ease as normal.
+- **Axis 7 (halo):** The genius archetype *is* the halo effect normalized. Unlimited competence radiating from a single identity is the aspirational form, not an unreasonable demand. The CEO who expects the CTO to be brilliant engineer *and* great people leader *and* strategic visionary isn't making an unusual demand — they're pattern-matching to the archetype they've seen their whole life.
+- **Axis 8 (credential as capability):** In fiction, the credential is never the point — the *person* is. "He's brilliant" is the credential. No scope label, no boundary, pure capability signal. This is the model installed before any real credentialing system is encountered.
+- **Axis 6 (feedback loop):** The fictional genius never fails due to structural overload. They fail due to hubris, relationships, or villains. The structural critique is never the narrative. The audience never receives the feedback that the composite is unreasonable — the loop is broken before it's formed.
+
+**The specific damage to the CTO case:**
+The people writing CTO JDs grew up watching these archetypes. The expectation that the CTO should be technically brilliant *and* a great people leader *and* a strategic visionary is so deeply installed that it doesn't feel like a demand — it feels like a *description* of what a technical leader is. The impossibility of the composite isn't argued against at the JD stage because it was never questioned at the formation stage.
+
+**Research note:** This axis is the hardest to operationalize but may be the most important to name. The evidence is cultural and longitudinal — what archetypes dominate technical media, across what decades, reaching what audiences. The claim isn't that fiction *causes* the expectation; it's that fiction *normalizes* the composite as the default prior, making all other axes harder to overcome.
+
+---
+
+## Axis 1: Tangibility of Complexity
+**Source:** Doctor thought experiment (T4); MMM corpus (Software Industry `02_MMM_fungibility_assumption.md`)
+
+**Definition:**
+- **Tangible complexity:** The incompatible demands involve physically distinct artifacts — a scalpel, a keyboard, a CDL, a rocket. The incompatibility is *perceptually obvious*. You don't need to understand the domain to see that the CDL and the scalpel are different things. The cultural brake fires automatically.
+- **Intangible complexity:** The incompatible demands all happen on a laptop, in meetings, in documents. Everything looks like "knowledge work." The cognitive architecture required for each mode is radically different, but that difference is invisible to anyone who can't do the work — and the people setting the expectations are overwhelmingly people who can't.
+
+**Why it matters:** The cultural brake fires automatically for tangible incompatibility. For cognitive incompatibility it requires active modeling that most decision-makers lack. This is why the doctor list is *immediately* absurd and the CTO list requires argument.
+
+**The MMM connection:** Brooks' core insight is about complexity that is invisible by nature — not incidentally invisible but *essentially* invisible. Communication overhead, coordination cost, context-rebuilding time are all internal and cognitive. They don't show up until a project is late. The same invisibility that makes Brooks' Law easy to ignore makes the CTO composite easy to demand.
+
+**Comparison cases:**
+| Field | Position |
+|---|---|
+| Medicine, aviation | Tangible — physical artifacts signal incompatibility |
+| Law, accounting, taxes | Intangible but brake applied (see Axes 2, 9) |
+| Science (public-facing) | Intangible, brake partially absent (NDT case) |
+| Software, CTO | Intangible, brake absent |
+
+---
+
+## Axis 2: Institutional Memory Relative to Complexity Growth Rate
+**Source:** Age-of-discipline observation; finance subspecialty case
+
+**Definition:**
+- **High institutional memory:** The field is old enough, and grew slowly enough, that its failures have already been attributed, codified, and built into the accountability architecture. The brake is installed because the scar tissue formed. Law, medicine, accounting — centuries of visible failures that forced specialization.
+- **Low institutional memory:** The field is young, or acquired a subspecialty faster than the scar tissue could form. The brake hasn't been built yet because the failures haven't been legibly attributed yet.
+
+**Why it matters:** Age is a proxy, not the variable. The variable is the *ratio* between complexity growth rate and institutional memory formation rate. A field can be old (finance) but acquire a subspecialty (structured finance, derivatives) faster than it can institutionalize it — and the brake fails in that subspecialty. Software is a case where this happened to an entire field at once.
+
+**The finance case:** Finance has centuries of institutional memory for banking and accounting. But the quant revolution (1980s–2000s) and structured finance outpaced that memory. The 2008 crisis is the brake-failure event: complexity became imaginatively inaccessible to decision-makers (CDOs, synthetic CDOs, correlation assumptions) in the same way CTO complexity is inaccessible to boards. Old field, young subspecialty, same vulnerability.
+
+**The spaceflight case:** Aerospace inherited the institutional brake from mechanical and aeronautical engineering (centuries old, licensed, PE stamp, visible failure). Challenger and Columbia show the brake can be *degraded* even in mature fields when schedule pressure overrides engineering judgment — and what restores it is visible, attributable failure. Derivative fields inherit the brake; they don't generate it independently.
+
+**Discipline:** Age alone is not the claim. "When complexity outpaces institutional memory, the brake fails regardless of the field's age" — that is the claim. Finance proves it can happen to old fields.
+
+---
+
+## Axis 3: Structurally Obscured vs. Incidentally Invisible Complexity
+**Source:** Finance observation (fees, compound interest, fund drag)
+
+**Definition:**
+- **Incidentally invisible:** Complexity is hard to make legible because nobody has built the tools yet, or the domain is young, or the expertise gap is genuinely wide. The invisibility is a side effect, not a design.
+- **Structurally obscured:** Complexity is kept invisible because the institution *benefits from the obscurity*. Legibility would transfer power from the institution to the individual. The 1.2% annual fee drag, compound interest, CDO correlation assumptions — these are not invisible because they're hard to explain. They're invisible because explaining them would reduce demand or transfer negotiating power.
+
+**Why it matters:** Both produce the same surface effect — the individual can't evaluate the demand placed on them. But the mechanism and the remedy are different. Incidental invisibility can be fixed with better tools and communication. Structural obscuring requires changing institutional incentives.
+
+**The software case:** Software complexity is primarily *incidentally* invisible — nobody has built legibility tools for "what does it take to cross the IC→management boundary," and the expertise gap is real. But there may be a structural obscuring component: the "smart people should learn everything" assumption is convenient for organizations that want to keep headcount costs low. Worth testing whether the obscuring is ever incentivized, not just incidental.
+
+---
+
+## Axis 4: Institutionally Mediated vs. Individually Demanded Competence
+**Source:** Financial regulation; fiduciary standards; absence of equivalent in software
+
+**Definition:**
+- **Institutionally mediated:** Formal structures exist (regulatory bodies, fiduciary standards, licensing authorities) whose job is to say "this exceeds one person's scope." The individual defers to the institution and is protected from the raw demand. The institution absorbs the complexity-evaluation burden.
+- **Individually demanded:** No institutional buffer exists. The demand lands directly on the individual. There is no body whose job is to say "this JD is asking for more than one person can deliver." The CEO, board, or investor makes the demand without any structural check on whether it's reasonable.
+
+**Why it matters:** The fiduciary standard exists *because* there's a liability framework behind it (see Axis 9). The institution mediates the demand because someone is legally on the hook if the mediation fails. Without the liability framework, there's no incentive to build the mediating institution.
+
+**The CTO case:** There is no institutional body that evaluates whether a CTO job description is reasonable. The CEO can't defer to a technical standards authority. The investor can't consult a technical capacity regulator. The demand is written, posted, and enforced without any structural check. The individual absorbs the entire complexity-evaluation burden — and absorbs the blame when they can't meet a demand that was never evaluated for reasonableness.
+
+---
+
+## Axis 5: Internal Brake vs. External Brake
+**Source:** NDT / science communication case; software internal culture
+
+**Definition:**
+- **Internal brake:** The professional community polices scope among its own members. Peer review, subfield credentialing, citation structures — specialists challenge each other's authority outside their domain. The virologist corrects the cosmologist. The brake operates within the community.
+- **External brake:** The public or institutional audience also respects scope boundaries. You don't ask your dermatologist about your heart. The external demand is bounded by the same scope logic the internal community enforces.
+
+**Why it matters:** A field can have a strong internal brake and a weak external brake — science is the clearest case. Peer review enforces scope rigorously; the public makes undifferentiated demands on "scientists." The NDT critique is the symptom: the scientific community knows he's outside his scope; the audience can't tell. The internal brake and the external brake are independently variable.
+
+**Software's position:** Neither brake is reliably present. The composite CTO is *celebrated* internally — "full-stack," "technical founder," "player-coach" are positive labels, not scope violations. The external audience (CEOs, investors, boards) has even less ability to evaluate scope than the general public evaluating a scientist. Software is the worst-case position on both dimensions.
+
+**The science/software cousin relationship:** Science and software share the vulnerability structure — no liability, unlicensed identity, weak external brake, broken feedback loop to the public. But software adds the commercial demand layer: an employer with specific needs, a board with financial incentives, a JD that encodes the impossible composite, and a replacement mechanism when the individual fails. Same vulnerability structure, different demand mechanism, different consequence architecture.
+
+---
+
+## Axis 6: Feedback Loop Integrity
+**Source:** NDT case; CTO hiring loop; MMM akrasia framing (T4)
+
+**Definition:**
+- **Closed loop:** The people who know the scope limits and the people who decide the scope demands are in the same legibility community, or the knowledge can cross the gap in actionable form. The brake propagates from expertise to decision.
+- **Broken loop:** The expertise community and the decision-making community are separated by a legibility gap the knowledge can't cross. The decision-makers aren't ignoring the knowledge — they can't receive it in a form they can act on.
+
+**Why it matters:** The akrasia is *stable* because the loop is broken. The engineers, senior CTOs, and researchers who know the composite is unreasonable cannot make that knowledge legible to the founders and investors writing the JD. The knowledge exists; the transmission mechanism doesn't. This is structurally different from "decision-makers are ignoring the evidence" — the evidence is present but untranslatable.
+
+**The NDT parallel:** The scientific community's critique of NDT's scope overreach cannot reach the audience that needs to hear it, because the audience lacks the expertise to evaluate whose critique is valid. The loop is broken at the legibility gap.
+
+**Implication for the fix:** "Educate the CEOs" is insufficient if the loop is structurally broken. The fix requires making the scope boundary legible *at the decision point* — credential, title split, explicit labeling — not just making the knowledge available somewhere. This is what the CTO corpus argues is missing.
+
+---
+
+## Axis 7: Halo-Bounded vs. Scope-Bounded Authority
+**Source:** Authority bias literature (Milgram, Cialdini, Thorndike Halo Effect); NDT case
+
+**Definition:**
+- **Scope-bounded authority:** The credential defines what the holder is authoritative *about*. The cardiologist's authority stops at cardiology. The scope limit is part of what the credential communicates.
+- **Halo-bounded authority:** Excellence in one visible domain generates assumed excellence in adjacent domains. The brilliant engineer is assumed to be a brilliant manager. The famous cosmologist is assumed to know virology. The credential signals *general* mastery rather than *scoped* mastery.
+
+**Why it matters:** Where authority is scope-bounded, the demand stays within scope. Where authority is halo-bounded, the demand expands to fill whatever the organization needs the title to imply. The CTO's technical excellence halos into assumed managerial excellence, assumed strategic excellence, assumed organizational excellence — none of which follow from the demonstrated competence.
+
+**The research backbone:**
+- Milgram's obedience studies: people defer to authority figures even when the demand is clearly wrong. The white coat, the title, the institutional affiliation are enough.
+- Thorndike's Halo Effect (1920): excellence in one visible domain creates assumption of excellence in adjacent domains.
+- Cialdini on authority as persuasion lever: the *symbols* of authority trigger deference even when the substance is absent. The suit and the camera are enough.
+
+**Interaction with Axis 6:** When you can't evaluate expertise (broken feedback loop), you defer to the authority signal. But the signal (the title) says nothing about scope limits. The deference becomes unbounded precisely where the loop is most broken.
+
+**The CTO internal trap:** The title creates an internal obligation in the CTO themselves — the halo generates a self-expectation to live up to it across all domains. This is part of what makes the identity trap effective: the CTO absorbs the unreasonable demand not just because the board applies it but because the title applies it to themselves.
+
+---
+
+## Axis 8: Credential as Capability Signal vs. Credential as Scope Label
+**Source:** "Titles don't matter" observation; JD archaeology; cargo cult replication
+
+**Definition:**
+- **Credential as scope label:** The credential tells you what the holder does *and* what they don't do. The CPA credential defines scope. The MD + specialty certification defines scope. The credential is a boundary, not just a badge.
+- **Credential as capability signal:** The title is treated as proof of general capability independent of demonstrated scope. The CTO title signals "technical everything" without specifying what technical everything includes or excludes.
+
+**Why it matters — distinct from Axis 7:** The halo effect (Axis 7) generalizes from *demonstrated* competence. The credential-capability conflation doesn't even need demonstrated competence — the title alone does the work. You can hold the CTO title without having demonstrated Builder, Multiplier, or Strategist capability, and the title still signals all three.
+
+**The JD as artifact:** CTO job descriptions are written by copying previous CTO job descriptions, which trace back to some original composite that may have fit one specific company at one specific moment. The title persists; the capability requirements it was originally matched to may have shifted entirely. The credential carries the capability assumption forward through time without revalidation.
+
+**The "titles don't matter" observation:** This cuts both ways. The title inflates expectations beyond actual capability. And the title masks the absence of capability from the outside — signaling "technical leadership is covered" long past the point where the reality has diverged. Both directions produce the same outcome: the title substitutes for ongoing evaluation of whether the capability match is real.
+
+**Credentials become scope labels when:** licensure defines scope (Axis 9 liability framework enforces it), the professional community polices scope violations (Axis 5 internal brake), and failure is individually attributable (Axis 9 again). Remove all three and credentials drift toward capability signals.
+
+---
+
+## Axis 9: Culpability and Liability Frameworks
+**Source:** Comparison across medicine, law, accounting, aviation, engineering (PE stamp)
+
+**Definition:**
+- **Liability-bounded demand:** Formal liability structures make the *demand itself* evaluable. A hospital cannot instruct a nurse to perform surgery and then blame the nurse for the outcome — the liability framework makes the demand unreasonable in a legally actionable way. The liability bounds the demand, not just the response.
+- **Liability-free demand:** The demand is placed without legal structure. If the individual fails to meet it, the individual is replaced. The demand itself is never on trial. No named person, named credential, or named decision point bears legal accountability for having made an unreasonable demand.
+
+**Why it matters — two simultaneous functions:**
+1. **Bounds the demand:** You cannot ask a doctor to perform surgery outside their licensed scope because *they* bear liability if something goes wrong. Personal, financial, career-ending consequences enforce the scope boundary more reliably than any cultural norm.
+2. **Makes failure individually attributable:** When a bridge engineer stamps a drawing and the bridge fails, accountability lands on a named person at a named decision point. The scar tissue (Axis 2) forms *because* the liability framework forces failure to be attributed rather than organizationally absorbed.
+
+**The CTO case:** When a CTO burns out a team, ships a brittle architecture, or fails the Builder→Multiplier transition — no liability. Neither does the CEO who wrote the impossible JD. Neither does the investor who structured the incentives. The cost is real but lands nowhere specific enough to generate institutional change. The demand is invisible (Axis 1), unlicensed (Axis 8), unmediated (Axis 4), and **unliable**.
+
+**The science parallel — and divergence:** Science shares the no-liability vulnerability. A scientist publishes a flawed paper; if it fails to replicate, the paper is retracted but no credential is at risk, no financial consequence, no legal exposure. The accountability is reputational and communal, not structural and individual. However: science has the replication crisis as a *weak liability analog* — high-profile failed replications are career-damaging in a way that a software project failure typically isn't. Weak, slow, inconsistent — but present. Software has no equivalent even at that level.
+
+**Interaction with other axes:** Liability is the enforcement mechanism that, if present, would force the others to resolve. Axis 2 (institutional memory) — liability frameworks are *how* scar tissue gets formally encoded. Axis 4 (institutionally mediated competence) — the fiduciary standard exists *because* there's a liability framework behind it. Axis 6 (feedback loop) — liability closes the loop by force; you can't ignore the failure signal when it arrives as a lawsuit or license revocation. Axis 8 (credential as scope label) — credentials become scope labels precisely because the liability framework makes scope matter.
+
+---
+
+## Axis 10: The Measurement Paradox
+**Source:** Taylor (1911), Hawthorne Studies (1924–1932), Drucker (1954), Brooks (1975), CHAOS Report (1994–present), CEB/Gartner reversion data (2000s–present)
+**Position:** The capstone axis — the one that makes all other axes collectively damning rather than individually unfortunate.
+
+**Definition:**
+- **Measurement without revision:** The composite demand on cognitive workers has been continuously measured for over a century. The measurements consistently find the same thing — the demand exceeds capacity, failure is structurally predicted, the individual absorbs the attribution. And the demand is reproduced unchanged in every generation regardless.
+- **Measurement with revision:** Findings change practice. The scar tissue forms. The institutional brake is installed. The demand adjusts to what the evidence shows is achievable.
+
+**Why this is distinct from Axis 2 (institutional memory deficit):**
+Axis 2 describes fields where the memory *doesn't exist yet* — the failures haven't been attributed or codified. Axis 10 describes something more disturbing: the memory *exists*, is cited, is taught in MBA programs, is canonical in management literature — and the demand is reproduced anyway. This is not a memory deficit. This is the akrasia claim in its strongest and most general form.
+
+**The measurement timeline — one continuous tradition:**
+- **Taylor (1911)** — *The Principles of Scientific Management* — first systematic measurement of worker output vs. organizational expectation. Found that workers were being asked to produce more than the work structure supported. Response: redesign the work structure. The composite demand on *specialists* was revised. The composite demand on *generalist managers* was left untouched and amplified.
+- **Hawthorne Studies (1924–1932)** — first empirical study of knowledge workers in organizational settings. Found that productivity was affected by social and psychological factors, not just task design. Named the human variable. Did *not* find that cognitive tasks were non-fungible — the fungibility assumption survived intact. The measurement found the human; it didn't find the capacity ceiling.
+- **Drucker (1954)** — *The Practice of Management* — named the knowledge worker as a distinct category requiring different management than the factory worker. Explicitly argued that knowledge work cannot be Taylorized. Widely cited. Management practice continued to Taylorize knowledge work regardless.
+- **Brooks (1975)** — *The Mythical Man-Month* — named the fungibility fallacy directly, in the domain where it was most damaging. Became canonical. The industry built story points, velocity tracking, and headcount-as-capability-proxy in the decades that followed.
+- **CHAOS Report (1994–present)** — thirty years of consistent data showing large software projects fail at 6–11% success rates. Published annually. The industry response: continue building large software projects.
+- **CEB/Gartner IC→EM reversion (2000s–present)** — n≈30,000, showing ~50% of IC→EM transitions fail. The industry response: continue promoting the best ICs into management without transition support.
+
+**The thesis this axis generates:**
+> *The composite demand on smart people is not a software invention. Software is the latest and most compressed instance of a pattern that has been applied to educated cognitive workers since organizations existed — and we have been measuring the failure of that pattern the entire time without recognizing what we were measuring.*
+
+**The pre-software origin — the bureaucrat as prototype:**
+Before software engineers existed, organizations had a population of *generalist bureaucrats* — educated administrators who moved across departments, synthesized information, managed projects, and were explicitly valued for *not* specializing. The Weberian ideal bureaucrat (Weber, 1922) is defined by *office*, not by person: a sufficiently educated person fills any bureaucratic role because the role is defined by process, not craft. This is the theoretical foundation for "a smart person can do any administrative task."
+
+When software engineers arrived, they stepped into a cultural slot that was already defined — the smart generalist in the organization. The specialization that programming actually required was invisible against that template. The composite demand wasn't invented for engineers; it was *inherited* from the bureaucrat and applied without examining whether the transfer was valid.
+
+The licensed professions — medicine, law, accounting — are the fields that successfully *argued their way out* of the generalist-bureaucrat template through credentialing, liability, and hard-won institutional memory. The doctor isn't protected because doctors are special. The doctor is protected because the medical profession successfully established that its complexity exceeds the generalist template. Engineers never made that argument successfully. They remained inside the bureaucrat template — and software engineers inherited the most compressed and least-cushioned version of it.
+
+**The Lean Six Sigma note:**
+Lean (Toyota Production System, 1950s–1970s) actually *challenges* the fungibility assumption at the operational level — cross-training, kaizen, contextual knowledge as quality mechanism. When exported to the West as Lean Six Sigma, it was re-Taylorized: the statistical tools were adopted, the contextual-knowledge insight was lost. The measurement framework survived; the finding that context is non-fungible did not. This is Axis 10 in miniature: the measurement found the right thing, and the organization extracted the wrong lesson.
+
+**Why this is the akrasia claim at civilizational scale:**
+Every generation of management science rediscovers that the composite demand exceeds capacity. Names it differently. Builds tools around the edges. And then the next generation inherits the composite demand intact and starts measuring again. This isn't ignorance — it's the knowing-and-acting-against that defines akrasia, operating not at the individual level but across institutional generations. The CTO is the current generation's most compressed and visible instance of a failure mode that Taylor was already measuring in 1911.
+
+---
+
+## The Compound: How the Axes Interact for Software/CTO
+
+These axes don't operate independently. For the CTO case, they stack — and they stack in causal order:
+
+0. The decision-maker arrives with the **genius-composite as their prior** — installed by decades of fictional media before any institution shaped them (Axis 0)
+1. Complexity is **cognitively invisible** to decision-makers (Axis 1)
+2. The field is **too young** to have accumulated the scar tissue that would install the brake — and the institutional memory it did have was *actively suppressed* by the 1950s–1960s reclassification that overwrote specialized women's knowledge with the generalist-bureaucrat template (Axis 2, section 4.9)
+3. The invisibility may be **partially incentivized** by organizations that benefit from the composite (Axis 3)
+4. **No institutional body** exists to say the demand is unreasonable (Axis 4)
+5. The professional community **celebrates** the composite rather than policing it (Axis 5)
+6. The knowledge that the demand is unreasonable **cannot cross** the legibility gap to decision-makers (Axis 6)
+7. The title **halos** technical excellence into assumed managerial and strategic excellence (Axis 7)
+8. The credential **signals general capability** rather than bounded scope (Axis 8)
+9. **No liability** structure makes the demand itself evaluable or forces failure attribution (Axis 9)
+10. The failure of the composite demand has been **continuously measured for over a century** — and the demand is reproduced unchanged in every generation regardless (Axis 10)
+
+Each axis alone would be a problem. Together they form a system that reproduces the unreasonable demand reliably, invisibly, and without any structural mechanism for correction. Axis 10 is what makes the system *indicting* rather than merely unfortunate: this is not a young field making understandable mistakes. This is a pattern with a hundred years of measurement behind it, still running.
+
+**The akrasia framing (T4):** The Mythical Man-Month is simultaneously accepted and acted against. The field agrees Brooks was right and then staffs, scales, and writes JDs as if he were wrong. Knowing-and-acting-against is irrational by the field's own lights. The axes explain *why the akrasia is stable*: the knowledge exists (MMM is cited, Aristotle is cited, the reversion rate is real) but cannot reach the decision point in actionable form (Axis 6), is not enforced by any liability structure (Axis 9), and is actively obscured by the halo on the credential (Axes 7, 8) — and has been reproduced across institutional generations without revision (Axis 10). The irrationality isn't random — it's structurally reproduced across a century of evidence.
+
+---
+
+## Science and Software as Cousins
+
+Science and software share the *vulnerability structure* across most axes:
+- No personal liability for being wrong (Axis 9 — weak or absent)
+- Unlicensed identity; credential is a capability signal not a scope label (Axis 8)
+- Strong internal brake, weak external brake (Axis 5)
+- Feedback loop broken between expertise community and public (Axis 6)
+- Complexity incidentally invisible to the public (Axis 1)
+
+**Where they diverge — and why it matters:**
+- Science has a *weak liability analog* in the replication crisis (career-damaging, not legally binding)
+- Science has no commercial demand structure placing the impossible composite demand on a specific person in a specific seat — the unreasonable demand in science is diffuse (public consumption) not contractual (employer JD + board enforcement)
+- Science has a clearer internal hierarchy of credibility — a virologist challenging a cosmologist on virology wins within the community; software has no equivalent body whose job it is to say "this CTO demand is unreasonable"
+
+**The NDT case as parallel:** The audience can't evaluate whether a cosmologist knows immunology, so they defer to "scientist" as the signal — same broken feedback loop (Axis 6), same halo-bounded authority (Axis 7), same credential-as-capability-signal (Axis 8) that produces the impossible CTO JD. Same structural failure, different demand mechanism, different consequence architecture.
+
+---
+
+## Open Research Questions (To Be Filled)
+
+These axes are hypotheses. Each needs evidence before it becomes a finding:
+
+0. **Axis 0 — What archetypes dominate technical media, and across what decades?** The genius-composite claim needs a cultural inventory: which archetypes, which media, which eras, which audiences. The causal claim (fiction installs the prior) is hard to prove; the normalization claim (fiction makes the composite feel like the default description) is more tractable. Literature on media effects on occupational expectations may exist — worth searching before asserting.
+
+1. **Axis 1 — Is the invisibility empirically testable?** Can we find studies on how non-technical decision-makers model software complexity vs. physical-domain complexity? The cognitive invisibility claim should be grounded, not just asserted.
+
+2. **Axis 2 — What is software's institutional memory deficit, measured?** The CHAOS Report data (30 years of consistent large-project failure) is the closest thing to a measured failure rate. Does the field's response to it — or non-response — document the memory deficit?
+
+3. **Axis 6 — The broken feedback loop.** Is there evidence that technical community knowledge about composite-role failure doesn't reach hiring decision-makers? JD archaeology (what JDs say vs. what the technical community says) would be direct evidence.
+
+4. **Axis 9 — Liability as the master variable?** If liability is the enforcement mechanism for all other axes, test it: do fields that acquired liability frameworks late (aviation post-crashes, financial advising post-2008) show brake installation after the liability event? That would strengthen the claim.
+
+5. **The akrasia evidence gap (T4).** The akrasia claim requires (a) the field genuinely accepts MMM/non-fungibility — citable, canonical — and (b) the field genuinely acts against it. Half (b) needs the JD, the headcount plan, and the composite CTO hire as documented artifacts of the acting-against. Both halves must be evidenced before the claim is load-bearing.
+
+6. **Historical occupational transitions — the tipping moment.** Medicine, law, accounting, engineering, and aviation all successfully separated the composite demand into specializations. The trigger in every case was the same: complexity became *visibly and individually attributable through failure* before the credential and liability structures followed. Can we document the specific tipping moment for each? The Tay Bridge (engineering, 1879), germ theory (medicine, 1860s–1880s), Enron (accounting, 2001), the Air Commerce Act (aviation, 1926) are candidates. These are the comparison baseline for what it would take software to make the same transition — and they directly evidence Axes 1, 2, 9, and 10 simultaneously. See `00_RESEARCH_PLAN.md` Track 4, section 4.7.
+
+7. **Price's Law in bureaucracies — does the composite demand concentrate on square-root contributors?** Price's Law (1963) is documented in research output, software commits, and sales production. Has it been observed in organizational bureaucracies specifically? And is there evidence that organizations respond to the square-root concentration by *adding* composite demand to high contributors rather than protecting them from it? The personal observation (consistent across multiple organizations and consulting engagements) is a strong prior — the research pass tests whether it generalizes and whether the mechanism is documented. See `00_RESEARCH_PLAN.md` Track 4, section 4.8.
+
+8. **The gendered reclassification — when was the fungibility assumption installed, and by whom?** Programming was specialized work performed by selected women before the reclassification of the 1950s–1960s masculinized and generalized it. The aptitude tests that drove that reclassification were circular (measuring a constructed male profile, filtering for it, then using the filtered population to define the profile). The fungibility assumption arrived with the reclassification, not organically. Can we document precisely what was known about programming's specificity before the reclassification — and what was suppressed when the generalist template replaced it? Ensmenger (2010), Abbate (2012), and Light (1999) are the primary research targets. Directly evidences Axes 2, 5, 8, and 10. See `00_RESEARCH_PLAN.md` Track 4, section 4.9.
+
+---
+
+*Workshopped collaboratively June 25, 2026. These are hypotheses before the research pass — the research pass tests them, it does not confirm them.*
+*Axes: 0 (fictional media) → 1 (tangibility) → 2 (institutional memory) → 3 (structural obscuring) → 4 (institutional mediation) → 5 (internal/external brake) → 6 (feedback loop) → 7 (halo authority) → 8 (credential-capability) → 9 (liability) → 10 (measurement paradox).*
+*Connection map: `CTO/TODO.md` T2 (expectation audit) and T4 (cultural permission structure); `Software Industry/00_AXES_SUMMARY.md` (sibling); `CROSS_REFERENCES.md` (three-area index); `00_RESEARCH_PLAN.md` (five tracks, research targets, spillage map).*
