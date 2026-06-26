@@ -187,3 +187,174 @@ This is **Axis 2 (institutional memory deficit) operating across institutional g
 
 *Research file opened June 25, 2026. Sections 3.2 (partial) and 3.10 (pending) are the first entries. Additional Track 3 sections will be added as research proceeds, in priority order from `00_RESEARCH_PRIORITY.md`.*
 *Built on: `00_AXES_SUMMARY.md` (Axes 2 and 10); `00_RESEARCH_PLAN.md` sections 3.2 and 3.10; `00_RESEARCH_PRIORITY.md` priority flag for 3.10.*
+
+---
+
+## 4.9 — The Gendered Reclassification of Programming (1950s–1960s)
+
+**Argument being tested:** Programming was initially classified as clerical work performed predominantly by women. In the 1950s–1960s it was reclassified as engineering through three specific mechanisms: aptitude testing that selected for an existing male profile; a professionalization narrative requiring credentials women were excluded from; and the masculinization of hacker identity. This reclassification installed the fungibility assumption and the composite demand simultaneously, replacing a specialist female workforce with a generalist male template.
+
+**Axes implicated:** 2 (institutional memory — the prior female specialist workforce was overwritten), 5 (internal brake — the professional community that emerged from reclassification celebrated the composite), 8 (credential as capability signal — the reclassification made "programmer" a general capability signal rather than a scoped specialist credential), 10 (measurement paradox — the aptitude tests' invalid predictive power was documented by the late 1960s and ignored).
+
+**Status:** Complete first pass. Key sources retrieved. One significant counter-argument identified (Misa) that requires integration.
+
+---
+
+### Finding 1 — Ensmenger (2010), *The Computer Boys Take Over*
+
+**Source:** MIT Press monograph. Class: monograph (named academic press). Secondary discussion: Digital Humanities Quarterly review (peer-reviewed), Martin Fowler / Thoughtworks blog (named practitioner/secondary).
+
+**The reclassification argument.** Ensmenger traces programming's evolution from feminized clerical labor in the 1940s–1950s through its reinvention as a "black art" and then as rationalized academic computer science and "software engineering" in the 1960s. Central thesis: "Programming was not born male, but rather had to be made masculine." The 1968 NATO Software Engineering Conference is identified as the institutional pivot where programming was reoriented toward scientific and masculine engineering norms, erasing the prior feminized labor history.
+
+**The aptitude testing mechanism.** By 1962, ~80% of businesses used some form of aptitude test for programmer hiring; ~50% used the IBM Programmer Aptitude Test (PAT) specifically. By 1967, the PAT was administered to more than 700,000 individuals annually — functioning as "the gateway into the programming occupation." The PAT was developed by J.L. Hughes and W.J. McNamara, introduced 1955. Three sections: number sequence completion, geometric/figure paired comparisons, arithmetic reasoning (~seventh-grade level). Firsthand accounts describe it as resembling "the math part of an IQ test."
+
+**The Cannon-Perry profile — the key mechanism.** SDC (Systems Development Corporation) psychologists William M. Cannon and Dallas K. Perry used the Strong Vocational Interest Bank (SVIB) to develop a "vocational interest scale for programmers," published 1966. SDC's institutional weight: in 1956 it employed ~700 programmers (nearly three-fifths of all programmers worldwide) and had trained 7,000 more by the early 1960s. The SVIB profile produced resembled engineering and chemistry vocational profiles. The one distinctively divergent characteristic: "They don't like people." This profile was generated from a population already predominantly male.
+
+**The self-fulfilling mechanism (directly quoted in secondary sources):** "The primary selection mechanism used by the industry selected for antisocial, mathematically inclined males, and therefore antisocial, mathematically inclined males were overrepresented in the programmer population; this in turn reinforced the popular perception that programmers ought to be male, antisocial and mathematically inclined." — Ensmenger, as cited by DHQ review and Thoughtworks blog.
+
+**On test validity.** Ensmenger: the PAT "seems to have no proof that the scores actually correspond with real-world programming performance." Most employers never checked. The few that did could not establish a relationship. Evidence of test failure was available by the late 1960s. The industry continued using the test regardless. *This is Axis 10 in miniature: measurement existed, was ignored, practice continued.*
+
+**The Cosmopolitan test.** Cosmopolitan ran an aptitude test for "computer girls" in the same era (Lois Mandel, "The Computer Girls," 1967). Ensmenger notes the questions were "slanted toward an antisocial, mathematically inclined male" — the inclusive publicity artifact was shaped by the same masculine profile it nominally invited women into.
+
+**Source citations:**
+- Ensmenger, N. (2010). *The Computer Boys Take Over*. MIT Press.
+- DHQ review: https://dhq.digitalhumanities.org/vol/7/2/000160/000160.html (peer-reviewed)
+- Making Programming Masculine chapter PDF: https://homes.luddy.indiana.edu/nensmeng/files/Ensmenger2010-MPM.pdf
+- Thoughtworks blog: https://www.thoughtworks.com/insights/blog/born-it-how-image-software-developers-came-about (named practitioner/secondary)
+- Martin Fowler blog: https://martinfowler.com/articles/born-for-it.html (named practitioner/secondary)
+
+---
+
+### Finding 2 — Light (1999), "When Computers Were Women"
+
+**Source:** Technology and Culture, Vol. 40, No. 3, July 1999, pp. 455–483. Johns Hopkins University Press / Society for the History of Technology. Class: peer-reviewed.
+
+**The ENIAC programmers.** Six women selected from ~200 human computers to program ENIAC: Kathleen McNulty (Antonelli), Jean Jennings (Bartik), Betty Snyder Holberton, Marlyn Wescoff (Meltzer), Frances Bilas (Spence), Ruth Lichterman (Teitelbaum). Their work involved: understanding ENIAC's physical architecture, devising input methods, controlling sequential operations, extracting results — without pre-existing manuals. Light describes this as fundamentally creative technical work requiring problem-solving, not data entry.
+
+**How they were credited.** Not credited. The 1946 ENIAC press release excluded them. Secondary sources report they were "literally cut out of a picture used in the press and later advertisements, showing a man working on the computer in the foreground." Press coverage focused on male engineers Eckert, Mauchly, and Goldstine. Light's characterization: their work "setting up and debugging the ENIAC was intangible, and to all who observed the machine running full speed, invisible." *Axis 1 (tangibility) in a named historical instance.*
+
+**Light's core argument.** Programming sat between scientific and clerical labor: it required advanced training but was categorized as clerical. The hierarchy structured around male "hardware" engineers and female "software" operators shaped both press attention and institutional credit. This classification "affected how their contributions were remembered, compensated, and valued institutionally."
+
+**Scope limitation — important.** Light's article documents an exceptional wartime case, not the numerical composition of the broader postwar programming workforce. The Misa counter-argument (below) targets this distinction directly.
+
+**Source citations:**
+- Light, J.S. (1999). When computers were women. *Technology and Culture*, 40(3), 455–483.
+- PDF: https://rybn.org/human_computers/articles/when_computers_were_women.pdf
+- PDF (alt): https://cs.brown.edu/courses/cs1951i/lightWhenComputersWereWomen.pdf
+
+---
+
+### Finding 3 — Abbate (2012), *Recoding Gender*
+
+**Source:** MIT Press monograph. Class: named academic press. Secondary reviews: LSE Review of Books (secondary).
+
+**Central thesis.** "The same work—programming—was classified as clerical when performed by women but reclassified as engineering once men dominated the field." Women's declining representation resulted from deliberate institutional choices, not innate aptitude differences.
+
+**Three reclassification mechanisms (consistent with Ensmenger, different archival base including British computing):**
+1. Hiring tests biased toward certain personality profiles
+2. Shifts in university recruitment and credentialing
+3. Professionalization strategies repositioning programming as high-status technical work
+
+**Abbate's counter-intuitive finding on aptitude tests.** Tests initially opened doors for women by bypassing credential requirements women were excluded from. "On both sides of the Atlantic, hiring practices that prioritized aptitude tests over formal degrees opened doors for women who remained largely excluded from higher education during the 1950s and 1960s." The exclusion came through the *personality profiling* layer (Cannon-Perry type assessments) added on top of aptitude testing — a subsequent step, not built into the PAT from 1955. This complicates a simple narrative: the PAT was not purely exclusionary at inception; it became exclusionary through the personality overlay.
+
+**On what was lost.** Women-led firms (Elsie Shutt, Stephanie Shirley) "innovated in distributed work, flexible staffing, and project management" — practices the LSE reviewer describes as "counternarratives to conventional innovation theories." The masculinization excluded not just people but organizational practices.
+
+**On labor shortage rhetoric.** "The labor shortage really referred to a specific, privileged category of workers—male programmers with traditional technical qualifications and no childcare obligations." The shortage was constructed, not empirical.
+
+**Source citations:**
+- Abbate, J. (2012). *Recoding Gender*. MIT Press.
+- LSE Review: https://blogs.lse.ac.uk/lsereviewofbooks/2013/02/13/book-review-recoding-gender-by-janet-abbate/
+
+---
+
+### Finding 4 — The 1968 NATO Software Engineering Conference and Gender
+
+**Source:** Secondary descriptions of proceedings (bazaarmodel.net, isthisit.nz, Wikipedia). Primary PDF inaccessible. Class: secondary.
+
+**Attendees.** ~50 experts. Named male participants include Dijkstra, Hoare, Perlis, Naur, Wirth, Bauer (chairman), McIlroy, Gries, Randell. Women named in proceedings: Miss Doris Angemeyer, Miss Enid Austin, Miss Petra Dandler, Mrs. Dagmar Hanisch, Miss Erika Stief — performing typing and office duties. No women identified as technical participants, working group members, or speakers in any source reviewed.
+
+**Acknowledgment of prior female workforce.** None. Available secondary descriptions contain no discussion of workforce composition, demographics, or gender. The conference framed itself against a "software crisis" without acknowledging the workforce that had previously built software. *This is Axis 2 in operation: the institutional memory of the prior specialist female workforce was not transmitted to the founding conference of "software engineering."*
+
+**On the term "software engineering."** Chosen deliberately — "expressed a need rather than a reality" (proceedings, via bazaarmodel.net). Aspirational/provocative framing positioning programming as analogous to established engineering disciplines. This is the vocabulary reclassification: the word "engineering" imported scope and masculinity assumptions from civil and electrical engineering without importing the liability, credentialing, or specialization structures.
+
+**Confidence note.** Full proceedings not readable via tools. Participant list not fully confirmed from primary sources. Secondary sources provide consistent picture but primary verification pending.
+
+---
+
+### Finding 5 — The IBM Programmer Aptitude Test (PAT)
+
+**Source:** Alt.folklore.computers Usenet archive (firsthand accounts), Ensmenger-citing secondary sources. IBM documentation (Hughes & McNamara 1969 manual) not retrieved. Class: firsthand accounts (Usenet) + secondary.
+
+**Structure and introduction.** Introduced 1955 by J.L. Hughes and W.J. McNamara. Three sections: number sequences, figure analogies, arithmetic word problems (~seventh-grade level). Resembled "the math part of an IQ test" (firsthand). Revised version documented 1969.
+
+**Scale.** By 1962: ~80% of businesses used some aptitude test for programmer hiring; ~50% used the PAT. By 1967: 700,000 administrations annually.
+
+**Documented invalidity.** No evidence PAT scores correlated with actual programming performance. Employers who investigated could not establish a relationship. Ensmenger: "There seems to be no proof that the scores in the IBM PAT actually correspond with real-world programming performance." Evidence of failure available by late 1960s; industry continued regardless. *Axis 10 in miniature.*
+
+**Gender filter mechanism.** The PAT itself did not explicitly exclude women. The gender filter operated through: (a) cultural coding of the measured traits as masculine; (b) the Cannon-Perry SVIB personality overlay (published 1966) which normalized "don't like people" as the defining programmer characteristic, generated from an already-male population; (c) the institutional inertia that treated the combined profile as a natural description of programmer aptitude rather than a circular self-fulfilling measurement. No IBM documentation from 1955 explicitly correlates PAT design to male demographics — the gender exclusion was emergent, not designed.
+
+---
+
+### The Misa Counter-Argument — Integrated via Access Restriction Loop
+
+**Source:** Thomas Misa, cited in "Computer programming was never a women's occupation at its inception" (Computing and Society Substack). Class: secondary citing named academic historian.
+
+**The challenge.** Misa uses SHARE attendance archives (1950s programmer community) and Bureau of Labor Statistics data (tracking began 1970s) to argue: women were a small and *growing* minority in programming from the 1950s through the early 1980s, not a dominant workforce that was then displaced. On Misa's reading, the ENIAC case (Light) was exceptional rather than representative, and Ensmenger's framing of programming's origins as "feminized clerical labor" requires empirical qualification.
+
+**The resolution — Misa's data is post-loop.** The Access Restriction Loop (documented in `common_vs_normal_definition_doc.md`, Hidden Labor Variant) explains why Misa's data is not a refutation of Ensmenger but a measurement artifact of the loop itself:
+
+```
+Women perform specialized programming work (ENIAC, Bletchley Park, 1940s–early 1950s) →
+Work reclassified as clerical; credit flows to institution / male engineers →
+IBM PAT introduced 1955; selects for already-male profile →
+Cannon-Perry profile published 1966; normalizes "antisocial mathematical male" as programmer definition →
+BLS begins tracking occupation in 1970s — after reclassification machinery has run for 15–20 years →
+SHARE archives (mid-1950s onward) show women as growing minority →
+"Women weren't dominant" becomes the historical baseline
+```
+
+Misa is counting heads after the restriction was already in place and calling that the starting condition. The BLS data and SHARE archives are *outputs* of the reclassification machinery, not independent baselines. The ENIAC six are the pre-loop data point — specialized work performed before the vocabulary and testing apparatus of "software engineering" existed to reclassify it.
+
+**The consensus point.** Misa, Ensmenger, and Abbate all agree on the 1984 inflection: women's participation peaked around 38% of the computing workforce in the mid-1980s and then declined. The disagreement is about starting conditions — but the starting conditions are precisely what the loop erases from the record.
+
+**What survives Misa.** The Cannon-Perry circular profiling. The NATO 1968 gender erasure. The credential reclassification mechanism. The documented test invalidity and continued use (Axis 10 instance). None of these depend on women having been numerically dominant. The argument doesn't require dominance — it requires that specialized work was performed, classified as clerical, and that the reclassification machinery installed the fungibility assumption in its place.
+
+**The thread this connects to — title as compression artifact.** This is the same mechanism operating on "CTO" and "software developer" today. The title survives the reclassification; the actual work, skill set, and expectation don't travel with it. "Programmer" in 1955 dropped the scope of the ENIAC work. "Software engineer" in 1968 imported engineering's authority without its liability or specialization. "CTO" today signals "technical everything" without specifying what technical everything includes or excludes. In each case: the word is the compression artifact; the scope is what got dropped. The Access Restriction Loop is not just a historical finding about women in computing — it is the engine by which titles accumulate meaning they no longer carry and shed meaning they once had. The reclassification is the mechanism; the title is the residue.
+
+**Framework reference:** `common_vs_normal_definition_doc.md` — Hidden Labor Variant of the Access Restriction Loop. The ENIAC six appear as a named example in that document (line 97–98). The 4.9 research confirms and extends that case with the institutional machinery (PAT, Cannon-Perry, NATO 1968) that ran the loop at field scale.
+
+---
+
+### Axis Implications
+
+- **Axis 2:** The institutional memory of the prior specialist female workforce (ENIAC, Bletchley Park, Shutt, Shirley's organizational innovations) was not transmitted to the founding conference of "software engineering." The reclassification is a documented instance of Axis 2 operating at a field's founding moment — not gradual forgetting but institutional erasure at origin.
+- **Axis 8:** "Programmer" became a capability signal (mathematical aptitude, antisocial profile) rather than a scope label. The Cannon-Perry profile defined what a programmer *is* without defining what a programmer *does* or *doesn't do*. The composite demand followed from this: if the credential signals general cognitive capability, the demand expands to fill what the organization needs from a generalist.
+- **Axis 10:** The PAT's documented predictive invalidity was known by the late 1960s. The industry continued using it regardless. One of the earliest documented instances of Axis 10 in software — measurement existed, failure was known, practice was unchanged.
+- **Axis 11:** The vocabulary shift from "computer operator" / "programmer" to "software engineer" imported the scope and authority assumptions of formally originated language (engineering) without importing the liability, credentialing, or specialization structures. A wild-originated field borrowed a formally-originated word and used it as a capability signal rather than a scope label.
+
+---
+
+### Source List
+
+- Ensmenger, N. (2010). *The Computer Boys Take Over*. MIT Press.
+- Light, J.S. (1999). When computers were women. *Technology and Culture*, 40(3), 455–483. DOI pending.
+- Abbate, J. (2012). *Recoding Gender*. MIT Press.
+- DHQ review of Ensmenger: https://dhq.digitalhumanities.org/vol/7/2/000160/000160.html
+- Ensmenger chapter PDF: https://homes.luddy.indiana.edu/nensmeng/files/Ensmenger2010-MPM.pdf
+- Light PDF: https://cs.brown.edu/courses/cs1951i/lightWhenComputersWereWomen.pdf
+- LSE review of Abbate: https://blogs.lse.ac.uk/lsereviewofbooks/2013/02/13/book-review-recoding-gender-by-janet-abbate/
+- Thoughtworks blog (Ensmenger secondary): https://www.thoughtworks.com/insights/blog/born-it-how-image-software-developers-came-about
+- Martin Fowler blog: https://martinfowler.com/articles/born-for-it.html
+- Computing and Society Substack (Misa counter): https://computingandsociety.substack.com/p/computer-programming-was-never-a
+- Confluence NYU (secondary): https://confluence.gallatin.nyu.edu/sections/research/how-computing-became-masculine-in-the-cold-war
+- JSTOR Daily (secondary): https://daily.jstor.org/how-computer-science-became-a-boys-club/
+- History.com (secondary): https://www.history.com/articles/coding-used-to-be-a-womans-job-so-it-was-paid-less-and-undervalued
+- Silicon Republic / Cosmopolitan 1967: https://www.siliconrepublic.com/people/women-in-technology-the-computer-girls-cosmopolitan
+- NATO 1968 (bazaarmodel): https://bazaarmodel.net/Onderwerpen/Software-Crisis-Nato/
+- NATO 1968 (isthisit.nz): https://isthisit.nz/posts/2022/1968-nato-software-engineering-conference/
+- IBM PAT (Usenet): https://groups.google.com/g/alt.folklore.computers/c/BBgKR1KXbrM
+
+---
+
+*Research file opened June 25, 2026. Sections 3.2 (partial) and 3.10 (pending) are the first entries. Additional Track 3 sections will be added as research proceeds, in priority order from `00_RESEARCH_PRIORITY.md`.*
+*Built on: `00_AXES_SUMMARY.md` (Axes 2 and 10); `00_RESEARCH_PLAN.md` sections 3.2 and 3.10; `00_RESEARCH_PRIORITY.md` priority flag for 3.10.*

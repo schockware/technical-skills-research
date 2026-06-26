@@ -112,7 +112,7 @@ The people writing CTO JDs grew up watching these archetypes. The expectation th
 ---
 
 ## Axis 5: Internal Brake vs. External Brake
-**Source:** NDT / science communication case; software internal culture
+**Source:** NDT / science communication case; software internal culture; 4.7 occupational transitions research (Abbott 1988; Wilensky 1964)
 
 **Definition:**
 - **Internal brake:** The professional community polices scope among its own members. Peer review, subfield credentialing, citation structures — specialists challenge each other's authority outside their domain. The virologist corrects the cosmologist. The brake operates within the community.
@@ -120,7 +120,23 @@ The people writing CTO JDs grew up watching these archetypes. The expectation th
 
 **Why it matters:** A field can have a strong internal brake and a weak external brake — science is the clearest case. Peer review enforces scope rigorously; the public makes undifferentiated demands on "scientists." The NDT critique is the symptom: the scientific community knows he's outside his scope; the audience can't tell. The internal brake and the external brake are independently variable.
 
-**Software's position:** Neither brake is reliably present. The composite CTO is *celebrated* internally — "full-stack," "technical founder," "player-coach" are positive labels, not scope violations. The external audience (CEOs, investors, boards) has even less ability to evaluate scope than the general public evaluating a scientist. Software is the worst-case position on both dimensions.
+**Axis 5 is the preventive brake.** It operates *before* failure — stopping the unreasonable demand before it is made, or correcting the scope claim before it causes harm. This is distinct from Axis 9 (the corrective brake), which operates *after* failure and is what builds Axis 5 over time. The causal sequence: Axis 9 fires (named failure, named attribution, liability event) → Axis 2 forms (institutional memory encodes the lesson) → Axis 5 internal brake strengthens (professional community internalizes the scope limit) → Axis 5 external brake strengthens (audience learns to respect the scope limit). Axis 5 is the output of a process that requires Axis 9 to initiate.
+
+**The four-tier structure of the brake (evidenced by 4.7 research):**
+The brake is not binary — it operates across four tiers, each requiring progressively more attributed failure to install:
+
+| Tier | What it installs | Trigger required |
+|---|---|---|
+| 1 — Technical standards | Wind-loading codes, boiler codes, design specifications | Any visible failure + complexity argument |
+| 2 — Self-governance | Internal professional standards, peer review, codes of ethics (IEEE/ACM, Uncle Bob) | Complexity argument alone — no named failure required |
+| 3 — External credential enforcement | PE stamp, CPA, ATP hours, specialty board certification | Named failure with sufficient political will |
+| 4 — Liability framework + social contract | License revocation, external oversight (PCAOB), legally actionable scope violation | Named failure + named attribution + social harm visible enough to trigger the negotiation (see Axis 9) |
+
+Software currently has Tier 1 (some technical standards in safety-critical domains) and Tier 2 (internal professional standards, Software Craftsmanship Manifesto, ACM/IEEE code of ethics). The internal brake is running. Tiers 3 and 4 have not fired at scale — the ACM/IEEE professionalization attempt (1993–1999) failed when ACM withdrew, citing software engineering knowledge as "too immature." The NCEES PE exam in Software Engineering was offered 2013–2019 and discontinued due to lack of participation (15 first-time takers in April 2017). The internal brake exists and is insufficient to install the external brake without a named failure event.
+
+**Software's position:** Neither external brake tier is reliably present. The composite CTO is *celebrated* internally — "full-stack," "technical founder," "player-coach" are positive labels, not scope violations. The external audience (CEOs, investors, boards) has even less ability to evaluate scope than the general public evaluating a scientist. Software is the worst-case position on both dimensions of the internal/external split, and has only reached Tier 2 on the four-tier scale.
+
+**The absorption path — a non-failure route to Tier 3/4:** Aviation software (FAA DO-178C), medical device software (FDA IEC 62443), and automotive functional safety (ISO 26262) are acquiring Tier 3 and Tier 4 brake structure through adjacent licensed professions imposing their scope language on software. The formally-originated vocabulary of civil and systems engineering is being applied to software from outside. This is the mechanism Abbott (1988) identified as jurisdictional competition — an existing licensed profession absorbing a domain rather than the domain self-credentialing. It is already happening in safety-critical pockets and may represent the path by which software acquires external brake structure without a software-specific catastrophic failure.
 
 **The science/software cousin relationship:** Science and software share the vulnerability structure — no liability, unlicensed identity, weak external brake, broken feedback loop to the public. But software adds the commercial demand layer: an employer with specific needs, a board with financial incentives, a JD that encodes the impossible composite, and a replacement mechanism when the individual fails. Same vulnerability structure, different demand mechanism, different consequence architecture.
 
@@ -178,22 +194,33 @@ The people writing CTO JDs grew up watching these archetypes. The expectation th
 
 ---
 
-## Axis 9: Culpability and Liability Frameworks
-**Source:** Comparison across medicine, law, accounting, aviation, engineering (PE stamp)
+## Axis 9: Culpability, Liability, and the Social Contract
+**Source:** Comparison across medicine, law, accounting, aviation, engineering (PE stamp); 4.7 occupational transitions research (SOX/PCAOB, Air Commerce Act, Tay Bridge inquiry, Abbott 1988)
 
 **Definition:**
 - **Liability-bounded demand:** Formal liability structures make the *demand itself* evaluable. A hospital cannot instruct a nurse to perform surgery and then blame the nurse for the outcome — the liability framework makes the demand unreasonable in a legally actionable way. The liability bounds the demand, not just the response.
 - **Liability-free demand:** The demand is placed without legal structure. If the individual fails to meet it, the individual is replaced. The demand itself is never on trial. No named person, named credential, or named decision point bears legal accountability for having made an unreasonable demand.
 
-**Why it matters — two simultaneous functions:**
+**Axis 9 is the corrective brake — and the highest tier of external governance.** Where Axis 5 is the preventive brake (stopping unreasonable demand before it is made), Axis 9 operates *after* failure. It is not merely "external oversight with legal teeth" — it is the formal social contract between a profession and society: *we will police ourselves within this domain, and if we fail, you have legally actionable recourse.* The social contract has two sides: society grants the profession exclusive jurisdiction over a domain (only licensed physicians may practice medicine); the profession accepts accountability for failures within that domain (malpractice, license revocation, criminal liability). Remove either side and the contract breaks — which is exactly what Enron demonstrated (profession stopped self-policing) and what triggered SOX (society renegotiated the contract by imposing external oversight through PCAOB).
+
+**The social contract requires a named failure to negotiate.** The 4.7 research evidence is consistent across cases: liability frameworks and external oversight bodies appear specifically in response to named failures with named attribution. Not complexity growth alone:
+- PE stamp / boiler codes → named failures (Tay Bridge, Grover Shoe Factory, St. Francis Dam)
+- Air Commerce Act downstream standards → named failures (United 173 → CRM; Colgan 3407 → ATP rule)
+- SOX / PCAOB → named firms (Enron, WorldCom; auditor Arthur Andersen)
+- Medical specialty boards → slow-diffusion complexity path (30–50 years after germ theory), then accelerated by military incentive structure (WWII)
+
+The social contract negotiation requires that society has been harmed visibly enough, and attribution has landed clearly enough, that the political will exists to write the contract. Complexity growth alone produces self-governance (Axis 5, Tier 2). It does not produce the social contract.
+
+**Why it matters — three simultaneous functions:**
 1. **Bounds the demand:** You cannot ask a doctor to perform surgery outside their licensed scope because *they* bear liability if something goes wrong. Personal, financial, career-ending consequences enforce the scope boundary more reliably than any cultural norm.
 2. **Makes failure individually attributable:** When a bridge engineer stamps a drawing and the bridge fails, accountability lands on a named person at a named decision point. The scar tissue (Axis 2) forms *because* the liability framework forces failure to be attributed rather than organizationally absorbed.
+3. **Grants jurisdiction in exchange for accountability:** The social contract is what gives the profession its exclusive claim to a domain. Medicine's monopoly on diagnosis and prescription is legitimate *because* medicine accepted the accountability structure. Without the accountability side, the jurisdiction claim is just a guild protecting its territory — which is why software's informal claim to "only engineers should evaluate engineers" carries no institutional weight.
 
-**The CTO case:** When a CTO burns out a team, ships a brittle architecture, or fails the Builder→Multiplier transition — no liability. Neither does the CEO who wrote the impossible JD. Neither does the investor who structured the incentives. The cost is real but lands nowhere specific enough to generate institutional change. The demand is invisible (Axis 1), unlicensed (Axis 8), unmediated (Axis 4), and **unliable**.
+**The CTO case:** When a CTO burns out a team, ships a brittle architecture, or fails the Builder→Multiplier transition — no liability. Neither does the CEO who wrote the impossible JD. Neither does the investor who structured the incentives. The cost is real but lands nowhere specific enough to generate institutional change. The demand is invisible (Axis 1), unlicensed (Axis 8), unmediated (Axis 4), and **unliable**. More precisely: software has the autonomy half of the social contract (no external body tells engineers how to engineer) without the accountability half (no liability, no external oversight, no legally actionable scope violation). It is a jurisdiction without a social contract.
 
 **The science parallel — and divergence:** Science shares the no-liability vulnerability. A scientist publishes a flawed paper; if it fails to replicate, the paper is retracted but no credential is at risk, no financial consequence, no legal exposure. The accountability is reputational and communal, not structural and individual. However: science has the replication crisis as a *weak liability analog* — high-profile failed replications are career-damaging in a way that a software project failure typically isn't. Weak, slow, inconsistent — but present. Software has no equivalent even at that level.
 
-**Interaction with other axes:** Liability is the enforcement mechanism that, if present, would force the others to resolve. Axis 2 (institutional memory) — liability frameworks are *how* scar tissue gets formally encoded. Axis 4 (institutionally mediated competence) — the fiduciary standard exists *because* there's a liability framework behind it. Axis 6 (feedback loop) — liability closes the loop by force; you can't ignore the failure signal when it arrives as a lawsuit or license revocation. Axis 8 (credential as scope label) — credentials become scope labels precisely because the liability framework makes scope matter.
+**Interaction with other axes:** Axis 9 is the enforcement mechanism that, if present, would force the others to resolve — and is the mechanism by which the preventive brake (Axis 5) gets installed across generations. Axis 2 (institutional memory) — liability frameworks are *how* scar tissue gets formally encoded; attributed failure is what the memory forms around. Axis 4 (institutionally mediated competence) — the fiduciary standard exists *because* there's a liability framework behind it; the institution mediates because someone is legally on the hook if mediation fails. Axis 5 (internal/external brake) — Axis 9 is what builds Axis 5 Tiers 3 and 4; the social contract is the mechanism that installs the external credential and liability brake. Axis 6 (feedback loop) — liability closes the loop by force; you can't ignore the failure signal when it arrives as a lawsuit or license revocation. Axis 8 (credential as scope label) — credentials become scope labels precisely because the liability framework makes scope matter; without Axis 9, credentials remain capability signals.
 
 ---
 
@@ -229,8 +256,19 @@ The licensed professions — medicine, law, accounting — are the fields that s
 **The Lean Six Sigma note:**
 Lean (Toyota Production System, 1950s–1970s) actually *challenges* the fungibility assumption at the operational level — cross-training, kaizen, contextual knowledge as quality mechanism. When exported to the West as Lean Six Sigma, it was re-Taylorized: the statistical tools were adopted, the contextual-knowledge insight was lost. The measurement framework survived; the finding that context is non-fungible did not. This is Axis 10 in miniature: the measurement found the right thing, and the organization extracted the wrong lesson.
 
-**Why this is the akrasia claim at civilizational scale:**
-Every generation of management science rediscovers that the composite demand exceeds capacity. Names it differently. Builds tools around the edges. And then the next generation inherits the composite demand intact and starts measuring again. This isn't ignorance — it's the knowing-and-acting-against that defines akrasia, operating not at the individual level but across institutional generations. The CTO is the current generation's most compressed and visible instance of a failure mode that Taylor was already measuring in 1911.
+**Why this is the akrasia claim at civilizational scale — with a temporal boundary:**
+Every generation of management science rediscovers that the composite demand exceeds capacity. Names it differently. Builds tools around the edges. And then the next generation inherits the composite demand intact and starts measuring again.
+
+**The pre/post-internet distinction matters here.** Research into the citation trail (section 3.10 of `03_RESEARCH_axes_in_the_wild.md`) found that the cross-generational chain is broken at every node: NATO 1968 didn't cite prior failure literature, Brooks didn't cite NATO, CHAOS didn't cite Brooks. Each generation independently rediscovered the same empirical problem. Pre-internet, this is structurally expected — the NATO conference was closed, Brooks wrote from direct IBM experience, CHAOS was a private industry report. Knowledge couldn't travel fast enough to form a citation chain even if the intent was there. Cross-generational forgetting (Axis 2) was the structural default; transmission was the exception.
+
+Post-internet, the excuse evaporates. MMM is free online. The CHAOS data is cited in PMP certification curricula. The IC→EM reversion literature is on every tech blog. The finding is findable in minutes — and yet JDs still demand the composite, headcount plans still treat engineers as fungible, CTOs are still hired for all three modes simultaneously. The post-internet case is no longer Axis 2. It is Axis 10.
+
+**The revised claim:** Axis 2 and Axis 10 operate simultaneously at different scales and different historical periods:
+- **Cross-generational, pre-internet (~pre-2000):** Axis 2. Each generation lost the finding entirely and rediscovered it from scratch. Structural amnesia — the wheel gets reinvented every 20–30 years because transmission was genuinely hard.
+- **Cross-generational, post-internet (~post-2000):** Axis 2 becomes Axis 6. The knowledge is universally accessible but still can't cross the legibility gap from the technical community to the decision-making community. One Google search away; still unreachable.
+- **Intra-generational (any era):** Axis 10. Once a finding is canonical within a generation — once MMM is cited, once CHAOS is in the curriculum — the field proceeds as if it isn't. The knowing-and-acting-against happens within the generation, not across it.
+
+Together they are impenetrable: the wheel gets reinvented across generations (Axis 2), and when the new generation finds it, they put it on a shelf and keep walking (Axis 10). The first prevents institutional learning from accumulating. The second prevents the learning that does accumulate from changing practice. The CTO is the current generation's most compressed and visible instance of a failure mode that Taylor was already measuring in 1911 — and that the internet made inexcusable to keep losing.
 
 ---
 
@@ -280,15 +318,34 @@ These axes don't operate independently. For the CTO case, they stack — and the
 2. The field is **too young** to have accumulated the scar tissue that would install the brake — and the institutional memory it did have was *actively suppressed* by the 1950s–1960s reclassification that overwrote specialized women's knowledge with the generalist-bureaucrat template (Axis 2, section 4.9)
 3. The invisibility may be **partially incentivized** by organizations that benefit from the composite (Axis 3)
 4. **No institutional body** exists to say the demand is unreasonable (Axis 4)
-5. The professional community **celebrates** the composite rather than policing it (Axis 5)
-6. The knowledge that the demand is unreasonable **cannot cross** the legibility gap to decision-makers (Axis 6)
+5. The professional community has only reached **Tier 2 self-governance** — internal standards exist (IEEE/ACM, Software Craftsmanship Manifesto) but the community *celebrates* the composite rather than policing it; external credential enforcement (Tier 3) and the social contract / liability framework (Tier 4) have not fired (Axis 5)
+6. The knowledge that the demand is unreasonable **cannot cross** the legibility gap to decision-makers — and the social cost of admitting the gap is high enough that the room performs comprehension rather than surfacing it (Axis 6)
 7. The title **halos** technical excellence into assumed managerial and strategic excellence (Axis 7)
 8. The credential **signals general capability** rather than bounded scope (Axis 8)
-9. **No liability** structure makes the demand itself evaluable or forces failure attribution (Axis 9)
+9. **No social contract exists** between software and society — software holds the autonomy side of the professional contract (no external body evaluates engineering decisions) without the accountability side (no liability, no licensed scope, no legally actionable demand). The corrective brake has never fired because no named software failure has been large enough, visible enough, and individually attributable enough to force the negotiation (Axis 9)
 10. The failure of the composite demand has been **continuously measured for over a century** — and the demand is reproduced unchanged in every generation regardless (Axis 10)
-11. The **vocabulary used to describe the role carries no scope information** — wild-originated language cannot transmit the boundary even when the boundary is known (Axis 11)
+11. The **vocabulary used to describe the role carries no scope information** — wild-originated language cannot transmit the boundary even when the boundary is known; "CTO" signals "technical everything" with no word for what it excludes (Axis 11)
+
+**The sequential relationship between Axes 5 and 9 is the structural core of why the system is stable:**
+Axis 9 (corrective brake / social contract) is what builds Axis 5 (preventive brake) across generations. The causal chain in every profession that successfully specialized: named failure → named attribution → liability event (Axis 9 fires) → institutional memory encodes the lesson (Axis 2) → internal community internalizes the scope limit (Axis 5 Tier 2 → Tier 3) → external audience learns to respect the scope limit (Axis 5 Tier 4). Software has no named failure large enough to start this chain. The internal brake is running at Tier 2; it cannot self-install to Tier 3 or 4 without either a triggering failure event or absorption by an adjacent licensed profession (the absorption path already happening in safety-critical domains).
 
 Each axis alone would be a problem. Together they form a system that reproduces the unreasonable demand reliably, invisibly, and without any structural mechanism for correction. Axis 10 is what makes the system *indicting* rather than merely unfortunate: this is not a young field making understandable mistakes. This is a pattern with a hundred years of measurement behind it, still running.
+
+**The ambient condition: authority / consequence misalignment**
+
+The axes stack the way they do because of an underlying structural condition that none of them individually names: **the person who holds decision authority and the person who bears the consequence of that decision are systematically different people.**
+
+The CEO writes the impossible JD — no consequence. The investor structures the incentives — no consequence. The board approves the composite hire — no consequence. The CTO absorbs the demand, fails the transition, burns out the team — consequence lands here. The engineer implements what management directs — consequence lands here when the product fails or the fraud surfaces. The women who built the ENIAC were classified as clerical — consequence of that classification landed on them, not on the institution that made it.
+
+No single actor in this system is malicious. Every actor is executing their role inside a structure where authority and consequence are co-located at different levels of the hierarchy. This is the Arendt observation at organizational scale: not evil, but thoughtless in the precise sense — the decision-maker is insulated from the outcome of their decision by the structure itself.
+
+This condition is not an axis — it is the *ambient state* that allows the axes to stack without self-correcting. When Axes 4, 5, and 9 are simultaneously absent (no mediating institution, no external brake, no social contract), authority accumulates at the decision point with no structural check, and consequence accumulates at the bottom with no structural relief. The axes describe the specific mechanisms; the authority/consequence misalignment is the condition those mechanisms operate inside.
+
+**Why it recurs across the corpus:** Semmelweis's physicians had institutional authority over medical practice and bore no consequence for patient mortality. Software engineers had no authority over waterfall adoption and bore the consequence of its failure. VW engineers had no authority over the defeat device directive and bore partial consequence for its fraud. The women of early computing had no authority over their own reclassification and bore the consequence of being written out of the field's founding narrative. Same condition, different domains, different eras.
+
+**Why it matters for the research:** The authority/consequence misalignment is what makes the system *self-reproducing*. The people with the power to change the demand never experience the cost of the demand. The people who experience the cost have no power to change the demand. This is not correctable by education, persuasion, or cultural change alone — it requires structural realignment of authority and consequence, which is precisely what Axis 9 (social contract) and Axis 5 Tier 4 (liability framework) accomplish when they fire.
+
+*Flagged as a potential meta-axis or structural condition pending further research. Connects directly to sections 1.1 (Milgram / Arendt), 5.1 (authority bias), 4.9 (gendered reclassification), and 4.7 (occupational transitions). The Milgram / Arendt research in those sections addresses compliance from the bottom of the hierarchy; this condition addresses the structural insulation at the top. Both are required for the full picture.*
 
 **The akrasia framing (T4):** The Mythical Man-Month is simultaneously accepted and acted against. The field agrees Brooks was right and then staffs, scales, and writes JDs as if he were wrong. Knowing-and-acting-against is irrational by the field's own lights. The axes explain *why the akrasia is stable*: the knowledge exists (MMM is cited, Aristotle is cited, the reversion rate is real) but cannot reach the decision point in actionable form (Axis 6), is not enforced by any liability structure (Axis 9), and is actively obscured by the halo on the credential (Axes 7, 8) — and has been reproduced across institutional generations without revision (Axis 10). The irrationality isn't random — it's structurally reproduced across a century of evidence.
 

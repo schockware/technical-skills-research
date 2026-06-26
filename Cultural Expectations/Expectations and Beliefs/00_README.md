@@ -43,7 +43,7 @@ Governs **normal, failure, and the person-targeting vocabulary** — the words t
 ```
 
 ## Cross-area links
-- Disclaimers / weaponization guards: [[__DISCLAIMERS_EXPECTATIONS_AND_BELIEFS]], [[___DISCLAIMERS]]
+- Disclaimers / weaponization guards: [[__DISCLAIMERS_EXPECTATIONS_AND_BELIEFS]] (the *spear* — aimed verdicts), [[__DISCLAIMERS_INHERITED_LANGUAGE]] (the *arrow* — inherited/reflexive words; this is the *why* behind the whole language pillar — detect, then de-inherit), [[___DISCLAIMERS]]
 - Lived specimens that practice the fence: `../Author's Experiences/` (and its `00_COVERAGE_TRACKER`)
 - The axis framework these expectations feed: `../00_AXES_SUMMARY.md`
 

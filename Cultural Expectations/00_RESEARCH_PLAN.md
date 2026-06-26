@@ -434,6 +434,53 @@ If we can document the reclassification precisely — what was known, when it wa
 
 ---
 
+## Pending Check — Volkswagen Emissions Case (Dieselgate) as Software Axis 9 Candidate
+
+The VW emissions scandal (2015) may be the closest documented case of software-specific individual criminal attribution. Search for:
+- Whether any named software engineers were criminally prosecuted — not just executives
+- Whether the prosecution framed the software *decision* as the attributable act, or only the corporate directive
+- Whether any engineering credential (PE stamp, professional certification) was at risk or revoked
+- Whether the case produced any new regulatory standard specifically for automotive software
+- James Liang (VW engineer, pleaded guilty 2016) as a named instance — what was his credential, what was the charge, what was the sentence
+
+**Why this matters for Axis 9:** If a named software engineer was criminally prosecuted for a software decision — not just a corporate executive for a business decision — this is the closest existing case to "software's Tay Bridge." The PE-stamp analog would be: a credentialed engineer bore personal legal accountability for a software decision made within their professional scope. If that attribution landed on the software, not just the business strategy, it may be the seed of the social contract negotiation the 4.7 research predicts would be required.
+
+**Why it may not qualify:** Dieselgate attribution may have landed on the business decision (defeat device as fraud) rather than the engineering decision (software as professional scope violation). If so, it is Axis 9 for corporate governance, not for software engineering as a profession.
+
+*Check before running 3.9 (Axis 9 in the wild — aviation/medical liability). Dieselgate may belong in that section as a software-adjacent case.*
+
+---
+
+## Pending Check — Kevlin Henney on Assumptions
+
+Kevlin Henney's talks (conference talks, not academic papers — check YouTube, GOTO, NDC, CppCon archives) may contain material relevant to the observation that unremarkable events go undocumented and undescribed while notable events accumulate descriptors. Specifically: his work on assumptions in software — what gets named, what goes unnamed, what the absence of description does to reasoning and practice.
+
+If his framing connects to the documentation gap underlying Axes 1, 2, and 10 (notable failures get recorded; competent unremarkable delivery disappears into the noise; the baseline never gets established), it may provide a practitioner-voiced articulation of why the field's institutional memory is structurally skewed toward failure documentation.
+
+*Check before Track 5 research runs — may belong in 5.x as a named practitioner source, or may feed the Axis 2 / Axis 10 boundary discussion.*
+
+---
+
+## Pending Note — Lossy Compression as the Axis 6 Transmission Mechanism
+
+**The observation:** Every hop through a non-specialist publication drops payload. The mechanism by which the feedback loop (Axis 6) breaks is not just that knowledge can't cross the legibility gap — it's that each transmission hop compresses it lossily, and the selection pressure on what survives compression is engagement/confirmation, not accuracy.
+
+**Pre-internet:** Editorial filter at each hop. Journalist → newsletter → manager. Payload dropped at each step but the chain was traceable — the original was findable if you tried.
+
+**Post-internet:** Compression still happens at every hop but now runs at higher speed with more simultaneous hops. Selection pressure shifted from editorial (a journalist decided what to cover) to engagement (what gets shared confirms existing schema; correction travels slower than confirmation). The reconstruction is now crowdsourced and reinforced rather than editorially filtered.
+
+**The inversion:** Pre-internet akrasia — the finding exists, practitioners ignore it. Post-internet akrasia — the finding gets compressed into its opposite, and practitioners act on the compression *believing* they're following the original. Royce gets cited as the inventor of waterfall by people who haven't read Royce. Brooks gets cited as proof that adding people slows projects by people who haven't read past chapter 2. The excuse shifted from "I couldn't access it" to "I accessed the wrong version of it and had no way to know."
+
+**Named cases:** Waterfall (Royce 1970 argued *against* linear sequence; diagram survived, argument didn't). Agile (Manifesto 2001 argued against process mechanics; brand survived, values didn't — absorbed into sprint/velocity/burndown Taylorism within a decade).
+
+**Research target:** Is there a documented study on how software methodology concepts specifically travel through trade press vs. academic press? Science journalism compression literature (studies showing news coverage oversimplifies or omits key details from scientific discoveries) may provide the mechanism evidence.
+
+**Author's experience note:** The author's career spans both sides of the internet divide — pre- and post-internet practitioner experience. This is methodologically useful as a firsthand comparative: what the pre-internet knowledge transmission environment felt like from inside the field vs. the post-internet environment. Worth drawing on explicitly in Track 5 (Author's Experiences) when that section runs.
+
+*Flag for Track 5 and for the Axis 2/Axis 10 boundary discussion. Also connects to Kevlin Henney note above — the assumption layer may form after enough lossy compressions that the original source is unretrievable.*
+
+---
+
 ## Known Literature Gaps — Do Not Re-Search
 
 **Status as of June 25, 2026:** Three independent research passes found no substantial literature for the following targets. Flag as assertion-dependent pending primary data or future scholarship. Do not re-run a fourth pass on these without a specific new source lead.
@@ -447,6 +494,14 @@ If we can document the reclassification precisely — what was known, when it wa
 4. **The "one dissenter" intervention in documented real-world cases.** Sections 5.1 and 5.2 establish the dissenter effect in the lab (Milgram variations, Asch). No research pass has found documented organizational cases — founders reporting that a single board member or advisor broke the composite expectation at a hiring decision point. The intervention is supported by lab evidence only.
 
 5. **Axis 6 measured directly (the legibility gap as a quantity).** Section 3.6 looks for the two-cultures concept and the JD-as-broken-loop, but no research has attempted to measure the gap — technical due-diligence translation accuracy, CTO-to-board communication breakdown rates. The gap is treated as self-evident in the plan; it is testable in principle but no existing study has measured it in technical leadership specifically.
+
+7. **The Emperor's New Clothes mechanism in non-technical decision-making rooms — software-specific.** In rooms of non-technical decision-makers evaluating technical candidates or decisions, a documented social dynamic operates: nobody understands the technical complexity (Axis 1), nobody admits it (social cost of performing incompetence is higher than nodding along), the room reads performed consensus as actual consensus, and the feedback signal that would correct an unreasonable standard is suppressed before it can be uttered. This is Axis 6 (broken feedback loop) with a named social enforcement mechanism on top — the loop is broken not just because knowledge can't cross the legibility gap, but because *admitting the gap is socially punished in the room.*
+
+The mechanism is not unique to software — it likely operates in any domain where complexity is invisible to decision-makers (medicine before germ theory, early aviation, financial derivatives pre-2008). **The distinguishing variable is whether the profession has introduced a structural corrective.** Licensed professions have eviction mechanisms: informed consent doctrine (medicine), mandatory disclosure requirements (law, financial advising), fiduciary standards (accounting) — structures that force the gap into the open regardless of social cost. Software has no equivalent. The performed consensus is never interrupted by a structural requirement to admit what isn't understood.
+
+*Research target:* Medical informed consent literature — studies on patient comprehension vs. nodding compliance. Financial advising — client comprehension of products in advisory settings. These are the domains where the corrective was installed; their pre-correction history may document the same mechanism operating without the eviction structure. The contrast (mechanism present everywhere, corrective only in licensed professions) is direct evidence for Axis 9 as the master variable.
+
+*Connects to:* Axis 1 (invisible complexity), Axis 6 (broken feedback loop), Axis 9 (liability forces the corrective), section 2.4 (reflection gap test), section 5.2 (Asch conformity — social cost of dissent). The "one dissenter" finding from Milgram/Asch may also apply here: the corrective in licensed professions is a *structural dissenter* — a required voice (the informed consent process, the fiduciary duty) that breaks the performed consensus regardless of the social dynamic in the room.
 
 6. **Survivorship / base-rate data on CTOs who successfully held all three modes across seed→scale.** No section currently seeks a measured population of CTOs who transitioned all three modes without mode-failure. Its absence is a falsification blind spot. A small but real such population would force a framework revision: the composite is rare-but-achievable rather than structurally impossible. The CTO corpus tracks failure patterns; no comparable study tracks successful composite transitions.
 
