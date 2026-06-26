@@ -49,6 +49,19 @@ We tested this directly. Two careful graders independently scored the same set o
 
 This is the empirical proof of why guard #4 matters, and it is the most important thing in this file: **a word that two careful people can validly read two ways can be aimed in whatever direction the wielder prefers — honestly, without anyone lying.** That is precisely how the bloodletting↔vaccination apparatus travels. Wide interpretability is not a rough edge to be sanded off the taxonomy; it is the exact property that makes the taxonomy weaponizable. The gradient work exists to make the ambiguity *legible* — so two people can name where on the spread they stand — **not** to manufacture a false precision that would let one reading masquerade as the only one. Anyone who cites this work's verdict as if the word had a single settled meaning has already re-compressed it, and is using the ambiguity as a weapon whether they know it or not.
 
+## 6. Default to "not-reasonable," never "not-rational" — and flag, don't sentence
+
+This guard is the practical defense that follows from the ones above. It is also a structural finding, stated in full in the taxonomy ([[00_TAXONOMY]] §1.3–§1.4); it earns a place here because the terminology rule *is* a safety rule.
+
+**The structure.** The four grades are not a flat line. The load-bearing cut is **Reasonable vs. not-Reasonable** — and everything on the not-reasonable side is **flagged for closer inspection, not convicted.** Within not-reasonable, *Unreasonable* is the negotiable middle (a different deadline or an extra hand can move it back across the line), while *Irrational* and *Illogical* cluster as the hard walls that no negotiation rescues. Crossing the line is the event; which word applies is a follow-up, and the follow-up is an invitation to look closer, never a sentence.
+
+**The terminology rule, and why it is a guard.** When naming the failure, default to the umbrella **not-reasonable** — never "not-rational." Two reasons, and both are safety:
+
+1. *It is the accurate name.* `not-reasonable = {unreasonable ∪ irrational ∪ illogical}`. Every failure is at least not-reasonable; only some are irrational. Naming the union "not-rational" names the whole set after one member — the word-compression of guard #4, committed in the very act of flagging.
+2. *It keeps the verdict off the mind.* "Not-rational" reads as a judgment of a *person's reasoning* — the #HiddenFigures slide of guard #3. "Not-reasonable" reads as a judgment of an *expectation's fit with its constraints*, which is the only thing this work is licensed to judge. The first word migrates toward the person; the second stays on the demand.
+
+So the safe default is the weakest, widest, most expectation-bound word: **not-reasonable, as a flag for inspection.** Reach for *irrational* or *illogical* only after the closer look, only about the expectation, and never as the umbrella.
+
 ---
 
 # @Claude
