@@ -99,6 +99,20 @@ The scope fence from the disclaimers has a coordinate on this grid:
 
 The belief is a cultural fact to understand, never a defendant to sentence. (See [[___DISCLAIMERS]] on same-seat humility: present certainty is not a vantage point above the belief — which is *why* it is described, not judged.)
 
+### §4.1 — The fence has a grammatical signature: word migration
+
+The fence is not only conceptual — it can be detected at the level of *grammar*. Some words are **stable in the third person** and tend to stay on the system/process/expectation; others **migrate to the first or second person** and transfer onto the individual. That migration is the realm-fence violation happening at the linguistic level, *before anyone has consciously decided to target a person.* (Full landscape in [[failure_language_framework]]; enforcement in [[language_auditor_prompt]].)
+
+| Migration class | Examples | Lands on | Fence behavior |
+| :--- | :--- | :--- | :--- |
+| **Stable in 3rd person** | gap, bug, issue, miss, breakdown | the system / process | Safe — stays on the Expectation row. **Preferred for process language.** |
+| **Migrates to 2nd** | error ("your error"), fault ("that's your fault"), defect | ambiguous → person | Watch — one pronoun and it crosses the fence. |
+| **Migrates to 1st/2nd** | flaw, failure ("I am a failure"), mistake, blunder, negligence, incompetence | the person | High risk — the grammar itself carries the verdict onto the individual. |
+
+**The test:** if a word naturally completes *"I am a ___"* or *"that was your ___,"* it carries person-targeting risk regardless of how the author intended it. **The intended meaning does not prevent the migration** — the word does the work whether or not the author meant it to.
+
+**Why this matters for the taxonomy:** it gives the realm fence (§4) a *mechanical detector* and explains, at the grammar level, why §1.4's terminology rule is right. "Not-**rational**" migrates toward a mind ("you are irrational"); "not-**reasonable**" stays on the expectation ("the demand is unreasonable"). **Grammatical stability in the third person is therefore a selection criterion for process language** — choose the word that *can't* migrate, and the fence holds itself.
+
 ---
 
 ## 5. SDLC Specimen Matrix

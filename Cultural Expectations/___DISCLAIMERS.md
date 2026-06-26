@@ -3,23 +3,6 @@ The momentum of the other sections, CTO, Software Developer, and Software Indust
 
 What it made me realize is, people have actually been looking at this a lot longer than me. That information doesn't seem to get disseminated.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 # Standing and Limits
