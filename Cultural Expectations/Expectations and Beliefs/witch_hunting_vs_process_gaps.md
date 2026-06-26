@@ -23,6 +23,8 @@ This document is a tool for both. It is also, frankly, a personal anchor for mom
 ## The Core Principle
 
 **All system failures are a collection of decisions that produced a measurable defect.**
+<!-- ⚑ ACCURACY-FLAG [universal claim — "all"]: Not defended for environmental (power/hardware), stochastic (bit-flip, race condition), or external-cascade failures, which aren't "collections of decisions." RECOMMEND scoping: "Most recurring/addressable system failures are…" or define "system failure" to exclude purely stochastic/environmental events. The discipline (follow process not person) survives the hedge intact. -->
+
 
 The fault or defect lays in the process that created and maintained the system — not in a single person, not in a single moment, and not in a single decision made in isolation.
 
@@ -46,7 +48,8 @@ When an investigation terminates at a person rather than following the chain bac
 - **Selects out the wrong people** — honest reporters, risk-takers, and people who surface problems early learn that visibility is dangerous. They leave or go quiet. The people who remain are better at managing perception than at managing systems.
 - **Personalizes a structural problem** — which is the most consequential harm of all, because a personalized problem ends when the person is gone. A structural problem continues until the structure changes.
 
-Witch hunting does not produce accountability. It produces a sacrifice. Those are not the same thing.
+Witch hunting does not produce accountability. It produces a sacrifice. Those are not the same thing. <!-- ⚑ ACCURACY-FLAG [universal stated as mechanism]: The five consequences above (closes loop, lets process escape, teaches concealment, selects wrong people, personalizes) are sound inferences but cited with no org-behavior evidence. "Does not produce accountability" is absolute; evidence supports "typically does not." This is a VALUE the project owns (process-first) — fine to assert as a value, but where it's framed as a behavioral prediction, hedge to "tends to" or add one traced example. Distinguish the value (own it) from the empirical claim (hedge it). -->
+
 
 ---
 

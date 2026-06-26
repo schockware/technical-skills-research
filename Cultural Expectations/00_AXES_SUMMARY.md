@@ -234,6 +234,43 @@ Every generation of management science rediscovers that the composite demand exc
 
 ---
 
+## Axis 11: Language Formalization Origin
+**Source:** Observation that professions with standardized language (medicine, law, military) make scope boundaries legible; software and bureaucracy lack this; science sits in between.
+
+**Definition:**
+- **Formally originated language:** The discipline's vocabulary emerged from within a credentialing or professional institution. The institution created the words *in order to define scope*. "Cardiologist" means the same thing in Boston and Bangkok because the word and the scope boundary were created simultaneously by the same body. The language carries scope information automatically — outsiders can perceive domain boundaries even without understanding either domain.
+- **Academically originated language:** The discipline's vocabulary emerged from universities with shared methodology and notation. Scope is partially encoded — an astrophysicist and a geologist share scientific method and structure, so they can follow each other's reasoning even across domain gaps. But without a single credentialing body, specialization vocabulary isn't standardized across disciplines. Scope is legible within the class; not always across it.
+- **Wild-originated language:** The discipline's vocabulary emerged from distributed, uncoordinated practice communities — companies, subcultures, geographic clusters — with no controlling institution. Terms mean different things in different organizations. "Architect," "senior engineer," "lead" are not scope labels; they are local conventions. The language grew faster than any institution could standardize it, and no institution had the authority to try. Language carries capability signal only — no scope information, no boundary.
+- **Process-originated language:** The vocabulary was built to describe a procedure, not a discipline. "Clerk" means "person who executes this step in this process." The scope is defined by the workflow, not by any body of knowledge. When the workflow changes or crosses organizational boundaries, the language doesn't transfer — it was never attached to knowledge in the first place. Scope expands automatically when the process expands, regardless of whether the person's capacity expands.
+
+**The four categories and what their language carries:**
+
+| Origin | Examples | Language carries |
+|---|---|---|
+| Formally originated | Medicine, Law, Military | Scope + boundary + accountability |
+| Academically originated | Science | Method + structure, partial scope |
+| Wild-originated | Software | Capability signal only, no scope |
+| Process-originated | Bureaucracy | Procedure step, no knowledge, no scope |
+
+**Why it matters — the brake failure mechanism:**
+Formally originated language makes scope boundaries legible *automatically*. "Cardiologist" tells you what this person does and what they don't do. The cultural brake fires because the vocabulary contains the boundary. Wild-originated language carries no boundary — "senior software engineer" tells you roughly what this person can do but nothing about what they won't be expected to do. The brake can't fire because the word doesn't contain the concept of a limit. Process-originated language creates a different composite demand mechanism: not "you're smart, learn anything" but "the procedure now includes this step, so you do it" — scope creep through workflow expansion rather than through capability assumption.
+
+**Why software's language origin matters specifically:**
+Software terminology emerged from practice communities with no controlling institution. The same title means different things across companies, generations, and subcultures. A "CTO" at a five-person startup, a public company, and a defense contractor are doing categorically different jobs — but the title signals the same thing to outsiders: "technical everything." The JD copies the previous JD; the title propagates the composite assumption forward; and no standardizing body exists to say the composite has drifted past what one person can hold.
+
+**The bureaucracy divergence:**
+Bureaucratic language didn't originate wild — it originated inside organizations to describe processes. But because the processes weren't grounded in a body of knowledge, the language never developed scope-carrying capacity. A "clerk" in a Maine DMV intake office and a "clerk" processing California mail are executing different processes under the same title. When the process expands (digitization, new regulatory requirements, cross-departmental coordination), scope expands automatically — not because the person can do more, but because the process now says they do more. The composite demand arrives through workflow, not capability assumption, but the outcome is the same: unreasonable demand without acknowledgment that the demand is composite.
+
+**Interaction with existing axes:**
+- **Axis 1 (tangibility):** Wild-originated language makes cognitive scope boundaries invisible the same way cognitive complexity is invisible — there's no perceptual signal that "senior engineer" and "CTO" are different jobs the way a scalpel and a keyboard are different tools.
+- **Axis 6 (feedback loop):** Formally originated language is the transmission mechanism the feedback loop needs. If the language doesn't carry scope information, the loop has nothing to transmit. You can't tell a founder "the CTO scope is unreasonable" in a vocabulary that doesn't contain the concept of CTO scope limits.
+- **Axis 8 (credential as scope label):** Credentials become scope labels when formally originated language backs them. Without formally originated language, credentials remain capability signals regardless of intent — the word "certified" means nothing if the scope behind the certification isn't encoded in the title itself.
+- **Axis 9 (liability):** Liability frameworks can only function when the language is specific enough to attach accountability to a named scope. "The cardiologist performed a procedure outside their licensed scope" is a legible legal claim. "The senior engineer was asked to do too much" is not — the vocabulary doesn't contain the boundary the claim would need.
+
+**Research note:** This axis predicts that the historical professions (medicine, law, accounting, engineering) all developed formally originated language *as part of* the same occupational transition documented in 4.7 — the credential, the liability framework, and the standardized vocabulary arrived together because each required the others. Test: did any profession acquire liability frameworks before it standardized its vocabulary? If not, language formalization may be a necessary precondition for brake installation, not merely a correlate.
+
+---
+
 ## The Compound: How the Axes Interact for Software/CTO
 
 These axes don't operate independently. For the CTO case, they stack — and they stack in causal order:
@@ -249,6 +286,7 @@ These axes don't operate independently. For the CTO case, they stack — and the
 8. The credential **signals general capability** rather than bounded scope (Axis 8)
 9. **No liability** structure makes the demand itself evaluable or forces failure attribution (Axis 9)
 10. The failure of the composite demand has been **continuously measured for over a century** — and the demand is reproduced unchanged in every generation regardless (Axis 10)
+11. The **vocabulary used to describe the role carries no scope information** — wild-originated language cannot transmit the boundary even when the boundary is known (Axis 11)
 
 Each axis alone would be a problem. Together they form a system that reproduces the unreasonable demand reliably, invisibly, and without any structural mechanism for correction. Axis 10 is what makes the system *indicting* rather than merely unfortunate: this is not a young field making understandable mistakes. This is a pattern with a hundred years of measurement behind it, still running.
 
@@ -299,5 +337,5 @@ These axes are hypotheses. Each needs evidence before it becomes a finding:
 ---
 
 *Workshopped collaboratively June 25, 2026. These are hypotheses before the research pass — the research pass tests them, it does not confirm them.*
-*Axes: 0 (fictional media) → 1 (tangibility) → 2 (institutional memory) → 3 (structural obscuring) → 4 (institutional mediation) → 5 (internal/external brake) → 6 (feedback loop) → 7 (halo authority) → 8 (credential-capability) → 9 (liability) → 10 (measurement paradox).*
+*Axes: 0 (fictional media) → 1 (tangibility) → 2 (institutional memory) → 3 (structural obscuring) → 4 (institutional mediation) → 5 (internal/external brake) → 6 (feedback loop) → 7 (halo authority) → 8 (credential-capability) → 9 (liability) → 10 (measurement paradox) → 11 (language formalization origin).*
 *Connection map: `CTO/TODO.md` T2 (expectation audit) and T4 (cultural permission structure); `Software Industry/00_AXES_SUMMARY.md` (sibling); `CROSS_REFERENCES.md` (three-area index); `00_RESEARCH_PLAN.md` (five tracks, research targets, spillage map).*

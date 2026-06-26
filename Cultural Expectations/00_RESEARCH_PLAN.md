@@ -363,7 +363,7 @@ In the 1940s and 1950s, programming was classified as clerical work — detail-o
 
 This was not incidental. It was explicit organizational logic: programming was understood as translating the (male) engineer's mathematical intent into machine instructions. Precise, skilled — but subordinate to the real engineering. The distinction between hardware (engineering, male, important) and software (clerical, female, support) was baked in from the beginning.
 
-The ENIAC programmers — Kay McNulty, Betty Jennings, Ruth Lichterman, Marlyn Wescoff, Frances Bilas, Jean Jennings — were hired as "computers" (the literal job title for people who performed calculations), then became the first programmers of the first general-purpose electronic computer. They were not credited at the machine's public unveiling in 1946. The men who built the hardware stood in front of it. The women who made it compute were not in the photograph.
+The ENIAC programmers — Kay McNulty, Jean Jennings (Bartik), Betty Snyder (Holberton), Marlyn Wescoff, Frances Bilas, Ruth Lichterman — were hired as "computers" (the literal job title for people who performed calculations), then became the first programmers of the first general-purpose electronic computer. They were not credited at the machine's public unveiling in 1946. The men who built the hardware stood in front of it. The women who made it compute were not in the photograph.
 
 Grace Hopper invented the compiler. She had to fight to be taken seriously doing it — not because her work was questioned technically, but because the cultural logic said programmers executed instructions, they didn't invent new ones.
 

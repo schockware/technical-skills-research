@@ -1,5 +1,6 @@
 # Preface
-When I first experienced this. I immediately spotted it as irrational.
+When I first experienced this. I immediately spotted it as irrational. <!-- ⚑ ACCURACY-FLAG [self-guard — INTENTIONAL, do not "fix"]: "irrational" as umbrella technically breaks §1.4 (default not-reasonable), BUT this is deliberate: the Preface shows the everyday-word instinct so the Diagnosis can reseat it to "illogical." It's the framework catching its own drift, by design. Leave as-is; this note just records that the audit saw it and judged it pedagogy, not a slip. -->
+
 
 # What happened
 I was training 30 secretaries end of day, it was 3PM we ended at 5PM. During a break, my manager comes up to me and asks, "Hey, the Director's need you to make a report for their meeting before 5PM."

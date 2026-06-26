@@ -61,6 +61,8 @@ Restriction → Reduced Access → Outcome Gap →
 Gap cited as proof of incapacity →
 Restriction justified → Original restriction omitted
 ```
+<!-- ⚑ ACCURACY-FLAG [causal: evidenced in absence, asserted in presence]: The strongest links are Restriction→Reduced Access (demonstrated) and the reclassification variant (demonstrated by examples). BUT: the "Outcome Gap" node is evidenced mostly by its DISAPPEARANCE after access equalized (female athletes now measurable), not by documentation of the gap DURING restriction. Honest framing: the equalization is the data; the gap-as-incapacity is what the loop refutes, not what it proves. Consider stating: "outcome gaps attributed to capacity may reflect access restriction — as shown by performance equalizing once access is granted." The "Gap cited as proof / Restriction justified" arrows are asserted, not shown with a cited instance. -->
+
 
 ### Real World Idiom Test Cases
 
@@ -70,7 +72,8 @@ These idioms are useful precisely because they are culturally familiar. Their fa
 - Implies girls are constitutionally weaker throwers (capacity language)
 - Girls who throw well are reclassified as exceptions ("she throws like a boy") rather than evidence against the assumption (reclassification)
 - The practice gap caused by exclusion from sport disappears from the narrative entirely (omission)
-- Outcome data now contradicts the assumption — female athletes in softball, baseball, cricket, and javelin are documented and measurable. The assumption did not update when access did. That lag is itself a data point.
+- Outcome data now contradicts the assumption — female athletes in softball, baseball, cricket, and javelin are documented and measurable. The assumption did not update when access did. That lag is itself a data point. <!-- ⚑ ACCURACY-FLAG [accurate facts, watch rhetorical reach]: participation/performance in these sports is solidly documented. The careful claim as written ("assumption didn't update when access did") is defensible. Do NOT let it imply the performance distributions are now identical — documented mean throwing differences exist (with a large practice/access component). Claim only what's written. "That lag is itself a data point" reads as observation but is interpretive — fine as framing, not as measurement. -->
+
 
 **"Women are bad drivers"**
 - Women were restricted from or discouraged from driving, reducing accumulated drive time
@@ -91,10 +94,11 @@ Incapacity assumption persists despite contradicting evidence
 ```
 
 **Historical examples:**
-- The ENIAC programmers (six women) were classified as operators, not engineers, and excluded from the commemorative record
-- Harvard Observatory women computers processed astronomical data at below-janitor wages; Henrietta Leavitt's discovery of the period-luminosity relationship — the tool that let Hubble measure the universe — was initially published under the observatory director's name
-- NASA human computers (Hidden Figures) were titled "computers" as a job category, depersonalizing the intellectual labor; when electronic computers arrived, the women programmed them — their expertise transferred, their status did not
-- Grace Hopper built the first compiler after being told by male colleagues it was impossible; COBOL, the language she pioneered, still processes an estimated $3 trillion in daily financial transactions
+- The ENIAC programmers (six women) were classified as sub-professional "computers," not engineers, and were excluded from the commemorative record — absent from the machine's 1946 public unveiling and from the histories until recovered by later research (Kathryn Kleiman's work and Jennifer Light's *When Computers Were Women*, 1999).
+- Harvard Observatory women computers processed astronomical data at roughly 25–30 cents an hour — below what a man would have earned for the same work; Henrietta Leavitt's discovery of the period-luminosity relationship — the tool that let Hubble measure the universe — was issued in a 1912 Harvard Circular under director Edward Pickering's name, though the text itself credited the work to Leavitt.
+- NASA (then NACA) human computers (Hidden Figures) were titled "computers" as a job category, depersonalizing the intellectual labor; when electronic computers arrived, the women programmed them — their expertise transferred, their status did not.
+- Grace Hopper built the A-0 system (1952), widely credited as the first compiler, after being told it was impossible; COBOL, the language she pioneered, still underpins systems processing — by one widely-cited industry estimate (Reuters, 2017) — roughly $3 trillion in daily commerce.
+
 
 The reclassification mechanism is particularly resistant to audit because the labor *is* documented — just under a different category that obscures its intellectual nature.
 

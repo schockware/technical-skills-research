@@ -138,6 +138,9 @@ These environments are to be glared at with great intensity until they can expla
 
 Specifically, they should be asked to account for:
 
+<!-- ⚑ ACCURACY-FLAG [inferred mechanisms stated as established; one intent-claim]: The four consequences below (reporting suppression, selection inversion, asymmetric cost, experience gatekeeping) are logically sound but presented as established mechanisms with no cited org-behavior data. They read as predictions. Watch especially "Asymmetric cost distribution… This is not accidental. It is a feature" — "feature" implies intentional design, a stronger claim than a side-effect; soften to "a predictable side-effect" unless intent is evidenced. Same applies to the Junior/Senior Divide above: the claim that juniors' caution is a rational response to environment (vs. socialization/personality) is a strong inference, not a measurement. The INSIGHT is likely right; the fix is "tends to / we predict," not deletion. -->
+
+
 - **Reporting suppression** — if failure is a personal verdict, honest reporting gets replaced with performance of certainty. The data disappears. The loop breaks. The system degrades invisibly.
 - **Competence selection inversion** — environments that penalize failure reward the performance of confidence over the accurate reporting of uncertainty. They select for the wrong thing.
 - **Asymmetric cost distribution** — the people with the least power absorb the most cost of a failure-as-verdict culture. This is not accidental. It is a feature of environments that have never examined the assumption.
@@ -173,7 +176,8 @@ Intentional language is not pedantry. It is accountability.
 
 "Failure" is not the only word with this problem. Its synonyms carry different charges and land differently depending on professional background, personal history, and cultural context.
 
-Notably: **"defect" produced stronger negative reactions than "failure" in practice.** That is not trivial. If the word intended to replace a loaded term lands harder than the original, the substitution has failed its own test. This warrants measurement.
+Notably: **"defect" produced stronger negative reactions than "failure" in practice.** That is not trivial. If the word intended to replace a loaded term lands harder than the original, the substitution has failed its own test. This warrants measurement. <!-- ⚑ ACCURACY-FLAG [anecdote stated as finding — contradicts own commitment to measure]: "in practice" with no n, method, or demographics. Stated as a finding two lines above the doc's own "this deserves measurement rather than assumption." RECOMMEND: reword to "In our preliminary/informal observation, 'defect' appeared to land harder" until measured. This is the cleanest fact-vs-hypothesis catch in the corpus. -->
+
 
 ### The Full Landscape
 
@@ -203,7 +207,8 @@ Notably: **"defect" produced stronger negative reactions than "failure" in pract
 "I am a failure" — failure migrates completely.
 "That was your fault" — fault migrates the moment a pronoun is added.
 
-The migration from 3rd to 2nd person is the witch hunt happening at the grammatical level. The language itself redirects from process to person before anyone has made a conscious choice to assign blame.
+The migration from 3rd to 2nd person is the witch hunt happening at the grammatical level. The language itself redirects from process to person before anyone has made a conscious choice to assign blame. <!-- ⚑ ACCURACY-FLAG [causal overstatement + category conflation]: The grammatical PATTERN is demonstrated; that grammar CAUSES blame (vs. enables/facilitates it, or merely marks existing blame patterns) is inferred, not shown — no controlled comparison of teams using different vocabularies. Also "migration IS the witch hunt" conflates the grammatical phenomenon with the social one — grammar is part of HOW witch hunts operate linguistically, not the witch hunt itself. Softer/accurate: "grammar facilitates the redirect from process to person." The 'tend to' phrasing above is already correctly hedged. -->
+
 
 This means grammatical stability in 3rd person is a selection criterion for process language — not just emotional neutrality.
 

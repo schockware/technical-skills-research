@@ -4,7 +4,8 @@ I would be remiss if I said unleashing any energetic new hire into the woods is 
 # What happened
 The group had finally ceded that we need automated tests. We were getting bugs left and right, and most of our time (80%) was now consumed redoing manually doing regression tests before each release.
 
-Since we were doing that testing before each release, of course we would find something and the releases would get pushed out.
+Since we were doing that testing before each release, of course we would find something and the releases would get pushed out. <!-- ⚑ ACCURACY-FLAG [self-guard, minor]: "of course" is on our own prescriptive-flag list (language_auditor_prompt). Author's narrative voice, low stakes. Optional: "predictably" or just drop it. -->
+
 
 The new guy (junior developer) volunteers to make all of the tests. The lead developer gave him a week.
 
@@ -12,7 +13,8 @@ After a week they all passed.
 
 The problem. All of the tests were false positives. And with half of the tests actually changing business logic in order to pass. Which I believe is what they call, the "tail wagging the dog."
 
-He had misread the documentation for how jest tests worked and the assertions were not built in correctly. In addition he understood the "boy scout motto" our CTO had been drumming to mean he had authority to change business logic based on how he understood the domain.
+He had misread the documentation for how jest tests worked and the assertions were not built in correctly. <!-- ⚑ ACCURACY-FLAG [self-guard, borderline]: "He had misread" lands on the person; §4.1 migration + §7 (verdict on environment not person) suggest system framing ("the jest docs were misread; the assertions weren't built in correctly"). The Diagnosis self-corrects (calls him least-culpable), so this is borderline — accurate event-description vs. person-framing. Author's call. -->
+ In addition he understood the "boy scout motto" our CTO had been drumming to mean he had authority to change business logic based on how he understood the domain.
 
 ## Diagnosis
 
