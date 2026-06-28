@@ -1,8 +1,21 @@
 # Appendix: Citation Review & Verification Log
 
 **Purpose:** Rate every citation in the CTO Operating Modes corpus for verifiability and load-bearing weight before publication.
-**Status:** In progress — ratings to be filled in by researcher.
+**Status:** Partial — many ratings decided, ~19 citations still unverified. This is a *working verification log, not a clearance.* Several High-load-bearing figures are decided-as-unverified and are explicitly marked **🚫 NOT CITABLE until verified** at their entries below; do not read the "in progress" framing as "pending but probably fine." Until each such entry is verified, the published draft must not state the figure as a number (the spine and README already comply).
 **Created:** 2026-06-24
+**Last reconciled:** 2026-06-27
+
+---
+
+## 🚫 NOT-CITABLE register (decided: load-bearing AND unverified)
+
+These figures are load-bearing for an argument *and* could not be verified. They are **not citable as numbers** in any published draft until a primary source is confirmed. The defensible move (already used in `DRAFT_SYNTHESIS.md` and `README.md`) is to state the *direction* and flag the figure as unverified, never to assert the number.
+
+| Anchor | Figure | Why blocked | Status |
+|---|---|---|---|
+| `AX-COMPRESSION` | $1.1M distributed cost / **~4–6:1** compression ratio | High load-bearing; sourced only to content sites; primaries not yet substituted | 🚫 NOT CITABLE until verified |
+| `AX-VPENG-TIMELINE` | 8–15yr vs 18–24mo VP-Eng-readiness contrast | High load-bearing (headline visual); unverified | 🚫 NOT CITABLE until verified |
+| `AX-CTO-TENURE` | 2.5-year average CTO tenure | ❌ FAILED verification — appears fabricated/garbled (Korn Ferry ~4.3yr) | 🚫 DO NOT USE — claim retracted |
 
 ---
 
@@ -69,6 +82,7 @@ These three callouts are linked from `08_DRAFT_skills_divergence_thesis.md` by m
 - **Sources (mostly content sites — VERIFY against comp-survey primaries):** ctaio.dev salary medians (EM ~$220K, VP Eng ~$300K, Staff/Principal ~$275K); christianandtimbers.com; kompella.io. **Primaries to substitute:** Levels.fyi, Pave, Radford, or Kruze's own dataset.
 - **Status update (2026-06-24):** headline softened from a flat `6:1` to a **`~4–6:1` cash-basis band** across all five mention sites in `10_RESEARCH`; methodology note added explaining the band. The `RISK-COMPRESSION-RATIO` distortion is now disclosed in-text rather than latent. ✅ framing fixed; ⬜ source numbers still unverified.
 - **Verified?** ⬜ Not yet (numbers). **Load-bearing?** **High** — headline number of the economic finding. **Confidence** — to set. **Paired RISK:** `RISK-COMPRESSION-RATIO` (below).
+- **🚫 NOT CITABLE until verified.** High-load-bearing + unverified + content-site sourcing. Publish the *direction* (cash compression makes the composite optimal for everyone but the CTO) without stating "~4–6:1" as a figure, until a comp-survey primary (Levels.fyi / Pave / Radford / Kruze) confirms the band. (See NOT-CITABLE register at top.)
 
 > **⬜ OPEN DATA NEED — full founding-CTO equity package.** To convert the `~4–6:1` band into a single defensible figure (and to compute the break-even multiple in `10_RESEARCH` Open Question #1), we need: (1) typical founding-CTO **equity grant size** at seed and Series A (%), (2) the **dilution schedule** across subsequent rounds, (3) a **liquidity-probability discount** (P(reaching a liquidity event) for the relevant cohort). Candidate sources: Carta, Index Ventures *Rewarding Talent* (corpus #12), AngelList/Kruze equity data. Until obtained, the cash-basis band is the honest published claim. *This is the single most valuable piece of missing data for the economic argument.*
 
@@ -111,6 +125,7 @@ These three callouts are linked from `08_DRAFT_skills_divergence_thesis.md` by m
 - **Claim it supports:** the full Builder→Multiplier→(VP) path takes 8–15 years; the founding CTO is asked to do it in 18–24 months. The compression that makes training implausible.
 - **Source:** em-tools.io (content site). Corroborate with USD "10-year minimum" claim (University of San Diego) already in `11`.
 - **Verified?** ⬜ Not yet. **Load-bearing?** High (the 8–15 vs 18–24 contrast is a headline visual). **Confidence** — to set.
+- **🚫 NOT CITABLE until verified.** High-load-bearing + content-site sourcing (em-tools.io). Publish the *contrast* (the natural path takes years; the founding seat compresses it into months) without stating "8–15yr vs 18–24mo" as figures, until a primary corroborates. (See NOT-CITABLE register at top.)
 
 ### `AX-CTO-TENURE` — 2.5-year average CTO tenure ❌ NOT SUPPORTED — claim must change
 - **Source location:** `12_RESEARCH` Solution 2.

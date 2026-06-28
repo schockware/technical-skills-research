@@ -99,7 +99,9 @@ This is not three challenges. It is three challenges *plus* a continuous depreci
 
 ---
 
-## The Imposter Syndrome Connection: Accurate Self-Assessment
+## The Imposter Syndrome Connection: Consistent With Structural Mismatch (Not Established as Accurate Self-Assessment)
+
+> **⚠️ Claim narrowed (2026-06-27, per `R1` Claim H / Industry `R1` Claim 5).** This section originally argued that imposter syndrome in software is *accurate self-assessment* — the engineer *correctly perceiving* a real structural mismatch. That strong causal version is **retired**: it reads correlation as causation, and the base rate actively disconfirms it (elevated imposter rates appear across all high-achievement/high-evaluation populations regardless of rotation structure — healthcare runs *higher*, ~62% vs software's 52.7% — a craft-deepening, licensed field the strong thesis predicts should be *lowest*). The defensible claim, matching `01_RESEARCH` line 94 and `DRAFT` §6 concession 6: imposter syndrome in software is **consistent with** structural mismatch — a candidate explanation the individual-pathology framing never tests — *not* established as veridical perception of it. It is corroborating, not load-bearing; the ~50% reversion rate carries the behavioral weight.
 
 **Source status:** The 52.7% figure from `01_RESEARCH` (ResearchGate 2024, Clance Impostor Phenomenon Scale) is ⬜ unverified pending a dedicated citation pass. The directional claim — that software engineers experience imposter phenomenon at high rates — is consistent across multiple sources and with the structural argument. Do not use the specific number as load-bearing until the primary is traced.
 
@@ -109,15 +111,15 @@ The engineer is simultaneously:
 - **An expert** — in their organizational role, in the domain history they have accumulated, in their seniority as defined by the career ladder
 - **A beginner** — in the current technology stack, in whatever the half-life has made obsolete since they last had time to stay current, in the skills required at the next career level
 
-Both perceptions are *accurate*. The engineer is not distorting reality when they feel simultaneously competent and fraudulent. They are correctly perceiving a real condition: that their organizational status is built on expertise that is real but declining, while the current expectation of their role exceeds what that expertise covers.
+This dual position is real, and it is *consistent with* the feeling being a response to a real condition rather than pure distortion: the engineer's organizational status is built on expertise that is real but partly declining, while the current expectation of their role can exceed what that expertise covers. But "consistent with" is the ceiling of the claim — the data here cannot establish that the feeling is *veridical perception* of the structure, because the base-rate alternative (elevated imposter rates track high-achievement/high-evaluation pressure generally) is never ruled out and in fact runs higher in fields without software's rotation.
 
-This is the structural generator of imposter syndrome that no other field produces at the same rate:
+This is a candidate structural contributor to imposter syndrome — offered as a hypothesis the individual-pathology framing never tests, not as a proven generator unique to software:
 
-- The surgeon who feels like a fraud is misperceiving — their surgical knowledge from 10 years ago is largely valid.
-- The barrister who feels like a fraud is misperceiving — their knowledge of precedent compounds.
-- The software engineer who feels like a fraud is *correctly perceiving* — their framework knowledge from 3 years ago may be genuinely obsolete, their management skills are not yet developed, and the gap between their organizational role and their actual current capability is real.
+- The surgeon's framework is comparatively stable — accumulated surgical knowledge from 10 years ago is largely still valid.
+- The barrister's knowledge of precedent compounds.
+- The software engineer's *credited* (fashionable framework/tooling) knowledge from 3 years ago may be genuinely obsolete while management skills are not yet developed — so the gap between organizational role and current credited capability is plausibly real. Whether the *feeling* is an accurate read of that gap, versus general achievement-pressure, is exactly what this evidence cannot settle.
 
-Imposter syndrome in software is not a psychological problem with a therapy solution. It is an accurate read of a structural condition with an architecture solution. The architecture — building a career ladder that does not continuously demand transformation while simultaneously depreciating the expertise that earned the prior level — is what the field has not yet built.
+So imposter syndrome in software is not best treated as a purely psychological problem with a therapy-only solution; it is at least consistent with a structural condition that an architecture change could ease (a career ladder that does not continuously demand transformation while depreciating the credited expertise that earned the prior level). That structural reading is a candidate explanation worth testing — not an established finding that the feeling is accurate self-assessment.
 
 ---
 
@@ -175,7 +177,7 @@ The knowledge obsolescence compound can be stated in one paragraph:
 
 Software engineers are asked to navigate a career ladder that demands a different kind of work at every significant rung, while the technical knowledge that earned each rung depreciates continuously beneath them. Every transition requires acquiring new skills in a domain with slow, ambiguous feedback. Every transition removes time from the technical practice that maintains current-stack currency. Every transition is therefore attempted from a position of declining technical foundation, against a rising bar of organizational expectation, with diminishing expertise protection against the feeling of not belonging.
 
-The imposter syndrome figure — whatever the precisely verified number turns out to be — is the population-level signal of this compound. It is not a psychological reading of a hostile industry. It is an accurate reading of a structural condition that no other profession in this survey has built with this combination of factors: fast knowledge depreciation, career-ladder rotation, and identity-level transformation demanded simultaneously at every major transition point.
+The imposter syndrome figure — whatever the precisely verified number turns out to be — is *consistent with* this compound at the population level. It need not be read as mere psychological noise; but neither can it be claimed as a clean reading of a structural condition unique to software, because elevated imposter rates appear across high-evaluation fields generally (healthcare higher than software). The defensible statement is that software combines factors — fast credited-knowledge depreciation, career-ladder rotation, and identity-level transformation demanded at every major transition — in a way that is a plausible structural contributor, corroborating the thesis without proving it. The behavioral anchor remains the ~50% reversion rate, not the imposter figure.
 
 ---
 

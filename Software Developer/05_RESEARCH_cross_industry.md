@@ -41,7 +41,7 @@ Software's historical home is Category C. Its partial correction (Staff/Principa
 
 **The honesty of the framing:** Physicians who move into administrative roles know they are making a choice to reduce or eliminate clinical practice. The transition is not disguised as a natural deepening of medical skill. If anything, the medical culture runs the other direction — administrative physicians often report lower status among clinical peers, not higher.
 
-**The failure signal:** Physician burnout in administrative roles is documented at high rates (62% burnout rate, with bureaucracy as the top stressor above patient care demands). Many physicians who transition to administrative roles eventually return to clinical work or exit medicine entirely. The direction is notable: administration produces burnout; clinical practice is what they return to. The craft is the refuge, not the reward.
+**The failure signal:** Physician burnout in administrative roles is documented at high rates, with bureaucracy as the top stressor above patient care demands. *(Citation caution, 2026-06-27: the commonly cited ~62% physician-burnout figure traces to Medscape's physician surveys, **not** the AMA — the AMA/Mayo collaborative tracking puts overall physician burnout nearer ~41.9% in its lower-bound years, higher in pandemic peaks; cite Medscape for the ~62% or the AMA for its own number, and do not attribute the 62% to the AMA. Also note this is a **burnout** statistic — it is a different metric from the healthcare **imposter-syndrome** rate [~62% in some meta-analyses] used elsewhere in the corpus; the two ~62% figures are numerically similar by coincidence and must not be used interchangeably.)* Many physicians who transition to administrative roles eventually return to clinical work or exit medicine entirely. The direction is notable: administration produces burnout; clinical practice is what they return to. The craft is the refuge, not the reward.
 
 **What this tells us:** Medicine built a career structure where the highest-prestige outcome is being excellent at medicine. The Chief of Surgery is a surgeon. The craft deepens; it does not rotate. Software built the opposite: the highest-prestige outcome is *not* writing code. The craft is what you left behind to get there.
 
@@ -238,7 +238,7 @@ The fact that academia generated the same structural critique independently — 
 | Claim | Source | Class | Status |
 |---|---|---|---|
 | Medicine: senior surgeons continue operating | AMA, AAP, general clinical literature | Named organizations | ✅ HIGH confidence |
-| Physician burnout in administrative roles (62%) | AMA Burnout Report | Named organization | ✅ HIGH confidence |
+| Physician burnout in administrative roles is high; bureaucracy is the top stressor | AMA/Mayo collaborative (overall burnout ~41.9% low-year); ~62% figure is **Medscape**, not AMA | Named organizations | ⚠️ Direction HIGH; the specific ~62% is Medscape-sourced (re-attributed 2026-06-27) — not the AMA, and distinct from the healthcare imposter-syndrome ~62% |
 | Law: Senior Counsel advance by advocacy | General bar/barrister literature, Wikipedia (Senior Counsel) | Practitioner/general | ✅ HIGH confidence |
 | 73% of senior partners resist management roles | LeanLaw practitioner survey | Content/practitioner site | ⬜ MEDIUM — verify against a named-firm source |
 | Academic "bait-and-switch" | Martin Center, ResearchGate job satisfaction study | Academic commentary / research | ✅ MEDIUM-HIGH confidence |

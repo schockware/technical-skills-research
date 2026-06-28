@@ -8,13 +8,13 @@
 
 ## Scope at this tier
 
-The rare orgs, sub-fields, or company structures that **dodged the structural trap** — that specialized early, split the composite before scale forced it, or operated in a niche where the knowledge base stayed stable enough to let craft compound. Candidate angles:
+The rare orgs, sub-fields, or company structures that **appear to have avoided the structural trap** — that specialized early, split the composite before scale forced it, or operated in a niche where the knowledge base stayed stable enough to let craft compound. Candidate angles to *investigate* (each is an open question, not a pre-judged result):
 
 - Companies that ran a **CTO + VP Eng split from seed** (the role-bifurcation solution, `../CTO/12_RESEARCH_rational_solutions.md` Solution 3) — did it work, and was it the split or the funding that allowed it?
-- Sub-fields with **slower knowledge half-life** (embedded/firmware, certain infra) where senior craft retains value longer — a structural exception, but **`[CONTEXT]` by definition**: it doesn't transfer to fast-decay domains.
-- Deep-tech/regulated markets where **domain depth is a durable Strategist asset** (`../CTO/13_RESEARCH_domain_centric_CTO.md`, bottom-right cell) — already in the corpus as a *conditional* success, with its boundary condition (only holds while scope stays in-domain).
+- Sub-fields with **slower knowledge half-life** (embedded/firmware, certain infra) where senior craft may retain value longer — collect these and assess whether they are genuine structural exceptions or context-bound; do not assume the classification in advance.
+- Deep-tech/regulated markets where **domain depth may be a durable Strategist asset** (`../CTO/13_RESEARCH_domain_centric_CTO.md`, bottom-right cell) — already in the corpus as a *conditional* success, with its boundary condition (only holds while scope stays in-domain).
 
-**The anti-recipe at this tier writes itself:** most industry-level "successes" are `[CONTEXT/LUCK]` — they didn't beat the structure, they operated where the structure happened not to bite. Naming *why it didn't bite* (and where that condition is absent) is the contribution, not "do what they did."
+> **⚠️ Classification discipline (added 2026-06-27).** Earlier wording here pre-labeled every future success as `[CONTEXT/LUCK]` "by definition" — "they didn't beat the structure, they operated where the structure happened not to bite." That framing is **confirmation-rigged** (it routes every possible case to the thesis before any case is collected) and is **retired**. Each case must be collected first and classified *afterward* against the rigor model in the coordinating file, with `[STRUCTURAL-EXCEPTION]`, `[CONTEXT]`, `[LUCK]`, and `[GENUINE-COUNTEREXAMPLE]` all live options. A real counterexample — a team that durably held the composite across seed→scale where the structure *should* have bitten — is a finding that would **force a thesis revision**, not something to explain away. The contribution is honest classification, including admitting genuine exceptions, not defending the thesis.
 
 ---
 

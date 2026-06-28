@@ -90,6 +90,32 @@ The bullet problem is Axis 1b. It is a solvable problem — not by changing the 
 
 ---
 
+## The Burden-of-Proof Inversion — Fail Open vs. Fail Close
+
+The Columbia case adds a second mechanism beyond bullet compression: **the burden of proof was inverted at the institutional level.**
+
+Normal epistemic default (fail close): you do not proceed until safety is demonstrated. Absence of proof of safety = do not fly.
+
+NASA's institutional default by 2003 (fail open): anomalies had been normalized through years of successful flights despite known issues. The default became: proceed unless danger is proven. Absence of proof of danger = safe to fly.
+
+The engineers who knew the foam strike was outside all tested parameters could not prove it was fatal — because it was outside all tested parameters, meaning no data existed either way. Under fail-close, that absence of data stops the launch. Under fail-open, it permits it.
+
+**The security framing (from user):** This is exactly the fail-open vs. fail-close distinction in security design:
+- **Fail close:** Default deny. If you can't verify it's safe, block it. The system fails toward safety.
+- **Fail open:** Default allow. If you can't verify it's dangerous, permit it. The system fails toward continuation.
+
+NASA had drifted from fail-close to fail-open through a process of **anomaly normalization** — each flight that survived a known anomaly became evidence that the anomaly was acceptable. The rational degradation pattern at the organizational level: years of "it was fine last time" compounding into a default that treated continuation as the safe choice.
+
+**The combined Columbia mechanism:**
+1. Bullet format stripped the signal in transmission (Axis 1b — format-induced invisibility)
+2. Hierarchy blocked the engineers who held the signal from the decision room (Axis 6b — blocked loop; brake-location pattern)
+3. Burden-of-proof inversion meant absence of proof of danger was read as proof of safety (fail-open default installed by anomaly normalization)
+4. All three fired simultaneously at the highest possible stakes
+
+**The software connection:** Software organizations default to fail-open in exactly this way. The question is never "can we prove this architecture is safe to scale?" It is "can someone prove it will fail?" Absence of proof of failure = proceed. The burden-of-proof inversion is the rational degradation pattern's terminal state — after enough deferrals, continuation becomes the default and the engineer has to prove catastrophe to stop it.
+
+---
+
 ## Follow-Up Research Items
 
 1. **Tufte (2006) and the Columbia case** — verify the PowerPoint / foam strike connection; this is a high-profile real-world instance of the bullet problem with attribution.

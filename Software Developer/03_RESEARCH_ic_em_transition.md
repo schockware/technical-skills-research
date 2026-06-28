@@ -40,7 +40,7 @@ This is the most load-bearing number at this tier. Its sourcing:
 ### The critical qualifier
 These figures come from **organizations with support structures** — management development programs, peer networks, experienced managers above them. The reversion is not from people thrown in cold. It is from people who were given a real chance and still reverted half the time.
 
-This matters for the thesis. The ~50% is not an indictment of bad training or inadequate support. It is the baseline even *with* good support. Which means it is a human capacity constraint, not an organizational design flaw.
+This matters for the thesis, but it must be stated precisely. The ~50% is not an indictment of *bad training* specifically — it is the baseline even *with* good conventional support, which means the boundary itself is genuinely hard (a real capacity/difficulty constraint, not merely a coaching gap). That is **not** the same as saying it is "not an organizational design flaw." The thesis is exactly that the organizational design *compounds* a hard boundary: the structural defect this corpus identifies is not the difficulty of the boundary but the **absence of honest labeling, runway, and a cushion around an already-hard transition** (per the propagation note at the top of this file and `DRAFT` §3). So: the difficulty is a human-capacity constraint; software's distinctive harm is the organizational choice to leave that difficulty unlabeled and unsupported. Both are true; do not read this line as denying the structural argument.
 
 ---
 

@@ -320,6 +320,8 @@ This is Axes 1, 6, and 9 interacting simultaneously: the failures are cognitivel
 
 ### 4.8 — Price's Law and the bureaucratic concentration of composite demand
 
+> **⚑ RESEARCHED 2026-06-27 — HYPOTHESIS REVISED. See `04_RESEARCH_pre_software_history.md` §4.8 for findings.** The text below is the *pre-research* hypothesis, preserved as written. Key result: the **√N form of Price's Law is disconfirmed** (refuted in its home domain — Nicholls 1988; untested for organizational contribution; popularized by Peterson, not the literature). The "composite targets high contributors" claim **survives but changes mechanism** — from Price's Law to **citizenship pressure / Compulsory Citizenship Behavior** (Bolino 2010; Vigoda-Gadot 2006). Burnout is **involuntariness-driven, not load-driven** (inverted-U; the highest contributors show *less* fatigue). The Lean cross-training "compounding" claim is **downgraded to an open hypothesis** (untested). Read this section as the question, not the answer.
+
 **Derek de Solla Price (1963) — *Little Science, Big Science***
 Price's Law originated as a bibliometric observation: in any productive knowledge-work system, the square root of the total number of contributors produces half the total output. Originally observed in scientific paper authorship, it has since been replicated across software commits, patent filings, sales production, and creative output broadly.
 

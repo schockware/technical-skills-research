@@ -31,9 +31,9 @@
 | **Solution taxonomy** — 6 attempts, only 3 root-cause, all need the framework | `12_RESEARCH` | `AX-CTO-TENURE`, `AX-BIFURCATION-COST` | The "so what / what now" — and the strategic close (framework is a prerequisite for the missing solution category). | **New §7 — What's been tried (and why it falls short)** |
 | **Training stress-test** — ~50% IC→EM reversion, 8–15yr vs 18–24mo | `11_RESEARCH` | `AX-REVERSION`, `AX-VPENG-TIMELINE`, `GAP-CTO-TRANSITION` | Empirically tests the largest solution (training). The 50% number is the corpus's hardest falsification attempt. | **Subsection of §7** (training is Solution 1) OR its own **§7.1** |
 | **Central empirical gap** — founding-CTO transition success rate unstudied | `11_RESEARCH` | `GAP-CTO-TRANSITION` | The honest limitations + research agenda. The falsifiable test. | **§8 — Limitations & research agenda** |
-| **Evaluation isolation** — CTO can't be measured (no anchor above/below); HiPPO feedback decay | `15_RESEARCH` | `AX-CTO-ISOLATION`, `AX-HIPPO-DECAY`, `AX-OXYGEN-EVAL` | New axis: *why the CTO can't self-diagnose their mode.* The prior question the taxonomy assumes away; motivates the `EVALUATIONS/` tool. | **New §3.4 or its own short section** (sits under "the irrational condition") |
+| **Evaluation isolation** — CTO can't be measured (no anchor above/below); HiPPO feedback decay | `15_RESEARCH` | `AX-CTO-ISOLATION`, `AX-HIPPO-DECAY`, `AX-OXYGEN-EVAL` | New axis: *why the CTO can't self-diagnose their mode.* The prior question the taxonomy assumes away; motivates the `EVALUATIONS/` tool. | **New §3.4 or its own short section** (sits under "the under-resourced condition" — *"irrational" retired, see README*) |
 | **Legibility, not a cure** (the honest close) | `15_RESEARCH` | `AX-NOVELTY-BASELINE` | The framework's bounded contribution: makes mismatch *sayable* ("Multiplier stage, Builder CTO"), doesn't claim to solve it. The antidote to the "it's hopeless" read. | **★ INTENDED DRAFT CLOSER — final section of `08_DRAFT`.** Verify Berray 2002 + McKinsey baseline first. |
-| **No triple-mode success case** | `16_RESEARCH` | `AX-NO-TRIPLE-MODE`, `RISK-SURVIVORSHIP` | Success-case search found *no* CTO who navigated all 3 modes as continuous tenure — success = graceful exit. Survivor-proof result; pre-empts the "but some CTOs make it" objection and confirms evaluation-isolation. | **§4 (prediction — even survivors don't beat it) + §8 (limitations).** Verify the 5 anecdotal cases before load-bearing. |
+| **No triple-mode success case** | `16_RESEARCH` | `AX-NO-TRIPLE-MODE`, `RISK-SURVIVORSHIP` | Success-case search found *no* CTO who navigated all 3 modes as continuous tenure — success = graceful exit. *Consistent with rarity, not "survivor-proof"* (term retracted, R1 C3 / R2 F1); offered as color alongside the "but some CTOs make it" objection, **not** as probative. Lead with `AX-REVERSION`, not this. | **§4 (prediction — even survivors don't beat it) + §8 (limitations).** Verify the 5 anecdotal cases before load-bearing. |
 
 ---
 
@@ -61,7 +61,7 @@ Per the convention, these resolve before the new sections enter a *publishable* 
 
 - `RISK-COMPRESSION-RATIO` — ✅ framing fixed; ⬜ $1.1M numbers still unverified (`AX-COMPRESSION`).
 - `AX-REVERSION` — ⬜ the 50% is a practitioner estimate; verify or reframe before it carries §6.
-- `AX-CTO-TENURE` — ⬜ confirm Spencer Stuart 2.5yr figure (strong source, quick win).
+- `AX-CTO-TENURE` — ❌ **RETIRED, do not "confirm."** The "Spencer Stuart 2.5yr" figure is unsupported/fabricated (real CTO tenure ~4.3yr, Korn Ferry); the Switch-CTOs point was rewritten to churn framing (Russell Reynolds 56%/2021). See `07_APPENDIX` `AX-CTO-TENURE`. *(This entry previously mislabeled it a "strong source, quick win" — corrected.)*
 - Content-site comp medians (`ctaio.dev` etc.) — ⬜ substitute a primary; they underpin both `AX-COMPRESSION` and `AX-BIFURCATION-COST`.
 - `GAP-CTO-TRANSITION` — no citation needed; just state honestly.
 

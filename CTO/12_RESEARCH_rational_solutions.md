@@ -181,7 +181,7 @@ N/A — theoretical. But the mechanism (investor signal shapes startup behavior)
 | Solution | Root cause? | Currently exists? | Evidence of efficacy? | Why it fails or falls short |
 |---|---|---|---|---|
 | Train | No | Yes — large market | None CTO-specific | Patches individual against structural problem; trains wrong modes |
-| Switch CTOs | No | Yes — de facto | Weak | Reactive, expensive, destroys knowledge; 2.5yr tenure confirms the pattern |
+| Switch CTOs | No | Yes — de facto | Weak | Reactive, expensive, destroys knowledge; high tech-exec churn (56% changed employers 2021, Russell Reynolds) is consistent with the pattern *(the earlier "2.5yr tenure" claim is retracted — unsupported, real CTO tenure ~4.3yr Korn Ferry; see `AX-CTO-TENURE` / `07_APPENDIX`)* |
 | Role bifurcation | Yes | Partial | Practitioner consensus | Too expensive at the stage it's needed; requires framework to execute |
 | Fractional CTO | No | Yes — growing | None comparative | Addresses Strategist mode only; can't solve Builder mode |
 | Founding CTO role transition | Yes | Rare, unstructured | Anecdotal only | No playbook; requires rare conditions; usually becomes displacement |

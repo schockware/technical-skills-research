@@ -46,17 +46,19 @@ This argument accidentally proves the thesis. The reason medicine has specialist
 
 ---
 
-## Exhibit 2: The Imposter Syndrome Epidemic as Industry Diagnostic
+## Exhibit 2: The Imposter Syndrome Epidemic as a Candidate Industry Diagnostic
 
-**52.7% of software engineers experience frequent to intense imposter phenomenon** (peer-reviewed, Clance scale, 2024).
+> **⚠️ Claim narrowed (2026-06-27, per `R1` Claim 5 / `08_CITATIONS`).** This exhibit originally asserted that software's imposter rate proves engineers are *accurately perceiving* a structural mismatch. That causal claim is **retired**: it reads correlation as causation, and the base rate disconfirms software-specificity — elevated imposter rates appear across high-achievement/high-evaluation fields generally, and healthcare runs *higher* (~62%) than software (52.7%) despite being a stable, licensed craft. The 52.7% figure is also ⬜ unverified (`08_CITATIONS`). Treat this exhibit as a *candidate* structural reading — corroborating, not load-bearing — never as proof.
 
-A majority. In a field that selects for high cognitive ability, strong educational credentials, and demonstrated technical performance.
+**52.7% of software engineers reportedly experience frequent to intense imposter phenomenon** (Clance scale, 2024 — ⬜ unverified pending a primary-source pass).
+
+A majority, if the figure holds — in a field that selects for high cognitive ability, strong educational credentials, and demonstrated technical performance.
 
 The industry's response has been to treat imposter syndrome as a psychological problem requiring individual intervention — coaching, mindset work, therapy, peer support groups. The implicit diagnosis is: these smart, capable people have an irrational belief that they are frauds.
 
-The alternative diagnosis, supported by the structural evidence: **they are accurately perceiving a real mismatch between what they were trained for, what they were promoted for, and what they are now being asked to do.**
+A structural alternative — offered as a hypothesis the individual-pathology framing never tests, **not** as established fact: the feeling is *consistent with* engineers perceiving a real mismatch between what they were trained for, what they were promoted for, and what they are now being asked to do. The data here cannot establish that the perception is veridical, because the base-rate alternative (achievement-pressure generally) is not ruled out and in fact runs higher in non-rotating fields.
 
-Imposter syndrome at 52.7% prevalence is not a psychological distribution. It is an organizational diagnostic. When the majority of practitioners in a field feel like frauds, the correct question is not "what is wrong with these people?" It is "what is wrong with how this field constructs roles?"
+So a high imposter rate is *consistent with* an organizational-design problem and worth investigating as one — but it is not, on its own, an organizational diagnostic that settles the question. When many practitioners in a field feel like frauds, "what is wrong with how this field constructs roles?" is a legitimate question to *add* — not a conclusion the prevalence figure proves.
 
 The software industry has answered the wrong question for decades. The result is a massive, ongoing welfare cost to practitioners — depression, anxiety, burnout, career abandonment — that the industry attributes to individual psychology while the structural cause goes unnamed.
 

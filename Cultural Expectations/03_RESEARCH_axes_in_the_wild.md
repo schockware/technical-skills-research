@@ -2,7 +2,7 @@
 ## Cultural Expectations Area — T2 and T4
 
 **Date started:** June 25, 2026
-**Status:** In progress — sections added as evidence accumulates. Each section is independently complete or explicitly flagged as partial.
+**Status:** In progress — sections added as evidence accumulates. Each section is independently complete or explicitly flagged as partial. Complete first pass: 3.2 (partial), 3.9, 3.10, 4.9.
 **Sequencing:** 3.2 and 3.10 run first per priority flag in `00_RESEARCH_PLAN.md` (Axis 2 / Axis 10 boundary is the highest-stakes single finding in the plan).
 **Source hierarchy:** peer-reviewed > named institution > named practitioner > content site. Class flagged per citation.
 
@@ -187,6 +187,129 @@ This is **Axis 2 (institutional memory deficit) operating across institutional g
 
 *Research file opened June 25, 2026. Sections 3.2 (partial) and 3.10 (pending) are the first entries. Additional Track 3 sections will be added as research proceeds, in priority order from `00_RESEARCH_PRIORITY.md`.*
 *Built on: `00_AXES_SUMMARY.md` (Axes 2 and 10); `00_RESEARCH_PLAN.md` sections 3.2 and 3.10; `00_RESEARCH_PRIORITY.md` priority flag for 3.10.*
+
+---
+
+## 3.9 — Axis 9 (Liability) in the Wild
+
+**Axis 9 definition / argument being tested:** Liability is the *master enforcement variable* — the mechanism that bounds professional scope and forces specialization. The strong claim: fields that acquired scope/safety brakes did so *because* a liability framework was installed; brakes appear *after* the liability event. The disconfirming test (weighted equally): if professional brakes install *before* or *without* liability, Axis 9 drops from "master variable" to "one of several." The software corollary: software's missing brakes are *explained* by its missing liability.
+
+**Status:** Complete first pass. **The strong claim is decisively disconfirmed.** Across the strongest test cases, brakes installed *independent of or prior to* liability. Liability is demoted to **one of several co-equal, complementary enforcement instruments** (liability + ex-ante regulation + insurance), none individually sufficient. ⚑ Important framing correction carried from the verifier notes: the law-and-economics literature's actual thesis is *complementarity*, not subordination — liability is insufficient *alone*, not worthless. A candidate deeper variable surfaced: **visible attributable harm** may be the common antecedent upstream of *all three* brake types.
+
+**Deep-research run wf_98900df3-13a (18 sources, 25 claims verified, 23 confirmed / 2 killed).**
+
+---
+
+### Finding 1 — Medicine: malpractice liability PREDATED specialty boards by 50–80 years and did not cause specialization
+
+**Source class:** Peer-reviewed (PubMed 9247851; PMC5045479).
+
+The first US malpractice crisis (1835–1865) predated the first specialty board (American Board of Ophthalmology, incorporated 1917) by 52–82 years — and that early malpractice wave was 70–90% orthopedic outcome disputes (visible deformities), i.e. it tracked *visible attributable harm*, not specialist standards of care. The peer-reviewed account of specialization (PMC5045479) attributes its drivers to **scientific knowledge growth, patient concentration, and new technical skills**, and frames ophthalmology's board as created to differentiate competence and **block optometry (a competitive market threat)** — liability is not mentioned as a factor in the 1916–17 founding. Specialization tracked knowledge and market competition; liability was already present and did not drive it.
+
+⚑ One related claim was **refuted** in verification (0–3): the assertion that US malpractice was infrequent until the 20th century (Cross v. Guthery 1794; a 20-fold surge 1935–1955) did not survive — the mid-19th-century crisis is the better-supported locator. This sharpens rather than weakens Finding 1: malpractice was significant *earlier* than the boards, not later.
+
+---
+
+### Finding 2 — Scope-bounding brakes installed via guild/college norms ~250 years BEFORE tort standard-of-care doctrine
+
+**Source class:** Peer-reviewed (PMC13106614).
+
+Internal standards, training oversight, and discipline were established by the Barbers' Company (1462), the Royal College of Physicians (1518), and the Company of Barber Surgeons (1540) — roughly **250 years before** the first English medical-negligence standard-of-care case (*Slater v. Baker and Stapleton*, 1767). The source explicitly characterizes these as "internal disciplinary processes, not external legal mechanisms." Moreover, modern tort law *defers to* pre-existing professional norms: via the **Bolam test (1957)**, the standard of care is "determined by the medical profession itself." Liability tracks professional norms; it does not create them. This is a direct disconfirmation of liability-as-master-variable.
+
+---
+
+### Finding 3 — Aviation's flagship safety brake (ASRS) works by REMOVING liability, not imposing it
+
+**Source class:** Named institution / primary (NASA; eCFR 14 CFR 91.25).
+
+The FAA/NASA **Aviation Safety Reporting System** is "a voluntary, confidential, non-punitive safety reporting system" that grants **affirmative conditional immunity** from certificate action and civil fines in exchange for safety information. 14 CFR 91.25 bars use of ASRS reports for enforcement; AC 00-46F waives the sanction (not the violation finding) under four conditions (inadvertent, non-criminal/non-accident, clean 5-year record, filed within 10 days). The safety mechanism is incentivized by *waiving* sanctions — the **inverse** of a liability mechanism. A flagship aviation safety brake runs on immunity, not liability. Strong disconfirmation.
+
+---
+
+### Finding 4 — General Aviation: a liability CRISIS was the burden GARA REMOVED, not a brake liability installed
+
+**Source class:** Secondary law review (Arizona Law Review 47:577), corroborated by Congress.gov and multiple academic sources.
+
+GA product-liability costs rose from $24M (1978) to >$200M (1992) while production collapsed (~18,000 units in 1978 → ~928 in 1994; Cessna suspended piston production 1986; Piper bankruptcy 1991). The **General Aviation Revitalization Act (1994)** imposed an 18-year statute of repose, "passed primarily in response to concern that a long tail of liability was driving the industry out of existence." Here liability is the *pre-existing condition the legislative brake removed* — it followed and prompted the brake rather than installing it. ⚑ This complements the 4.7 finding (liability frameworks appear to *require* a named failure): the GA case shows liability can also *over*-fire and need a counter-brake.
+
+---
+
+### Finding 5 — Law-and-economics: liability is structurally unreliable ALONE and is a complement to regulation
+
+**Source class:** Peer-reviewed (Kolstad, Ulen & Johnson 1990, *American Economic Review*; Faure 2014, *Journal of Risk Research*).
+
+Kolstad, Ulen & Johnson (1990): "The greater the uncertainty in the legal standard, the more likely it is that a potential injurer will take less than the socially optimal amount of precaution" — standard-uncertainty causes *underprecaution* — and ex-ante regulation used jointly with tort liability corrects these inefficiencies. Faure (2014): liability's deterrent effect "can fail as a result of latency, problems of proof and causal uncertainty and insolvency." The canonical literature treats liability as yielding optimal care **only when paired with regulation** — which often does the actual scope/risk bounding. Liability is demoted from sufficient master variable to one instrument among several.
+
+---
+
+### Finding 6 — Liability, regulation, and insurance are co-equal complements; none individually sufficient
+
+**Source class:** Peer-reviewed (Faure 2014, *J. Risk Research*; Van Zeben, Cambridge *EJRR*; Shavell 1984).
+
+Faure (2014): liability rules, regulation, and insurance "have all been proposed… as instruments to prevent safety risks" and "can also be found in combination in most legal systems," with liability playing "an important complementary role even in cases where industrial risks are primarily controlled via safety regulation." Van Zeben frames courts as deciding "when courts may act as substitute risk regulators and when they are better positioned as complements." Liability is positioned *relative to* regulation, not as a standalone upstream master variable. This is the core demotion finding.
+
+---
+
+### Finding 7 — Software's emerging brakes are being installed via REGULATORY MANDATE (EU CRA), not liability
+
+**Source class:** Primary (EU Commission CRA summary); peer-reviewed (Springer *International Cybersecurity Law Review* 2025).
+
+The EU **Cyber Resilience Act** applies to "products with digital elements" and requires manufacturers to meet "essential cybersecurity requirements" during design, development and production, with mandatory risk assessment, defined support-period end dates, and 24h/72h vulnerability notifications — an **ex-ante compliance regime** enforced administratively (penalties €5M–15M or 1–2.5% turnover), enforced via CE marking. The Springer review characterizes it as "ex ante cybersecurity requirements… rather than relying on ex post liability alone."
+
+⚑ **This undercuts the framework's software corollary.** If software's missing brakes were *purely* explained by missing liability, the fix would be liability. Instead, the EU is installing software brakes primarily through *regulatory mandate*, deploying the revised **Product Liability Directive (2024)** in parallel — not instead. ⚑ Time-sensitivity caveat: CRA obligations phase in (reporting Sep 2026, full force Dec 2027); the real-world brake effect is prospective and untested. The US software-liability sub-questions (UCC good-vs-service, economic loss doctrine, EULA warranty disclaimers) were **not** directly confirmed by any surviving claim — that remains an open thread.
+
+---
+
+### Finding 8 — Liability operates DOWNSTREAM through insurance markets (the de facto conduit)
+
+**Source class:** arXiv preprint (Trout 2512.06597 — *not* peer-reviewed); peer-reviewed (Abraham & Schwarcz, 98 *Indiana L.J.*, 2022).
+
+Trout: "insurance is the de facto conduit through which the liability system operates" (~90% of tort payments are paid by liability insurers, per Shavell), and "however expansive liability is for a given activity… determines how expansive regulation by insurance can be." So liability scope sets the *ceiling* on insurance-driven regulation, but is itself enacted *through* insurance — not a self-executing master brake. ⚑ Abraham & Schwarcz (peer-reviewed) caution that the aspiration for insurance to *substitute* for safety regulation is "misleading" and "over-optimistic" — insurers "face a daunting set of obstacles to further reducing policyholder risk." ⚑ Source caveat: the insurance-conduit claims rest partly on a preprint; treated as structural/descriptive and corroborated by Shavell, but flagged as not peer-reviewed.
+
+---
+
+### Framework Revision — Axis 9 Demoted from Master Variable to One of Several
+
+**What the evidence forces:**
+
+The strong Axis 9 claim — *liability is the master enforcement variable that installs professional brakes* — does not survive. The evidence pattern is consistent and multi-domain:
+1. **Medicine:** malpractice predated specialty boards by 50–80 years and did not cause them; boards tracked knowledge growth and market competition (Findings 1–2).
+2. **Guilds/colleges:** self-regulation predated tort standard-of-care by ~250 years; tort law *defers to* professional norms (Finding 2).
+3. **Aviation:** the flagship safety brake (ASRS) runs on *immunity* (Finding 3); GARA *removed* a liability burden (Finding 4).
+4. **Theory:** liability is structurally unreliable alone and is a *complement* to ex-ante regulation (Findings 5–6).
+5. **Software:** emerging brakes are arriving via *regulatory mandate* (EU CRA), not liability (Finding 7).
+
+**The revised claim the evidence supports:**
+> Liability is **one of several co-equal, interdependent enforcement instruments** — alongside ex-ante regulation, professional self-governance, and insurance — none individually sufficient. It frequently *follows or tracks* professional brakes rather than installing them, and modern tort law explicitly *defers to* professionally-set standards. Where liability does operate, it is enacted *downstream* through insurance markets and is reliable only when *paired with* regulation. Liability scope sets a ceiling on insurance-driven regulation, but is not the upstream master cause of scope-bounding.
+
+**The candidate deeper variable — visible attributable harm.** Across cases, the common antecedent that determines whether *any* brake installs (liability, regulation, *or* professional norm) appears to be **visible attributable harm**: the 19th-century malpractice surge tracked visible deformities; the GA crisis tracked a visible production collapse; aviation brakes track named crashes (4.7). ⚑ No claim *directly* tested harm-visibility as the master variable — but it is the strongest candidate to inherit the role Axis 9 just vacated. **This connects directly to 4.7's refined claim** ("liability frameworks appear to require a named failure") and to the aviation "trend-extrapolation" follow-up (4.7 item 2b). Recommend treating *visible attributable harm* — not liability — as the candidate master variable, with liability, regulation, and insurance as the downstream instruments it activates.
+
+**Implication for software (revised):** Software's missing brakes are **not** simply explained by missing liability. The EU is demonstrating that brakes can be installed via regulatory mandate without waiting for a tort regime. The deeper blocker for software is plausibly the *absence of visible attributable harm* (Axis 1 — cognitive invisibility; Axis 6 — the broken loop), which starves *all three* enforcement instruments of the trigger they need. Liability is downstream of the visibility problem, not the primary lever.
+
+---
+
+### Source List (3.9)
+
+- PubMed 9247851 — US malpractice history / mid-19th-century crisis (peer-reviewed).
+- PMC5045479 — drivers of medical specialization; ophthalmology board vs. optometry (peer-reviewed).
+- PMC13106614 — guild/college self-regulation chronology; Bolam deference (peer-reviewed).
+- NASA — Aviation Safety Reporting System overview (named institution / primary).
+- eCFR 14 CFR 91.25; FAA AC 00-46F — ASRS immunity provisions (primary regulation).
+- Arizona Law Review 47:577 — GARA and the GA liability crisis (secondary law review; corroborated by Congress.gov).
+- Kolstad, C., Ulen, T. & Johnson, G. (1990). "Ex Post Liability for Harm vs. Ex Ante Safety Regulation." *American Economic Review* (peer-reviewed).
+- Faure, M. (2014). Liability/regulation/insurance complementarity. *Journal of Risk Research* (peer-reviewed).
+- Van Zeben, J. "A Law and Economics Perspective on Judicial Risk Regulation." Cambridge *European Journal of Risk Regulation* (peer-reviewed).
+- Shavell, S. (1984). "Liability for Harm versus Regulation of Safety." (peer-reviewed — cited).
+- EU Commission — Cyber Resilience Act summary (primary / named institution).
+- *International Cybersecurity Law Review* (Springer, 2025) — CRA as ex-ante regime (peer-reviewed).
+- Abraham, K. & Schwarcz, D. (2022). Insurance and safety regulation. 98 *Indiana Law Journal* (peer-reviewed).
+- ⚑ Trout (arXiv 2512.06597) — insurance as liability conduit (preprint, NOT peer-reviewed; flagged).
+- EU Product Liability Directive (2024); IBA / Reed Smith analyses of software under the PLD (secondary).
+
+---
+
+*Section 3.9 complete first pass — June 27, 2026. Strong Axis 9 claim (liability = master variable) disconfirmed across medicine, guilds, aviation, theory, and software. Liability demoted to one of several co-equal complements (liability + regulation + insurance), frequently downstream of professional norms and enacted through insurance. Candidate replacement master variable: **visible attributable harm** (connects to 4.7). Software's missing brakes are not purely a liability gap — the EU installs them via regulatory mandate. Disconfirmation captured equally with confirmation per research discipline.*
+*Built on: `00_AXES_SUMMARY.md` (Axes 1, 2, 4, 9); `00_RESEARCH_PLAN.md` section 3.9; `00_RESEARCH_PRIORITY.md` #6 priority. Cross-references 4.7 (named-failure requirement) and 3.4 (fiduciary/liability overlap, flagged as one pass in the priority redundancy notes).*
 
 ---
 

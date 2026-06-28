@@ -45,7 +45,9 @@ An original theoretical framework arguing that the CTO title in startup contexts
 
 ---
 
-## The irrational composite thesis (latest addition)
+## The under-resourced composite thesis (latest addition)
+
+*("Irrational" retired here — see the retirement note in `README.md` lines 5–17. The defensible claim is that the composite is **structurally under-resourced at the worst possible moment**, not that it is irrational; whether the *cultural expectation* of it is irrational is an open question (`TODO` T2/T4), not a claim this corpus makes.)*
 
 The CTO role at seed stage demands a composite of three skill sets — technical craft, people infrastructure, and executive strategy — that the industry's own career architecture has recognized as **different enough to require choosing**, by splitting them into separate tracks (IC vs management) and separate roles at scale (Larson's Staff Engineer archetypes). ⟦the split proves *divergence*, not *incompatibility* — see `18_RESEARCH`⟧
 
@@ -59,7 +61,7 @@ The CTO role at seed stage demands a composite of three skill sets — technical
 
 Larson identified the same structural problem in Staff Engineer titles: "most career ladders paper over several distinct roles hidden behind a single moniker." The industry solution at scale is role distribution. The non-solution at seed stage is collapsing the distribution into one person.
 
-**The irrationality is temporally concentrated:** At Series B+, the composite is distributed across distinct roles. The irrationality exists only in the window pre-seed through Series A — when the company is most vulnerable, the CTO is most alone, the peer gap is widest, and the compensation defers reward to an outcome most companies won't reach.
+**The under-resourcing is temporally concentrated:** At Series B+, the composite is distributed across distinct roles. The under-resourced condition exists only in the window pre-seed through Series A — when the company is most vulnerable, the CTO is most alone, the peer gap is widest, and the compensation defers reward to an outcome most companies won't reach. ⟦"irrationality" retired here — the role is *under-resourced*, not irrational; see README lines 5–17.⟧
 
 ---
 
@@ -99,8 +101,8 @@ After classifying ~35 research threads from the session against the taxonomy:
 **Prior art check result:** Nobody has done this research. The observation that the CTO role changes at each stage is widely noted. What is not documented anywhere:
 - The precise mechanism (skills are sequentially *distinct* with no learning runway — ⟦not "incompatible"; retired, `18_RESEARCH`⟧)
 - The structural cause (title coined for Mode 3, applied to Mode 1)
-- The distribution proof (Series B+ orgs independently solve the irrationality via role differentiation)
-- The research gap as evidence (management literature's blind spot for early-stage leadership confirms Builder mode's structural invisibility)
+- The distribution proof (Series B+ orgs independently resolve the under-resourcing via role differentiation)
+- The research gap itself (management literature has a blind spot for early-stage leadership). ⟦Note: this absence is *consistent with* Builder mode's structural invisibility but does **not** by itself prove it — absence of research is not evidence of a finding; treat as a gap to be explained, not as confirmation.⟧
 
 ---
 
@@ -118,7 +120,7 @@ Full research paper, 11 sections, ~238 paragraphs, 14 footnotes. Sections:
 7. Team-level skills and transition gates
 8. Implications — hiring, performance, compensation, succession, investor case
 9. Limitations and research agenda
-10. The irrational composite — IC/management bifurcation, Larson convergence, temporal concentration
+10. The under-resourced composite — IC/management bifurcation, Larson convergence, temporal concentration ⟦"irrational composite" was this section's original title; retired — see README lines 5–17⟧
 11. Conclusion
 References + footnotes
 

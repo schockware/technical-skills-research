@@ -51,7 +51,7 @@ The filename numbers reflect *creation* order and two overlapping numbering sche
 | 2 | `DRAFT_SYNTHESIS.md` | **public draft (current)** | The defensible synthesis, built on `R3_STEELMAN`. §0–§5 spine complete. **Build here.** |
 | — | `08_DRAFT_skills_divergence_thesis.md` | superseded / source-of-record | The skills-first thesis of the incremental phase. Superseded as build target (see its banner); kept for provenance + anchors. |
 | 3 | `05_FULLTEXT_working_document.md` | fulltext | The original failure-first paper (11 sections). Prior framing; source of much material. |
-| 4 | `09_RESEARCH_cross_role_pattern.md` | research | CTO vs other C-roles. The **scope-vs-kind keystone** + investor-signaling cause live here. |
+| 4 | `09_RESEARCH_cross_role_pattern.md` | research | CTO vs other C-roles. The **scope-vs-kind distinction** + the investor-signaling *narrative* live here (signaling is *consistent-with*, not a measured cause — `RISK-INVESTOR-CAUSAL`). |
 | 5 | `10_RESEARCH_who_does_cto_work.md` | research | Economic engine — ~$1.1M distributed cost, ~4–6:1 cash compression. Why it stays broken. |
 | 6 | `12_RESEARCH_rational_solutions.md` | research | Solution taxonomy — 6 attempts; only 3 hit root cause, all need the framework to execute. |
 | 7 | `11_RESEARCH_IC_to_EM_transition.md` | research | Empirical stress-test of training — the ~50% IC→EM reversion rate. (Read after `12`.) |
@@ -85,13 +85,15 @@ The filename numbers reflect *creation* order and two overlapping numbering sche
 
 ## The argument in one pass
 
+*(Reconciled with the retirements above and the `R3`/`07_APPENDIX` verdicts. Where a claim was narrowed or its support is unverified, that is marked inline rather than asserted as settled fact.)*
+
 1. **Observation** (`08_DRAFT` §1): a CTO's skill focus moves product → people → market. Not a ladder; a *transformation* (offload old + acquire new, in tension). Fails three ways: failure-to-acquire, burnout, slippage.
 2. **Divergence is real** (`08_DRAFT` §2): industry split these skills into two tracks (IC/management) and, at scale, into separate roles — i.e. it treats them as *different work that requires choosing*. (Not "incompatible" — the split proves *divergence*, not impossibility-of-coexistence; see `18_RESEARCH`.)
-3. **Irrational condition** (`08_DRAFT` §3): we demand the composite anyway, pre-scale, unsupported. §3.1 etymology (why unnamed) → §3.2 **scope-vs-kind keystone** (why only the CTO is catastrophic) → §3.3 investor signaling (who installed it).
-4. **Predicted failure** (`08_DRAFT` §4): failure clusters at the transformations, not within modes. Confirmed by Greiner, Carta/Crunchbase, Kruze.
-5. **Why it persists** (`10_RESEARCH`): ~4–6:1 cash compression makes it optimal for everyone but the CTO. Revealed-preference chain.
+3. **The under-resourced condition** (`08_DRAFT` §3): we demand the composite anyway, pre-scale, unsupported. §3.1 etymology (why unnamed) → §3.2 **scope-vs-kind distinction** (why the CTO's version is acute, not why "only the CTO is catastrophic" — the same pattern runs the whole ladder; see retirement note and `18_RESEARCH`) → §3.3 investor signaling (the evidence is *consistent with* the title functioning as an investor signal — **not** a measured claim that investors *caused* the failure; see `RISK-INVESTOR-CAUSAL`). *(The word "irrational" is retired here — see the note at the top of this file.)*
+4. **Predicted failure** (`08_DRAFT` §4): failure clusters at the transformations, not within modes. Directionally consistent with Greiner, Carta/Crunchbase, and Kruze — but those attrition/compression points are **among the ~19 still-unverified citations** (`07_APPENDIX`), so treat as illustrative, not confirmation.
+5. **Why it persists** (`10_RESEARCH`): a cash-compression dynamic (the **~4–6:1 ratio is unverified and load-bearing — `AX-COMPRESSION`**) makes the composite optimal for everyone but the CTO. Revealed-preference chain; the *direction* survives even if the exact ratio doesn't.
 6. **Why nothing fixes it** (`12_RESEARCH`): 6 solutions, only 3 root-cause, all need the taxonomy first.
-7. **Training doesn't save it** (`11_RESEARCH`): the IC→EM transition reverts ~50% even *with* support; the CTO does it alone in 1/8th the time.
+7. **Training doesn't save it** (`11_RESEARCH`): the IC→EM transition reverts ~50% even *with* support (a **cross-industry** baseline, not a software-specific finding); the CTO does it alone in a fraction of the time.
 
 ---
 

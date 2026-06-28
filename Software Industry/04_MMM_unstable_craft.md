@@ -11,11 +11,13 @@
 
 ## The Thesis Stated Plainly
 
+> **⚠️ Keystone restated (2026-06-27, per `R1`).** The original keystone — "software has no stable craft to master" — was **overstated** and in tension with the corpus's own anti-fungibility win: a durable layer (algorithms, data structures, systems thinking, architecture, debugging judgment) *does* compound. The defensible claim, carried throughout this file: **the *credited* skill layer — the fashionable frameworks, tools, and methodologies the field actually measures and rewards — is unstable; the durable layer is real but largely *uncredited*.** Read every "no stable craft" / "the craft is unstable" phrasing below in that narrowed sense (credited layer), not as "nothing in software persists."
+
 In stable-craft professions, you gain identity by mastering something that persists.
 
 The surgeon masters anatomy, physiology, and technique. These are stable. Ten years of practice produces genuine mastery of something real and durable. The craft identity — "I am a surgeon" — is anchored to accumulated expertise in a domain that does not fundamentally change between 2015 and 2025. The surgeon who retires in 2030 is practicing the same discipline they entered in 1990, deepened by thirty years of accumulated experience.
 
-**In software, the craft is the act of continuous learning — because there is no stable artifact to master.**
+**In software, the *credited* craft — the fashionable frameworks, tools, and methodologies the field measures and rewards — is unstable, so the act of continuous learning is forced onto practitioners; the durable layer beneath it (algorithms, systems thinking, architecture, judgment) is real and compounds, but the field largely does not credit it.**
 
 The framework you mastered is deprecated. The architecture pattern you internalized is now considered harmful. The language you built your identity around has lost market share. The methodology that defined how you work has been replaced by its successor, which will be replaced by its successor's successor. And critically, there is no consensus on what good software development even *is* — not at the methodological level, not at the theoretical level, not at the practice level.
 
@@ -25,7 +27,7 @@ And it means that every other problem the software industry has built into its c
 
 ---
 
-## The Evidence: Software Has No Stable Craft to Master
+## The Evidence: Software's *Credited* Craft Layer Is Unstable (the Durable Layer Is Real but Uncredited)
 
 ### The Methodological Instability
 
@@ -170,7 +172,7 @@ Every other field with a rotation problem has at least one stabilizing factor:
 - Academia: the craft (research) has a stable theoretical foundation, even if administration is deceptively labeled
 - Military: separate institutional pipelines with honest labeling
 
-Software has none of these stabilizers. The rotation is deceptively labeled. The craft is unstable. The identity is unanchored. The knowledge is decaying. And the management hierarchy is built on the assumption that all of these things are false.
+Software has none of these stabilizers. The rotation is deceptively labeled. The *credited* craft is unstable (the durable layer exists but is uncredited). The identity is unanchored to anything the field rewards. The credited knowledge is decaying. And the management hierarchy is built on the assumption that all of these things are false.
 
 **The "smart people should learn everything" assumption is not just irrational in software. It is the assumption that allows the industry to avoid confronting the fact that it built a career structure on top of a craft that was never stable enough to support it.**
 

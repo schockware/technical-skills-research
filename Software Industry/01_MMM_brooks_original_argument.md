@@ -139,7 +139,7 @@ These conclusions are not compatible with the headcount-based productivity model
 
 So the industry took the law and left the argument.
 
-The 2015 CHAOS Report analyzed thousands of projects and found that small projects achieved a 61% success rate, while large projects succeeded only 11% of the time and grand projects just 6%. Fifty years of empirical confirmation that Brooks was right about complexity and team size — and the industry's response was to build larger and larger teams with increasingly elaborate coordination overhead rather than to accept that some complexity cannot be managed away.
+The 2015 CHAOS Report reported that small projects achieved a 61% success rate, while large projects succeeded only 11% of the time and grand projects just 6%. *(Cited illustratively, not as proof — 2026-06-27. The Standish CHAOS methodology has been substantially criticized in peer-reviewed work [Jørgensen & Moløkken-Østvold 2006; Eveleens & Verhoef 2010] for opaque methods, self-selected samples, and idiosyncratic success definitions; per `08_CITATIONS_gap_closure.md` it is demoted to a widely-known industry reference, not load-bearing. The non-fungibility / team-size claim rests instead on the cleaner large-n analysis — Rodríguez et al. 2012 — plus Brooks's ramp-up and the n(n−1)/2 arithmetic.)* The pattern this figure gestures at is consistent with Brooks on complexity and team size — and the industry's response was nonetheless to build larger teams with increasingly elaborate coordination overhead rather than to accept that some complexity cannot be managed away.
 
 ---
 
