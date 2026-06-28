@@ -42,6 +42,17 @@ All five are projections of the same spine and were audited for consistency agai
 
 ---
 
+## Cultural Expectations — the synthesis and its fence
+
+The **Cultural Expectations** area asks where the "irrationality" attributed to the CTO role actually lives, and why the culture grants "smart people can learn anything" to software but withholds it from licensed professions. After a clean-chat adversarial pass (R1→R2→R3), the synthesis was rebuilt into a deliberate A/B pair so the trade-off it surfaces is visible rather than buried:
+
+| Read | What it is |
+|---|---|
+| [`DRAFT_SYNTHESIS_A.md`](Cultural%20Expectations/DRAFT_SYNTHESIS_A.md) | **The synthesis to build on.** The post-adversarial residue: the not-reasonableness lives in the **legibility/attribution** applied to the role, not in its design. Falsifiable, fence-clean. |
+| [`DRAFT_SYNTHESIS_COMPARE.md`](Cultural%20Expectations/DRAFT_SYNTHESIS_COMPARE.md) | **Read this first.** Holds Draft A against its stronger-sounding but weaponizable alternative, and shows why the punchier framing crosses the fence the area exists to guard. |
+
+---
+
 ## Repository layout
 
 ```
@@ -57,6 +68,9 @@ Technical Skills Analysis/
 │   └── README.md
 ├── Software Industry/         ← industry scope (lightweight notes)
 │   └── README.md
+├── Cultural Expectations/     ← where the "irrationality" lives (A/B synthesis + language fence)
+│   ├── DRAFT_SYNTHESIS_A.md       ← the synthesis to build on
+│   └── DRAFT_SYNTHESIS_COMPARE.md ← A vs B, held against the fence
 ├── Prompt Evaluations/        ← raw research-session transcripts (provenance)
 └── DO NOT CHECK THIS IN/      ← purchased PDFs — GITIGNORED, never committed
 ```
