@@ -241,7 +241,46 @@ composite demand), never on the belief itself. This much of the fence Draft B ke
 
 ---
 
+## §8 — What the comparator evidence does to Draft B's §1 verdict *(added 2026-06-29)*
+
+<!-- [⚠ WEAPONIZATION — §5 + G-1] This section records the empirical finding that most exposes Draft B,
+     kept here (not hidden) because B's whole job is to show what its own strength costs. B's §1 verdict
+     is "Irrational because one PERSON cannot hold three modes simultaneously" — a capacity claim
+     dressed as an Expectation-row verdict (the §4 diagonal). The comparator coding (G-1) showed the
+     three-mode composite is demanded of the CFO, CMO, and COO too — it is C-suite-WIDE. THE SLIDE THIS
+     EXPOSES: if "irrational because one person can't hold three modes" is the operative claim, it damns
+     EVERY C-suite role equally — so B's "irrational" was never a CTO-specific finding; it was a
+     blanket capacity verdict on all senior humans, which is exactly the over-reach §1.4 + §4 exist to
+     stop. Draft A's axis-3 (stage) finding locates the real CTO-distinctiveness where B's capacity
+     claim cannot reach. -->
+
+Draft B's §1 verdict — *Irrational, because one person cannot hold Builder + Multiplier + Strategist at
+once* — was written before the comparator evidence existed. That evidence (G-1, see
+`2.1b_COMPARATOR_CODING_RESULTS.md`) now shows the same three-mode composite is demanded of the **CFO,
+CMO, and COO** (CFO 3/3, COO 4/4 control, CMO where it exists). **The composite is C-suite-wide.**
+
+This is the deepest exposure of Draft B's framing, and it is recorded here rather than buried:
+
+- **B's reasoning, taken seriously, proves too much.** If the demand is "Irrational" *because a person
+  can't hold three modes*, that verdict lands identically on every C-suite seat — B would have to call
+  the CFO, CMO, and COO roles "irrational" too. B's headline felt like a finding *about the CTO*; the
+  data shows its logic was never CTO-specific. It was a capacity claim about senior humans in general.
+- **Where the real CTO-distinctiveness lives, B cannot see.** Draft A's §9.5 three-axis model locates it
+  on the **stage / role-scaling axis**: the CTO is the only chief staffed *during* the IC phase (product
+  = tech at founding), so the only one that must traverse the role's stage-migration *in situ* rather
+  than being hired in fully formed — confirmed by JD mode-balance migration (Builder 3→0 across stages
+  vs. a stable CFO), the C7 craft-decay mechanism, and the C8 Spencer Stuart census (CFO ≤31%
+  accounting-craft entry; MBA>CPA). That is a claim about the role's *trajectory*, not a person's
+  *capacity* — and it is exactly the kind of claim B's "Irrational" verdict structurally cannot make.
+
+**Net:** the comparator evidence does not just weaken B at the fence (already shown in §1/§7) — it shows
+B's central verdict was a **C-suite-wide capacity claim mis-presented as a CTO finding.** Draft A's
+stage-axis distinctiveness is the defensible replacement. This *is* the contrast B exists to demonstrate.
+
+---
+
 *Draft B authored 2026-06-28 on `Expectations and Beliefs/00_TAXONOMY.md` §5 + the raw research files.
 NOT built on R3. It is the taxonomy-faithful, rhetorically stronger, structurally exposed half of an
 A/B pair. Its companion `DRAFT_SYNTHESIS_A.md` is the defensible residue; `DRAFT_SYNTHESIS_COMPARE.md`
-holds both against the fence. Do not ship Draft B as the conclusion.*
+holds both against the fence. Do not ship Draft B as the conclusion. §8 added 2026-06-29 after the G-1
+comparator coding + three-axis finding.*

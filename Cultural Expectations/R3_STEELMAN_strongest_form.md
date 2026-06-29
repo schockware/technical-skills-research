@@ -63,7 +63,7 @@ The permitted sentence is falsifiable: it fails if JDs/judges *do* localize to s
 - Conformity/obedience evidence: Asch, Milgram, Bond & Smith, Burger, Dolinski, Meeus & Raaijmakers — **textbook-canonical but unverified-in-corpus this pass**, and lab-to-hiring-room transfer untested (R1 Claim I, R2 #11). Carry as **plausible mechanism, not established for this domain.**
 
 ### What T2 still needs to be bulletproof
-1. **The CFO/CMO verbatim comparison** — to know whether *anything* about this is CTO-specific (see Graveyard G-1). Without it, T2 is a claim about C-suite hiring artifacts generally, not about the CTO.
+1. **The CFO/CMO verbatim comparison** — ✅ **DONE (2026-06-29).** CFO/CMO/COO verbatim JDs captured + coded (`2.1b_COMPARATOR_CODING_RESULTS.md`). Result: nothing about the JD-composite is CTO-specific — it is **C-suite-wide** (G-1 resolved). T2 is confirmed to be a claim about C-suite hiring artifacts generally. *(The narrower successor question — mode-separability — is now what "still needs" work; see G-1.)*
 2. **A real JD sample with a denominator** — including mature-company JDs that *do* bound scope (R2 4D), to convert T2-2 from "absent in n≈2" to a rate.
 3. **Peer-reviewed contemporary sourcing** — the entire T2 spine is content-site (R2 §2B). It carries descriptive weight only because the JD *is* the artifact under study; it cannot carry inferential weight about CTOs-in-general.
 
@@ -131,9 +131,10 @@ T4 asks why the culture grants "smart people can learn anything" to technical ro
 
 These were killed or rendered unsupportable by R1/R2. They do not return in any form.
 
-**G-1. CTO-specificity of the composite — as currently supported.**
-- Killed by: R1 Claim C, R2 #3 / Part 5. One verified comparator (CRO); CMO refuted; CFO absent. The live alternative — *all* C-suite roles are composite — is unexcluded. "Under-powered" launders absence-of-evidence into weak-evidence; the honest label is **untested**.
-- Synthesis rule: do **not** assert the CTO is special. T2 is a claim about C-suite hiring artifacts unless and until verbatim CFO/CMO JDs at matched stage are run.
+**G-1. CTO-specificity of the composite — ✅ RESOLVED 2026-06-29 (was "untested"; now DECIDED).**
+- Originally killed by: R1 Claim C, R2 #3 / Part 5 (one comparator CRO; CMO refuted; CFO absent; "all C-suite is composite" unexcluded). **That gap is now closed:** verbatim CFO/CMO/COO JDs at matched stage were captured and coded (`2.1b_COMPARATOR_CODING_RESULTS.md`). Control fired (COO 4/4 composite across 4 flavors), CFO 3/3 composite (the supposedly *most-bounded* role), CMO composite where it exists. The live alternative is now **CONFIRMED**: all C-suite roles are composite.
+- **Verdict: CTO-specificity is FALSE. The composite is C-suite-wide.**
+- Synthesis rule: do **not** assert the CTO is special *at the JD level* — it is falsified. T2 is confirmed to be about C-suite hiring artifacts generally. The ONLY surviving CTO-distinctiveness candidate is **mode-separability / identity-coherence** (verified: eng delegates labor while modes stay fused, finance delegates bounded modes; mechanism = the CTO's identity sits in the non-delegable craft mode — "an IC CTO that delegates to a VP Eng is a waste of an IC CTO"). The **identity-rupture** rationale is **refuted** (universal craftsman→executive pattern: sales/QJE-2019, academia, surgery, Hill). Carry mode-separability as a new, narrower open question — never as a resurrection of G-1.
 
 **G-2. "Visible attributable harm" as a master variable.**
 - Killed by: R1 Lead 2, R2 #5 / Part 3. Zero direct tests (admitted); contradicted by ≥3 of the corpus's own brake cases (medicine = knowledge+market; actuarial = market; psychiatry = territorial) and by Abbott's four-mechanism model (the corpus's own foundational citation). It is the exact single-master-variable over-reach the corpus claims to have learned from.
@@ -172,7 +173,7 @@ The minimal set of claims that, **if true, carry T2 and T4** — each with what 
 ### Core claim 1 (carries T2): The legibility gap is real and located in the artifact, not the role.
 > The CTO role is stage-contingent (T2-1); the hiring artifact applies the standard context-free and omits the trade-off (T2-2/T2-3); practitioner commentary names the trade-off the artifact omits (T2-3). The irrationality is the **context-free application of a context-dependent standard, with failure attributed to the individual** — a legibility/attribution failure, never a capacity claim.
 - **Confidence: moderate**, on a **content-site evidence base** (named-practitioner at best).
-- **Still needs:** (a) a real JD sample with a denominator including scope-bounded JDs; (b) at least one peer-reviewed contemporary source; (c) to remain silent on CTO-specificity (Core 1 is about C-suite hiring artifacts until G-1 is repaired).
+- **Still needs:** (a) a real JD sample with a denominator including scope-bounded JDs; (b) at least one peer-reviewed contemporary source; (c) ~~to remain silent on CTO-specificity~~ → **RESOLVED 2026-06-29: Core 1 is confirmed to be about C-suite hiring artifacts generally — CTO-specificity is FALSE (G-1 closed), so Core 1 may now state the C-suite-wide scope affirmatively rather than hedging.**
 
 ### Core claim 2 (carries T4): Brakes install by multiple co-equal pathways; software has fired none at the external tier.
 > No single master variable explains the line (G-2 dead). Abbott's multi-pathway model (T4-1) does: failure, complexity, market, jurisdiction, academic restructuring — none necessary. Liability specifically is one co-equal instrument, not master (T4-2). Software has reached internal self-governance (Tier 2) but no pathway has installed external enforcement (Tiers 3–4); the ACM/IEEE professionalization attempt failed; absorption via adjacent licensed professions (DO-178C, IEC 62443, ISO 26262) is the live non-failure pathway.

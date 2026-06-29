@@ -42,9 +42,18 @@ at origin), and the recurring mechanism is the **title as a compression artifact
 signal credential ("software engineer") that carries no scope boundary.
 
 > **What this thesis deliberately does NOT claim** (each killed in R1/R2): it does **not** claim the
-> CTO is unique among the C-suite; does **not** claim the three modes are intrinsically un-co-holdable
-> (that is role design, and it was retired); does **not** crown a master variable; and does **not**
-> have a verified intervention lever — only a verified *diagnostic*.
+> CTO composite is unique among the C-suite (the composite is C-suite-wide — G-1 resolved, see §10);
+> does **not** claim the three modes are intrinsically un-co-holdable (that is role design, and it was
+> retired); does **not** crown a master variable; and does **not** have a verified intervention lever —
+> only a verified *diagnostic*.
+>
+> **What it DOES now claim about CTO-distinctiveness (new, §10, 2026-06-29):** the CTO is *not*
+> distinctive on the **composite** axis (C-suite-wide) nor the **career-transition** axis (the
+> IC→manager→exec rupture is universal across professions), but it **is** distinctive on the **stage /
+> role-scaling** axis — it is the only functional C-seat *present from founding*, so it is the only one
+> that must traverse the role's stage-migration **in situ** rather than being hired in fully formed
+> after the company has scaled. This is a *stage-axis* claim about the role's trajectory, not a
+> role-design claim about un-co-holdability — the §0/§1 legibility locus is untouched.
 
 ---
 
@@ -78,8 +87,14 @@ does *not* name the trade-off the JD omits.
   universal-negative is not earned (n≈2; the disconfirming population — mature-company JDs that split
   CTO/CIO/Chief-Architect or delegate to VP Eng — was named in the corpus's own Open Questions and
   never sampled). Restate as: "absent in the small content-site sample examined; population status open."
-- **Not** that any of this is CTO-*specific*. See **G-1**. Until verbatim CFO/CMO JDs at matched stage
-  are run, §1 is a claim about **C-suite hiring artifacts generally**, not about the CTO.
+- **Not** that any of this is CTO-*specific*. See **G-1** — now **RESOLVED**: matched-stage CFO/CMO/COO
+  JDs were captured and coded (`2.1b_COMPARATOR_CODING_RESULTS.md`, 2026-06-29). **CTO-specificity is
+  FALSE: the composite is C-suite-wide.** §1 is confirmed to be a claim about **C-suite hiring artifacts
+  generally** — the hedge was correct, and is now the *earned* scope, not a placeholder. Any residual
+  CTO-distinctiveness survives ONLY as **mode-separability** (engineering delegates labor while its
+  modes stay fused; finance delegates bounded modes cleanly — verified) and possibly **churning-craft**
+  (untested) — NOT as identity-rupture (refuted: the IC→manager rupture is a universal craftsman→
+  executive pattern), and NOT as the JD-composite itself.
 
 ---
 
@@ -210,7 +225,7 @@ Killed or rendered unsupportable by R1/R2. They do not return in any form.
 
 | # | Dead claim | Killed by | Synthesis rule |
 |---|---|---|---|
-| **G-1** | CTO-specificity of the composite, *as currently supported* | R1 Claim C; R2 #3/Part 5 — one comparator (CRO), CMO refuted, CFO absent; "all C-suite is composite" unexcluded | Do **not** assert the CTO is special. §1 is about C-suite hiring artifacts until verbatim CFO/CMO JDs at matched stage are run. "Under-powered" → honest label is **untested**. |
+| **G-1** | CTO-specificity of the composite, *as currently supported* | R1 Claim C; R2 #3/Part 5 — one comparator (CRO), CMO refuted, CFO absent; "all C-suite is composite" unexcluded → **NOW RESOLVED by 2.1b coding (2026-06-29): CFO 3/3 + COO 4/4 (control fired) + CMO composite where it exists → CTO-specificity is FALSE** | **The CTO is NOT special at the JD level.** §1 is a claim about C-suite hiring artifacts generally — now data-backed, not pending. Residual distinctiveness lives only in **mode-separability** (verified candidate) / **churning-craft** (untested); the **identity-rupture** rationale is **refuted** (universal craftsman→executive pattern). Do not resurrect "the composite is CTO-specific" in any form. |
 | **G-2** | "Visible attributable harm" as a **master variable** | R1 Lead 2; R2 #5/Part 3 — zero direct tests; contradicted by ≥3 of the corpus's own brake cases and by Abbott | **No master variable.** Replace with the multi-pathway model (§4). Harm-visibility may appear only as one of several co-equal triggers. |
 | **G-3** | Builder/Multiplier/Strategist as an externally validated, *discovered* structure | R1 Lead 3; R2 §2D — no competency-model source, no blind double-coding, no inter-rater reliability; the frame is the coding frame | The three modes are a **descriptive heuristic**, not a discovered construct. "Composite confirmed" findings are illustration, never proof. No axis may lean on the frame as validated. |
 | **G-4** | The dissenter as a **robust lever** | R1 Claim I; R2 #11/Part 3 — "robust" leg is unverified-in-corpus; confidence inverse to evidence; transfer untested | The dissenter is a **candidate intervention from canonical lab paradigms, unverified and untransferred.** Name it as a hypothesis; confidence must not exceed the reflection-gap diagnostic's. |
@@ -231,8 +246,12 @@ Killed or rendered unsupportable by R1/R2. They do not return in any form.
 
 ## §8 — What the synthesis CANNOT yet claim (open gaps — disclose, don't bury)
 
-1. **CTO-specificity** — needs verbatim CFO/CMO JDs at matched stage (G-1). Until then, T2 is about
-   C-suite hiring artifacts generally.
+1. **CTO-specificity** — ✅ **CLOSED (2026-06-29).** Verbatim CFO/CMO/COO JDs at matched stage were
+   captured and coded (`2.1b_COMPARATOR_CODING_RESULTS.md`): control fired (COO 4/4 composite), CFO 3/3
+   composite, CMO composite where the role exists. **Verdict: CTO-specificity is FALSE — the composite
+   is C-suite-wide.** T2 is confirmed to be about C-suite hiring artifacts generally. (A *new*, narrower
+   open question replaces it — see gap #9 below: is **mode-separability / identity-coherence** real
+   beyond the JD level?)
 2. **A real JD sample with a denominator** — including mature-company JDs that *do* bound scope — to
    convert §1b from "absent in n≈2" to a rate.
 3. **Peer-reviewed contemporary sourcing** — the entire T2 spine is content-site; it carries descriptive
@@ -247,6 +266,19 @@ Killed or rendered unsupportable by R1/R2. They do not return in any form.
    reflection-gap diagnostic (§3) can ever become an intervention.
 8. **The framework has no verified intervention lever** — only a verified diagnostic. This is a gap to
    state plainly, not to paper over with the dissenter hypothesis.
+9. **Mode-separability / identity-coherence** (NEW, replaces the closed G-1 — candidate hidden axis,
+   2026-06-29). The JD-composite is C-suite-wide (G-1 false), but verified research (Run A) shows the
+   *modes separate differently by role*: finance delegates **bounded modes** (Controller owns accounting,
+   FP&A owns forecasting — cleanly, permanently), whereas engineering delegates **labor** (VP Eng) while
+   its technical modes stay **fused**. The proposed mechanism is **identity-coherence**: *can the role's
+   identity hold across its modes once a mode is delegated?* For the CFO it can — the CFO's identity lives
+   in capital/board strategy, so shedding accounting craft loses nothing. For an IC-anchored CTO it
+   cannot — the identity lives in the **craft** mode, the very one scaling demands they delegate ("an IC
+   CTO that delegates to a VP Eng is a waste of an IC CTO"). This is the surviving, narrower
+   CTO-distinctiveness candidate and it is DISTINCT from the (refuted) identity-rupture claim: it is about
+   *where the identity sits* (in the non-delegable craft mode), not about transition difficulty. UNTESTED
+   beyond the JD level + practitioner framing; possibly explained by **churning-craft** (also untested).
+   Do not assert; carry as the live hypothesis the closed G-1 hands off to.
 
 ---
 
@@ -256,8 +288,9 @@ The minimal set that, **if true, carries both theses** — and nothing in the gr
 
 - **Core 1 (carries T2):** The legibility gap is real and in the **artifact, not the role** — a context-
   free standard applied to a stage-contingent role, with the trade-off compressed out of the JD and
-  failure mis-attributed to the individual. *Moderate confidence; content-site base. Stays silent on
-  CTO-specificity.* → **§1**
+  failure mis-attributed to the individual. *Moderate confidence; content-site base. **C-suite-wide, NOT
+  CTO-specific** (G-1 resolved 2026-06-29: the composite is demanded of CFO/CMO/COO too — control fired).*
+  → **§1**
 - **Core 2 (carries T4):** Brakes install by **multiple co-equal pathways**; software has fired none at
   the external tier. Liability is one instrument, not master. *High confidence; peer-reviewed.* → **§4**
 - **Core 3 (carries both):** The reflection gap is a **robust diagnostic, not a lever.** *High confidence;
@@ -272,6 +305,117 @@ The minimal set that, **if true, carries both theses** — and nothing in the gr
 - **T4** = Core 2 + Core 4 — multi-pathway brake installation (software fired none) plus an old prior and
   the title-compression mechanism. **No** master variable (G-2), **no** Fayol-to-CTO chain (G-5), **no**
   monotonic burnout (G-8) required.
+
+---
+
+## §9.5 — The three axes: where the CTO is and isn't distinctive *(added 2026-06-29, post-G-1)*
+
+After G-1 fell ("the composite is CTO-specific" → FALSE, C-suite-wide), the question "is the CTO
+distinctive at all?" was found to be **three different questions** that had been collapsed into one.
+Separating them resolves the whole tangle — two axes say "not distinctive," one says "yes," and the
+distinctiveness is real but had been looked for on the wrong axes.
+
+| Axis | The question | Verdict | Evidence |
+|---|---|---|---|
+| **1. Mode-presence** (the composite) | Does the seat *demand* craft + people + strategy simultaneously? | **C-suite-wide. NOT distinctive.** | 2.1b coding: CFO 3/3, COO 4/4 (control), CMO where it exists — all composite (`2.1b_COMPARATOR_CODING_RESULTS.md`) |
+| **2. Career-progression** (the rupture) | Is the IC→manager→exec *career* transition uniquely hard? | **Universal. NOT distinctive.** | Verified research: same identity rupture in sales (QJE 2019), surgery, academia, general mgmt. Identity-rupture rationale **refuted** as CTO-special. |
+| **3. Role-scaling / stage** (the trajectory) | Must the *seat* be re-invented as the company scales — and is it present to face that in situ? | **CTO-DISTINCTIVE** (structural argument; see below). | (a) **Structural:** chief titles lead functions; functions must outgrow IC to be led; so all chiefs are post-IC *except* the CTO (product=tech at founding). (b) **Supporting, non-statistical:** CTO mode-balance **migrates** across stages (Builder 3→0, Strat 1→7; `_STAGE_MIGRATION_axis3.md`) while CFO is **stable** (craft never decays, even with a Controller in seat) — illustrative, tiny-n, not a rate. |
+
+> **Companion artifact — the commensurability map (`2.1c_CSUITE_COMPOSITE_SYNTHESIS.md`).** The full
+> four-role × twelve-dimension grid lives there, every cell tagged for evidence strength
+> (✅ verified / 🔶 qualitative / ⁉️ gap / ⚠️ not-same-unit). It does two jobs: (1) **research-foundation
+> disqualifier** — it shows the CTO is NOT the only composite role and forbids apple-to-potato moves
+> (e.g. the ~50% IC→EM tech regression has no non-CTO equivalent and cannot be used comparatively); and
+> (2) **the structural punchline** — the CTO is distinctive exactly on the dimensions where the four
+> roles are NOT commensurable (craft decays-vs-banks, present-from-founding, craft-anchored identity)
+> and ordinary on the one dimension where they ARE (the universal identity rupture). "Is the CTO
+> special?" assumed a common ruler; the honest answer is *special in the ways the roles can't be put on
+> one ruler, ordinary in the one way they can.*
+>
+> **Two registers of the comparison (keep distinct).** (a) *Research-foundation register* — rigorous,
+> requires commensurable units; on this register most cross-role claims are DISQUALIFIED until matched
+> measurement exists (the value of 2.1c). (b) *Practical-recognition register* — humans spot
+> "that's an apple, that's a potato" instantly once **day-to-day activities** are spelled out, even when
+> they can't articulate the characteristic that differs (the shepherd vs. the shearer vs. the weaver are
+> obviously different jobs the moment you watch the work, though all three "work with sheep"). The
+> corpus's contribution is to make the practical-recognition obviousness **legible** — to name the
+> characteristics (craft-decay, founding-presence, identity-anchor) that the eye already sees but the
+> tongue can't. This is itself the §1 legibility thesis turned on the comparison: the difference is real
+> and felt, but the *artifacts* (the "C-suite" category, the composite JD) compress it out, which is why
+> it reads as one uniform class on paper while being four obviously-different jobs in practice.
+
+**The distinctive finding (Axis 3) is STRUCTURAL, not statistical** — and this matters because there
+are **no reliable stage-of-appearance rates** for CRO/CPO/CSO/CFO (the data isn't collected: C-suite
+composition is a sum of idiosyncratic founder choices, not an industry standard — "we don't need a CSO
+yet, the team's small and everyone's an IC"), and pre-seed/seed chief composition is in any case
+**not worth measuring** (survivorship bias — the high startup failure rate means any seed-C-suite
+sample is dominated by companies about to cease existing). So Axis 3 is grounded on a **definitional
+argument that needs no population:**
+
+> A **chief** title exists to **lead a function.** A function must **outgrow IC-level work** before
+> there is anything to lead — founders do not put a chief over work that is still one person doing the
+> craft. Therefore **every chief seat is post-IC by construction** — created *after* its function has
+> grown past the building phase. **The CTO is the sole exception:** at founding the product *is* the
+> technology, so the builder is needed *during* the IC phase, before there is an engineering function
+> to lead. The CTO is **the only chief title assigned to an IC-phase role** — hence the only one that
+> must traverse the IC→scaled migration **while already holding the title.**
+
+The CFO/CMO/COO are installed **after** their functions outgrow IC (post-PMF; CMO ~$20–30M ARR per
+verified timing) — they skip the seed→growth re-weighting by **not being present for it.** The absence
+of any "CFO seed→Series-A scaling crisis" literature is therefore **a structural consequence, not a
+search gap**: the role isn't there at seed to have one. *(This claim rests on the definition of a chief
+role + the verified late-CMO timing, NOT on any seed-stage composition sample, which would be
+survivorship-biased and is deliberately not used.)*
+
+**The unifying mechanism (why all the survivors are facets of Axis 3):** present-from-founding ⇒ the
+**Builder/craft mode dominates at seed** ⇒ the role's identity gets **anchored in the craft** ⇒ but
+scaling drives exactly that mode toward zero (Builder 3→0 across stages) ⇒ the CTO must shed *the very
+mode that defined the seat*. "An IC CTO who delegates to a VP Eng is a waste of an IC CTO" is the *felt*
+version of Builder-mode decay. This also explains **mode-separability** (the craft mode resists clean
+delegation because the company's technical surface, not a tidy sub-function, is what outgrew one person)
+and points at the still-untested **churning-craft** hypothesis (the substrate changes too fast for the
+craft to be "banked").
+
+**Important correction — the CTO DOES carve out, just later and from a fused start.** The pre-seed
+technical seat is often **CTO-or-CPO fused** (org sources list them with a slash, like the CRO/CGO
+marketing fusions). Product calves off first (a CPO at seed), then people-ops (a VP Eng at growth). So
+the claim is **not** "the CTO never delegates" (false). It is: the CTO is present from founding as a
+fused builder-seat, and the one mode it cannot cleanly hand off — **core technical architecture/craft** —
+is exactly the one scaling forces toward zero. The migration is real; its cause is the **company
+outgrowing the craft**, not the CTO refusing to delegate.
+
+**Discipline note:** Axis 3 is a claim about the role's **stage-trajectory**, NOT a resurrection of
+role-design un-co-holdability (graveyard G-6) and NOT a claim the composite is CTO-specific (G-1). It
+sits alongside the §0/§1 legibility locus without disturbing it: a stage-contingent role (§1) is
+*especially* mis-served by a context-free standard precisely **because** its required mode-mix migrates
+so far across stages — Axis 3 supplies the mechanism for *why* the stage-contingency in §1 is unusually
+severe for this seat. **Limits (and what is deliberately NOT claimed):** the load-bearing form of Axis 3
+is the **structural argument** above; the empirical pieces are *illustrative only* — tiny n per
+stage-cell; CTO B/M/S bins ≠ comparator craft/people/strategy bins (valid comparison is migration
+*within each role vs. itself*); Wellfound-only. **No stage-of-appearance RATES are claimed** for any
+role (none are reliably measured; C-suite composition is idiosyncratic founder choice, not a standard),
+and **seed-stage chief composition is deliberately NOT used as evidence** (survivorship bias — high
+startup failure rate makes any seed-C-suite sample dominated by soon-to-fail companies). **Verified
+cross-check (C7, banking, 2026-06-29):** the CFO-banks / CTO-re-fuses asymmetry is *confirmed by the
+craft-decay mechanism*, not by org-chart structure — Majors (named author): "management skills don't
+decay the way technical ones do, nor go out of date every few years," and engineering skill decays
+~2–3 yrs / ~5-yr credibility ceiling, forcing the CTO to re-touch the craft serially (the pendulum),
+while finance craft divides into durable Controller/FP&A modes the CFO *banks* and is even incentivized
+to climb past. NOTE the C7 refinement: the clean "Controller permanently OWNS the banked mode" claim was
+**killed** — the support hire absorbs *labor/authority*, and at startup/fractional stage the CFO is also
+a hands-on player-coach; the asymmetry is **decay-driven (substrate churn), not org-chart-driven.** This
+points at the still-untested **churning-craft** hypothesis as the real root. **Verified cross-check #2
+(C8, career-path, 2026-06-29):** the CFO *provably* reaches the seat WITHOUT the accounting-craft IC
+role — Spencer Stuart Fortune-500 census: hands-on accounting (Controls 22% + public accounting 9%) =
+**~31% ceiling**; credential flip **MBA 47–51% > CPA 35–38%**; HBR/Heidrick "New Path to the C-Suite"
+documents a secular cross-role shift away from craft mastery toward general-business acumen *except*
+where craft recency is non-negotiable (the CTO: "only one step removed from writing code"). This
+confirms the structural argument from the DATA side: chiefs are post-IC by construction, the CFO
+demonstrably enters laterally, the CTO cannot. **Evidence asymmetry to keep honest:** the CFO-lateral
+pole is WELL-QUANTIFIED (census); the CTO-climbs-through-craft pole is QUALITATIVE only (one strong VC
+criterion, no feeder-path census survived); the **COO was not studied** (gap). So axis 3 is triangulated
+three ways — structural argument + C7 craft-decay + C8 career-path — strongest on the CFO pole, softer
+on the CTO pole, silent on the COO.
 
 ---
 

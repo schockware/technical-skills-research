@@ -91,10 +91,25 @@ and Draft A demoted it.
 |---|---|---|---|
 | **Master variable** | "Visible attributable harm" is the master variable behind professional brakes. | No master variable; brakes install via *multiple co-equal pathways* (Abbott). | **A.** B re-commits the exact single-master-variable over-reach the corpus claims to have learned from (G-2). |
 | **The lever** | The dissenter is the *robust* intervention. | The framework has **no verified lever** — only a robust *diagnostic* (the reflection gap). | **A.** B's "robust" rests on figures unverified-in-corpus; confidence runs inverse to evidence (G-4). |
-| **CTO-specificity** | The composite is CTO-typical, stated without hedge. | A claim about C-suite hiring artifacts *generally*, pending CFO/CMO comparison. | **A.** B asserts specificity the corpus never tested ("under-powered" → honestly "untested", G-1). |
+| **CTO-specificity** | The composite is CTO-typical, stated without hedge. | A claim about C-suite hiring artifacts *generally*. **RESOLVED 2026-06-29 (`2.1b_COMPARATOR_CODING_RESULTS.md`): CTO-specificity is FALSE — the composite is C-suite-wide.** CFO 3/3 + COO 4/4 (control fired) + CMO composite where it exists; no comparator scored bounded. | **A, now DATA-BACKED.** B's unhedged "CTO-typical" is falsified outright. A's hedge was correct and is now the earned scope. Residual CTO-distinctiveness survives only as **mode-separability** (verified candidate) / **churning-craft** (untested); **identity-rupture is refuted** (universal pattern). |
 | **Lineage / amnesia** | "Descends from Fayol"; amnesia stated plainly. | Fayol at **origin only** (transmission a gap); amnesia at **low confidence**. | **A.** B states as settled what the corpus left as a gap (G-5) and a weak instrument. |
 
 The pattern is identical every time: **Draft B says more and exposes more; Draft A says less and holds.**
+
+> **Update (2026-06-29) — A doesn't only win by saying-less; it now carries a POSITIVE finding B can't.**
+> Resolving G-1 forced a three-axis model of CTO-distinctiveness (Draft A §9.5): the composite (axis 1)
+> is C-suite-wide and the career-rupture (axis 2) is universal — but the **stage / role-scaling axis
+> (axis 3)** is genuinely CTO-distinctive: the CTO is the only chief staffed *during* the IC phase
+> (product = tech at founding), so the only one that must traverse the role's stage-migration *in situ*
+> rather than being hired in fully formed. This is data-backed (CTO JD mode-balance migrates Builder
+> 3→0 across stages while the CFO is stable; C7 craft-decay mechanism, named author; C8 Spencer Stuart
+> census — CFO ≤31% accounting-craft entry, MBA>CPA). **The sharp point for the A/B comparison:** B's
+> §1 verdict ("Irrational because one *person* can't hold three modes") cannot even *see* axis 3 — and
+> worse, because the composite is C-suite-wide, B's "one person can't hold three modes" reasoning would
+> damn the CFO/CMO/COO *equally*, exposing that B's "irrational" was never a CTO-specific claim at all.
+> A locates the real distinctiveness (stage-trajectory) where B can only assert a (false, C-suite-wide)
+> capacity claim. Honest limit carried into A: axis 3 is well-quantified on the CFO pole, qualitative on
+> the CTO pole, silent on the COO.
 
 ---
 

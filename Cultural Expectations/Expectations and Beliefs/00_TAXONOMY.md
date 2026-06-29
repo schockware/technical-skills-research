@@ -130,6 +130,18 @@ The recurring composite-role expectations, placed on Axis B. These are the cases
 
 > The CTO composite sits at **Irrational, not Illogical**: being in three cognitive modes at once is a *physical/biological* wall (you can't occupy three states simultaneously), not a self-contradiction. The self-contradiction floor is reserved for demands with literally no satisfying assignment.
 
+> **C-suite-wide scope note (G-1 resolved, 2026-06-29).** The three-mode-simultaneity composite charted
+> here for the CTO is **not CTO-specific** — matched-stage CFO/CMO/COO JDs were captured and coded
+> (`../2.1b_COMPARATOR_CODING_RESULTS.md`) and the same composite (craft + people-leadership + board/
+> strategy, simultaneous and unbounded) is demanded of **every C-suite role**: CFO 3/3, COO 4/4 (the
+> pre-registered control), CMO where the role exists. So this specimen row generalizes — the "CTO" label
+> is one instance of a **C-suite-wide hiring-artifact pattern**, not a tech-specific specimen. The only
+> *candidate* CTO-distinctive residue is **mode-separability / identity-coherence** (engineering's modes
+> resist clean delegation because the role's identity often sits in the non-delegable craft mode), which
+> is a claim about the *lived role*, NOT about the JD-level composite charted here. The
+> identity-*rupture* explanation is **refuted** (it is a universal craftsman→executive pattern). Do not
+> present the specimen matrix as evidence of CTO-specificity.
+
 ---
 
 ## 6. SDLC Stress Tests

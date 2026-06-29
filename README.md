@@ -20,7 +20,7 @@ The same structural mismatch, viewed at three altitudes — widest to sharpest:
 | **Software Developer** | [`Software Developer/`](Software%20Developer/) | Career ladder | Every promotion (Junior→Mid→Senior→Staff→EM→VP) is a skill *rotation*, not a deepening. The mismatch starts at the first promotion. |
 | **CTO** ⭐ | [`CTO/`](CTO/) | Sharpest / flagship | The pattern concentrated into one role at the worst moment: a seed-stage CTO must cross the IC→EM→C transitions — each a clearly-defined, distinct skill set — pre-scale and unsupported. The skill sets aren't inherently incompatible; the industry just gives no chance to learn them naturally on the job. |
 
-**The CTO area is the flagship** — the most developed, most evidenced, most publishable. The other two are *supporting* material that generalizes it: they answer the natural objection "if it's so irrational, why only the CTO?" with "it's *not* only the CTO — that's just where it's most visible."
+**The CTO area is the flagship use case** — the most developed, most evidenced, most publishable. It answers the natural objection "if it's so irrational, why only the CTO?" — and the Cultural Expectations comparator program (2026-06) **proved** the answer: it's *not* only the CTO. The composite is **C-suite-wide**, so the underlying findings (T2, T4) are general; the CTO is **unique, not isolated** — the clearest *use case* of a broader pattern, not a one-off. See [`Cultural Expectations/2.1d_COMPARATOR_ABSTRACT.md`](Cultural%20Expectations/2.1d_COMPARATOR_ABSTRACT.md).
 
 Start with [`CTO/README.md`](CTO/README.md) for the developed argument; the other two areas are research notes that broaden it.
 
@@ -48,8 +48,12 @@ The **Cultural Expectations** area asks where the "irrationality" attributed to 
 
 | Read | What it is |
 |---|---|
-| [`DRAFT_SYNTHESIS_A.md`](Cultural%20Expectations/DRAFT_SYNTHESIS_A.md) | **The synthesis to build on.** The post-adversarial residue: the not-reasonableness lives in the **legibility/attribution** applied to the role, not in its design. Falsifiable, fence-clean. |
-| [`DRAFT_SYNTHESIS_COMPARE.md`](Cultural%20Expectations/DRAFT_SYNTHESIS_COMPARE.md) | **Read this first.** Holds Draft A against its stronger-sounding but weaponizable alternative, and shows why the punchier framing crosses the fence the area exists to guard. |
+| [`2.1d_COMPARATOR_ABSTRACT.md`](Cultural%20Expectations/2.1d_COMPARATOR_ABSTRACT.md) | **Start here for the result.** Findings abstract of the comparator program: **T2 and T4 are the standalone findings; the CTO is a *use case*, not the subject.** The composite is C-suite-wide (not CTO-specific — gap G-1 resolved); the CTO is **unique, not isolated** — distinctive only on the role-scaling axis (the one chief staffed during the IC phase; craft that churns faster than it can be banked). Evidence strength tagged on every claim; over-generalization and weaponization guards in place. |
+| [`DRAFT_SYNTHESIS_A.md`](Cultural%20Expectations/DRAFT_SYNTHESIS_A.md) | **The synthesis to build on.** The post-adversarial residue: the not-reasonableness lives in the **legibility/attribution** applied to the role, not in its design. Falsifiable, fence-clean. §9.5 carries the three-axis distinctiveness model. |
+| [`DRAFT_SYNTHESIS_COMPARE.md`](Cultural%20Expectations/DRAFT_SYNTHESIS_COMPARE.md) | **Read this first (for the A/B trade-off).** Holds Draft A against its stronger-sounding but weaponizable alternative, and shows why the punchier framing crosses the fence the area exists to guard. |
+| [`2.1c_CSUITE_COMPOSITE_SYNTHESIS.md`](Cultural%20Expectations/2.1c_CSUITE_COMPOSITE_SYNTHESIS.md) | **The commensurability map.** Four C-suite roles × twelve dimensions, every cell tagged for evidence strength — the "apple / banana / potato" grid that shows which cross-role comparisons are supported and which are disqualified. |
+
+> **Result, in one line:** the romantic form — *the CTO is special because its composite is uniquely demanding* — did not survive (the composite is **C-suite-wide**; the IC→manager rupture is **universal**). What survived is stronger: **T2 and T4 are general, industry-usable findings, and the CTO is their clearest use case — unique, not isolated.** Because the evidence is for T2 and T4 themselves, the result is usable by the software industry at large, with the over-generalization and weaponization guards explicitly recorded.
 
 ---
 
@@ -69,7 +73,10 @@ Technical Skills Analysis/
 ├── Software Industry/         ← industry scope (lightweight notes)
 │   └── README.md
 ├── Cultural Expectations/     ← where the "irrationality" lives (A/B synthesis + language fence)
-│   ├── DRAFT_SYNTHESIS_A.md       ← the synthesis to build on
+│   ├── 2.1d_COMPARATOR_ABSTRACT.md      ← START HERE: the result (T2/T4 general; CTO = use case, unique not isolated)
+│   ├── 2.1c_CSUITE_COMPOSITE_SYNTHESIS.md ← commensurability map (4 roles × 12 dims, evidence-tagged)
+│   ├── 2.1b_COMPARATOR_*.md             ← protocol + coding results (G-1 resolved)
+│   ├── DRAFT_SYNTHESIS_A.md       ← the synthesis to build on (§9.5 = three-axis model)
 │   └── DRAFT_SYNTHESIS_COMPARE.md ← A vs B, held against the fence
 ├── Prompt Evaluations/        ← raw research-session transcripts (provenance)
 └── DO NOT CHECK THIS IN/      ← purchased PDFs — GITIGNORED, never committed
